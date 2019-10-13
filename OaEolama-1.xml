@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="OaEolama-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أْخْطرَ" transliteration="OoxoTra" transname="أخطر">
+            <Root name="خطر" transliteration="xTr"/>
+            <Deverbal name="إِخْطَار" transliteration="IixoTaAr" transname="إخطار"/>
+            <Participle name="مُخْطِر" transliteration="muxoTir" transname="مخطر"/>
+        </MEMBER>
+        <MEMBER name="أَشْعَرَ" transliteration="Oa$oEara" transname="أشعر">
+            <Root name="شعر" transliteration="$Er"/>
+            <Deverbal name="إِشْعَار" transliteration="Ii$oEaAr" transname="إشعار"/>
+            <Participle name="مُشْعِر" transliteration="mu$oEir" transname="مشعر"/>
+        </MEMBER>
+        <MEMBER name="أَخْبَرَ" transliteration="Oaxobara" transname="أخبر">
+            <Root name="خبر" transliteration="xbr"/>
+            <Deverbal name="إِخْبَار" transliteration="IixobaAr" transname="إخبار"/>
+            <Participle name="مُخْبِر" transliteration="muxobir" transname="مخبر"/>
+        </MEMBER>
+        <MEMBER name="خَبَّرَ" transliteration="xab~ara" transname="خبر">
+            <Root name="خبر" transliteration="xbr"/>
+            <Deverbal name="تَخْبِير" transliteration="taxobiyr" transname="تخبير"/>
+            <Participle name="مُخَبِّر" transliteration="muxab~ir" transname="مخبر"/>
+        </MEMBER>
+        <MEMBER name="أَفَادَ" transliteration="OafaAda" transname="أفاد">
+            <Root name="فاد" transliteration="fAd"/>
+            <Deverbal name="إِفَادَ" transliteration="IifaAda" transname="إفاد"/>
+            <Participle name="مُفِيد" transliteration="mufiyd" transname="مفيد"/>
+        </MEMBER>
+        <MEMBER name="ذَكَّرَ" transliteration="*ak~ara" transname="ذكر">
+            <Root name="ذكر" transliteration="*kr"/>
+            <Deverbal name="تَذكِير" transliteration="ta*kiyr" transname="تذكير"/>
+            <Participle name="مُذَكِّر" transliteration="mu*ak~ir" transname="مذكر"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Topic">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="communication"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَعْلَمَ الصَحَافِيُ رَئِيسَهُ." transliteration="OaEolama AlSaHaAfiyu ra}iysahu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Topic"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.topic" secondary="NP-PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَعْلَمَ الصَّحَافِيُ رَئِيسَهُ بِآخِرِ المُستَجَدَّات." transliteration="OaEolama AlS~aHaAfiyu ra}iysahu bi|xiri Almustajad~aAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP bi S" secondary="NP bi S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَعْلَمَ الصّحَافِيُ رَئِيسَهُ بِأَنَّهُ سَيَسْتَقِيلُ مِن مَنْصِبِهِ." transliteration="OaEolama AlS~HaAfiyu ra}iysahu biOan~ahu sayasotaqiylu min manoSibihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oan~a_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP bi-maA S" secondary="NP bi-maA-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَعْلَمَ الصَّحَافِيُ رَئِيسَهُ بِمَا رَأَى." transliteration="OaEolama AlS~aHaAfiyu ra}iysahu bimaA raOaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Topic">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="maA_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="OaEolama-1.1">
+            <MEMBERS>
+                <MEMBER name="أَبْلَغَ" transliteration="Oabolaga" transname="أبلغ">
+                    <Root name="بلغ" transliteration="blg"/>
+                    <Deverbal name="إِبْلَاغ" transliteration="IibolaAg" transname="إبلاغ"/>
+                    <Participle name="مُبْلِغ" transliteration="mubolig" transname="مبلغ"/>
+                </MEMBER>
+                <MEMBER name="بَلَّغَ" transliteration="bal~aga" transname="بلغ">
+                    <Root name="بلغ" transliteration="blg"/>
+                    <Deverbal name="تَبْلِيغ" transliteration="taboliyg" transname="تبليغ"/>
+                    <Participle name="مُبَلِّغ" transliteration="mubal~ig" transname="مبلغ"/>
+                </MEMBER>
+                <MEMBER name="أَنْبَأَ" transliteration="OanobaOa" transname="أنبأ">
+                    <Root name="نبأ" transliteration="nbO"/>
+                    <Deverbal name="إِنْبَاء" transliteration="IinobaA'" transname="إنباء"/>
+                    <Participle name="مُنْبِئ" transliteration="munobi}" transname="منبئ"/>
+                </MEMBER>
+                <MEMBER name="نَبَّأَ" transliteration="nab~aOa" transname="نبأ">
+                    <Root name="نبأ" transliteration="nbO"/>
+                    <Deverbal name="تَنْبِيئ" transliteration="tanobiy}" transname="تنبيئ"/>
+                    <Participle name="مُنَبِّئ" transliteration="munab~i}" transname="منبئ"/>
+                </MEMBER>
+                <MEMBER name="أَعْلَمَ" transliteration="OaEolama" transname="أعلم">
+                    <Root name="علم" transliteration="Elm"/>
+                    <Deverbal name="إِعْلَام" transliteration="IiEolaAm" transname="إعلام"/>
+                    <Participle name="مُعْلِم" transliteration="muEolim" transname="معلم"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic TransitiveTopic Object"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ الشّاهِدُ الخَبَرَ." transliteration="Oabolaga Al$~Ahidu Alxabara."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Topic">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP NP" secondary="Dative"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ المُسَافِرُ مُضِيفَهُ تَحِيَاتَ عَائِلَتِهِ. ." transliteration="Oabolaga AlmusaAfiru muDiyfahu taHiyaAta EaA}ilatihi. ."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP S" secondary="NP S"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ الشَّاهِدُ المُحَقِّقَ أَنّهُ رَأَى الحَادِثَة." transliteration="Oabolaga Al$~aAhidu AlmuHaq~iqa Oan~hu raOaY AlHaAdivap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="Oan~a_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP maA S" secondary="NP maA-S"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ الشَّاهِدُ المُحَقِّقَ مَا رَأَى." transliteration="Oabolaga Al$~aAhidu AlmuHaq~iqa maA raOaY."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="maA_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.topic" secondary="PPEano-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ الشّاهِدُ عَنْ الحَادِث." transliteration="Oabolaga Al$~Ahidu Eano AlHaAdiv."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Topic">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.topic" secondary="NP PPEano-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ الشّاهِدُ الشُّرْطَة عَنْ الحَادِث." transliteration="Oabolaga Al$~Ahidu Al$~uroTap Eano AlHaAdiv."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Topic">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP Eano-maA S" secondary="Eano-maA-S"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ الشَّاهِدُ عَمَّا رَآَى." transliteration="Oabolaga Al$~aAhidu Eam~aA ra|aY."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="maA_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP Eano-maA S" secondary="NP Eano-maA-S"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَبْلَغَ الشَّاهِدُ الشُّرطَةَ عَمَّا رَآَى." transliteration="Oabolaga Al$~aAhidu Al$~urTapa Eam~aA ra|aY."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Topic">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="maA_extract"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="transfer_info">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="naAma-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="نَامَ" transliteration="naAma" transname="نام">
+            <Root name="نوم" transliteration="nwm"/>
+            <Deverbal name="نَوْم" transliteration="nawom" transname="نوم"/>
+            <Participle name="نَائِم" transliteration="naA}im" transname="نائم"/>
+        </MEMBER>
+        <MEMBER name="نَعَسَ" transliteration="naEasa" transname="نعس">
+            <Root name="نعس" transliteration="nEs"/>
+            <Deverbal name="نُعَاس" transliteration="nuEaAs" transname="نعاس"/>
+            <Participle name="نَاعِس" transliteration="naAEis" transname="ناعس"/>
+        </MEMBER>
+        <MEMBER name="غَفَا" transliteration="gafaA" transname="غفا">
+            <Root name="هفو" transliteration="hfw"/>
+            <Deverbal name="غَفْو" transliteration="gafow" transname="غفو"/>
+            <Participle name="غَافِي" transliteration="gaAfiy" transname="غافي"/>
+        </MEMBER>
+        <MEMBER name="غَفَقَ" transliteration="gafaqa" transname="غفق">
+            <Root name="غفق" transliteration="gfq"/>
+            <Deverbal name="غَفَقَان" transliteration="gafaqaAn" transname="غفقان"/>
+            <Participle name="غَافِق" transliteration="gaAfiq" transname="غافق"/>
+        </MEMBER>
+        <MEMBER name="هَمَدَ" transliteration="hamada" transname="همد">
+            <Root name="همد" transliteration="hmd"/>
+            <Deverbal name="هُمُود" transliteration="humuwd" transname="همود"/>
+            <Participle name="هَامِد" transliteration="haAmid" transname="هامد"/>
+        </MEMBER>
+        <MEMBER name="هَوَّمَ" transliteration="haw~ama" transname="هوم">
+            <Root name="هوم" transliteration="hwm"/>
+            <Deverbal name="تَهْوِيم" transliteration="tahowiym" transname="تهويم"/>
+            <Participle name="مُهَوِّم" transliteration="muhaw~im" transname="مهوم"/>
+        </MEMBER>
+        <MEMBER name="تَهَوَّمَ" transliteration="tahaw~ama" transname="تهوم">
+            <Root name="هوم" transliteration="hwm"/>
+            <Deverbal name="تَهَوُّم" transliteration="tahaw~um" transname="تهوم"/>
+            <Participle name="مُتَهَوِّم" transliteration="mutahaw~im" transname="متهوم"/>
+        </MEMBER>
+        <MEMBER name="غَطَّ" transliteration="gaT~a" transname="غط">
+            <Root name="غطط" transliteration="gTT"/>
+            <Deverbal name="غَطِيط" transliteration="gaTiyT" transname="غطيط"/>
+            <Participle name="غَاط" transliteration="gaAT" transname="غاط"/>
+        </MEMBER>
+        <MEMBER name="هَجَدَ" transliteration="hajada" transname="هجد">
+            <Root name="هجد" transliteration="hjd"/>
+            <Deverbal name="هُجُود" transliteration="hujuwd" transname="هجود"/>
+            <Participle name="هَاجِد" transliteration="haAjid" transname="هاجد"/>
+        </MEMBER>
+        <MEMBER name="تَهَجّدَ" transliteration="tahaj~da" transname="تهجد">
+            <Root name="هجد" transliteration="hjd"/>
+            <Deverbal name="تَهَجُّد" transliteration="tahaj~ud" transname="تهجد"/>
+            <Participle name="مُتَجَهِّد" transliteration="mutajah~id" transname="متجهد"/>
+        </MEMBER>
+        <MEMBER name="سَبَتَ" transliteration="sabata" transname="سبت">
+            <Root name="سبت" transliteration="sbt"/>
+            <Deverbal name="سُبَات" transliteration="subaAt" transname="سبات"/>
+            <Participle name="سَابِت" transliteration="saAbit" transname="سابت"/>
+        </MEMBER>
+        <MEMBER name="رَقَدَ" transliteration="raqada" transname="رقد">
+            <Root name="ردق" transliteration="rdq"/>
+            <Deverbal name="رُقُود" transliteration="ruquwd" transname="رقود"/>
+            <Participle name="رَاقِد" transliteration="raAqid" transname="راقد"/>
+        </MEMBER>
+        <MEMBER name="وَسِنَ" transliteration="wasina" transname="وسن">
+            <Root name="وسن" transliteration="wsn"/>
+            <Deverbal name="وَسَن" transliteration="wasan" transname="وسن"/>
+            <Participle name="وَاسِن" transliteration="waAsin" transname="واسن"/>
+        </MEMBER>
+        <MEMBER name="كَرِيَ" transliteration="kariya" transname="كري">
+            <Root name="كري" transliteration="kry"/>
+            <Deverbal name="كَرِيَة" transliteration="kariyap" transname="كرية"/>
+            <Participle name="كَارِي" transliteration="kaAriy" transname="كاري"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="Basic Intransitive" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَامَ الطِّفْلُ." transliteration="naAma AlT~ifolu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="sleep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="Transitive" secondary="Cognate Object"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَامَ الطِّفلُ نَوْماً عَمِيقاً." transliteration="naAma AlT~iflu nawomAF EamiyqAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="sleep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="OanaAma-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

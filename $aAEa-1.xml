@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="$aAEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="ذَاعَ" transliteration="*aAEa" transname="ذاع">
+            <Root name="ذيع" transliteration="*yE"/>
+            <Deverbal name="ذُيُوع" transliteration="*uyuwE" transname="ذيوع"/>
+            <Participle name="ذَائِع" transliteration="*aA}iE" transname="ذائع"/>
+        </MEMBER>
+        <MEMBER name="شَاعَ" transliteration="$aAEa" transname="شاع">
+            <Root name="شيع" transliteration="$yE"/>
+            <Deverbal name="شُيُوع" transliteration="$uyuwE" transname="شيوع"/>
+            <Deverbal name="شَيْع" transliteration="$ayoE" transname="شيع"/>
+            <Deverbal name="مَشَاع" transliteration="ma$aAE" transname="مشاع"/>
+            <Participle name="شَائِع" transliteration="$aA}iE" transname="شائع"/>
+        </MEMBER>
+        <MEMBER name="إِنْتَشَرَ" transliteration="Iinota$ara" transname="إنتشر">
+            <Root name="نشر" transliteration="n$r"/>
+            <Deverbal name="إِنْتِشَار" transliteration="Iinoti$aAr" transname="إنتشار"/>
+            <Participle name="مُنْتَشِر" transliteration="munota$ir" transname="منتشر"/>
+        </MEMBER>
+        <MEMBER name="خَيَّمَ" transliteration="xay~ama" transname="خيم">
+            <Root name="خيم" transliteration="xym"/>
+            <Deverbal name="تَخْيِيم" transliteration="taxoyiym" transname="تخييم"/>
+            <Participle name="مُخَيِّم" transliteration="muxay~im" transname="مخيم"/>
+        </MEMBER>
+        <MEMBER name="فَشَا" transliteration="fa$aA" transname="فشا">
+            <Root name="فشو" transliteration="f$w"/>
+            <Deverbal name="فُشُو" transliteration="fu$uw" transname="فشو"/>
+            <Participle name="فَاشِي" transliteration="faA$iy" transname="فاشي"/>
+        </MEMBER>
+        <MEMBER name="عَمَّ" transliteration="Eam~a" transname="عم">
+            <Root name="عمم" transliteration="Emm"/>
+            <Deverbal name="عُمُوم" transliteration="Eumuwm" transname="عموم"/>
+            <Participle name="عَام" transliteration="EaAm" transname="عام"/>
+        </MEMBER>
+        <MEMBER name="تَفَشَّى" transliteration="tafa$~aY" transname="تفشى">
+            <Root name="فشو" transliteration="f$w"/>
+            <Deverbal name="تَفَشِّي" transliteration="tafa$~iy" transname="تفشي"/>
+            <Participle name="مُتَفَشِي" transliteration="mutafa$iy" transname="متفشي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَاعَ الخَبَرُ." transliteration="$aAEa Alxabaru."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="propagate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP" secondary="PPlocative-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَاعَ الخَبَرُ فِي المَدِينَةِ." transliteration="$aAEa Alxabaru fiy Almadiynapi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="propagate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Oa$aAEa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

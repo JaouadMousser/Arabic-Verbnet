@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="OaHal~a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَبَاحَ" transliteration="OabaAHa" transname="أباح">
+            <Root name="بوح" transliteration="bwH"/>
+            <Deverbal name="إِبَاحَة" transliteration="IibaAHap" transname="إباحة"/>
+            <Participle name="مُبِيح" transliteration="mubiyH" transname="مبيح"/>
+        </MEMBER>
+        <MEMBER name="أَقَرَّ" transliteration="Oaqar~a" transname="أقر">
+            <Root name="قرر" transliteration="qrr"/>
+            <Deverbal name="إِقْرَار" transliteration="IiqoraAr" transname="إقرار"/>
+            <Participle name="مُقِر" transliteration="muqir" transname="مقر"/>
+        </MEMBER>
+        <MEMBER name="أَجَازَ" transliteration="OajaAza" transname="أجاز">
+            <Root name="جوز" transliteration="jwz"/>
+            <Deverbal name="إِجَازَة" transliteration="IijaAzap" transname="إجازة"/>
+            <Participle name="مُجِيز" transliteration="mujiyz" transname="مجيز"/>
+        </MEMBER>
+        <MEMBER name="جَوَّزَ" transliteration="jaw~aza" transname="جوز">
+            <Root name="جوز" transliteration="jwz"/>
+            <Deverbal name="تَجْوِيز" transliteration="tajowiyz" transname="تجويز"/>
+            <Participle name="مُجَوِّز" transliteration="mujaw~iz" transname="مجوز"/>
+        </MEMBER>
+        <MEMBER name="أَحَلَّ" transliteration="OaHal~a" transname="أحل">
+            <Root name="حلل" transliteration="Hll"/>
+            <Deverbal name="إِحْلَال" transliteration="IiHolaAl" transname="إحلال"/>
+            <Participle name="مُحِل" transliteration="muHil" transname="محل"/>
+        </MEMBER>
+        <MEMBER name="شَرَّعَ" transliteration="$ar~aEa" transname="شرع">
+            <Root name="شرع" transliteration="$rE"/>
+            <Deverbal name="تَشْرِيع" transliteration="ta$oriyE" transname="تشريع"/>
+            <Participle name="مُشَرِّع" transliteration="mu$ar~iE" transname="مشرع"/>
+        </MEMBER>
+        <MEMBER name="رَخَّصَ" transliteration="rax~aSa" transname="رخص">
+            <Root name="رخص" transliteration="rxS"/>
+            <Deverbal name="تَرْخِيص" transliteration="taroxiyS" transname="ترخيص"/>
+            <Participle name="مُرَخِّص" transliteration="murax~iS" transname="مرخص"/>
+        </MEMBER>
+        <MEMBER name="سَوَّغَ" transliteration="saw~aga" transname="سوغ">
+            <Root name="سوغ" transliteration="swg"/>
+            <Deverbal name="تَسْوِيغ" transliteration="tasowiyg" transname="تسويغ"/>
+            <Participle name="مُسَوِّغ" transliteration="musaw~ig" transname="مسوغ"/>
+        </MEMBER>
+        <MEMBER name="حَلَّلَ" transliteration="Hal~ala" transname="حلل">
+            <Root name="حلل" transliteration="Hll"/>
+            <Deverbal name="تَحْلِيل" transliteration="taHoliyl" transname="تحليل"/>
+            <Participle name="مُحَلِّل" transliteration="muHal~il" transname="محلل"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَصْوَبَ" transliteration="IisotaSowaba" transname="إستصوب">
+            <Root name="صوب" transliteration="Swb"/>
+            <Deverbal name="إِسْتَصْوَبَ" transliteration="IisotaSowaba" transname="إستصوب"/>
+            <Participle name="مُسْتَصْوِب" transliteration="musotaSowib" transname="مستصوب"/>
+        </MEMBER>
+        <MEMBER name="أَسَاغَ" transliteration="OasaAga" transname="أساغ">
+            <Root name="سوغ" transliteration="swg"/>
+            <Deverbal name="إِسَاغَة" transliteration="IisaAgap" transname="إساغة"/>
+            <Participle name="مُسِيغ" transliteration="musiyg" transname="مسيغ"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Goal">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَازَ الحَكَمُ الأَحْذِيَة المُسَنَّنَة." transliteration="OajaAza AlHakamu AlOaHo*iyap Almusan~anap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Allowed"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP S_Deverbal" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَازَ الحَكَمُ إِرْتِدَاءَ الأَحْذِيَةِ المُسَنَّنَة." transliteration="OajaAza AlHakamu IirotidaA'a AlOaHo*iyapi Almusan~anap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SELRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Allowed"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَازَ رَبُّ المَقْهَى أَنْ يُدَخِّنَ الزُّوَار." transliteration="OajaAza rab~u AlmaqohaY Oano yudax~ina Alz~uwaAr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Allowed"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V PP.Goal NP NP" secondary="NP-PPli-NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَازَ لَنَا رَبُّ الَمَقْهَى السَجَائِر." transliteration="OajaAza lanaA rab~u AlamaqohaY AlsajaA}ir."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Goal">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Allowed"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="concern">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Goal"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V PP.Goal NP S_Deverbal" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَازَ  لَنَا رَبُّ الَمَقْهَى تَدْخِين السَجَائِر." transliteration="OajaAza  lanaA rab~u AlamaqohaY tadoxiyn AlsajaA}ir."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Goal">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SELRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Allowed"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="concern">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Goal"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V PP NP Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَازَ لَنَا رَبُّ المَقْهَى أَنْ نُدَخِّنَ." transliteration="OajaAza lanaA rab~u AlmaqohaY Oano nudax~ina."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Goal">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Allowed"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="concern">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Goal"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Hal~a-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

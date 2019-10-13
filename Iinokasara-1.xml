@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Iinokasara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْكَسَرَ" transliteration="Iinokasara" transname="إنكسر">
+            <Root name="كسر" transliteration="ksr"/>
+            <Deverbal name="إِنْكِسَار" transliteration="IinokisaAr" transname="إنكسار"/>
+            <Participle name="مُنْكَسِر" transliteration="munokasir" transname="منكسر"/>
+        </MEMBER>
+        <MEMBER name="تَكَسَّرَ" transliteration="takas~ara" transname="تكسر">
+            <Root name="كسر" transliteration="ksr"/>
+            <Deverbal name="تَكَسُّر" transliteration="takas~ur" transname="تكسر"/>
+            <Participle name="مُتَكَسِّر" transliteration="mutakas~ir" transname="متكسر"/>
+        </MEMBER>
+        <MEMBER name="تَحَطَّمَ" transliteration="taHaT~ama" transname="تحطم">
+            <Root name="حطم" transliteration="HTm"/>
+            <Deverbal name="تَحَنطُّم" transliteration="taHanT~um" transname="تحنطم"/>
+            <Participle name="مُتَحَطِّم" transliteration="mutaHaT~im" transname="متحطم"/>
+        </MEMBER>
+        <MEMBER name="إِنْشَقَّ" transliteration="Iino$aq~a" transname="إنشق">
+            <Root name="شقق" transliteration="$qq"/>
+            <Deverbal name="إِنْشِقَاق" transliteration="Iino$iqaAq" transname="إنشقاق"/>
+            <Participle name="مُنْشَق" transliteration="muno$aq" transname="منشق"/>
+        </MEMBER>
+        <MEMBER name="تَشَقَّقَ" transliteration="ta$aq~aqa" transname="تشقق">
+            <Root name="شقق" transliteration="$qq"/>
+            <Deverbal name="تَشَقُّق" transliteration="ta$aq~uq" transname="تشقق"/>
+            <Participle name="مُتَشَقِّق" transliteration="muta$aq~iq" transname="متشقق"/>
+        </MEMBER>
+        <MEMBER name="تَشَظَّى" transliteration="ta$aZ~aY" transname="تشظى">
+            <Root name="شظى" transliteration="$ZY"/>
+            <Deverbal name="تَشَظِّي" transliteration="ta$aZ~iy" transname="تشظي"/>
+            <Participle name="مُتَشَظِّي" transliteration="muta$aZ~iy" transname="متشظي"/>
+        </MEMBER>
+        <MEMBER name="تَرَقَّقَ" transliteration="taraq~aqa" transname="ترقق">
+            <Root name="رقق" transliteration="rqq"/>
+            <Deverbal name="تَرَ" transliteration="tara" transname="تر"/>
+            <Participle name="" transliteration="" transname=""/>
+        </MEMBER>
+        <MEMBER name="تَصَدَّعَ" transliteration="taSad~aEa" transname="تصدع">
+            <Root name="صدع" transliteration="SdE"/>
+            <Deverbal name="تَصَدُّع" transliteration="taSad~uE" transname="تصدع"/>
+            <Participle name="مُتَصَدِّع" transliteration="mutaSad~iE" transname="متصدع"/>
+        </MEMBER>
+        <MEMBER name="تَهَشَّمَ" transliteration="taha$~ama" transname="تهشم">
+            <Root name="هشم" transliteration="h$m"/>
+            <Deverbal name="تَهَشُّم" transliteration="taha$~um" transname="تهشم"/>
+            <Participle name="مُتَهَشِّم" transliteration="mutaha$~im" transname="متهشم"/>
+        </MEMBER>
+        <MEMBER name="إِنْطَحَنَ" transliteration="IinoTaHana" transname="إنطحن">
+            <Root name="طحن" transliteration="THn"/>
+            <Deverbal name="إِنْطِهحَان" transliteration="IinoTihHaAn" transname="إنطهحان"/>
+            <Participle name="مُنْطَحِن" transliteration="munoTaHin" transname="منطحن"/>
+        </MEMBER>
+        <MEMBER name="تَفَكَّكَ" transliteration="tafak~aka" transname="تفكك">
+            <Root name="فكك" transliteration="fkk"/>
+            <Deverbal name="تَفَكُّك" transliteration="tafak~uk" transname="تفكك"/>
+            <Participle name="مُتَفَكِّك" transliteration="mutafak~ik" transname="متفكك"/>
+        </MEMBER>
+        <MEMBER name="تَفَتَّتَ" transliteration="tafat~ata" transname="تفتت">
+            <Root name="فتت" transliteration="ftt"/>
+            <Deverbal name="تَفَتُّت" transliteration="tafat~ut" transname="تفتت"/>
+            <Participle name="مُتَفَتِّت" transliteration="mutafat~it" transname="متفتت"/>
+        </MEMBER>
+        <MEMBER name="إِنْسَحَقَ" transliteration="IinosaHaqa" transname="إنسحق">
+            <Root name="سحق" transliteration="sHq"/>
+            <Deverbal name="إِنْسِحَاق" transliteration="IinosiHaAq" transname="إنسحاق"/>
+            <Participle name="مُنْسَحِق" transliteration="munosaHiq" transname="منسحق"/>
+        </MEMBER>
+        <MEMBER name="إِنْفَلَقَ" transliteration="Iinofalaqa" transname="إنفلق">
+            <Root name="فلق" transliteration="flq"/>
+            <Deverbal name="إِنْفِلَاق" transliteration="IinofilaAq" transname="إنفلاق"/>
+            <Participle name="مُنْفَلِق" transliteration="munofaliq" transname="منفلق"/>
+        </MEMBER>
+        <MEMBER name="تَفَلَّقَ" transliteration="tafal~aqa" transname="تفلق">
+            <Root name="فلق" transliteration="flq"/>
+            <Deverbal name="تَفَلُّق" transliteration="tafal~uq" transname="تفلق"/>
+            <Participle name="" transliteration="" transname=""/>
+        </MEMBER>
+        <MEMBER name="إِنْشَدَخَ" transliteration="Iino$adaxa" transname="إنشدخ">
+            <Root name="شدخ" transliteration="$dx"/>
+            <Deverbal name="إِنْشِدَاخ" transliteration="Iino$idaAx" transname="إنشداخ"/>
+            <Participle name="مُنْشَدِخ" transliteration="muno$adix" transname="منشدخ"/>
+        </MEMBER>
+        <MEMBER name="تَشَدَّخَ" transliteration="ta$ad~axa" transname="تشدخ">
+            <Root name="شدخ" transliteration="$dx"/>
+            <Deverbal name="تَشَدُّخ" transliteration="ta$ad~ux" transname="تشدخ"/>
+            <Participle name="مُتَشَدِّخ" transliteration="muta$ad~ix" transname="متشدخ"/>
+        </MEMBER>
+        <MEMBER name="إِنْهَرَسَ" transliteration="Iinoharasa" transname="إنهرس">
+            <Root name="هرس" transliteration="hrs"/>
+            <Deverbal name="إِنْهِرَاس" transliteration="IinohiraAs" transname="إنهراس"/>
+            <Participle name="مُنْهَرِس" transliteration="munoharis" transname="منهرس"/>
+        </MEMBER>
+        <MEMBER name="تَهَرَّسَ" transliteration="tahar~asa" transname="تهرس">
+            <Root name="هرس" transliteration="hrs"/>
+            <Deverbal name="تَهَرُّس" transliteration="tahar~us" transname="تهرس"/>
+            <Participle name="مُتَهَرِّس" transliteration="mutahar~is" transname="متهرس"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَصَمَ" transliteration="IinoqaSama" transname="إنقصم">
+            <Root name="قصم" transliteration="qSm"/>
+            <Deverbal name="إِنْقِصَام" transliteration="IinoqiSaAm" transname="إنقصام"/>
+            <Participle name="مُنْقَصِم" transliteration="munoqaSim" transname="منقصم"/>
+        </MEMBER>
+        <MEMBER name="إِنْهَصَرَ" transliteration="IinohaSara" transname="إنهصر">
+            <Root name="هصر" transliteration="hSr"/>
+            <Deverbal name="إِنْهِصَار" transliteration="IinohiSaAr" transname="إنهصار"/>
+            <Participle name="مُنْهَصِر" transliteration="munohaSir" transname="منهصر"/>
+        </MEMBER>
+        <MEMBER name="إِنْوَقَصَ" transliteration="IinowaqaSa" transname="إنوقص">
+            <Root name="وقص" transliteration="wqS"/>
+            <Deverbal name="إِنْوِقَاص" transliteration="IinowiqaAS" transname="إنوقاص"/>
+            <Participle name="مُنْوَقِص" transliteration="munowaqiS" transname="منوقص"/>
+        </MEMBER>
+        <MEMBER name="تَشَظَّى" transliteration="ta$aZ~aY" transname="تشظى">
+            <Root name="شظا" transliteration="$ZA"/>
+            <Deverbal name="تَشَظِّي" transliteration="ta$aZ~iy" transname="تشظي"/>
+            <Participle name="مُتَشَظِّي" transliteration="muta$aZ~iy" transname="متشظي"/>
+        </MEMBER>
+        <MEMBER name="إِنْفَتَقَ" transliteration="Iinofataqa" transname="إنفتق">
+            <Root name="فتق" transliteration="ftq"/>
+            <Deverbal name="إِنْفِتَاق" transliteration="IinofitaAq" transname="إنفتاق"/>
+            <Participle name="مُنْفَتِق" transliteration="munofatiq" transname="منفتق"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَصَفَ" transliteration="IinoqaSafa" transname="إنقصف">
+            <Root name="قصف" transliteration="qSf"/>
+            <Deverbal name="إِنْقِصَاف" transliteration="IinoqiSaAf" transname="إنقصاف"/>
+            <Participle name="مُنْقَصِف" transliteration="munoqaSif" transname="منقصف"/>
+        </MEMBER>
+        <MEMBER name="تَقَصَّفَ" transliteration="taqaS~afa" transname="تقصف">
+            <Root name="قصف" transliteration="qSf"/>
+            <Deverbal name="تَقَصُّف" transliteration="taqaS~uf" transname="تقصف"/>
+            <Participle name="مُتَقَصِّف" transliteration="mutaqaS~if" transname="متقصف"/>
+        </MEMBER>
+        <MEMBER name=" إِنْهَاضَ" transliteration=" IinohaADa" transname=" إنهاض">
+            <Root name="هيض" transliteration="hyD"/>
+            <Deverbal name="إِنْهِيَاض" transliteration="IinohiyaAD" transname="إنهياض"/>
+            <Participle name="مُنْهَاض" transliteration="munohaAD" transname="منهاض"/>
+        </MEMBER>
+        <MEMBER name="إِهْتَاضَ" transliteration="IihotaADa" transname="إهتاض">
+            <Root name="هيض" transliteration="hyD"/>
+            <Deverbal name="إِهْتِيَاض" transliteration="IihotiyaAD" transname="إهتياض"/>
+            <Participle name="مُهْتَاض" transliteration="muhotaAD" transname="مهتاض"/>
+        </MEMBER>
+        <MEMBER name="إِفْتَتَّ" transliteration="Iifotat~a" transname="إفتت">
+            <Root name="فتت" transliteration="ftt"/>
+            <Deverbal name="إِفْتِتَات" transliteration="IifotitaAt" transname="إفتتات"/>
+            <Participle name="مُفَتَت" transliteration="mufatat" transname="مفتت"/>
+        </MEMBER>
+        <MEMBER name="تَدَقَّقَ" transliteration="tadaq~aqa" transname="تدقق">
+            <Root name="دقق" transliteration="dqq"/>
+            <Deverbal name="تَدَقُّق" transliteration="tadaq~uq" transname="تدقق"/>
+            <Participle name="مُتَدَقِّق" transliteration="mutadaq~iq" transname="متدقق"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْكَسَرَ الزُّجَاجُ." transliteration="Iinokasara Alz~ujaAju."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="degradation_material_integrity">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="physical_form">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Form"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.instrument" secondary="PPInstrument-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْكَسَرَ الرُّخَامُ بِالمِطْرَقَةِ." transliteration="Iinokasara Alr~uxaAmu biAlmiToraqapi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ بِوَاسِطَة">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="degradation_material_integrity">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="physical_form">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Form"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.oblique" secondary="PPResult-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْكَسَرَ الزُّجَاجُ إِلَى أَجزَاء" transliteration="Iinokasara Alz~ujaAju IilaY OajzaA'"/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="degradation_material_integrity">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="physical_form">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Form"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.instrument PP.oblique" secondary="Instrument-PP, PP-PPResult-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْكَسَّرَ اللُّعْبَةُ إِلَى أَجْجَاء بِالمِطرَقَة." transliteration="Iinokas~ara All~uEobapu IilaY OajojaA' biAlmiTraqap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+                <PREP value="بِ بِوَاسِطَةِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="degradation_material_integrity">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="physical_form">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Form"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <sibling ID="kasara-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

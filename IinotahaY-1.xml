@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IinotahaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْتَهَى" transliteration="IinotahaY" transname="إنتهى">
+            <Root name="نها" transliteration="nhA"/>
+            <Deverbal name="إِنْتِهَاء" transliteration="IinotihaA'" transname="إنتهاء"/>
+            <Participle name="مُنْتَهِي" transliteration="munotahiy" transname="منتهي"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَطَعَ" transliteration="IinoqaTaEa" transname="إنقطع">
+            <Root name="قطع" transliteration="qTE"/>
+            <Deverbal name="إِنْقِطَاع" transliteration="IinoqiTaAE" transname="إنقطاع"/>
+            <Participle name="مُنْقَطِع" transliteration="munoqaTiE" transname="منقطع"/>
+        </MEMBER>
+        <MEMBER name="إِنْصَرَمَ" transliteration="IinoSarama" transname="إنصرم">
+            <Root name="صرم" transliteration="Srm"/>
+            <Deverbal name="إِنْصِرَام" transliteration="IinoSiraAm" transname="إنصرام"/>
+            <Participle name="مُنْصَرِم" transliteration="munoSarim" transname="منصرم"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَضَى" transliteration="IinoqaDaY" transname="إنقضى">
+            <Root name="قضا" transliteration="qDA"/>
+            <Deverbal name="إِنْقِضَاء" transliteration="IinoqiDaA'" transname="إنقضاء"/>
+            <Participle name="مُنْقَضِي" transliteration="munoqaDiy" transname="منقضي"/>
+        </MEMBER>
+        <MEMBER name="تَوَقَّفَ" transliteration="tawaq~afa" transname="توقف">
+            <Root name="وقف" transliteration="wqf"/>
+            <Deverbal name="تَوَقُّف" transliteration="tawaq~uf" transname="توقف"/>
+            <Participle name="مُتَوَقِّف" transliteration="mutawaq~if" transname="متوقف"/>
+        </MEMBER>
+        <MEMBER name="تَمَّ" transliteration="tam~a" transname="تم">
+            <Root name="تمم" transliteration="tmm"/>
+            <Deverbal name="تَمَام" transliteration="tamaAm" transname="تمام"/>
+            <Participle name="تَام" transliteration="taAm" transname="تام"/>
+        </MEMBER>
+        <MEMBER name="مَضَى" transliteration="maDaY" transname="مضى">
+            <Root name="مضا" transliteration="mDA"/>
+            <Deverbal name="مُضِي" transliteration="muDiy" transname="مضي"/>
+            <Participle name="مَاضِي" transliteration="maADiy" transname="ماضي"/>
+        </MEMBER>
+        <MEMBER name="فَاتَ" transliteration="faAta" transname="فات">
+            <Root name="فات" transliteration="fAt"/>
+            <Deverbal name="فَوَات" transliteration="fawaAt" transname="فوات"/>
+            <Participle name="فَائِت" transliteration="faA}it" transname="فائت"/>
+        </MEMBER>
+        <MEMBER name="كَمُلَ" transliteration="kamula" transname="كمل">
+            <Root name="كمل" transliteration="kml"/>
+            <Deverbal name="كَمَال" transliteration="kamaAl" transname="كمال"/>
+            <Participle name="كَامِل" transliteration="kaAmil" transname="كامل"/>
+        </MEMBER>
+        <MEMBER name="خَلَى" transliteration="xalaY" transname="خلى">
+            <Root name="خلا" transliteration="xlA"/>
+            <Deverbal name="خَلَاء" transliteration="xalaA'" transname="خلاء"/>
+            <Participle name="خَالِي" transliteration="xaAliy" transname="خالي"/>
+        </MEMBER>
+        <MEMBER name="دَبَرَ" transliteration="dabara" transname="دبر">
+            <Root name="دبر" transliteration="dbr"/>
+            <Deverbal name="دُبُور" transliteration="dubuwr" transname="دبور"/>
+            <Participle name="دَابِر" transliteration="daAbir" transname="دابر"/>
+        </MEMBER>
+        <MEMBER name="وَلَّى" transliteration="wal~aY" transname="ولى">
+            <Root name="ولا" transliteration="wlA"/>
+            <Deverbal name="تَوْلِيَة" transliteration="tawoliyap" transname="تولية"/>
+            <Participle name="مُوَلِّي" transliteration="muwal~iy" transname="مولي"/>
+        </MEMBER>
+        <MEMBER name="ذَهَبَ" transliteration="*ahaba" transname="ذهب">
+            <Root name="ذهب" transliteration="*hb"/>
+            <Deverbal name="ذَهَاب" transliteration="*ahaAb" transname="ذهاب"/>
+            <Participle name="ذَهَاب" transliteration="*ahaAb" transname="ذهاب"/>
+        </MEMBER>
+        <MEMBER name="مَرَّ" transliteration="mar~a" transname="مر">
+            <Root name="مرر" transliteration="mrr"/>
+            <Deverbal name="مُرُور" transliteration="muruwr" transname="مرور"/>
+            <Participle name="مَار" transliteration="maAr" transname="مار"/>
+        </MEMBER>
+        <MEMBER name="سَلَفَ" transliteration="salafa" transname="سلف">
+            <Root name="سلف" transliteration="slf"/>
+            <Deverbal name="سَلَف" transliteration="salaf" transname="سلف"/>
+            <Participle name="سَالِف" transliteration="saAlif" transname="سالف"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP.theme" secondary="IntransitiveInchoative"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْتَهَت المُبَارَات." transliteration="Iinotahat AlmubaAraAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.instrument" secondary="PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْتَهَت المُبَارَات بِأَحْدَاث شَغَب." transliteration="Iinotahat AlmubaAraAt biOaHodaAv $agab."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP ADJ-Middle" secondary="(SUBCAT ADL)"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْتَهَت المُبَارَات بِسْرْعَة." transliteration="Iinotahat AlmubaAraAt bisoroEap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <ADV/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

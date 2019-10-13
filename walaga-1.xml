@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="walaga-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="كَرَعَ" transliteration="karaEa" transname="كرع">
+            <Root name="كرع" transliteration="krE"/>
+            <Deverbal name="كَرْع" transliteration="karoE" transname="كرع"/>
+            <Participle name="كَارِع" transliteration="kaAriE" transname="كارع"/>
+        </MEMBER>
+        <MEMBER name="وَلَغَ" transliteration="walaga" transname="ولغ">
+            <Root name="ولغ" transliteration="wlg"/>
+            <Deverbal name="وَلْغ" transliteration="walog" transname="ولغ"/>
+            <Participle name="وَالِغ" transliteration="waAlig" transname="والغ"/>
+        </MEMBER>
+        <MEMBER name="لَثَأَ" transliteration="lavaOa" transname="لثأ">
+            <Root name="لثأ" transliteration="lvO"/>
+            <Deverbal name="لَثْأ" transliteration="lavoO" transname="لثأ"/>
+            <Participle name="لَاثِئ" transliteration="laAvi}" transname="لاثئ"/>
+        </MEMBER>
+        <MEMBER name="" transliteration="" transname="">
+            <Root name="" transliteration=""/>
+            <Deverbal name="" transliteration="" transname=""/>
+            <Participle name="" transliteration="" transname=""/>
+        </MEMBER>
+        <MEMBER name="شَقَعَ" transliteration="$aqaEa" transname="شقع">
+            <Root name="شقع" transliteration="$qE"/>
+            <Deverbal name="شَقْع" transliteration="$aqoE" transname="شقع"/>
+            <Participle name="شَاقِع" transliteration="$aAqiE" transname="شاقع"/>
+        </MEMBER>
+        <MEMBER name="مَقَعَ" transliteration="maqaEa" transname="مقع">
+            <Root name="مقع" transliteration="mqE"/>
+            <Deverbal name="مَقْع" transliteration="maqoE" transname="مقع"/>
+            <Participle name="مَاقِع" transliteration="maAqiE" transname="ماقع"/>
+        </MEMBER>
+        <MEMBER name="قَبَعَ" transliteration="qabaEa" transname="قبع">
+            <Root name="قبع" transliteration="qbE"/>
+            <Deverbal name="قَبْع" transliteration="qaboE" transname="قبع"/>
+            <Participle name="قَابِع" transliteration="qaAbiE" transname="قابع"/>
+        </MEMBER>
+        <MEMBER name="كَمَعَ" transliteration="kamaEa" transname="كمع">
+            <Root name="كمع" transliteration="kmE"/>
+            <Deverbal name="كَمْع" transliteration="kamoE" transname="كمع"/>
+            <Participle name="كَامِع" transliteration="kaAmiE" transname="كامع"/>
+        </MEMBER>
+        <MEMBER name="عَبَّ" transliteration="Eab~a" transname="عب">
+            <Root name="عبب" transliteration="Ebb"/>
+            <Deverbal name="عَبّ" transliteration="Eab~" transname="عب"/>
+            <Participle name="عَاب" transliteration="EaAb" transname="عاب"/>
+        </MEMBER>
+        <MEMBER name="غَدِرَ" transliteration="gadira" transname="غدر">
+            <Root name="غدر" transliteration="gdr"/>
+            <Deverbal name="غَدِير" transliteration="gadiyr" transname="غدير"/>
+            <Participle name="غَادِر" transliteration="gaAdir" transname="غادر"/>
+        </MEMBER>
+        <MEMBER name="فَأَمَ" transliteration="faOama" transname="فأم">
+            <Root name="فأم" transliteration="fOm"/>
+            <Deverbal name="فَأْم" transliteration="faOom" transname="فأم"/>
+            <Participle name="فَائِم" transliteration="faA}im" transname="فائم"/>
+        </MEMBER>
+        <MEMBER name="صَأَمَ" transliteration="SaOama" transname="صأم">
+            <Root name="صَأْم" transliteration="SaOom"/>
+            <Deverbal name="صَأْم" transliteration="SaOom" transname="صأم"/>
+            <Participle name="صَائِم" transliteration="SaA}im" transname="صائم"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="comestible"/>
+                <SELRESTR Value="-" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="وَلَغَ الكَلْبُ." transliteration="walaga Alkalobu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.source" secondary="PPfiy-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="وَلَغَ الكَلْبُ فِي الإِينَاء." transliteration="walaga Alkalobu fiy AlIiynaA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Patient"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

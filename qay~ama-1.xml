@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="qay~ama-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="قَيَّمَ" transliteration="qay~ama" transname="قيم">
+            <Root name="قيم" transliteration="qym"/>
+            <Deverbal name="تَقْيِيم" transliteration="taqoyiym" transname="تقييم"/>
+            <Participle name="مُقَيِّم" transliteration="muqay~im" transname="مقيم"/>
+        </MEMBER>
+        <MEMBER name="قَدَّرَ" transliteration="qad~ara" transname="قدر">
+            <Root name="قدر" transliteration="qdr"/>
+            <Deverbal name="تَقْدِير" transliteration="taqodiyr" transname="تقدير"/>
+            <Participle name="مُقَدِّر" transliteration="muqad~ir" transname="مقدر"/>
+        </MEMBER>
+        <MEMBER name="عَيَّرَ" transliteration="Eay~ara" transname="عير">
+            <Root name="عير" transliteration="Eyr"/>
+            <Deverbal name="تَعْيِير" transliteration="taEoyiyr" transname="تعيير"/>
+            <Participle name="مُعَيِّر" transliteration="muEay~ir" transname="معير"/>
+        </MEMBER>
+        <MEMBER name="سَعَّرَ" transliteration="saE~ara" transname="سعر">
+            <Root name="سعر" transliteration="sEr"/>
+            <Deverbal name="تَسْعِير" transliteration="tasoEiyr" transname="تسعير"/>
+            <Participle name="مُسَعِّر" transliteration="musaE~ir" transname="مسعر"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Value">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="currency"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَيَّمَ الجَوَاهِرِي الخَاتَمَ." transliteration="qay~ama AljawaAhiriy AlxaAtama."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="value">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Value"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.value" secondary="NP-PPat-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَيَّمَ الجَوَاهِرِي الخَاتَمَ بِأَلْفِ دِرْهَم." transliteration="qay~ama AljawaAhiriy AlxaAtama biOalofi diroham."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Value">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="value">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Value"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

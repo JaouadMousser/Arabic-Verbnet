@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Har~ama-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="كَرَّهَ" transliteration="kar~aha" transname="كره">
+            <Root name="كره" transliteration="krh"/>
+            <Deverbal name="تَكْرِيه" transliteration="takoriyh" transname="تكريه"/>
+            <Participle name="مُكَرِّه" transliteration="mukar~ih" transname="مكره"/>
+        </MEMBER>
+        <MEMBER name="حَرَّمَ" transliteration="Har~ama" transname="حرم">
+            <Root name="حرم" transliteration="Hrm"/>
+            <Deverbal name="تَحْرِيم" transliteration="taHoriym" transname="تحريم"/>
+            <Participle name="مُحَرِّم" transliteration="muHar~im" transname="محرم"/>
+        </MEMBER>
+        <MEMBER name="حَرَّجَ" transliteration="Har~aja" transname="حرج">
+            <Root name="حرج" transliteration="Hrj"/>
+            <Deverbal name="تَحْرِيج" transliteration="taHoriyj" transname="تحريج"/>
+            <Participle name="مُحَرِّج" transliteration="muHar~ij" transname="محرج"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Goal">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرَّمَ الإِسْلَامُ الخَمْرَ." transliteration="Har~ama AlIisolaAmu Alxamora."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP S_Deverbal" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرَّمَ الإِسْلَامُ شُربَ الخَمْرِ." transliteration="Har~ama AlIisolaAmu $urba Alxamori."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SELRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرَّمَ الأِسْلَامُ أَنْ تْشْرَبَ الخَمْرُ." transliteration="Har~ama AlOisolaAmu Oano to$oraba Alxamoru."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V PP NP NP" secondary="PP-PPEalaY-NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرَّمَ عَليْنَا رَبُّ الَمَقْهَى السَجَائِر." transliteration="Har~ama EalyonaA rab~u AlamaqohaY AlsajaA}ir."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Goal">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="concern">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Goal"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V PP.Gaol NP S_Deverbal" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرَّمَ عَلَيْنَا رَبُّ الَمَقْهَى تَدْخِين السَجَائِر." transliteration="Har~ama EalayonaA rab~u AlamaqohaY tadoxiyn AlsajaA}ir."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Goal">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SELRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="concern">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Goal"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Harima-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

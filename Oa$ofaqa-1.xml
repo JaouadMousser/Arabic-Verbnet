@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Oa$ofaqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="Oa$ofaqa-1.1">
+            <MEMBERS>
+                <MEMBER name="تَعَاطَفَ" transliteration="taEaATafa" transname="تعاطف">
+                    <Root name="عطف" transliteration="ETf"/>
+                    <Deverbal name="تَعَاطُف" transliteration="taEaATuf" transname="تعاطف"/>
+                    <Participle name="مُتَعَاطِف" transliteration="mutaEaATif" transname="متعاطف"/>
+                </MEMBER>
+                <MEMBER name="تَمَاهَى" transliteration="tamaAhaY" transname="تماهى">
+                    <Root name="موه" transliteration="mwh"/>
+                    <Deverbal name="تَمَاهِي" transliteration="tamaAhiy" transname="تماهي"/>
+                    <Participle name="مُتَمَافِي" transliteration="mutamaAfiy" transname="متمافي"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme" secondary="PPmaEa-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَعَاطَفَ الجُمْهُورُ مَعَ اللَّاعِبِ المُصَابِ." transliteration="taEaATafa Aljumohuwru maEa All~aAEibi AlmuSaAbi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مَعَ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="Oa$ofaqa-1.2">
+            <MEMBERS>
+                <MEMBER name="حَدِبَ" transliteration="Hadiba" transname="حدب">
+                    <Root name="حدب" transliteration="Hdb"/>
+                    <Deverbal name="حَدْب" transliteration="Hadob" transname="حدب"/>
+                    <Participle name="حَادِب" transliteration="HaAdib" transname="حادب"/>
+                </MEMBER>
+                <MEMBER name="عَطَفَ" transliteration="EaTafa" transname="عطف">
+                    <Root name="عطف" transliteration="ETf"/>
+                    <Deverbal name="عَطْف" transliteration="EaTof" transname="عطف"/>
+                    <Participle name="عَاطِف" transliteration="EaATif" transname="عاطف"/>
+                </MEMBER>
+                <MEMBER name="تَعَطَّفَ" transliteration="taEaT~afa" transname="تعطف">
+                    <Root name="عطف" transliteration="ETf"/>
+                    <Deverbal name="تَعَطُّف" transliteration="taEaT~uf" transname="تعطف"/>
+                    <Participle name="مُتَعَطِّف" transliteration="mutaEaT~if" transname="متعطف"/>
+                </MEMBER>
+                <MEMBER name="حَنَا" transliteration="HanaA" transname="حنا">
+                    <Root name="حنا" transliteration="HnA"/>
+                    <Deverbal name="حُنُو" transliteration="Hunuw" transname="حنو"/>
+                    <Participle name="حَانِي" transliteration="HaAniy" transname="حاني"/>
+                </MEMBER>
+                <MEMBER name="أَشْفَقَ" transliteration="Oa$ofaqa" transname="أشفق">
+                    <Root name="شفق" transliteration="$fq"/>
+                    <Deverbal name="إِشْفَاق" transliteration="Ii$ofaAq" transname="إشفاق"/>
+                    <Participle name="مُشْفِق" transliteration="mu$ofiq" transname="مشفق"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme" secondary="PPEalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَشْفَقَ الأُمُّ عَلَى وَلَدِهََ." transliteration="Oa$ofaqa AlOum~u EalaY waladihaa."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emotional_state">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

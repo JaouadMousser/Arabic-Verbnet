@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Oahomala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَغْفَلَ" transliteration="Oagofala" transname="أغفل">
+            <Root name="غفل" transliteration="gfl"/>
+            <Deverbal name="إِغْفَال" transliteration="IigofaAl" transname="إغفال"/>
+            <Participle name="مُغْفِل" transliteration="mugofil" transname="مغفل"/>
+        </MEMBER>
+        <MEMBER name="أَهْمَلَ" transliteration="Oahomala" transname="أهمل">
+            <Root name="همل" transliteration="hml"/>
+            <Deverbal name="إِهْمَال" transliteration="IihomaAl" transname="إهمال"/>
+            <Participle name="مُهْمِل" transliteration="muhomil" transname="مهمل"/>
+        </MEMBER>
+        <MEMBER name="نَسِيَ" transliteration="nasiya" transname="نسي">
+            <Root name="نسي" transliteration="nsy"/>
+            <Deverbal name="نِسْيَان" transliteration="nisoyaAn" transname="نسيان"/>
+            <Participle name="نَاسِي" transliteration="naAsiy" transname="ناسي"/>
+        </MEMBER>
+        <MEMBER name="تَنَاسَى" transliteration="tanaAsaY" transname="تناسى">
+            <Root name="نسي" transliteration="nsy"/>
+            <Deverbal name="تَنَاسِي" transliteration="tanaAsiy" transname="تناسي"/>
+            <Participle name="مُتَنَاسِي" transliteration="mutanaAsiy" transname="متناسي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <THEMROLES/>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَهْمَلَ المُوَظَّفُ عَمَلَهُ." transliteration="Oahomala AlmuwaZ~afu Eamalahu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="neglect">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP DEVERBAL" secondary="DEVERBAL-SC"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَهْمَلَ عَلِيُ القِيَامَ بِوَاجِبَاتِه." transliteration="Oahomala Ealiyu AlqiyaAma biwaAjibaAtih."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="neglect">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

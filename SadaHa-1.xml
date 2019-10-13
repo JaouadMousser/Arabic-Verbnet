@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="SadaHa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَرَدَّدَ" transliteration="tarad~ada" transname="تردد">
+            <Root name="ردد" transliteration="rdd"/>
+            <Deverbal name="تَرَدُّد" transliteration="tarad~ud" transname="تردد"/>
+            <Participle name="مُتَرَدِّد" transliteration="mutarad~id" transname="متردد"/>
+        </MEMBER>
+        <MEMBER name="تَعَالَى" transliteration="taEaAlaY" transname="تعالى">
+            <Root name="علي" transliteration="Ely"/>
+            <Deverbal name="تَعَالِي" transliteration="taEaAliy" transname="تعالي"/>
+            <Participle name="مُتَعَالِي" transliteration="mutaEaAliy" transname="متعالي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="sound"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="صَدَحَ الآذَانُ." transliteration="SadaHa Al|*aAnu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.location" secondary="PPlocative-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="صَدَحَ الآَذَانُ فِي المَدِينَة." transliteration="SadaHa Al|a*aAnu fiy Almadiynap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="SadaHa-1.1">
+            <MEMBERS>
+                <MEMBER name="صَدَحَ" transliteration="SadaHa" transname="صدح">
+                    <Root name="صدح" transliteration="SdH"/>
+                    <Deverbal name="صَدْح" transliteration="SadoH" transname="صدح"/>
+                    <Participle name="صَادِح" transliteration="SaAdiH" transname="صادح"/>
+                </MEMBER>
+                <MEMBER name="جَلْجَلَ" transliteration="jalojala" transname="جلجل">
+                    <Root name="جلل" transliteration="jll"/>
+                    <Deverbal name="جَلْجَلَة" transliteration="jalojalap" transname="جلجلة"/>
+                    <Participle name="مُجَلْجِل" transliteration="mujalojil" transname="مجلجل"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="NP NP.location NP.theme" secondary="PPLocation Subject, bi-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="صَدَحَتِ المَدِينَةُ بِالآذَان." transliteration="SadaHati Almadiynapu biAl|*aAn."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Location">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="location">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Location"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="HaSara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَدَّ" transliteration="Had~a" transname="حد">
+            <Root name="حدد" transliteration="Hdd"/>
+            <Deverbal name="حَدّ" transliteration="Had~" transname="حد"/>
+            <Participle name="حَاد" transliteration="HaAd" transname="حاد"/>
+        </MEMBER>
+        <MEMBER name="قَلَّصَ" transliteration="qal~aSa" transname="قلص">
+            <Root name="قلص" transliteration="qlS"/>
+            <Deverbal name="تَقْلِيص" transliteration="taqoliyS" transname="تقليص"/>
+            <Participle name="مُقَلِّص" transliteration="muqal~iS" transname="مقلص"/>
+        </MEMBER>
+        <MEMBER name="قَلَّلَ" transliteration="qal~ala" transname="قلل">
+            <Root name="قلل" transliteration="qll"/>
+            <Deverbal name="تَقْلِيل" transliteration="taqoliyl" transname="تقليل"/>
+            <Participle name="مُقَلِّل" transliteration="muqal~il" transname="مقلل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Cause">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَدَّت سِيَاسَةُ المَلِكِ المَدَّ الشِّيُوعِي." transliteration="Had~at siyaAsapu Almaliki Almad~a Al$~iyuwEiy."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="limit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP" secondary="PPmino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَدَّت سِيَاسَةُ المَلِكِ مِنْ تَأثِيرِ الشِّيُوعِيَة." transliteration="Had~at siyaAsapu Almaliki mino taOviyri Al$~iyuwEiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="limit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="HaSara-1.1">
+            <MEMBERS>
+                <MEMBER name="حَصَرَ" transliteration="HaSara" transname="حصر">
+                    <Root name="حصر" transliteration="HSr"/>
+                    <Deverbal name="حَصْر" transliteration="HaSor" transname="حصر"/>
+                    <Participle name="حَاصِر" transliteration="HaASir" transname="حاصر"/>
+                </MEMBER>
+                <MEMBER name="قَصَرَ" transliteration="qaSara" transname="قصر">
+                    <Root name="قصر" transliteration="qSr"/>
+                    <Deverbal name="قَصْر" transliteration="qaSor" transname="قصر"/>
+                    <Participle name="قَاصِر" transliteration="qaASir" transname="قاصر"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.proposition" secondary="NP-PPfiy/EalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="حَصَرَت الحُكُومَات المُسَاعَدَات عَلَى مُسَانِدِيهَا." transliteration="HaSarat AlHukuwmaAt AlmusaAEadaAt EalaY musaAnidiyhaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Cause">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Proposition">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="limit">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Cause"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="IinoHaSara-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="SaAra-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="صَارَ" transliteration="SaAra" transname="صار">
+            <Root name="صير" transliteration="Syr"/>
+            <Deverbal name="صَيْر" transliteration="Sayor" transname="صير"/>
+            <Deverbal name="صَيْرُورَة" transliteration="Sayoruwrap" transname="صيرورة"/>
+            <Deverbal name="مَصِير" transliteration="maSiyr" transname="مصير"/>
+            <Participle name="صَائِر" transliteration="SaA}ir" transname="صائر"/>
+        </MEMBER>
+        <MEMBER name="أَصْبَحَ" transliteration="OaSobaHa" transname="أصبح">
+            <Root name="صبح" transliteration="SbH"/>
+            <Deverbal name="إِصْبَاح" transliteration="IiSobaAH" transname="إصباح"/>
+            <Participle name="مُصْبِح" transliteration="muSobiH" transname="مصبح"/>
+        </MEMBER>
+        <MEMBER name="أَضْحَى" transliteration="OaDoHaY" transname="أضحى">
+            <Root name="ضحى" transliteration="DHY"/>
+            <Deverbal name="إِضْحَاء" transliteration="IiDoHaA'" transname="إضحاء"/>
+            <Participle name="مُضْحِي" transliteration="muDoHiy" transname="مضحي"/>
+        </MEMBER>
+        <MEMBER name="بَاتَ" transliteration="baAta" transname="بات">
+            <Root name="بيت" transliteration="byt"/>
+            <Deverbal name="بُيَات" transliteration="buyaAt" transname="بيات"/>
+            <Participle name="بَائِت" transliteration="baA}it" transname="بائت"/>
+        </MEMBER>
+        <MEMBER name="ضَحَى" transliteration="DaHaY" transname="ضحى">
+            <Root name="ضحى" transliteration="DHY"/>
+            <Deverbal name="ضَحْو" transliteration="DaHow" transname="ضحو"/>
+            <Participle name="ضَاحِي" transliteration="DaAHiy" transname="ضاحي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Product">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَصْبَحَ الرَّجُلُ عَالِمَاً." transliteration="OaSobaHa Alr~ajulu EaAlimaAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

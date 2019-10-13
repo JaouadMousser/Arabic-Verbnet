@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="raOaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="شَمَّ" transliteration="$am~a" transname="شم">
+            <Root name="شمم" transliteration="$mm"/>
+            <Deverbal name="شَمّ" transliteration="$am~" transname="شم"/>
+            <Participle name="شَام" transliteration="$aAm" transname="شام"/>
+        </MEMBER>
+        <MEMBER name="إِشْتَمَّ" transliteration="Ii$otam~a" transname="إشتم">
+            <Root name="شمم" transliteration="$mm"/>
+            <Deverbal name="إِشْتِمَام" transliteration="Ii$otimaAm" transname="إشتمام"/>
+            <Participle name="مُشْتَم" transliteration="mu$otam" transname="مشتم"/>
+        </MEMBER>
+        <MEMBER name="شَافَ" transliteration="$aAfa" transname="شاف">
+            <Root name="شوف" transliteration="$wf"/>
+            <Deverbal name="شَوْف" transliteration="$awof" transname="شوف"/>
+            <Participle name="شَائِف" transliteration="$aA}if" transname="شائف"/>
+        </MEMBER>
+        <MEMBER name="تَشَّمَمَ" transliteration="ta$~amama" transname="تشمم">
+            <Root name="شمم" transliteration="$mm"/>
+            <Deverbal name="تَشَمُّم" transliteration="ta$am~um" transname="تشمم"/>
+            <Participle name="مُتَشَمِّم" transliteration="muta$am~im" transname="متشمم"/>
+        </MEMBER>
+        <MEMBER name="رَأَى" transliteration="raOaY" transname="رأى">
+            <Root name="رأي" transliteration="rOy"/>
+            <Deverbal name="رُؤْيَة" transliteration="ruWoyap" transname="رؤية"/>
+            <Participle name="رَائِي" transliteration="raA}iy" transname="رائي"/>
+        </MEMBER>
+        <MEMBER name="لَحِظَ" transliteration="laHiZa" transname="لحظ">
+            <Root name="لحظ" transliteration="lHZ"/>
+            <Deverbal name="لَحْظ" transliteration="laHoZ" transname="لحظ"/>
+            <Participle name="لَاحِظ" transliteration="laAHiZ" transname="لاحظ"/>
+        </MEMBER>
+        <MEMBER name="لَاحَظَ" transliteration="laAHaZa" transname="لاحظ">
+            <Root name="لحظ" transliteration="lHZ"/>
+            <Deverbal name="مُلَاحَظَة" transliteration="mulaAHaZap" transname="ملاحظة"/>
+            <Participle name="مُلاهِظ" transliteration="mulAhiZ" transname="ملاهظ"/>
+        </MEMBER>
+        <MEMBER name="لَمَسَ" transliteration="lamasa" transname="لمس">
+            <Root name="لمس" transliteration="lms"/>
+            <Deverbal name="لَمْس" transliteration="lamos" transname="لمس"/>
+            <Participle name="لَامِس" transliteration="laAmis" transname="لامس"/>
+        </MEMBER>
+        <MEMBER name="أَبْصَرَ" transliteration="OaboSara" transname="أبصر">
+            <Root name="بصر" transliteration="bSr"/>
+            <Deverbal name="إِبْصَار" transliteration="IiboSaAr" transname="إبصار"/>
+            <Participle name="مُبْصِر" transliteration="muboSir" transname="مبصر"/>
+        </MEMBER>
+        <MEMBER name="لَمِسَ" transliteration="lamisa" transname="لمس">
+            <Root name="لمس" transliteration="lms"/>
+            <Deverbal name="لَمْس" transliteration="lamos" transname="لمس"/>
+            <Participle name="لَامِس" transliteration="laAmis" transname="لامس"/>
+        </MEMBER>
+        <MEMBER name="شَهِدَ" transliteration="$ahida" transname="شهد">
+            <Root name="شهد" transliteration="$hd"/>
+            <Deverbal name="شَهَادَة" transliteration="$ahaAdap" transname="شهادة"/>
+            <Participle name="شَاهِد" transliteration="$aAhid" transname="شاهد"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَشْعَرَ" transliteration="Iisota$oEara" transname="إستشعر">
+            <Root name="شعر" transliteration="$Er"/>
+            <Deverbal name="إِسْتِشْعَار" transliteration="Iisoti$oEaAr" transname="إستشعار"/>
+            <Participle name="مُسْتَشْعِر" transliteration="musota$oEir" transname="مستشعر"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Stimulus">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَأَى الصَبِي أُمَّهُ." transliteration="raOaY AlSabiy Oum~ahu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Stimulus">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oan~a S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَأَى الصَبِي أَنَّ أُمَهْ تَبْكِي." transliteration="raOaY AlSabiy Oan~a Oumaho tabokiy."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Stimulus">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oan~a_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP-ATTR-POS PP.oblique" secondary="Attribute Object Possessor-Attribute Factoring Alternation"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إسْتَشعَرَ المُدَرِّبُ الطْمُوحَ فِي لَاعِبِيه." transliteration="Isota$Eara Almudar~ibu AlTomuwHa fiy laAEibiyh."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Stimulus">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP kayofa S" secondary="kayofa-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَأَيْتُ كَيْفَ أَجْهَزَ المُجْرِمُ عَلَى الضَحِيَة." transliteration="raOayotu kayofa Oajohaza Almujorimu EalaY AlDaHiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Stimulus">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="kayofa_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP maA*aA/maA S" secondary="maA*aA/maA-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَأَيْتُ مَا فَعَلَ المُجْرِمُون بِه." transliteration="raOayotu maA faEala Almujorimuwn bih."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Stimulus">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="maA_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَأَى الصَّبِي أْمَّهْ تَبْكِي." transliteration="raOaY AlS~abiy Oom~aho tabokiy."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Stimulus">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP S_PARICIPLE" secondary="PARITCIPLE"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَأَى الصَّبِي أْمَّهْ بَاكِيَة." transliteration="raOaY AlS~abiy Oom~aho baAkiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Stimulus">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="participle"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="raOaY-1.1">
+            <MEMBERS>
+                <MEMBER name="سَمِعَ" transliteration="samiEa" transname="سمع">
+                    <Root name="سمع" transliteration="smE"/>
+                    <Deverbal name="سَمْع" transliteration="samoE" transname="سمع"/>
+                    <Participle name="سَامِع" transliteration="saAmiE" transname="سامع"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.stimulus" secondary="PPStimulus-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَمِعْتُ عَن زِلْزَال هَايتِي." transliteration="samiEotu Ean zilozaAl haAytiy."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Stimulus">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="perceive">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP Eano S_DEVERBAL" secondary="POSS_DEVERBAL"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَمِعْتُ عَنْ وُجُودِهِ مَعَ أَصْدِقَائِهِ هُنَا." transliteration="samiEotu Eano wujuwdihi maEa OaSodiqaA}ihi hunaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Stimulus">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="poss_deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="perceive">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

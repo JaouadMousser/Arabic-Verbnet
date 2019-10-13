@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taOaqolama-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَأَقْلَمَ اللَّاعِبُون." transliteration="taOaqolama All~aAEibuwn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="adjust">
+                    <ARGS>
+                        <ARG type="Event" value="During(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="taOaqolama-1.1">
+            <MEMBERS>
+                <MEMBER name="تَكَيَّفَ" transliteration="takay~afa" transname="تكيف">
+                    <Root name="كيف" transliteration="kyf"/>
+                    <Deverbal name="تَكَيُّف" transliteration="takay~uf" transname="تكيف"/>
+                    <Participle name="مُتَكَيِّف" transliteration="mutakay~if" transname="متكيف"/>
+                </MEMBER>
+                <MEMBER name="تَأَقْلَمَ" transliteration="taOaqolama" transname="تأقلم">
+                    <Root name="قلم" transliteration="qlm"/>
+                    <Deverbal name="تَأَقْلم" transliteration="taOaqolm" transname="تأقلم"/>
+                    <Participle name="مُتَأَقْلِم" transliteration="mutaOaqolim" transname="متأقلم"/>
+                </MEMBER>
+                <MEMBER name="إِنْدَمَجَ" transliteration="Iinodamaja" transname="إندمج">
+                    <Root name="دمج" transliteration="dmj"/>
+                    <Deverbal name="إنْدِمَاج" transliteration="InodimaAj" transname="إندماج"/>
+                    <Participle name="مُنْدَمِج" transliteration="munodamij" transname="مندمج"/>
+                </MEMBER>
+            </MEMBERS>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.destination" secondary="PPmaEa-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَأَقْلَمَ اللَّاعِبُونَ مَعَ أَجْوَاء َلمُبَارَاة." transliteration="taOaqolama All~aAEibuwna maEa OajowaA' almubaAraAp."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مَعَ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="adjust">
+                            <ARGS>
+                                <ARG type="Event" value="During(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="taOaqolama-1.2">
+            <MEMBERS>
+                <MEMBER name="تَعَوَّدَ" transliteration="taEaw~ada" transname="تعود">
+                    <Root name="عاد" transliteration="EAd"/>
+                    <Deverbal name="تَعَوُّد" transliteration="taEaw~ud" transname="تعود"/>
+                    <Participle name="مُتَعَوِّد" transliteration="mutaEaw~id" transname="متعود"/>
+                </MEMBER>
+            </MEMBERS>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.destination" secondary="PPEalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَعَوَّدَ اللَّاعِبُون عَلَى الجَو الحَار." transliteration="taEaw~ada All~aAEibuwn EalaY Aljaw AlHaAr."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="adjust">
+                            <ARGS>
+                                <ARG type="Event" value="During(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP maEa deverbal" secondary="deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَعَوَّدَ اللَّاعِبُونَ عَلَى الإِستِيقَاظ بَاكِراً." transliteration="taEaw~ada All~aAEibuwna EalaY AlIistiyqaAZ baAkirAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="adjust">
+                            <ARGS>
+                                <ARG type="Event" value="During(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="taOaqolama-1.3">
+            <MEMBERS>
+                <MEMBER name="إِستَعَدَّ" transliteration="IistaEad~a" transname="إستعد">
+                    <Root name="عدد" transliteration="Edd"/>
+                    <Deverbal name="إِسْتِعْدَاد" transliteration="IisotiEodaAd" transname="إستعداد"/>
+                    <Participle name="مُسْتَعِد" transliteration="musotaEid" transname="مستعد"/>
+                </MEMBER>
+                <MEMBER name="تَأَهَّلَ" transliteration="taOah~ala" transname="تأهل">
+                    <Root name="أهل" transliteration="Ohl"/>
+                    <Deverbal name="تَأَهُّيل" transliteration="taOah~uyl" transname="تأهيل"/>
+                    <Participle name="مُتَأَهِّل" transliteration="mutaOah~il" transname="متأهل"/>
+                </MEMBER>
+                <MEMBER name="تَهَيَّأَ" transliteration="tahay~aOa" transname="تهيأ">
+                    <Root name="هيأ" transliteration="hyO"/>
+                    <Deverbal name="تَهَيُّؤئ" transliteration="tahay~uW}" transname="تهيؤئ"/>
+                    <Participle name="مُتَهَيِّئ" transliteration="mutahay~i}" transname="متهيئ"/>
+                </MEMBER>
+            </MEMBERS>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.destination" secondary="PPli-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَعَدَّ اللَّاعِبُونَ لِالمُبَارَاة." transliteration="IisotaEad~a All~aAEibuwna liAlmubaAraAp."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="لِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="adjust">
+                            <ARGS>
+                                <ARG type="Event" value="During(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP maEa deverbal" secondary="deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَعَدَّ اللَّاعِبُون لِلَعِبِ المُبَارَاة." transliteration="IisotaEad~a All~aAEibuwn lilaEibi AlmubaAraAp."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="adjust">
+                            <ARGS>
+                                <ARG type="Event" value="During(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Oaqolama-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

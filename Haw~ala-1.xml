@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Haw~ala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَحَالَ" transliteration="OaHaAla" transname="أحال">
+            <Root name="حول" transliteration="Hwl"/>
+            <Deverbal name="إِحَالَة" transliteration="IiHaAlap" transname="إحالة"/>
+            <Participle name="مُحِيل" transliteration="muHiyl" transname="محيل"/>
+        </MEMBER>
+        <MEMBER name="حَوَّلَ" transliteration="Haw~ala" transname="حول">
+            <Root name="حول" transliteration="Hwl"/>
+            <Deverbal name="تَحْوِيل" transliteration="taHowiyl" transname="تحويل"/>
+            <Participle name="مُحَوِّل" transliteration="muHaw~il" transname="محول"/>
+        </MEMBER>
+        <MEMBER name="تَرْجَمَ" transliteration="tarojama" transname="ترجم">
+            <Root name="ترجم" transliteration="trjm"/>
+            <Deverbal name="تَرْجَمَة" transliteration="tarojamap" transname="ترجمة"/>
+            <Participle name="مُتَرْجِم" transliteration="mutarojim" transname="مترجم"/>
+        </MEMBER>
+        <MEMBER name="طَوّرَ" transliteration="Taw~ra" transname="طور">
+            <Root name="طور" transliteration="Twr"/>
+            <Deverbal name="تَطْوِير" transliteration="taTowiyr" transname="تطوير"/>
+            <Participle name="مُطَوِّر" transliteration="muTaw~ir" transname="مطور"/>
+        </MEMBER>
+        <MEMBER name="غَيَّرَ" transliteration="gay~ara" transname="غير">
+            <Root name="غير" transliteration="gyr"/>
+            <Deverbal name="تَغْيِيِر" transliteration="tagoyiyir" transname="تغيير"/>
+            <Participle name="مُغَيِّر" transliteration="mugay~ir" transname="مغير"/>
+        </MEMBER>
+        <MEMBER name="مَسَخَ" transliteration="masaxa" transname="مسخ">
+            <Root name="مسخ" transliteration="msx"/>
+            <Deverbal name="مَسْخ" transliteration="masox" transname="مسخ"/>
+            <Participle name="مَاسِخ" transliteration="maAsix" transname="ماسخ"/>
+        </MEMBER>
+        <MEMBER name="سَحَرَ" transliteration="saHara" transname="سحر">
+            <Root name="سحر" transliteration="sHr"/>
+            <Deverbal name="سِحْر" transliteration="siHor" transname="سحر"/>
+            <Participle name="سَاحِر" transliteration="saAHir" transname="ساحر"/>
+        </MEMBER>
+        <MEMBER name="بَدَّلَ" transliteration="bad~ala" transname="بدل">
+            <Root name="بدل" transliteration="bdl"/>
+            <Deverbal name="تَبْدِيل" transliteration="tabodiyl" transname="تبديل"/>
+            <Participle name="مُبَدِّل" transliteration="mubad~il" transname="مبدل"/>
+        </MEMBER>
+        <MEMBER name="قَلَبَ" transliteration="qalaba" transname="قلب">
+            <Root name="قلب" transliteration="qlb"/>
+            <Deverbal name="قَلْب" transliteration="qalob" transname="قلب"/>
+            <Participle name="قَالِب" transliteration="qaAlib" transname="قالب"/>
+        </MEMBER>
+        <MEMBER name="دَبْلَج" transliteration="dabolaj" transname="دبلج">
+            <Root name="دبلج" transliteration="dblj"/>
+            <Deverbal name="دَبْلَجَة" transliteration="dabolajap" transname="دبلجة"/>
+            <Participle name="مُدَبْلِج" transliteration="mudabolij" transname="مدبلج"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="machine"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Product">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Material">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="NP-PP-PP" secondary="Causative variant, Material-PP Product-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَوَّلَتِ السَّاحِرَة الأَمِيرَة مِنْ إِنْسَان إِلَى حُورِيَة." transliteration="Haw~alati Als~aAHirap AlOamiyrap mino IinosaAn IilaY Huwriyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Material"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Material"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="Total Transformation Alternation Transitive" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَوَّلَتِ السَّاحِرَةُ الأَمِيرَة إِلَى حُورِيَة." transliteration="Haw~alati Als~aAHirapu AlOamiyrap IilaY Huwriyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="Basic Transitive" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="غَيَّرَ الأَنْتِرنِيت عَادَات النَّاسِ." transliteration="gay~ara AlOanotirniyt EaAdaAt Aln~aAsi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="?Result"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="?Product"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taHaw~ala-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

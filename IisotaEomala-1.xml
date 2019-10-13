@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IisotaEomala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِسْتَعْمَلَ" transliteration="IisotaEomala" transname="إستعمل">
+            <Root name="عمل" transliteration="Eml"/>
+            <Deverbal name="إِسْتِعمَال" transliteration="IisotiEmaAl" transname="إستعمال"/>
+            <Participle name="مُسْتَعْمِل" transliteration="musotaEomil" transname="مستعمل"/>
+        </MEMBER>
+        <MEMBER name="سَخَّرَ" transliteration="sax~ara" transname="سخر">
+            <Root name="سخر" transliteration="sxr"/>
+            <Deverbal name="تَسْخِير" transliteration="tasoxiyr" transname="تسخير"/>
+            <Participle name="مُسَخِّر" transliteration="musax~ir" transname="مسخر"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَخْدَمَ" transliteration="Iisotaxodama" transname="إستخدم">
+            <Root name="خدم" transliteration="xdm"/>
+            <Deverbal name="إِسْتِخْدَام" transliteration="IisotixodaAm" transname="إستخدام"/>
+            <Participle name="مُسْتَخْدِم" transliteration="musotaxodim" transname="مستخدم"/>
+        </MEMBER>
+        <MEMBER name="وَظَّفَ" transliteration="waZ~afa" transname="وظف">
+            <Root name="وظف" transliteration="wZf"/>
+            <Deverbal name="تَوْظِيف" transliteration="tawoZiyf" transname="توظيف"/>
+            <Participle name="مُوَظِّف" transliteration="muwaZ~if" transname="موظف"/>
+        </MEMBER>
+        <MEMBER name="طَبَّقَ" transliteration="Tab~aqa" transname="طبق">
+            <Root name="طبق" transliteration="Tbq"/>
+            <Deverbal name="تَطْبِيق" transliteration="taTobiyq" transname="تطبيق"/>
+            <Participle name="مُطَبِّق" transliteration="muTab~iq" transname="مطبق"/>
+        </MEMBER>
+        <MEMBER name="إِتَّخَذَ" transliteration="Iit~axa*a" transname="إتخذ">
+            <Root name="أخذ" transliteration="Ox*"/>
+            <Deverbal name="إِتِّخَاذ" transliteration="Iit~ixaA*" transname="إتخاذ"/>
+            <Participle name="مُتَّخِذ" transliteration="mut~axi*" transname="متخذ"/>
+        </MEMBER>
+        <MEMBER name="تَخِذَ" transliteration="taxi*a" transname="تخذ">
+            <Root name="أخذ" transliteration="Ox*"/>
+            <Deverbal name="تَخْذ" transliteration="taxo*" transname="تخذ"/>
+            <Participle name="تَاخِذ" transliteration="taAxi*" transname="تاخذ"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="NP-ADVP" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَعمَلَ المَالَ جَيِّداً." transliteration="IisotaEmala AlmaAla jay~idAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <ADV/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.theme" secondary="Cognate Object"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَعمَلَ المَالَ إِسْتِخْدَاماً جَيِّداً." transliteration="IisotaEmala AlmaAla IisotixodaAmAF jay~idAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP-PP" secondary="fiy-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَعْمَلَ الرِّيَاضِي المَالَ فِي مَشَارِيعِهِ." transliteration="IisotaEomala Alr~iyaADiy AlmaAla fiy ma$aAriyEihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي مِنْـأَجْل">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Predicate">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP-PP" secondary="li-Deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَعْمَلَ الرِّيَاضِي المَالَ لِتَطْوِيرِ قُدُرَاتِهِ." transliteration="IisotaEomala Alr~iyaADiy AlmaAla litaTowiyri quduraAtihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ فِي مِنْـأَجْل">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="vc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

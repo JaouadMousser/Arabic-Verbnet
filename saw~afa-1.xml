@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="saw~afa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="سَوَّفَ" transliteration="saw~afa" transname="سوف">
+            <Root name="سوف" transliteration="swf"/>
+            <Deverbal name="تَسْوِيف" transliteration="tasowiyf" transname="تسويف"/>
+            <Participle name="مُسَوِّف" transliteration="musaw~if" transname="مسوف"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLE type="Agent">
+        <SELRESTRS>
+            <SELRESTR Value="+" type="animate"/>
+        </SELRESTRS>
+    </THEMROLE>
+    <THEMROLE type="Theme">
+        <SELRESTRS/>
+    </THEMROLE>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="مَاطَلَ الزَبُونُ دَفْعَ الدَّينِ." transliteration="maATala Alzabuwnu dafoEa Ald~ayni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="delay">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Unspecified Object"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="مَاطَلَ الزَبُونُ." transliteration="maATala Alzabuwnu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="delay">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="saw~afa-1-1">
+            <MEMBERS>
+                <MEMBER name="مَاطَلَ" transliteration="maATala" transname="ماطل">
+                    <Root name="مطل" transliteration="mTl"/>
+                    <Deverbal name="مُمَاطَلَة" transliteration="mumaATalap" transname="مماطلة"/>
+                    <Participle name="مُمَاطِل" transliteration="mumaATil" transname="مماطل"/>
+                </MEMBER>
+            </MEMBERS>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme" secondary="PPover-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="مَاطَلَ الزَّبُونُ فِي آَدَاءِ الدَّينِ." transliteration="maATala Alz~abuwnu fiy |adaA'i Ald~ayni."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SELRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="delay">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGLASSES/>
+</AVNCLASS>

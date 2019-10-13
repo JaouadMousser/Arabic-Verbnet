@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IiHotafaZa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِحْتَفَظَ" transliteration="IiHotafaZa" transname="إحتفظ">
+            <Root name="حفظ" transliteration="HfZ"/>
+            <Deverbal name="إِحْتِفَاظ" transliteration="IiHotifaAZ" transname="إحتفاظ"/>
+            <Participle name="مُحْتَفِظ" transliteration="muHotafiZ" transname="محتفظ"/>
+        </MEMBER>
+        <MEMBER name="إِزْدَهَرَ" transliteration="Iizodahara" transname="إزدهر">
+            <Root name="زهر" transliteration="zhr"/>
+            <Deverbal name="إِزْدِهَار" transliteration="IizodihaAr" transname="إزدهار"/>
+            <Participle name="مُزْدَهِر" transliteration="muzodahir" transname="مزدهر"/>
+        </MEMBER>
+        <!--lisaAn AlEarab, Hadith "Iizdahir bihi faOin~a lahu $aOn" -->
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme PP.location" secondary="PP-PPlocative-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِحْتَفَظَ المُفَتِّشُ بِكُلِّ المُستَنَدَات فِي خَزْنَتِهِ." transliteration="IiHotafaZa Almufat~i$u bikul~i AlmustanadaAt fiy xazonatihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme" secondary="PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِحْتَفَظَ المُفَتِّشُ بِكُلِّ المُستَنَدَاتِ." transliteration="IiHotafaZa Almufat~i$u bikul~i AlmustanadaAti."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Iilotaf~a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِلْتَفَّ" transliteration="Iilotaf~a" transname="إلتف">
+            <Root name="لفف" transliteration="lff"/>
+            <Deverbal name="إِلْتِفَاف" transliteration="IilotifaAf" transname="إلتفاف"/>
+            <Participle name="مُلْتَف" transliteration="mulotaf" transname="ملتف"/>
+        </MEMBER>
+        <MEMBER name="إِلْتَوَى" transliteration="IilotawaY" transname="إلتوى">
+            <Root name="لوي" transliteration="lwy"/>
+            <Deverbal name="إِلْتِوَاء" transliteration="IilotiwaA'" transname="إلتواء"/>
+            <Participle name="مُلْتَوِي" transliteration="mulotawiy" transname="ملتوي"/>
+        </MEMBER>
+        <MEMBER name="تَلَوَّى" transliteration="talaw~aY" transname="تلوى">
+            <Root name="لوي" transliteration="lwy"/>
+            <Deverbal name="تَلَوِّي" transliteration="talaw~iy" transname="تلوي"/>
+            <Participle name="مُتَلَوِّي" transliteration="mutalaw~iy" transname="متلوي"/>
+        </MEMBER>
+        <MEMBER name="تَدَوَّمَ" transliteration="tadaw~ama" transname="تدوم">
+            <Root name="دوم" transliteration="dwm"/>
+            <Deverbal name="تَدَوَّمَ" transliteration="tadaw~ama" transname="تدوم"/>
+            <Participle name="مُتَدَوِّم" transliteration="mutadaw~im" transname="متدوم"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَدَارَ" transliteration="IisotadaAra" transname="إستدار">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="إِسْتِدَارَة" transliteration="IisotidaArap" transname="إستدارة"/>
+            <Participle name="مُسْتَدِير" transliteration="musotadiyr" transname="مستدير"/>
+        </MEMBER>
+        <MEMBER name="تَدَوَّرَ" transliteration="tadaw~ara" transname="تدور">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="تَدَوُّر" transliteration="tadaw~ur" transname="تدور"/>
+            <Participle name="مُتَدَوِّر" transliteration="mutadaw~ir" transname="متدور"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMEROLES/>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.location" secondary="PPpath-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِلْتَفَّ حَبْلُ المَشْنَقَْ حَوْلَ عُنُقِ المُدَان." transliteration="Iilotaf~a Habolu Alma$onaqao Hawola Eunuqi AlmudaAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="rotational_motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="laf~a-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

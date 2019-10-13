@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="TalaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="خَضَبَ" transliteration="xaDaba" transname="خضب">
+            <Root name="خضب" transliteration="xDb"/>
+            <Deverbal name="خضب" transliteration="xDb" transname="خضب"/>
+            <Participle name="خَاضِب" transliteration="xaADib" transname="خاضب"/>
+        </MEMBER>
+        <MEMBER name="خَضَّبَ" transliteration="xaD~aba" transname="خضب">
+            <Root name="خضب" transliteration="xDb"/>
+            <Deverbal name="تَخْضِيب" transliteration="taxoDiyb" transname="تخضيب"/>
+            <Participle name="مُخَضِّب" transliteration="muxaD~ib" transname="مخضب"/>
+        </MEMBER>
+        <MEMBER name="دَمَّ" transliteration="dam~a" transname="دم">
+            <Root name="دمم" transliteration="dmm"/>
+            <Deverbal name="دَمّ" transliteration="dam~" transname="دم"/>
+            <Participle name="دَام" transliteration="daAm" transname="دام"/>
+        </MEMBER>
+        <MEMBER name="لَوَّنَ" transliteration="law~ana" transname="لون">
+            <Root name="لون" transliteration="lwn"/>
+            <Deverbal name="تَلْوِين" transliteration="talowiyn" transname="تلوين"/>
+            <Participle name="مُلَوِّن" transliteration="mulaw~in" transname="ملون"/>
+        </MEMBER>
+        <MEMBER name="صَبَغَ" transliteration="Sabaga" transname="صبغ">
+            <Root name="صبغ" transliteration="Sbg"/>
+            <Deverbal name="صَبْغ" transliteration="Sabog" transname="صبغ"/>
+            <Participle name="صَابِغ" transliteration="SaAbig" transname="صابغ"/>
+        </MEMBER>
+        <MEMBER name="بَرْقَشَ" transliteration="baroqa$a" transname="برقش">
+            <Root name="برقش" transliteration="brq$"/>
+            <Deverbal name="بَرْقَشَة" transliteration="baroqa$ap" transname="برقشة"/>
+            <Participle name="مُبَرْقِش" transliteration="mubaroqi$" transname="مبرقش"/>
+        </MEMBER>
+        <MEMBER name="دَرَنَ" transliteration="darana" transname="درن">
+            <Root name="درن" transliteration="drn"/>
+            <Deverbal name="دَرْن" transliteration="daron" transname="درن"/>
+            <Participle name="دَارِن" transliteration="daArin" transname="دارن"/>
+        </MEMBER>
+        <MEMBER name="بَقَّعَ" transliteration="baq~aEa" transname="بقع">
+            <Root name="بقع" transliteration="bqE"/>
+            <Deverbal name="تَبْقِيع" transliteration="taboqiyE" transname="تبقيع"/>
+            <Participle name="مُبَقِّع" transliteration="mubaq~iE" transname="مبقع"/>
+        </MEMBER>
+        <MEMBER name="لَطَّخَ" transliteration="laT~axa" transname="لطخ">
+            <Root name="لطخ" transliteration="lTx"/>
+            <Deverbal name="تَلْطِيخ" transliteration="taloTiyx" transname="تلطيخ"/>
+            <Participle name="مُلَطِّخ" transliteration="mulaT~ix" transname="ملطخ"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="int_control"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="لَوَّنَ الصَّبَّاغُ الجِدَار." transliteration="law~ana AlS~ab~aAgu AljidaAr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="apply_material">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="covered">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme" secondary="NP-PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="طَلَّى الصَّبَّاغُ الجِدَارَ بِالصِّبَاغَةِ الزَّيْتِيَة." transliteration="Tal~aY AlS~ab~aAgu AljidaAra biAlS~ibaAgapi Alz~ayotiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <ADJ/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="apply_material">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="covered">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="IinoTalaY-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

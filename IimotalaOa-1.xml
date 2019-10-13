@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IimotalaOa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="طَفَحَ" transliteration="TafaHa" transname="طفح">
+            <Root name="طفح" transliteration="TfH"/>
+            <Deverbal name="طَفَحَان" transliteration="TafaHaAn" transname="طفحان"/>
+            <Participle name="طَافِح" transliteration="TaAfiH" transname="طافح"/>
+        </MEMBER>
+        <MEMBER name="إِنْتَفَخَ" transliteration="Iinotafaxa" transname="إنتفخ">
+            <Root name="نفخ" transliteration="nfx"/>
+            <Deverbal name="إِنْتِفَاخ" transliteration="IinotifaAx" transname="إنتفاخ"/>
+            <Participle name="مُنْتَفِخ" transliteration="munotafix" transname="منتفخ"/>
+        </MEMBER>
+        <MEMBER name="إِكْتَنَزَ" transliteration="Iikotanaza" transname="إكتنز">
+            <Root name="كنز" transliteration="knz"/>
+            <Deverbal name="إِكْتِنَاز" transliteration="IikotinaAz" transname="إكتناز"/>
+            <Participle name="مُكْتَنِز" transliteration="mukotaniz" transname="مكتنز"/>
+        </MEMBER>
+        <MEMBER name="إِمْتَلَأَ" transliteration="IimotalaOa" transname="إمتلأ">
+            <Root name="ملأ" transliteration="mlO"/>
+            <Deverbal name="إِمْتَِلَاء" transliteration="IimotialaA'" transname="إمتلاء"/>
+            <Participle name="مُمْتَلِئ" transliteration="mumotali}" transname="ممتلئ"/>
+        </MEMBER>
+        <MEMBER name="عَمَرَ" transliteration="Eamara" transname="عمر">
+            <Root name="عمر" transliteration="Emr"/>
+            <Deverbal name="عِمَارَة" transliteration="EimaArap" transname="عمارة"/>
+            <Participle name="عَامِر" transliteration="EaAmir" transname="عامر"/>
+        </MEMBER>
+        <MEMBER name="إِزْدَحَمَ" transliteration="IizodaHama" transname="إزدحم">
+            <Root name="زحم" transliteration="zHm"/>
+            <Deverbal name="إِزْدِحَام" transliteration="IizodiHaAm" transname="إزدحام"/>
+            <Participle name="مُزْدَحِم" transliteration="muzodaHim" transname="مزدحم"/>
+        </MEMBER>
+        <MEMBER name="ضَاقَ" transliteration="DaAqa" transname="ضاق">
+            <Root name="ضيق" transliteration="Dyq"/>
+            <Deverbal name="ضِيق" transliteration="Diyq" transname="ضيق"/>
+            <Participle name="ضَائِق" transliteration="DaA}iq" transname="ضائق"/>
+        </MEMBER>
+        <MEMBER name="شَرِقَ" transliteration="$ariqa" transname="شرق">
+            <Root name="شرق" transliteration="$rq"/>
+            <Deverbal name="شَرَق" transliteration="$araq" transname="شرق"/>
+            <Participle name="شَارِق" transliteration="$aAriq" transname="شارق"/>
+        </MEMBER>
+        <MEMBER name="زَخَرَ" transliteration="zaxara" transname="زخر">
+            <Root name="زخر" transliteration="zxr"/>
+            <Deverbal name="زَخْز" transliteration="zaxoz" transname="زخز"/>
+            <Participle name="زَاخِر" transliteration="zaAxir" transname="زاخر"/>
+        </MEMBER>
+        <MEMBER name="زَخِرَ" transliteration="zaxira" transname="زخر">
+            <Root name="زخر" transliteration="zxr"/>
+            <Deverbal name="زَخْز" transliteration="zaxoz" transname="زخز"/>
+            <Participle name="زَاخِر" transliteration="zaAxir" transname="زاخر"/>
+        </MEMBER>
+        <MEMBER name="إِكْتَظَّ" transliteration="IikotaZ~a" transname="إكتظ">
+            <Root name="كظظ" transliteration="kZZ"/>
+            <Deverbal name="إِكْتِظَاظ" transliteration="IikotiZaAZ" transname="إكتظاظ"/>
+            <Participle name="مُكْتَظ" transliteration="mukotaZ" transname="مكتظ"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme" secondary="PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="دَاقَتِ الدَّارُ بِالزّزوَار." transliteration="daAqati Ald~aAru biAlz~zwaAr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="filled_with">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِمْتَلَأَتِ الدَّار." transliteration="IimotalaOati Ald~aAr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="filled_with">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

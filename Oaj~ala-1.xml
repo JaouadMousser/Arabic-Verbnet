@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Oaj~ala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَجَّلَ" transliteration="Oaj~ala" transname="أجل">
+            <Root name="أجل" transliteration="Ojl"/>
+            <Deverbal name="تَأْجِيل" transliteration="taOojiyl" transname="تأجيل"/>
+            <Participle name="مُؤَجِّل" transliteration="muWaj~il" transname="مؤجل"/>
+        </MEMBER>
+        <MEMBER name="أَرْجَأَ" transliteration="OarojaOa" transname="أرجأ">
+            <Root name="رجأ" transliteration="rjO"/>
+            <Deverbal name="إِرْجَاء" transliteration="IirojaA'" transname="إرجاء"/>
+            <Participle name="مُرْجِئ" transliteration="muroji}" transname="مرجئ"/>
+        </MEMBER>
+        <MEMBER name="أَخَّرَ" transliteration="Oax~ara" transname="أخر">
+            <Root name="أخر" transliteration="Oxr"/>
+            <Deverbal name="تَأْخِير" transliteration="taOoxiyr" transname="تأخير"/>
+            <Participle name="مُؤَيِّر" transliteration="muWay~ir" transname="مؤير"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Time">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَّلَ المُدِيرُ الإِجْتِمَاعَ." transliteration="Oaj~ala Almudiyru AlIijotimaAEa."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARG type="ThemRole" value="Agent"/>
+                    <ARG type="Event" value="E"/>
+                </PRED>
+                <PRED value="postponed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Time"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP  NP PP.Time" secondary="NP-PP-IilaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجَّلَ المُدِيرُ الإِجْتِمَاعَ إِلَى الأُسبُوعِ القَادِمِ." transliteration="Oaj~ala Almudiyru AlIijotimaAEa IilaY AlOusbuwEi AlqaAdimi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Time">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARG type="ThemRole" value="Agent"/>
+                    <ARG type="Event" value="E"/>
+                </PRED>
+                <PRED value="postponed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Time"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taOaj~ala-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

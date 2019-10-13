@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="faAqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَعَدَّى" transliteration="taEad~aY" transname="تعدى">
+            <Root name="عدي" transliteration="Edy"/>
+            <Deverbal name="تَعَدِّي" transliteration="taEad~iy" transname="تعدي"/>
+            <Participle name="مُتَعَدِّي" transliteration="mutaEad~iy" transname="متعدي"/>
+        </MEMBER>
+        <MEMBER name="فَاقَ" transliteration="faAqa" transname="فاق">
+            <Root name="فوق" transliteration="fwq"/>
+            <Deverbal name="فَوْق" transliteration="fawoq" transname="فوق"/>
+            <Participle name="قَائِق" transliteration="qaA}iq" transname="قائق"/>
+        </MEMBER>
+        <MEMBER name="عَلَى" transliteration="EalaY" transname="على">
+            <Root name="علو" transliteration="Elw"/>
+            <Deverbal name="عُلُو" transliteration="Euluw" transname="علو"/>
+            <Participle name="عَالِي" transliteration="EaAliy" transname="عالي"/>
+        </MEMBER>
+        <MEMBER name="تَجَاوَزَ" transliteration="tajaAwaza" transname="تجاوز">
+            <Root name="جوز" transliteration="jwz"/>
+            <Deverbal name="تَجَاوُز" transliteration="tajaAwuz" transname="تجاوز"/>
+            <Participle name="مُتَجَاوِز" transliteration="mutajaAwiz" transname="متجاوز"/>
+        </MEMBER>
+        <MEMBER name="جَاوَزَ" transliteration="jaAwaza" transname="جاوز">
+            <Root name="جوز" transliteration="jwz"/>
+            <Deverbal name="مُجَاوَزَ" transliteration="mujaAwaza" transname="مجاوز"/>
+            <Participle name="مُجَاوِز" transliteration="mujaAwiz" transname="مجاوز"/>
+        </MEMBER>
+        <MEMBER name="تَخَطَّى" transliteration="taxaT~aY" transname="تخطى">
+            <Root name="خطو" transliteration="xTw"/>
+            <Deverbal name="تَخَطِّي" transliteration="taxaT~iy" transname="تخطي"/>
+            <Participle name="مُتَخَطِّي" transliteration="mutaxaT~iy" transname="متخطي"/>
+        </MEMBER>
+        <MEMBER name="تَعَدَّى" transliteration="taEad~aY" transname="تعدى">
+            <Root name="عدو" transliteration="Edw"/>
+            <Deverbal name="تَعَدِّي" transliteration="taEad~iy" transname="تعدي"/>
+            <Participle name="مُتَعَدِي" transliteration="mutaEadiy" transname="متعدي"/>
+        </MEMBER>
+        <MEMBER name="سَبَقَ" transliteration="sabaqa" transname="سبق">
+            <Root name="سبق" transliteration="sbq"/>
+            <Deverbal name="سَبْق" transliteration="saboq" transname="سبق"/>
+            <Participle name="سَابِق" transliteration="saAbiq" transname="سابق"/>
+        </MEMBER>
+        <MEMBER name="غَلَبَ" transliteration="galaba" transname="غلب">
+            <Root name="غلب" transliteration="glb"/>
+            <Deverbal name="غُلْب" transliteration="gulob" transname="غلب"/>
+            <Participle name="غَالِب" transliteration="gaAlib" transname="غالب"/>
+        </MEMBER>
+        <MEMBER name="إِخْتَطَى" transliteration="IixotaTaY" transname="إختطى">
+            <Root name="خطو" transliteration="xTw"/>
+            <Deverbal name="إِخْتِطَاء" transliteration="IixotiTaA'" transname="إختطاء"/>
+            <Participle name="مُخْتَطِي" transliteration="muxotaTiy" transname="مختطي"/>
+        </MEMBER>
+        <MEMBER name="إِخْتَاطَ" transliteration="IixotaATa" transname="إختاط">
+            <Root name="خطخ" transliteration="xTx"/>
+            <Deverbal name="إِخْتِيَاط" transliteration="IixotiyaAT" transname="إختياط"/>
+            <Participle name="مُخْتَاط" transliteration="muxotaAT" transname="مختاط"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Attribute">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَاقَت أَثْمِنَةُ البِتْرُولِ كُلَّ التَّوَقُّعَاة." transliteration="faAqat Oavominapu Albitoruwli kul~a Alt~awaq~uEaAp."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exceed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.attribute" secondary="NP-PPfiy-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَفُوقُ بُترُولُ لِيبِيَا بِترُولَ السَّعُودِيَةِ فِي الجَوْدَة." transliteration="yafuwqu butruwlu liybiyaA bitruwla Als~aEuwdiyapi fiy Aljawodap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Attribute">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exceed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP NP.attribute" secondary="NP-NPAttribute"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَفُوقُ بُترُولُ لِيبِيَا بِترُولَ السَّعُودِيَةِ جَوْدَةً." transliteration="yafuwqu butruwlu liybiyaA bitruwla Als~aEuwdiyapi jawodapF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Attribute">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="tanowiyn_AF"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exceed">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

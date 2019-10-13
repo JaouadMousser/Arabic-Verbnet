@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="tamar~ana-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَمَرَّنَ" transliteration="tamar~ana" transname="تمرن">
+            <Root name="مرن" transliteration="mrn"/>
+            <Deverbal name="تَمَرُّن" transliteration="tamar~un" transname="تمرن"/>
+            <Participle name="مُتَمَرِّن" transliteration="mutamar~in" transname="متمرن"/>
+        </MEMBER>
+        <MEMBER name="تَدَرَّبَ" transliteration="tadar~aba" transname="تدرب">
+            <Root name="درب" transliteration="drb"/>
+            <Deverbal name="تَدَرُّب" transliteration="tadar~ub" transname="تدرب"/>
+            <Participle name="مُتَدَرِّب" transliteration="mutadar~ib" transname="متدرب"/>
+        </MEMBER>
+        <MEMBER name="إِرْتَاضَ" transliteration="IirotaADa" transname="إرتاض">
+            <Root name="روض" transliteration="rwD"/>
+            <Deverbal name="إِرْتِيَاض" transliteration="IirotiyaAD" transname="إرتياض"/>
+            <Participle name="مُرْتَاض" transliteration="murotaAD" transname="مرتاض"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَمَرَّنَ المُوسِيقِيُونَ." transliteration="tamar~ana Almuwsiyqiyuwna."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perform">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.Theme" secondary="PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَمَرَّنَ المُوسِيقِيُونَ عَلَى القِطْعةِ الجَدِيدَة." transliteration="tamar~ana Almuwsiyqiyuwna EalaY AlqiToEpi Aljadiydap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perform">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP DEVERBAL" secondary="DEVERBAL-SC"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَمَرَّنَ اللَّاعِبُونَ عَلَى تَمرِيرِ كُرَاةِ دَقِيقَة." transliteration="tamar~ana All~aAEibuwna EalaY tamriyri kuraApi daqiyqap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perform">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.recipient" secondary="PPli-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَدَرَّبَ اللَّاعِبُونَ لِلمُبَارَاة." transliteration="tadar~aba All~aAEibuwna lilmubaAraAp."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perform">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SUBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IinowaDaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْوَضَعَ" transliteration="IinowaDaEa" transname="إنوضع">
+            <Root name="وضع" transliteration="wDE"/>
+            <Deverbal name="إِنْوَضْع" transliteration="IinowaDoE" transname="إنوضع"/>
+            <Participle name="مُْوَضِع" transliteration="muowaDiE" transname="موضع"/>
+        </MEMBER>
+        <MEMBER name="تَمَوْضَعَ" transliteration="tamawoDaEa" transname="تموضع">
+            <Root name="وضع" transliteration="wDE"/>
+            <Deverbal name="تَمَوْضُع" transliteration="tamawoDuE" transname="تموضع"/>
+            <Participle name="مُتَمْوْضِع" transliteration="mutamowoDiE" transname="متموضع"/>
+        </MEMBER>
+        <MEMBER name="تَمَوْقَعَ" transliteration="tamawoqaEa" transname="تموقع">
+            <Root name="وقع" transliteration="wqE"/>
+            <Deverbal name="تَمَوْقُع" transliteration="tamawoquE" transname="تموقع"/>
+            <Participle name="مُتَمَوْقِع" transliteration="mutamawoqiE" transname="متموقع"/>
+        </MEMBER>
+        <MEMBER name="حَطَّ" transliteration="HaT~a" transname="حط">
+            <Root name="حطط" transliteration="HTT"/>
+            <Deverbal name="حَطّ" transliteration="HaT~" transname="حط"/>
+            <Participle name="حَطّ" transliteration="HaT~" transname="حط"/>
+        </MEMBER>
+        <MEMBER name="إِنْدَمَسَ" transliteration="Iinodamasa" transname="إندمس">
+            <Root name="دمس" transliteration="dms"/>
+            <Deverbal name="إِنْدِمَاس" transliteration="IinodimaAs" transname="إندماس"/>
+            <Participle name="مُنْدَمِس" transliteration="munodamis" transname="مندمس"/>
+        </MEMBER>
+        <MEMBER name="إِنْدَفَنَ" transliteration="Iinodafana" transname="إندفن">
+            <Root name="دفن" transliteration="dfn"/>
+            <Deverbal name="إِنْدِفَان" transliteration="IinodifaAn" transname="إندفان"/>
+            <Participle name="مُنْدَفِن" transliteration="munodafin" transname="مندفن"/>
+        </MEMBER>
+        <MEMBER name="إِنْطَمَرَ" transliteration="IinoTamara" transname="إنطمر">
+            <Root name="طمر" transliteration="Tmr"/>
+            <Deverbal name="إِنْطِمَار" transliteration="IinoTimaAr" transname="إنطمار"/>
+            <Participle name="مُنْطَمِر" transliteration="munoTamir" transname="منطمر"/>
+        </MEMBER>
+        <!--MEMBER name="" transliteration="doxala" wn="">
+                <Root name="" transliteration="dxl"/>
+                <Deverbal name="" transliteration="daxuwl" wn=""/>
+                <Active_participle name="" transliteration="duxuwl" wn=""/>
+            </MEMBER-->
+        <!--MEMBER name="" transliteration="Iinodaraja" wn="">
+                <Root name="" transliteration="djr"/>
+                <Deverbal name="" transliteration="IinodiraAj" wn=""/>
+                <Active_participle name="" transliteration="munodarij" wn=""/>
+            </MEMBER-->
+        <MEMBER name="إِرْتَكَنَ" transliteration="Iirotakana" transname="إرتكن">
+            <Root name="ركن" transliteration="rkn"/>
+            <Deverbal name="إِرْتِكَان" transliteration="IirotikaAn" transname="إرتكان"/>
+            <Participle name="مُرْتَكِن" transliteration="murotakin" transname="مرتكن"/>
+        </MEMBER>
+        <MEMBER name="إِنْغَرَسَ" transliteration="Iinogarasa" transname="إنغرس">
+            <Root name="غرس" transliteration="grs"/>
+            <Deverbal name="إِنْغِرَاس" transliteration="IinogiraAs" transname="إنغراس"/>
+            <Participle name="مُنْغَرِس" transliteration="munogaris" transname="منغرس"/>
+        </MEMBER>
+        <MEMBER name="إِنْزَرَعَ" transliteration="IinozaraEa" transname="إنزرع">
+            <Root name="زرع" transliteration="zrE"/>
+            <Deverbal name="إِنْزِرَاع" transliteration="IinoziraAE" transname="إنزراع"/>
+            <Participle name="مُنْزَرِع" transliteration="munozariE" transname="منزرع"/>
+        </MEMBER>
+        <MEMBER name="تَرَكَّزَ" transliteration="tarak~aza" transname="تركز">
+            <Root name="ركز" transliteration="rkz"/>
+            <Deverbal name="تَرَكُّز" transliteration="tarak~uz" transname="تركز"/>
+            <Participle name="مُتَرَكِّز" transliteration="mutarak~iz" transname="متركز"/>
+        </MEMBER>
+        <MEMBER name="إِرْتَكَزَ" transliteration="Iirotakaza" transname="إرتكز">
+            <Root name="ركز" transliteration="rkz"/>
+            <Deverbal name="إِرْتِكَاز" transliteration="IirotikaAz" transname="إرتكاز"/>
+            <Participle name="مُرْتَكِز" transliteration="murotakiz" transname="مرتكز"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.destination" secondary="PPlocative-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْوَضَعَت العَجَلَةُ فَوْقَ/تَحْتَ/جَنْبَ/عَلَى الرُفِّ." transliteration="IinowaDaEat AlEajalapu fawoqa/taHota/janoba/EalaY Alruf~i."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP ADVP" secondary="NP-ADVP-PREDhunaA/hunaAk/jaAninbaAF"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْوَضَعَت العَجَلَة هُنَا." transliteration="IinowaDaEat AlEajalap hunaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Destination">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adv_loc"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Intransitivewithout Destination"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْوَضَعَت العَجَلَةُ." transliteration="IinowaDaEat AlEajalapu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="waDaEa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

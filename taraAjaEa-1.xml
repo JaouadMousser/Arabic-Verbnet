@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taraAjaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَرَاجَعَ" transliteration="taraAjaEa" transname="تراجع">
+            <Root name="رجع" transliteration="rjE"/>
+            <Deverbal name="تَرَاجُع" transliteration="taraAjuE" transname="تراجع"/>
+            <Participle name="مُتَرَاجِع" transliteration="mutaraAjiE" transname="متراجع"/>
+        </MEMBER>
+        <MEMBER name="نَكَصَ" transliteration="nakaSa" transname="نكص">
+            <Root name="نكص" transliteration="nkS"/>
+            <Deverbal name="نَكْص" transliteration="nakoS" transname="نكص"/>
+            <Participle name="نَاكِص" transliteration="naAkiS" transname="ناكص"/>
+        </MEMBER>
+        <MEMBER name="جَبُنَ" transliteration="jabuna" transname="جبن">
+            <Root name="جبن" transliteration="jbn"/>
+            <Deverbal name="جُبْن" transliteration="jubon" transname="جبن"/>
+            <Participle name="جَابِن" transliteration="jaAbin" transname="جابن"/>
+        </MEMBER>
+        <MEMBER name="نَكَلَ" transliteration="nakala" transname="نكل">
+            <Root name="نكل" transliteration="nkl"/>
+            <Deverbal name="نُكُول" transliteration="nukuwl" transname="نكول"/>
+            <Participle name="نَاكِل" transliteration="naAkil" transname="ناكل"/>
+        </MEMBER>
+        <MEMBER name="أَحْجَمَ" transliteration="OaHojama" transname="أحجم">
+            <Root name="حجم" transliteration="Hjm"/>
+            <Deverbal name="إِحْجَام" transliteration="IiHojaAm" transname="إحجام"/>
+            <Participle name="مُحْجِم" transliteration="muHojim" transname="محجم"/>
+        </MEMBER>
+        <MEMBER name="إِرْتَدَّ" transliteration="Iirotad~a" transname="إرتد">
+            <Root name="ردد" transliteration="rdd"/>
+            <Deverbal name="إِرْتِدَاد" transliteration="IirotidaAd" transname="إرتداد"/>
+            <Participle name="مُرْتَد" transliteration="murotad" transname="مرتد"/>
+        </MEMBER>
+        <MEMBER name="تَحَوَّلَ" transliteration="taHaw~ala" transname="تحول">
+            <Root name="حول" transliteration="Hwl"/>
+            <Deverbal name="تَحَوُّل" transliteration="taHaw~ul" transname="تحول"/>
+            <Participle name="مُتَحَوِّل" transliteration="mutaHaw~il" transname="متحول"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَاجَعَ المُفَاوِضُ." transliteration="taraAjaEa AlmufaAwiDu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="renege">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP NP PP.source" secondary="PPEano-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَاجَعَ المُفَاوِضُ عَنْ مُقْتَرَحِم الأَوَّلِ." transliteration="taraAjaEa AlmufaAwiDu Eano muqotaraHim AlOaw~ali."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="renege">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.source DEVERBAL" secondary="P-DEVERBAL-SCEano-P"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَاجَعَ المُفَاوِضُ عَنْ تَوْقِيع الإِتِّفَاقِ." transliteration="taraAjaEa AlmufaAwiDu Eano tawoqiyE AlIit~ifaAqi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="renege">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

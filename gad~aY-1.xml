@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="gad~aY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="فَطَّرَ" transliteration="faT~ara" transname="فطر">
+            <Root name="فطر" transliteration="fTr"/>
+            <Deverbal name="تَفْطِير" transliteration="tafoTiyr" transname="تفطير"/>
+            <Participle name="مُفَطِّر" transliteration="mufaT~ir" transname="مفطر"/>
+        </MEMBER>
+        <MEMBER name="غَدَّى" transliteration="gad~aY" transname="غدى">
+            <Root name="غدى" transliteration="gdY"/>
+            <Deverbal name="تَغْدْيَت" transliteration="tagodoyat" transname="تغديت"/>
+            <Participle name="مُغَدِّي" transliteration="mugad~iy" transname="مغدي"/>
+        </MEMBER>
+        <MEMBER name="ضَحَّى" transliteration="DaH~aY" transname="ضحى">
+            <Root name="ضحي" transliteration="DHy"/>
+            <Deverbal name="تَضْحِيَة" transliteration="taDoHiyap" transname="تضحية"/>
+            <Participle name="مُضَحِّي" transliteration="muDaH~iy" transname="مضحي"/>
+        </MEMBER>
+        <MEMBER name="عَشَّى" transliteration="Ea$~aY" transname="عشى">
+            <Root name="عشى" transliteration="E$Y"/>
+            <Deverbal name="تَعْشِيَة" transliteration="taEo$iyap" transname="تعشية"/>
+            <Participle name="مُعَشِّي" transliteration="muEa$~iy" transname="معشي"/>
+        </MEMBER>
+        <MEMBER name="سَحَّرَ" transliteration="saH~ara" transname="سحر">
+            <Root name="سحر" transliteration="sHr"/>
+            <Deverbal name="تَسْحِير" transliteration="tasoHiyr" transname="تسحير"/>
+            <Participle name="مُسَحِّر" transliteration="musaH~ir" transname="مسحر"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="comestible"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="غَدَّى عَلِي ضُيُوفَهُ." transliteration="gad~aY Ealiy Duyuwfahu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.patient" secondary="NP PPPatient-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="غَدََّى عَلِي الضُّيُوفَ بِلَحْمِ الخَرُوفِ." transliteration="gada~aY Ealiy AlD~uyuwfa bilaHomi Alxaruwfi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="tagad~aY-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

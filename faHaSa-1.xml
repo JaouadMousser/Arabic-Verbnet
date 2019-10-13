@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="faHaSa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَلَّلَ" transliteration="Hal~ala" transname="حلل">
+            <Root name="حلل" transliteration="Hll"/>
+            <Deverbal name="تَحْلِيل" transliteration="taHoliyl" transname="تحليل"/>
+            <Participle name="مُحَلِّل" transliteration="muHal~il" transname="محلل"/>
+        </MEMBER>
+        <MEMBER name="فَحَصَ" transliteration="faHaSa" transname="فحص">
+            <Root name="فحص" transliteration="fHS"/>
+            <Deverbal name="فَحْصَ" transliteration="faHoSa" transname="فحص"/>
+            <Participle name="فَاحِص" transliteration="faAHiS" transname="فاحص"/>
+        </MEMBER>
+        <MEMBER name="مَحَّصَ" transliteration="maH~aSa" transname="محص">
+            <Root name="محص" transliteration="mHS"/>
+            <Deverbal name="تَمْحِيص" transliteration="tamoHiyS" transname="تمحيص"/>
+            <Participle name="مُمَحِّص" transliteration="mumaH~iS" transname="ممحص"/>
+        </MEMBER>
+        <MEMBER name="قَيَّمَ" transliteration="qay~ama" transname="قيم">
+            <Root name="قيم" transliteration="qym"/>
+            <Deverbal name="تَقْيِيم" transliteration="taqoyiym" transname="تقييم"/>
+            <Participle name="مُقَيِّم" transliteration="muqay~im" transname="مقيم"/>
+        </MEMBER>
+        <MEMBER name="رَاجَعَ" transliteration="raAjaEa" transname="راجع">
+            <Root name="رجع" transliteration="rjE"/>
+            <Deverbal name="مُرَاَجَعَة" transliteration="muraAajaEap" transname="مراجعة"/>
+            <Participle name="مُرَاجِع" transliteration="muraAjiE" transname="مراجع"/>
+        </MEMBER>
+        <MEMBER name="نَقَّحَ" transliteration="naq~aHa" transname="نقح">
+            <Root name="نقح" transliteration="nqH"/>
+            <Deverbal name="تَنْقِيح" transliteration="tanoqiyH" transname="تنقيح"/>
+            <Participle name="مُنَقِّح" transliteration="munaq~iH" transname="منقح"/>
+        </MEMBER>
+        <MEMBER name="دَرَسَ" transliteration="darasa" transname="درس">
+            <Root name="درس" transliteration="drs"/>
+            <Deverbal name="دِرَاسَة" transliteration="diraAsap" transname="دراسة"/>
+            <Participle name="دَارِس" transliteration="daAris" transname="دارس"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Attribute">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَحَصَ الطَبِيبُ المرِيضَ." transliteration="faHaSa AlTabiybu AlmriyDa."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="assess">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.attribute" secondary="NPAttribute Object"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَحَصَ الطَبِيبُ صَدْرَ المرِيضِ." transliteration="faHaSa AlTabiybu Sadora AlmriyDi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="genitive"/>
+                    </SYNRESTRS>
+                </NP>
+                <NP value="Attribute">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="assess">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

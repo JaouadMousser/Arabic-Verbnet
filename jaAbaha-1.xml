@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="jaAbaha-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="وَاجَهَ" transliteration="waAjaha" transname="واجه">
+            <Root name="وجه" transliteration="wjh"/>
+            <Deverbal name="مُوَاجَهَة" transliteration="muwaAjahap" transname="مواجهة"/>
+            <Participle name="مُوَاجِه" transliteration="muwaAjih" transname="مواجه"/>
+        </MEMBER>
+        <MEMBER name="جَابَهَ" transliteration="jaAbaha" transname="جابه">
+            <Root name="جبه" transliteration="jbh"/>
+            <Deverbal name="مُجَابَهَة" transliteration="mujaAbahap" transname="مجابهة"/>
+            <Participle name="مُجَابِه" transliteration="mujaAbih" transname="مجابه"/>
+        </MEMBER>
+        <MEMBER name="عَالَجَ" transliteration="EaAlaja" transname="عالج">
+            <Root name="علج" transliteration="Elj"/>
+            <Deverbal name="مُعَالَجَت" transliteration="muEaAlajat" transname="معالجت"/>
+            <Participle name="مُعَالِج" transliteration="muEaAlij" transname="معالج"/>
+        </MEMBER>
+        <MEMBER name="قَاوَمَ" transliteration="qaAwama" transname="قاوم">
+            <Root name="قوم" transliteration="qwm"/>
+            <Deverbal name="مُقَاوَمَة" transliteration="muqaAwamap" transname="مقاومة"/>
+            <Participle name="مُقَاوِم" transliteration="muqaAwim" transname="مقاوم"/>
+        </MEMBER>
+        <MEMBER name="حَارَبَ" transliteration="HaAraba" transname="حارب">
+            <Root name="حرب" transliteration="Hrb"/>
+            <Deverbal name="مُحَارَبَة" transliteration="muHaArabap" transname="محاربة"/>
+            <Participle name="مُحَارِب" transliteration="muHaArib" transname="محارب"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="وَاجَهَ المُدَرِّبُ المَصَاعِبَ." transliteration="waAjaha Almudar~ibu AlmaSaAEiba."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="confront">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.instrument" secondary="NP-PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="وَاجَهَتِ الحُكُومَة البِطَالَة بِمَنَاصِبَ جَدِيدَة." transliteration="waAjahati AlHukuwmap AlbiTaAlap bimanaASiba jadiydap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="confront">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="nataja-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="نَتَجَ" transliteration="nataja" transname="نتج">
+            <Root name="نتج" transliteration="ntj"/>
+            <Deverbal name="نَتَاج" transliteration="nataAj" transname="نتاج"/>
+            <Participle name="نَاتِج" transliteration="naAtij" transname="ناتج"/>
+        </MEMBER>
+        <MEMBER name="نَجَمَ" transliteration="najama" transname="نجم">
+            <Root name="نجم" transliteration="njm"/>
+            <Deverbal name="نَجْم" transliteration="najom" transname="نجم"/>
+            <Participle name="نَاجِم" transliteration="naAjim" transname="ناجم"/>
+        </MEMBER>
+        <MEMBER name="صَدَرَ" transliteration="Sadara" transname="صدر">
+            <Root name="صدر" transliteration="Sdr"/>
+            <Deverbal name="صُدُور" transliteration="Suduwr" transname="صدور"/>
+            <Participle name="صَادِر" transliteration="SaAdir" transname="صادر"/>
+        </MEMBER>
+        <MEMBER name="نَشَأَ" transliteration="na$aOa" transname="نشأ">
+            <Root name="نشأ" transliteration="n$O"/>
+            <Deverbal name="نُوُوء" transliteration="nuwuw'" transname="نووء"/>
+            <Participle name="نَاشِئ" transliteration="naA$i}" transname="ناشئ"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="abstract"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="abstract"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V  NP.theme PP.Source" secondary="NP-PPEano-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَتَجَت  مآسِي كَثِيرَة عَنْ الحَرْب الأَهْلِيَة." transliteration="natajat  m|siy kaviyrap Eano AlHarob AlOaholiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="nonagentive_cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V  PP.Source NP.theme" secondary="PPEano-PP-NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَتَجَت  عَنْ الحَرْب الأَهْلِيَة مآسِي كَثِيرَة." transliteration="natajat  Eano AlHarob AlOaholiyap m|siy kaviyrap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="nonagentive_cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

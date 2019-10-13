@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="malaka-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="مَلَكَ" transliteration="malaka" transname="ملك">
+            <Root name="ملك" transliteration="mlk"/>
+            <Deverbal name="مِلْك" transliteration="milok" transname="ملك"/>
+            <Participle name="مَالِك" transliteration="maAlik" transname="مالك"/>
+        </MEMBER>
+        <MEMBER name="إِمْتَلَكَ" transliteration="Iimotalaka" transname="إمتلك">
+            <Root name="ملك" transliteration="mlk"/>
+            <Deverbal name="إِمْتِلَاك" transliteration="IimotilaAk" transname="إمتلاك"/>
+            <Participle name="مُمْتَلِك" transliteration="mumotalik" transname="ممتلك"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَمْلِكُ الفَلاحُ حَظِيرَة حَيَوَانَاة." transliteration="yamoliku AlfalAHu HaZiyrap HayawaAnaAp."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

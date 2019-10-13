@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="$abaha-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="شَبَهَ" transliteration="$abaha" transname="شبه">
+            <Root name="شبه" transliteration="$bh"/>
+            <Deverbal name="شَبَه" transliteration="$abah" transname="شبه"/>
+            <Participle name="شَابِه" transliteration="$aAbih" transname="شابه"/>
+        </MEMBER>
+        <MEMBER name="شَبِهَ" transliteration="$abiha" transname="شبه">
+            <Root name="شبه" transliteration="$bh"/>
+            <Deverbal name="شَبَه" transliteration="$abah" transname="شبه"/>
+            <Participle name="شَابِه" transliteration="$aAbih" transname="شابه"/>
+        </MEMBER>
+        <MEMBER name="أَشَبَهَ" transliteration="Oa$abaha" transname="أشبه">
+            <Root name="شبه" transliteration="$bh"/>
+            <Deverbal name="إِشْبَاه" transliteration="Ii$obaAh" transname="إشباه"/>
+            <Participle name="مُشْبِه" transliteration="mu$obih" transname="مشبه"/>
+        </MEMBER>
+        <MEMBER name="شَابَهَ" transliteration="$aAbaha" transname="شابه">
+            <Root name="شبه" transliteration="$bh"/>
+            <Deverbal name="مُشَابَهَة" transliteration="mu$aAbahap" transname="مشابهة"/>
+            <Participle name="مُشَبِه" transliteration="mu$abih" transname="مشبه"/>
+        </MEMBER>
+        <MEMBER name="مَاثَلَ" transliteration="maAvala" transname="ماثل">
+            <Root name="مثل" transliteration="mvl"/>
+            <Deverbal name="مُمَاثَلَة" transliteration="mumaAvalap" transname="مماثلة"/>
+            <Participle name="مُمَاثِل" transliteration="mumaAvil" transname="مماثل"/>
+        </MEMBER>
+        <MEMBER name="شَاكَلَ" transliteration="$aAkala" transname="شاكل">
+            <Root name="شكل" transliteration="$kl"/>
+            <Deverbal name="مُشَاكَلَة" transliteration="mu$aAkalap" transname="مشاكلة"/>
+            <Participle name="مُشَاكِل" transliteration="mu$aAkil" transname="مشاكل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Attribute">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَبَهَ الوَلَدُ أَبَاهُ." transliteration="$abaha Alwaladu OabaAhu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="resemble">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.attribute" secondary="NP-PPfiy-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَبَهَ الوَلَدُ أَبَاهُ فِي كُلِّ صِفَاتِهِ." transliteration="$abaha Alwaladu OabaAhu fiy kul~i SifaAtihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Attribute">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="resemle">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="ta$aAbaha-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

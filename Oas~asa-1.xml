@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Oas~asa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="بَنَى" transliteration="banaY" transname="بنى">
+            <Root name="بنى" transliteration="bnY"/>
+            <Deverbal name="بِنَاء" transliteration="binaA'" transname="بناء"/>
+            <Participle name="بَانِي" transliteration="baAniy" transname="باني"/>
+        </MEMBER>
+        <MEMBER name="أْسَّسَ" transliteration="Oos~asa" transname="أسس">
+            <Root name="ساس" transliteration="sAs"/>
+            <Deverbal name="تَأْسِيس" transliteration="taOosiys" transname="تأسيس"/>
+            <Participle name="مُؤَسِّس" transliteration="muWas~is" transname="مؤسس"/>
+        </MEMBER>
+        <MEMBER name="أَقَامَ" transliteration="OaqaAma" transname="أقام">
+            <Root name="قام" transliteration="qAm"/>
+            <Deverbal name="إِقَامَة" transliteration="IiqaAmap" transname="إقامة"/>
+            <Participle name="مُقِيم" transliteration="muqiym" transname="مقيم"/>
+        </MEMBER>
+        <MEMBER name="ثَبَّتَ" transliteration="vab~ata" transname="ثبت">
+            <Root name="ثبت" transliteration="vbt"/>
+            <Deverbal name="تَثْبِيت" transliteration="tavobiyt" transname="تثبيت"/>
+            <Participle name="مُثَبِّت" transliteration="muvab~it" transname="مثبت"/>
+        </MEMBER>
+        <MEMBER name="كَوَّنَ" transliteration="kaw~ana" transname="كون">
+            <Root name="كون" transliteration="kwn"/>
+            <Deverbal name="تَكْوِين" transliteration="takowiyn" transname="تكوين"/>
+            <Participle name="مُكَوِّن" transliteration="mukaw~in" transname="مكون"/>
+        </MEMBER>
+        <MEMBER name="شَكََّلَ" transliteration="$aka~ala" transname="شكل">
+            <Root name="شكل" transliteration="$kl"/>
+            <Deverbal name="تَشْكِيل" transliteration="ta$okiyl" transname="تشكيل"/>
+            <Participle name="مُشَكِّل" transliteration="mu$ak~il" transname="مشكل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme2" secondary="NP-PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="بَنَى القَاضِي حُكْمَهُ عَلَى شَهَادَة الطِّفْل." transliteration="banaY AlqaADiy Hukomahu EalaY $ahaAdap AlT~ifol."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="base">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme2 maA_IidaA S" secondary="NP-P-WH-SEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="بَنَيْنَا حُكْمَنَا عَلَى مَا إِدَا كَانَ سَيَأتِي الشَاهِد." transliteration="banayonaA HukomanaA EalaY maA IidaA kaAna sayaOtiy Al$aAhid."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme2">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="wh_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="base">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme2 S_DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="بَنَيْنَا حُكْمَنَا عَلَى رُؤْيَتِهِ لِلْأَحْدَاث." transliteration="banayonaA HukomanaA EalaY ruWoyatihi liloOaHodaAv."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme2">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="base">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLINB ID="IinobanaY-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

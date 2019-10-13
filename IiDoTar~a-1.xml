@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IiDoTar~a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِضْطَرَّ" transliteration="IiDoTar~a" transname="إضطر">
+            <Root name="ضرر" transliteration="Drr"/>
+            <Deverbal name="إِضْطِرَار" transliteration="IiDoTiraAr" transname="إضطرار"/>
+            <Participle name="مُضْطَر" transliteration="muDoTar" transname="مضطر"/>
+        </MEMBER>
+        <MEMBER name="جَرَّ" transliteration="jar~a" transname="جر">
+            <Root name="جرر" transliteration="jrr"/>
+            <Deverbal name="جَرّ" transliteration="jar~" transname="جر"/>
+            <Participle name="جَار" transliteration="jaAr" transname="جار"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP DEVERBAL" secondary="NP-P-DEVERBAL-OCEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِضْطَرَّ الجَفَافُ النَّاسَ إِلَى الرَّحِيل." transliteration="IiDoTar~a AljafaAfu Aln~aAsa IilaY Alr~aHiyl."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="oc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="IiDoTar~a-1.1">
+            <MEMBERS>
+                <MEMBER name="دَفَعَ" transliteration="dafaEa" transname="دفع">
+                    <Root name="دفع" transliteration="dfE"/>
+                    <Deverbal name="دَفْع" transliteration="dafoE" transname="دفع"/>
+                    <Participle name="دَافِع" transliteration="daAfiE" transname="دافع"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMEROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP DEVERBAL" secondary="BiPP-P-DEVERBAL-OCEalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="دَفَعَت الضُّورُفُ بِالسُّكَّانِ إِلَى النُّزُوح." transliteration="dafaEat AlD~uwrufu biAls~uk~aAni IilaY Aln~uzuwH."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Proposition">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="oc_deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="force">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+</AVNCLASS>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="sajada-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="سَجَدَ" transliteration="sajada" transname="سجد">
+            <Root name="سجد" transliteration="sjd"/>
+            <Deverbal name="سُجُود" transliteration="sujuwd" transname="سجود"/>
+            <Participle name="سَاجِد" transliteration="saAjid" transname="ساجد"/>
+        </MEMBER>
+        <MEMBER name="إِنْحَنَى" transliteration="IinoHanaY" transname="إنحنى">
+            <Root name="حنى" transliteration="HnY"/>
+            <Deverbal name="إِنْحِنَاء" transliteration="IinoHinaA'" transname="إنحناء"/>
+            <Participle name="مُنْحَنِي" transliteration="munoHaniy" transname="منحني"/>
+        </MEMBER>
+        <MEMBER name="رَكَعَ" transliteration="rakaEa" transname="ركع">
+            <Root name="ركع" transliteration="rkE"/>
+            <Deverbal name="رُكُوع" transliteration="rukuwE" transname="ركوع"/>
+            <Participle name="رَاكِع" transliteration="raAkiE" transname="راكع"/>
+        </MEMBER>
+        <MEMBER name="إِنْبَتَحَ" transliteration="IinobataHa" transname="إنبتح">
+            <Root name="بطح" transliteration="bTH"/>
+            <Deverbal name="إِنْبِتَاح" transliteration="IinobitaAH" transname="إنبتاح"/>
+            <Participle name="مُنْبَتِح" transliteration="munobatiH" transname="منبتح"/>
+        </MEMBER>
+        <!-- In so fare as the action implie the body in the action-->
+        <MEMBER name="أَنَاخَ" transliteration="OanaAxa" transname="أناخ">
+            <Root name="ناخ" transliteration="nAx"/>
+            <Deverbal name="إِنَاخَة" transliteration="IinaAxap" transname="إناخة"/>
+            <Participle name="نَائِخ" transliteration="naA}ix" transname="نائخ"/>
+        </MEMBER>
+        <!--Only the intransitiv version-->
+        <MEMBER name="جَثَى" transliteration="javaY" transname="جثى">
+            <Root name="جثى" transliteration="jvY"/>
+            <Deverbal name="جَثْو" transliteration="javow" transname="جثو"/>
+            <Participle name="جَاثِي" transliteration="jaAviy" transname="جاثي"/>
+        </MEMBER>
+        <MEMBER name="وَسَّعَ" transliteration="was~aEa" transname="وسع">
+            <Root name="وسع" transliteration="wsE"/>
+            <Deverbal name="تَوْسِيع" transliteration="tawosiyE" transname="توسيع"/>
+            <Participle name="مُوَسِّع" transliteration="muwas~iE" transname="موسع"/>
+        </MEMBER>
+        <MEMBER name="بَنْدَقَ" transliteration="banodaqa" transname="بندق">
+            <Root name="بندق" transliteration="bndq"/>
+            <Deverbal name="بَنْدَقَة" transliteration="banodaqap" transname="بندقة"/>
+            <Participle name="مُبَنْدِق" transliteration="mubanodiq" transname="مبندق"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="communication"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَجَدَ المُبَايِعُون." transliteration="sajada AlmubaAyiEuwn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP-NPCause"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَجَدَ المُصَلُّونَ إِجْلَالاً." transliteration="sajada AlmuSal~uwna IijolaAlAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Cause">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="tanowiyn_AF"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.recipient" secondary="PPRecipient-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَجَد المُبايِعِونَ لِلمَلِك." transliteration="sajad AlmubAyiEiwna lilmalik."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="dest_dir"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.recipient NPCause" secondary="PPRecipient-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَجَد المُبايِعِونَ لِلمَلِك إِجْلَالَالاً." transliteration="sajad AlmubAyiEiwna lilmalik IijolaAlaAlAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="dest_dir"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="tanowiyn_AF"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="transfer_info">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

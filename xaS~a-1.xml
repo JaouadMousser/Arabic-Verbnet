@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="xaS~a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="xaS~a-1.1">
+            <MEMBERS>
+                <MEMBER name="هَمَّ" transliteration="ham~a" transname="هم">
+                    <Root name="همم" transliteration="hmm"/>
+                    <Deverbal name="هَمّ" transliteration="ham~" transname="هم"/>
+                    <Participle name="هَام" transliteration="haAm" transname="هام"/>
+                </MEMBER>
+                <MEMBER name="خَصَّ" transliteration="xaS~a" transname="خص">
+                    <Root name="خصص" transliteration="xSS"/>
+                    <Deverbal name="خَصّ" transliteration="xaS~" transname="خص"/>
+                    <Participle name="خَاص" transliteration="xaAS" transname="خاص"/>
+                </MEMBER>
+                <MEMBER name="عَنَى" transliteration="EanaY" transname="عنى">
+                    <Root name="عني" transliteration="Eny"/>
+                    <Deverbal name="عَنَاء" transliteration="EanaA'" transname="عناء"/>
+                    <Participle name="عَانِي" transliteration="EaAniy" transname="عاني"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="NP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="هَذَا الأَمْرُ يَخُصُّنِي." transliteration="ha*aA AlOamoru yaxuS~uniy."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="relate">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="xaS~a-1.2">
+            <MEMBERS>
+                <MEMBER name="رَجَعَ" transliteration="rajaEa" transname="رجع">
+                    <Root name="رجع" transliteration="rjE"/>
+                    <Deverbal name="رُجُوع" transliteration="rujuwE" transname="رجوع"/>
+                    <Participle name="رَاجِع" transliteration="raAjiE" transname="راجع"/>
+                </MEMBER>
+                <MEMBER name="عَادَ" transliteration="EaAda" transname="عاد">
+                    <Root name="عود" transliteration="Ewd"/>
+                    <Deverbal name="عَوْدَة" transliteration="Eawodap" transname="عودة"/>
+                    <Participle name="عَائِد" transliteration="EaA}id" transname="عائد"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2" secondary="PPIilaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="هَذاَ البَيتُ يَعُودُ إِلَى عَائِلَة الفَاسِي." transliteration="ha*Aa Albaytu yaEuwdu IilaY EaA}ilap AlfaAsiy."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى لِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="relate">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

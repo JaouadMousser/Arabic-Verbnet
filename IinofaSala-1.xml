@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IinofaSala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْقَطَعَ" transliteration="IinoqaTaEa" transname="إنقطع">
+            <Root name="قطع" transliteration="qTE"/>
+            <Deverbal name="إِنْقِطَاع" transliteration="IinoqiTaAE" transname="إنقطاع"/>
+            <Participle name="مُنْقَطِع" transliteration="munoqaTiE" transname="منقطع"/>
+        </MEMBER>
+        <MEMBER name="إِنْبَتَلَ" transliteration="Iinobatala" transname="إنبتل">
+            <Root name="بتل" transliteration="btl"/>
+            <Deverbal name="إِنْبِتَال" transliteration="IinobitaAl" transname="إنبتال"/>
+            <Participle name="مُنْبَتِل" transliteration="munobatil" transname="منبتل"/>
+        </MEMBER>
+        <MEMBER name="إِنْخَلَعَ" transliteration="IinoxalaEa" transname="إنخلع">
+            <Root name="خلع" transliteration="xlE"/>
+            <Deverbal name="إِنْخِلَاع" transliteration="IinoxilaAE" transname="إنخلاع"/>
+            <Participle name="مُنْخَلِع" transliteration="munoxaliE" transname="منخلع"/>
+        </MEMBER>
+        <MEMBER name="بَانَ" transliteration="baAna" transname="بان">
+            <Root name="بين" transliteration="byn"/>
+            <Deverbal name="بَيْن" transliteration="bayon" transname="بين"/>
+            <Participle name="بَائِن" transliteration="baA}in" transname="بائن"/>
+        </MEMBER>
+        <MEMBER name="إِنْفَكَّ" transliteration="Iinofak~a" transname="إنفك">
+            <Root name="فكك" transliteration="fkk"/>
+            <Deverbal name="إِنْفِكَاك" transliteration="IinofikaAk" transname="إنفكاك"/>
+            <Participle name="مُنْفَك" transliteration="munofak" transname="منفك"/>
+        </MEMBER>
+        <MEMBER name="إِنْحَلَّ" transliteration="IinoHal~a" transname="إنحل">
+            <Root name="حلل" transliteration="Hll"/>
+            <Deverbal name="إِنْحِلَال" transliteration="IinoHilaAl" transname="إنحلال"/>
+            <Participle name="مُنْحَل" transliteration="munoHal" transname="منحل"/>
+        </MEMBER>
+        <MEMBER name="إِنْفَصَّ" transliteration="IinofaS~a" transname="إنفص">
+            <Root name="فصص" transliteration="fSS"/>
+            <Deverbal name="إِنْفِصَاص" transliteration="IinofiSaAS" transname="إنفصاص"/>
+            <Participle name="مُنْفَص" transliteration="munofaS" transname="منفص"/>
+        </MEMBER>
+        <MEMBER name="إِنْمَازَ" transliteration="IinomaAza" transname="إنماز">
+            <Root name="ميز" transliteration="myz"/>
+            <Deverbal name="إِنْمِيَاز" transliteration="IinomiyaAz" transname="إنمياز"/>
+            <Participle name="مُنمَاز" transliteration="munmaAz" transname="منماز"/>
+        </MEMBER>
+        <MEMBER name="تَمَيّزَ" transliteration="tamay~za" transname="تميز">
+            <Root name="ميز" transliteration="myz"/>
+            <Deverbal name="تَمَيُّز" transliteration="tamay~uz" transname="تميز"/>
+            <Participle name="مُتَمَيِّز" transliteration="mutamay~iz" transname="متميز"/>
+        </MEMBER>
+        <MEMBER name="إِنْعَزَلَ" transliteration="IinoEazala" transname="إنعزل">
+            <Root name="عزل" transliteration="Ezl"/>
+            <Deverbal name="إِنْعِزَال" transliteration="IinoEizaAl" transname="إنعزال"/>
+            <Participle name="مُنْعَزِل" transliteration="munoEazil" transname="منعزل"/>
+        </MEMBER>
+        <MEMBER name="إِنْفَرَزَ" transliteration="Iinofaraza" transname="إنفرز">
+            <Root name="فرز" transliteration="frz"/>
+            <Deverbal name="إِنْفِرَاز" transliteration="IinofiraAz" transname="إنفراز"/>
+            <Participle name="مُنفَرِز" transliteration="munfariz" transname="منفرز"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Patient1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Patient2">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.patient2" secondary="PPEano-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْفَصَلَ الزَّيْتُ عَنِ المَاءِ." transliteration="IinofaSala Alz~ayotu Eani AlmaA'i."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Patient2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="together">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="Constant" value="physical/abstract"/>
+                        <ARG type="ThemRole" value="Patient1"/>
+                        <ARG type="ThemRole" value="Patient2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="apart">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="physical/abstract"/>
+                        <ARG type="ThemRole" value="Patient1"/>
+                        <ARG type="ThemRole" value="Patient2"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="IinofaSala-1.2">
+            <MEMBERS>
+                <MEMBER name="إِنْفَصَلَ" transliteration="IinofaSala" transname="إنفصل">
+                    <Root name="فصل" transliteration="fSl"/>
+                    <Deverbal name="فَصْل" transliteration="faSol" transname="فصل"/>
+                    <Participle name="فَاصِل" transliteration="faASil" transname="فاصل"/>
+                </MEMBER>
+                <MEMBER name="تَفَرَّقَ" transliteration="tafar~aqa" transname="تفرق">
+                    <Root name="فرق" transliteration="frq"/>
+                    <Deverbal name="تَفَرُّق" transliteration="tafar~uq" transname="تفرق"/>
+                    <Participle name="مُتَفَرِّق" transliteration="mutafar~iq" transname="متفرق"/>
+                </MEMBER>
+                <MEMBER name="إِفْتَرَقَ" transliteration="Iifotaraqa" transname="إفترق">
+                    <Root name="فرق" transliteration="frq"/>
+                    <Deverbal name="إِفْتِرَاق" transliteration="IifotiraAq" transname="إفتراق"/>
+                    <Participle name="مُفْتَرِق" transliteration="mufotariq" transname="مفترق"/>
+                </MEMBER>
+                <MEMBER name="تَطَلَّقَ" transliteration="taTal~aqa" transname="تطلق">
+                    <Root name="طلق" transliteration="Tlq"/>
+                    <Deverbal name="تَطَلُّق" transliteration="taTal~uq" transname="تطلق"/>
+                    <Participle name="مُطَلِّق" transliteration="muTal~iq" transname="مطلق"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP" secondary="Simple Reciprocal Intransitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِنْفَصَلَ الزَوْجَانِ." transliteration="IinofaSala AlzawojaAni."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient">
+                            <SYNRESTRS logic="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="together">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="Constant" value="physical/abstract"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="apart">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="Constant" value="physical/abstract"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="faSala-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="banaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="طَهَا" transliteration="TahaA" transname="طها">
+            <Root name="طها" transliteration="ThA"/>
+            <Deverbal name="طَهْي" transliteration="Tahoy" transname="طهي"/>
+            <Deverbal name="طَهْو" transliteration="Tahow" transname="طهو"/>
+            <Participle name="طَاهِي" transliteration="TaAhiy" transname="طاهي"/>
+        </MEMBER>
+        <MEMBER name="طَبَخَ" transliteration="Tabaxa" transname="طبخ">
+            <Root name="طبخ" transliteration="Tbx"/>
+            <Deverbal name="طَبْخ" transliteration="Tabox" transname="طبخ"/>
+            <Participle name="طَابِخ" transliteration="TaAbix" transname="طابخ"/>
+        </MEMBER>
+        <MEMBER name="أْنْتَجَ" transliteration="Oonotaja" transname="أنتج">
+            <Root name="نتج" transliteration="ntj"/>
+            <Deverbal name="إِنْتَاج" transliteration="IinotaAj" transname="إنتاج"/>
+            <Participle name="مُنْتِج" transliteration="munotij" transname="منتج"/>
+        </MEMBER>
+        <MEMBER name="إِصْطَنَعَ" transliteration="IiSoTanaEa" transname="إصطنع">
+            <Root name="صنع" transliteration="SnE"/>
+            <Deverbal name="إِصْطِنَاع" transliteration="IiSoTinaAE" transname="إصطناع"/>
+            <Participle name="مُصْطَنِع" transliteration="muSoTaniE" transname="مصطنع"/>
+        </MEMBER>
+        <MEMBER name="إِبْتَنَى" transliteration="IibotanaY" transname="إبتنى">
+            <Root name="بنى" transliteration="bnY"/>
+            <Deverbal name="إِبْتِنَاء" transliteration="IibotinaA'" transname="إبتناء"/>
+            <Participle name="مُبْتَنِي" transliteration="mubotaniy" transname="مبتني"/>
+        </MEMBER>
+        <MEMBER name="بَنَى" transliteration="banaY" transname="بنى">
+            <Root name="بنى" transliteration="bnY"/>
+            <Deverbal name="بِنَاء" transliteration="binaA'" transname="بناء"/>
+            <Participle name="بَانِي" transliteration="baAniy" transname="باني"/>
+        </MEMBER>
+        <MEMBER name="صَنَعَ" transliteration="SanaEa" transname="صنع">
+            <Root name="صنع" transliteration="SnE"/>
+            <Deverbal name="صُنْع" transliteration="SunoE" transname="صنع"/>
+            <Participle name="صَانِع" transliteration="SaAniE" transname="صانع"/>
+        </MEMBER>
+        <MEMBER name="نَسَجَ" transliteration="nasaja" transname="نسج">
+            <Root name="نسج" transliteration="nsj"/>
+            <Deverbal name="نَسْج" transliteration="nasoj" transname="نسج"/>
+            <Participle name="نَاسِج" transliteration="naAsij" transname="ناسج"/>
+        </MEMBER>
+        <MEMBER name="حَبَكَ" transliteration="Habaka" transname="حبك">
+            <Root name="حبك" transliteration="Hbk"/>
+            <Deverbal name="حَبْك" transliteration="Habok" transname="حبك"/>
+            <Participle name="حَابِك" transliteration="HaAbik" transname="حابك"/>
+        </MEMBER>
+        <MEMBER name="سَبَكَ" transliteration="sabaka" transname="سبك">
+            <Root name="سبك" transliteration="sbk"/>
+            <Deverbal name="سَبْك" transliteration="sabok" transname="سبك"/>
+            <Participle name="سَابِك" transliteration="saAbik" transname="سابك"/>
+        </MEMBER>
+        <MEMBER name="خَبَزَ" transliteration="xabaza" transname="خبز">
+            <Root name="خبز" transliteration="xbz"/>
+            <Deverbal name="خَبْز" transliteration="xaboz" transname="خبز"/>
+            <Participle name="خَابِز" transliteration="xaAbiz" transname="خابز"/>
+        </MEMBER>
+        <MEMBER name="خَرَطَ" transliteration="xaraTa" transname="خرط">
+            <Root name="خرط" transliteration="xrT"/>
+            <Deverbal name="خَرْط" transliteration="xaroT" transname="خرط"/>
+            <Participle name="خَارِط" transliteration="xaAriT" transname="خارط"/>
+        </MEMBER>
+        <MEMBER name="عَجَنَ" transliteration="Eajana" transname="عجن">
+            <Root name="عجن" transliteration="Ejn"/>
+            <Deverbal name="عَجْن" transliteration="Eajon" transname="عجن"/>
+            <Participle name="عَاجِن" transliteration="EaAjin" transname="عاجن"/>
+        </MEMBER>
+        <MEMBER name="بَرْمَجَ" transliteration="baromaja" transname="برمج">
+            <Root name="برمج" transliteration="brmj"/>
+            <Deverbal name="بَرْمَجَة" transliteration="baromajap" transname="برمجة"/>
+            <Participle name="مُبَرْمِج" transliteration="mubaromij" transname="مبرمج"/>
+        </MEMBER>
+        <MEMBER name="صَاغَ" transliteration="SaAga" transname="صاغ">
+            <Root name="صاغ" transliteration="SAg"/>
+            <Deverbal name="صِيَاغَة" transliteration="SiyaAgap" transname="صياغة"/>
+            <Participle name="صَائِغ" transliteration="SaA}ig" transname="صائغ"/>
+        </MEMBER>
+        <MEMBER name="غَزَلَ" transliteration="gazala" transname="غزل">
+            <Root name="غزل" transliteration="gzl"/>
+            <Deverbal name="غَزْل" transliteration="gazol" transname="غزل"/>
+            <Participle name="غَازِل" transliteration="gaAzil" transname="غازل"/>
+        </MEMBER>
+        <MEMBER name="لَفَّقَ" transliteration="laf~aqa" transname="لفق">
+            <Root name="لفق" transliteration="lfq"/>
+            <Deverbal name="تَلفِيق" transliteration="talfiyq" transname="تلفيق"/>
+            <Participle name="مُلَفِّق" transliteration="mulaf~iq" transname="ملفق"/>
+        </MEMBER>
+        <MEMBER name="جَمَعَ" transliteration="jamaEa" transname="جمع">
+            <Root name="جمع" transliteration="jmE"/>
+            <Deverbal name="جَمْع" transliteration="jamoE" transname="جمع"/>
+            <Participle name="جَامِع" transliteration="jaAmiE" transname="جامع"/>
+        </MEMBER>
+        <MEMBER name="أَلَّفَ" transliteration="Oal~afa" transname="ألف">
+            <Root name="ألف" transliteration="Olf"/>
+            <Deverbal name="تَأْلِيف" transliteration="taOoliyf" transname="تأليف"/>
+            <Participle name="مُعَلِّف" transliteration="muEal~if" transname="معلف"/>
+        </MEMBER>
+        <MEMBER name="شَكَّلَ" transliteration="$ak~ala" transname="شكل">
+            <Root name="شكل" transliteration="$kl"/>
+            <Deverbal name="تَشْكِيل" transliteration="ta$okiyl" transname="تشكيل"/>
+            <Participle name="مُشَكِّل" transliteration="mu$ak~il" transname="مشكل"/>
+        </MEMBER>
+        <MEMBER name="فَصَّلَ" transliteration="faS~ala" transname="فصل">
+            <Root name="فصل" transliteration="fSl"/>
+            <Deverbal name="تَفْصِيل" transliteration="tafoSiyl" transname="تفصيل"/>
+            <Participle name="مُفَصِّل" transliteration="mufaS~il" transname="مفصل"/>
+        </MEMBER>
+        <MEMBER name="نَجَرَ" transliteration="najara" transname="نجر">
+            <Root name="نجر" transliteration="njr"/>
+            <Deverbal name="نَجْر" transliteration="najor" transname="نجر"/>
+            <Participle name="نَاجِر" transliteration="naAjir" transname="ناجر"/>
+        </MEMBER>
+        <MEMBER name="نَحَتَ" transliteration="naHata" transname="نحت">
+            <Root name="نحت" transliteration="nHt"/>
+            <Deverbal name="نَحْت" transliteration="naHot" transname="نحت"/>
+            <Participle name="نَاحِت" transliteration="naAHit" transname="ناحت"/>
+        </MEMBER>
+        <MEMBER name="نَقَشَ" transliteration="naqa$a" transname="نقش">
+            <Root name="نقش" transliteration="nq$"/>
+            <Deverbal name="نَقْش" transliteration="naqo$" transname="نقش"/>
+            <Participle name="نَاقِش" transliteration="naAqi$" transname="ناقش"/>
+        </MEMBER>
+        <MEMBER name="طَوَّرَ" transliteration="Taw~ara" transname="طور">
+            <Root name="طور" transliteration="Twr"/>
+            <Deverbal name="تَطْوِير" transliteration="taTowiyr" transname="تطوير"/>
+            <Participle name="مُطَوِّر" transliteration="muTaw~ir" transname="مطور"/>
+        </MEMBER>
+        <MEMBER name="بَرْمَجَ" transliteration="baromaja" transname="برمج">
+            <Root name="برمج" transliteration="brmj"/>
+            <Deverbal name="بَرْمَجَة" transliteration="baromajap" transname="برمجة"/>
+            <Participle name="مُبَرْمِج" transliteration="mubaromij" transname="مبرمج"/>
+        </MEMBER>
+        <MEMBER name="حَاكَ" transliteration="HaAka" transname="حاك">
+            <Root name="حيك" transliteration="Hyk"/>
+            <Deverbal name="حِيَاكَة" transliteration="HiyaAkap" transname="حياكة"/>
+            <Participle name="حَائِك" transliteration="HaA}ik" transname="حائك"/>
+        </MEMBER>
+        <MEMBER name="نَسَجَ" transliteration="nasaja" transname="نسج">
+            <Root name="نسج" transliteration="nsj"/>
+            <Deverbal name="نَسْج" transliteration="nasoj" transname="نسج"/>
+            <Participle name="نَاسِج" transliteration="naAsij" transname="ناسج"/>
+        </MEMBER>
+        <MEMBER name="لَفَقَ" transliteration="lafaqa" transname="لفق">
+            <Root name="لفق" transliteration="lfq"/>
+            <Deverbal name="لَفْق" transliteration="lafoq" transname="لفق"/>
+            <Participle name="لَافِق" transliteration="laAfiq" transname="لافق"/>
+        </MEMBER>
+        <MEMBER name="إِغْتَزَلَ" transliteration="Iigotazala" transname="إغتزل">
+            <Root name="غزل" transliteration="gzl"/>
+            <Deverbal name="إِغْتِزَال" transliteration="IigotizaAl" transname="إغتزال"/>
+            <Participle name="مُغْتَزِل" transliteration="mugotazil" transname="مغتزل"/>
+        </MEMBER>
+        <MEMBER name="خَاطَ" transliteration="xaATa" transname="خاط">
+            <Root name="خيط" transliteration="xyT"/>
+            <Deverbal name="خِيَاطَة" transliteration="xiyaATap" transname="خياطة"/>
+            <Participle name="خَائِط" transliteration="xaA}iT" transname="خائط"/>
+        </MEMBER>
+        <MEMBER name="خَيَّطَ" transliteration="xay~aTa" transname="خيط">
+            <Root name="خيط" transliteration="xyT"/>
+            <Deverbal name="تَخيِيط" transliteration="taxyiyT" transname="تخييط"/>
+            <Participle name="مُخَيِّط" transliteration="muxay~iT" transname="مخيط"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="machine"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Material">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Product">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Beneficiary">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Asset">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="currency"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَصَّلَت الخَيَّاطُ قَمِيصاً جَدِيداً." transliteration="faS~alat Alxay~aATu qamiySAF jadiydAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Unspecified Object"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تُفَصِّلُ الخَيَّاطَةُ." transliteration="tufaS~ilu Alxay~aATapu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="?Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="?Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="?Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.product PP.material" secondary="Material/Product Alternation TransitiveProduct Object"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَصَّلَت الأُمَّ قَمِيصاً مِن ثَوْبِ الحَرِير." transliteration="faS~alat AlOum~a qamiySAF min vawobi AlHariyr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.beneficiary" secondary="NP-PPli-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَصَّلَت سَلْمَى قَمِيصاً لِزَوْجِهَا." transliteration="faS~alat salomaY qamiySAF lizawojihaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ مِنْ-أَجْلِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.material PP.beneficiary" secondary="NP-PP-PPSource-PP Beneficiary-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَصَّلَت سَلْمَى قَمِيصاً مِنَ الحَرِير لِزَوْجِهَا." transliteration="faS~alat salomaY qamiySAF mina AlHariyr lizawojihaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ مِنْ-أَجْلِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP PP.asset" secondary="NP-NP-PPAsset-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَصَّلَ الخَيَّاطُ فُسْتَاناً لِسَلْمَى بِأَلف دِرْهَم." transliteration="faS~ala Alxay~aATu fusotaAnAF lisalomaY biOalf diroham."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ مِنْ-أَجْلِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ مُقَابِلَ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.material PP.asset" secondary="NP-PP-PPMaterial-PP, Asset-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَصَّلَ الخَيَّاطُ فُسْتَاناً مِنْ حَرِير لِسَلْمَى بِأَلف دِرْهَم." transliteration="faS~ala Alxay~aATu fusotaAnAF mino Hariyr lisalomaY biOalf diroham."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ مُقَابِلَ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.material PP.beneficiary PP.asset" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَصَّلَ الخَيَّاطُ فُسْتَاناً مِنْ حَرِير لِسَلْمَى بِأَلف دِرْهَم." transliteration="faS~ala Alxay~aATu fusotaAnAF mino Hariyr lisalomaY biOalf diroham."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ مُقَابِلَ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP P.asset" secondary="NP-PPAsset-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَفَصِّلُ الخَيَّاطُ قُمْصَاناً بِخَمْسِينَ دِرْهَماً." transliteration="yafaS~ilu Alxay~aATu qumoSaAnAF bixamosiyna dirohamAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ مُقَابِلَ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP.asset V NP" secondary="NPAsset Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَمْسُونَ دِرْهَماً لَا تُفَصِّلُ قَمِيصاً." transliteration="xamosuwna dirohamAF laA tufaS~ilu qamiySAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="?Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP.asset V NP NP" secondary="NP-NPAsset Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَمْسُونَ دِرْهَماً لَنْ تُفَصِّلَ لَكَ قَمِيصاً." transliteration="xamosuwna dirohamAF lano tufaS~ila laka qamiySAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="?Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP.asset V PP" secondary="NP-PPAsset Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَمْسُونَ دِرْهَماً قَدْ تُفَصِّلُ قَمِيصاً مِنْ كَتَّان." transliteration="xamosuwna dirohamAF qado tufaS~ilu qamiySAF mino kat~aAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="?Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP.asset V NP PP" secondary="NP-NP-PPAsset Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="خَمْسُونَ دِرْهَماً قَدْ تُفَصِّلُ لَكَ قَمِيصاً مِنْ كَتَّان." transliteration="xamosuwna dirohamAF qado tufaS~ilu laka qamiySAF mino kat~aAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Asset">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="لِ مِنْ-أَجْلِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="?Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cost">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Asset"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

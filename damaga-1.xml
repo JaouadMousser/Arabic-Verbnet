@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="damaga-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="جَلَدَ" transliteration="jalada" transname="جلد">
+            <Root name="جلد" transliteration="jld"/>
+            <Deverbal name="جَلْد" transliteration="jalod" transname="جلد"/>
+            <Participle name="جَالِد" transliteration="jaAlid" transname="جالد"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="جَلَدَ الشُرْطِيُ المُجْرِمَ." transliteration="jalada Al$uroTiyu Almujorima."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="VerbSpecific" value="body_part"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="VerbSpecific" value="body_part"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.instrument" secondary="NP-PPInstrument-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="جَلَدَ الشُرْطِيُ المُجْرِمَ بِالسَّوْطِ." transliteration="jalada Al$uroTiyu Almujorima biAls~awoTi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="directedmotion"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="VerbSpecific" value="body_part"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="manner">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="forceful"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="VerbSpecific" value="body_part"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="damaga-1.1">
+            <MEMBERS>
+                <MEMBER name="قَرَنَ" transliteration="qarana" transname="قرن">
+                    <Root name="قرن" transliteration="qrn"/>
+                    <Deverbal name="قَرْن" transliteration="qaron" transname="قرن"/>
+                    <Participle name="قَارِن" transliteration="qaArin" transname="قارن"/>
+                </MEMBER>
+                <MEMBER name="رَأَسَ" transliteration="raOasa" transname="رأس">
+                    <Root name="رأس" transliteration="rOs"/>
+                    <Deverbal name="رَأْس" transliteration="raOos" transname="رأس"/>
+                    <Participle name="رَاءس" transliteration="raA's" transname="راءس"/>
+                </MEMBER>
+                <MEMBER name="دَمَغَ" transliteration="damaga" transname="دمغ">
+                    <Root name="دمغ" transliteration="dmg"/>
+                    <Deverbal name="دَمْغ" transliteration="damog" transname="دمغ"/>
+                    <Participle name="دَامِغ" transliteration="daAmig" transname="دامغ"/>
+                </MEMBER>
+                <MEMBER name="عَرْقَبَ" transliteration="Earoqaba" transname="عرقب">
+                    <Root name="عرقب" transliteration="Erqb"/>
+                    <Deverbal name="عَرْقَبَة" transliteration="Earoqabap" transname="عرقبة"/>
+                    <Participle name="مُعَرْقِب" transliteration="muEaroqib" transname="معرقب"/>
+                </MEMBER>
+                <MEMBER name="كَرَعَ" transliteration="karaEa" transname="كرع">
+                    <Root name="كرع" transliteration="krE"/>
+                    <Deverbal name="كَرْع" transliteration="karoE" transname="كرع"/>
+                    <Participle name="كَارِع" transliteration="kaAriE" transname="كارع"/>
+                </MEMBER>
+                <MEMBER name="كَعَبَ" transliteration="kaEaba" transname="كعب">
+                    <Root name="كعب" transliteration="kEb"/>
+                    <Deverbal name="كَعْب" transliteration="kaEob" transname="كعب"/>
+                    <Participle name="كَاعِب" transliteration="kaAEib" transname="كاعب"/>
+                </MEMBER>
+                <MEMBER name="بَطَنَ" transliteration="baTana" transname="بطن">
+                    <Root name="بطن" transliteration="bTn"/>
+                    <Deverbal name="بَطْن" transliteration="baTon" transname="بطن"/>
+                    <Participle name="بَاطِن" transliteration="baATin" transname="باطن"/>
+                </MEMBER>
+                <MEMBER name="جَبَهَ" transliteration="jabaha" transname="جبه">
+                    <Root name="جبه" transliteration="jbh"/>
+                    <Deverbal name="جَبْه" transliteration="jaboh" transname="جبه"/>
+                    <Participle name="جَابِه" transliteration="jaAbih" transname="جابه"/>
+                </MEMBER>
+                <MEMBER name="قَفَا" transliteration="qafaA" transname="قفا">
+                    <Root name="قفا" transliteration="qfA"/>
+                    <Deverbal name="قَفْي" transliteration="qafoy" transname="قفي"/>
+                    <Participle name="قَافِي" transliteration="qaAfiy" transname="قافي"/>
+                </MEMBER>
+                <MEMBER name="ضَلَعَ" transliteration="DalaEa" transname="ضلع">
+                    <Root name="ضلع" transliteration="DlE"/>
+                    <Deverbal name="ضَْلع" transliteration="DaolE" transname="ضلع"/>
+                    <Participle name="ضَالِع" transliteration="DaAliE" transname="ضالع"/>
+                </MEMBER>
+                <MEMBER name="عَقَبَ" transliteration="Eaqaba" transname="عقب">
+                    <Root name="عقب" transliteration="Eqb"/>
+                    <Deverbal name="عَقْب" transliteration="Eaqob" transname="عقب"/>
+                    <Participle name="عَاقِب" transliteration="EaAqib" transname="عاقب"/>
+                </MEMBER>
+                <MEMBER name="قَفَدَ" transliteration="qafada" transname="قفد">
+                    <Root name="قفد" transliteration="qfd"/>
+                    <Deverbal name="قَفْد" transliteration="qafod" transname="قفد"/>
+                    <Participle name="قَافِد" transliteration="qaAfid" transname="قافد"/>
+                </MEMBER>
+                <MEMBER name="دَقَنَ" transliteration="daqana" transname="دقن">
+                    <Root name="دقن" transliteration="dqn"/>
+                    <Deverbal name="دَقْن" transliteration="daqon" transname="دقن"/>
+                    <Participle name="دَاقِن" transliteration="daAqin" transname="داقن"/>
+                </MEMBER>
+                <MEMBER name="حَشَا" transliteration="Ha$aA" transname="حشا">
+                    <Root name="حشو" transliteration="H$w"/>
+                    <Deverbal name="حَشْو" transliteration="Ha$ow" transname="حشو"/>
+                    <Participle name="حَاشِي" transliteration="HaA$iy" transname="حاشي"/>
+                </MEMBER>
+                <MEMBER name="قَحَفَ" transliteration="qaHafa" transname="قحف">
+                    <Root name="قحف" transliteration="qHf"/>
+                    <Deverbal name="قَحْف" transliteration="qaHof" transname="قحف"/>
+                    <Participle name="قَاحِف" transliteration="qaAHif" transname="قاحف"/>
+                </MEMBER>
+            </MEMBERS>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP.instrument NP" secondary="Instrument Subject Alternation"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="دَمَغَهُ حَجَر عَظِيم." transliteration="damagahu Hajar EaZiym."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Instrument">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="Constant" value="directedmotion"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="VerbSpecific" value="body_part"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="Constant" value="forceful"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="VerbSpecific" value="body_part"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

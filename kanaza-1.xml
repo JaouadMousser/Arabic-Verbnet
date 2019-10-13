@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="kanaza-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="خَزَّنَ" transliteration="xaz~ana" transname="خزن">
+            <Root name="خزن" transliteration="xzn"/>
+            <Deverbal name="تَخْزِين" transliteration="taxoziyn" transname="تخزين"/>
+            <Participle name="مُخَزِّن" transliteration="muxaz~in" transname="مخزن"/>
+        </MEMBER>
+        <MEMBER name="إِدَّخَرَ" transliteration="Iid~axara" transname="إدخر">
+            <Root name="دخر" transliteration="dxr"/>
+            <Deverbal name="إِدِّخَار" transliteration="Iid~ixaAr" transname="إدخار"/>
+            <Participle name="مُدَّخِر" transliteration="mud~axir" transname="مدخر"/>
+        </MEMBER>
+        <MEMBER name="دَخَرَ" transliteration="daxara" transname="دخر">
+            <Root name="دخر" transliteration="dxr"/>
+            <Deverbal name="دُخْر" transliteration="duxor" transname="دخر"/>
+            <Participle name="دَاخِر" transliteration="daAxir" transname="داخر"/>
+        </MEMBER>
+        <MEMBER name="ذخَرَ" transliteration="*xara" transname="ذخر">
+            <Root name="ذخر" transliteration="*xr"/>
+            <Deverbal name="ذُخْر" transliteration="*uxor" transname="ذخر"/>
+            <Participle name="ذَاخِر" transliteration="*aAxir" transname="ذاخر"/>
+        </MEMBER>
+        <MEMBER name="إِذَخَرَ" transliteration="Ii*axara" transname="إذخر">
+            <Root name="ذخر" transliteration="*xr"/>
+            <Deverbal name="إِذِخَار" transliteration="Ii*ixaAr" transname="إذخار"/>
+            <Participle name="مُذَّخِر" transliteration="mu*~axir" transname="مذخر"/>
+        </MEMBER>
+        <MEMBER name="خَزَنَ" transliteration="xazana" transname="خزن">
+            <Root name="خزن" transliteration="xzn"/>
+            <Deverbal name="خَزْن" transliteration="xazon" transname="خزن"/>
+            <Participle name="خَازِن" transliteration="xaAzin" transname="خازن"/>
+        </MEMBER>
+        <MEMBER name="إِخْتَزَنَ" transliteration="Iixotazana" transname="إختزن">
+            <Root name="خزن" transliteration="xzn"/>
+            <Deverbal name="إِخْتِزَان" transliteration="IixotizaAn" transname="إختزان"/>
+            <Participle name="مُخْتَزِن" transliteration="muxotazin" transname="مختزن"/>
+        </MEMBER>
+        <MEMBER name="كَنَزَ" transliteration="kanaza" transname="كنز">
+            <Root name="كنز" transliteration="knz"/>
+            <Deverbal name="كَنْز" transliteration="kanoz" transname="كنز"/>
+            <Participle name="كَانِز" transliteration="kaAniz" transname="كانز"/>
+        </MEMBER>
+        <MEMBER name="حَفَظَ" transliteration="HafaZa" transname="حفظ">
+            <Root name="حفظ" transliteration="HfZ"/>
+            <Deverbal name="حِفْظ" transliteration="HifoZ" transname="حفظ"/>
+            <Participle name="حَافَظَ" transliteration="HaAfaZa" transname="حافظ"/>
+        </MEMBER>
+        <MEMBER name="حَفِظَ" transliteration="HafiZa" transname="حفظ">
+            <Root name="حفظ" transliteration="HfZ"/>
+            <Deverbal name="حِفْظ" transliteration="HifoZ" transname="حفظ"/>
+            <Participle name="حَافَظَ" transliteration="HaAfaZa" transname="حافظ"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَفِظَ المُدِيرُ المُسْتَنَدَات." transliteration="HafiZa Almudiyru AlmusotanadaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.location" secondary="NP-PPlocative-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَفِظَ المُدِيرُ المُسْتَنَدَات فِي الدَرَج." transliteration="HafiZa Almudiyru AlmusotanadaAt fiy Aldaraj."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يُخَزِّنْ المُدِيرُ المُسْتَنَدَات." transliteration="yuxaz~ino Almudiyru AlmusotanadaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="has_possession">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

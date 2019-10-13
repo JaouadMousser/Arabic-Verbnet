@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="OanohaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَنْهَى" transliteration="OanohaY" transname="أنهى">
+            <Root name="نها" transliteration="nhA"/>
+            <Deverbal name="إِنْهَاء" transliteration="IinohaA'" transname="إنهاء"/>
+            <Participle name="مُنْهِي" transliteration="munohiy" transname="منهي"/>
+        </MEMBER>
+        <MEMBER name="إِخْتَتَمَ" transliteration="Iixotatama" transname="إختتم">
+            <Root name="ختم" transliteration="xtm"/>
+            <Deverbal name="إِخْتِتَام" transliteration="IixotitaAm" transname="إختتام"/>
+            <Participle name="مُخْتَتِم" transliteration="muxotatim" transname="مختتم"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَتَمَّ" transliteration="Iisotatam~a" transname="إستتم">
+            <Root name="تمم" transliteration="tmm"/>
+            <Deverbal name="إِسْتِتْمَام" transliteration="IisotitomaAm" transname="إستتمام"/>
+            <Participle name="مُسْتَتِم" transliteration="musotatim" transname="مستتم"/>
+        </MEMBER>
+        <MEMBER name="أَكْمَلَ" transliteration="Oakomala" transname="أكمل">
+            <Root name="كمل" transliteration="kml"/>
+            <Deverbal name="إِكْمَال" transliteration="IikomaAl" transname="إكمال"/>
+            <Participle name="مُكْمِل" transliteration="mukomil" transname="مكمل"/>
+        </MEMBER>
+        <MEMBER name="أَوْقَفَ" transliteration="Oawoqafa" transname="أوقف">
+            <Root name="وقف" transliteration="wqf"/>
+            <Deverbal name="إِيقَاف" transliteration="IiyqaAf" transname="إيقاف"/>
+            <Participle name="مُوقِف" transliteration="muwqif" transname="موقف"/>
+        </MEMBER>
+        <MEMBER name="أَتَمَّ" transliteration="Oatam~a" transname="أتم">
+            <Root name="تمم" transliteration="tmm"/>
+            <Deverbal name="إِتْمَام" transliteration="IitomaAm" transname="إتمام"/>
+            <Participle name="مُتِمّ" transliteration="mutim~" transname="متم"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَكْمَلَ" transliteration="Iisotakomala" transname="إستكمل">
+            <Root name="كمل" transliteration="kml"/>
+            <Deverbal name="إِسْتِكْمَال" transliteration="IisotikomaAl" transname="إستكمال"/>
+            <Participle name="مُسْتَكْمِل" transliteration="musotakomil" transname="مستكمل"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَوْفَى" transliteration="IisotawofaY" transname="إستوفى">
+            <Root name="وفي" transliteration="wfy"/>
+            <Deverbal name="إِسْتِيفَاء" transliteration="IisotiyfaA'" transname="إستيفاء"/>
+            <Participle name="مُسْتَوْفِي" transliteration="musotawofiy" transname="مستوفي"/>
+        </MEMBER>
+        <MEMBER name="تَمَّمَ" transliteration="tam~ama" transname="تمم">
+            <Root name="تمم" transliteration="tmm"/>
+            <Deverbal name="تَتْمِيم" transliteration="tatomiym" transname="تتميم"/>
+            <Participle name="مُتَمِّم" transliteration="mutam~im" transname="متمم"/>
+        </MEMBER>
+        <MEMBER name="كَمَّلَ" transliteration="kam~ala" transname="كمل">
+            <Root name="كمل" transliteration="kml"/>
+            <Deverbal name="تَكْمِيل" transliteration="takomiyl" transname="تكميل"/>
+            <Participle name="مُكَمِّل" transliteration="mukam~il" transname="مكمل"/>
+        </MEMBER>
+        <MEMBER name="وَفَّى" transliteration="waf~aY" transname="وفى">
+            <Root name="وفي" transliteration="wfy"/>
+            <Deverbal name="تَوَفِّي" transliteration="tawaf~iy" transname="توفي"/>
+            <Participle name="مُوَفِّي" transliteration="muwaf~iy" transname="موفي"/>
+        </MEMBER>
+        <MEMBER name="قَضَى" transliteration="qaDaY" transname="قضى">
+            <Root name="قضا" transliteration="qDA"/>
+            <Deverbal name="قَضَاء" transliteration="qaDaA'" transname="قضاء"/>
+            <Participle name="قَاضِي" transliteration="qaADiy" transname="قاضي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP S_DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنْهَى الصَحَفِّي كِتَابَة المَقَال." transliteration="OanohaY AlSaHaf~iy kitaAbap AlmaqaAl."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.theme" secondary="NPCausative variant"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنْهَى المُدِيرُ الإِجْتِمَاع." transliteration="OanohaY Almudiyru AlIijotimaAE."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.theme PP.instrument" secondary="NP-PPCausative variant"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنْهَى المُدِيرُ الإِجْتِمَاع بِإِحْتِفَال." transliteration="OanohaY Almudiyru AlIijotimaAE biIiHotifaAl."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.theme bi S_DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنْهَى المُدِيرُ الإِجْتِمَاع بِدَعْوَة الحَاضِرِين إلَى العَشَاء." transliteration="OanohaY Almudiyru AlIijotimaAE bidaEowap AlHaADiriyn IlaY AlEa$aA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

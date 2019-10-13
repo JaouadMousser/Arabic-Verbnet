@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="saxira-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="human"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَخِرَ المُتَفَرِّجُ." transliteration="saxira Almutafar~iju."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="judge">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="saxira-1.1">
+            <MEMBERS>
+                <MEMBER name="أَشَادَ" transliteration="Oa$aAda" transname="أشاد">
+                    <Root name="شاد" transliteration="$Ad"/>
+                    <Deverbal name="إِشَادَة" transliteration="Ii$aAdap" transname="إشادة"/>
+                    <Participle name="مُشِيد" transliteration="mu$iyd" transname="مشيد"/>
+                </MEMBER>
+                <MEMBER name="هَزِأَ" transliteration="haziOa" transname="هزأ">
+                    <Root name="هزأ" transliteration="hzO"/>
+                    <Deverbal name="هُزْؤ" transliteration="huzoW" transname="هزؤ"/>
+                    <Participle name="هَازِئ" transliteration="haAzi}" transname="هازئ"/>
+                </MEMBER>
+                <MEMBER name="نَدَّدَ" transliteration="nad~ada" transname="ندد">
+                    <Root name="ندد" transliteration="ndd"/>
+                    <Deverbal name="تَنْدِيد" transliteration="tanodiyd" transname="تنديد"/>
+                    <Participle name="مُنَدِّد" transliteration="munad~id" transname="مندد"/>
+                </MEMBER>
+                <MEMBER name="تَغَنَّى" transliteration="tagan~aY" transname="تغنى">
+                    <Root name="غني" transliteration="gny"/>
+                    <Deverbal name="تَغَنِّي" transliteration="tagan~iy" transname="تغني"/>
+                    <Participle name="مُتَغَنِّي" transliteration="mutagan~iy" transname="متغني"/>
+                </MEMBER>
+                <MEMBER name="نَوَّهَ" transliteration="naw~aha" transname="نوه">
+                    <Root name="نوه" transliteration="nwh"/>
+                    <Deverbal name="تَنْوِيه" transliteration="tanowiyh" transname="تنويه"/>
+                    <Participle name="مُنَوِّه" transliteration="munaw~ih" transname="منوه"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَهْزَأَ" transliteration="IisotahozaOa" transname="إستهزأ">
+                    <Root name="هزأ" transliteration="hzO"/>
+                    <Deverbal name="إِسْتِهْزَاء" transliteration="IisotihozaA'" transname="إستهزاء"/>
+                    <Participle name="مُسْتَهْزِئ" transliteration="musotahozi}" transname="مستهزئ"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP" secondary="PPbi-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَهْزَأَ المُتَفَرِّجُ بِاللَاعِبِ." transliteration="IisotahozaOa Almutafar~iju biAllaAEibi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="ب">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="judge">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="saxira-1.2">
+            <MEMBERS>
+                <MEMBER name="هَزِأَ" transliteration="haziOa" transname="هزأ">
+                    <Root name="هزأ" transliteration="hzO"/>
+                    <Deverbal name="هُزْؤ" transliteration="huzoW" transname="هزؤ"/>
+                    <Participle name="هَازِئ" transliteration="haAzi}" transname="هازئ"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَهْزَأَ" transliteration="IisotahozaOa" transname="إستهزأ">
+                    <Root name="هزأ" transliteration="hzO"/>
+                    <Deverbal name="إِسْتِهْزَاء" transliteration="IisotihozaA'" transname="إستهزاء"/>
+                    <Participle name="مُسْتَهْزِئ" transliteration="musotahozi}" transname="مستهزئ"/>
+                </MEMBER>
+                <MEMBER name="سَخِرَ" transliteration="saxira" transname="سخر">
+                    <Root name="سخر" transliteration="sxr"/>
+                    <Deverbal name="سُخْرِيَة" transliteration="suxoriyap" transname="سخرية"/>
+                    <Participle name="سَاخِر" transliteration="saAxir" transname="ساخر"/>
+                </MEMBER>
+                <MEMBER name="ضَحِكَ" transliteration="DaHika" transname="ضحك">
+                    <Root name="ضحك" transliteration="DHk"/>
+                    <Deverbal name="ضَحِك" transliteration="DaHik" transname="ضحك"/>
+                    <Participle name="ضَاحِك" transliteration="DaAHik" transname="ضاحك"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP" secondary="PPmino-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَخِرَ المُتَفَرِّجُ مِنْ اللَاعِبِ." transliteration="saxira Almutafar~iju mino AllaAEibi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مِنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="judge">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="saxira-1.3">
+            <MEMBERS>
+                <MEMBER name="ثَنَى" transliteration="vanaY" transname="ثنى">
+                    <Root name="ثني" transliteration="vny"/>
+                    <Deverbal name="ثَنَاء" transliteration="vanaA'" transname="ثناء"/>
+                    <Participle name="ثَانِي" transliteration="vaAniy" transname="ثاني"/>
+                </MEMBER>
+                <MEMBER name="تَهَكَّمَ" transliteration="tahak~ama" transname="تهكم">
+                    <Root name="هكم" transliteration="hkm"/>
+                    <Deverbal name="تَهَكُّم" transliteration="tahak~um" transname="تهكم"/>
+                    <Participle name="مُتَهَكِّم" transliteration="mutahak~im" transname="متهكم"/>
+                </MEMBER>
+                <MEMBER name="أَثْنَى" transliteration="OavonaY" transname="أثنى">
+                    <Root name="ثني" transliteration="vny"/>
+                    <Deverbal name="إِثْنَاء" transliteration="IivonaA'" transname="إثناء"/>
+                    <Participle name="مُثْنِي" transliteration="muvoniy" transname="مثني"/>
+                </MEMBER>
+                <MEMBER name="تَهَكَّمَ" transliteration="tahak~ama" transname="تهكم">
+                    <Root name="هكم" transliteration="hkm"/>
+                    <Deverbal name="تَهَكُّم" transliteration="tahak~um" transname="تهكم"/>
+                    <Participle name="مُتَهَكِّم" transliteration="mutahak~im" transname="متهكم"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP" secondary="PPEalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَثْنَى المُدَرِّبُ عَلَى اللَاعِبِ." transliteration="OavonaY Almudar~ibu EalaY AllaAEibi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="judge">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="saxira-1.4">
+            <MEMBERS>
+                <MEMBER name="قَدَحَ" transliteration="qadaHa" transname="قدح">
+                    <Root name="قدح" transliteration="qdH"/>
+                    <Deverbal name="قَدْح" transliteration="qadoH" transname="قدح"/>
+                    <Participle name="قَادِح" transliteration="qaAdiH" transname="قادح"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP" secondary="PPfiy-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَذَحَ المُدَرِّبُ فِي اللَاعِبِ." transliteration="qa*aHa Almudar~ibu fiy AllaAEibi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="judge">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+</AVNCLASS>

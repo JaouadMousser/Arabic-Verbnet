@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="faraDa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="فَرَضَ" transliteration="faraDa" transname="فرض">
+            <Root name="فرض" transliteration="frD"/>
+            <Deverbal name="فَرْض" transliteration="faroD" transname="فرض"/>
+            <Participle name="فَارِض" transliteration="faAriD" transname="فارض"/>
+        </MEMBER>
+        <MEMBER name="كَتَبَ" transliteration="kataba" transname="كتب">
+            <Root name="كتب" transliteration="ktb"/>
+            <Deverbal name="كِتَابَة" transliteration="kitaAbap" transname="كتابة"/>
+            <Participle name="كَاتِب" transliteration="kaAtib" transname="كاتب"/>
+        </MEMBER>
+        <MEMBER name="أَفْرَضَ" transliteration="OaforaDa" transname="أفرض">
+            <Root name="فرض" transliteration="frD"/>
+            <Deverbal name="إِفْرَاض" transliteration="IiforaAD" transname="إفراض"/>
+            <Participle name="مُفرِض" transliteration="mufriD" transname="مفرض"/>
+        </MEMBER>
+        <MEMBER name="فَرّضَ" transliteration="far~Da" transname="فرض">
+            <Root name="فرض" transliteration="frD"/>
+            <Deverbal name="تَفْرِيض" transliteration="taforiyD" transname="تفريض"/>
+            <Participle name="مُفَرِّض" transliteration="mufar~iD" transname="مفرض"/>
+        </MEMBER>
+        <MEMBER name="أَوْجَبَ" transliteration="Oawojaba" transname="أوجب">
+            <Root name="وجب" transliteration="wjb"/>
+            <Deverbal name="إِيجَاب" transliteration="IiyjaAb" transname="إيجاب"/>
+            <Participle name="مُوجِب" transliteration="muwjib" transname="موجب"/>
+        </MEMBER>
+        <MEMBER name="قَدَّرَ" transliteration="qad~ara" transname="قدر">
+            <Root name="قدر" transliteration="qdr"/>
+            <Deverbal name="تَقْديِر" transliteration="taqodyir" transname="تقدير"/>
+            <Participle name="مُقَدِّر" transliteration="muqad~ir" transname="مقدر"/>
+        </MEMBER>
+        <MEMBER name="حَتَّمَ" transliteration="Hat~ama" transname="حتم">
+            <Root name="حتم" transliteration="Htm"/>
+            <Deverbal name="تَحْتِيم" transliteration="taHotiym" transname="تحتيم"/>
+            <Participle name="مُحَتِّم" transliteration="muHat~im" transname="محتم"/>
+        </MEMBER>
+        <MEMBER name="قَضَى" transliteration="qaDaY" transname="قضى">
+            <Root name="قضي" transliteration="qDy"/>
+            <Deverbal name="قَضَاء" transliteration="qaDaA'" transname="قضاء"/>
+            <Participle name="قَاضِي" transliteration="qaADiy" transname="قاضي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الجَامِعَة كِتَاب كَلِيَلَة وَ دِمْنَة." transliteration="faraDati AljaAmiEap kitaAb kaliyalap wa dimonap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP deverbal" secondary="deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الجَامِعَة تَدْرِيس كَلِيلَة وَ دِمْنَة." transliteration="faraDati AljaAmiEap tadoriys kaliylap wa dimonap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.Recipient" secondary="PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الجَامِعَة كِتَاب كَلِيَلَة وَ دِمْنَة عَلَى الطَّلَبَة." transliteration="faraDati AljaAmiEap kitaAb kaliyalap wa dimonap EalaY AlT~alabap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.Recipient NP" secondary="PPEalaY-PP-NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الجَامِعَة عَلَى الطَّلَبَة كِتَاب كَلِيَلَة وَ دِمْنَة." transliteration="faraDati AljaAmiEap EalaY AlT~alabap kitaAb kaliyalap wa dimonap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP deverbal PP.Recipient" secondary="PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الجَامِعَة قِرَاءَة كِتَاب كَلِيلَة وَ دِمْنَة عَلَى الطَّلَبَة." transliteration="faraDati AljaAmiEap qiraA'ap kitaAb kaliylap wa dimonap EalaY AlT~alabap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.Recipient deverbal" secondary="PPEalaY-PP-NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الجَامِعَة عَلَى الطَّلَبَة قِرَاءَة كِتَاب كَلِيلَة وَ دِمْنَة." transliteration="faraDati AljaAmiEap EalaY AlT~alabap qiraA'ap kitaAb kaliylap wa dimonap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.Recipient Oano S" secondary="PPEalaY-PP S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الحُكُومَة عَلَى المُوَاطِنِينَ أَنْ يَبْقَوا فِي مَنَازِلِهِم." transliteration="faraDati AlHukuwmap EalaY AlmuwaATiniyna Oano yaboqawA fiy manaAzilihim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V N Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَضَتِ الحُكُومَةُ  أَنْ يَبْقَى المُوَاطِنُونَ فِي مَنَازِلِهِم." transliteration="faraDati AlHukuwmapu  Oano yaboqaY AlmuwaATinuwna fiy manaAzilihim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="impose">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Reception"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</AVNCLASS>

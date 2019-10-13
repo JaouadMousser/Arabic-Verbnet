@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="daAfaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="دَافَعَ" transliteration="daAfaEa" transname="دافع">
+            <Root name="دفع" transliteration="dfE"/>
+            <Deverbal name="دِفَاع" transliteration="difaAE" transname="دفاع"/>
+            <Participle name="مُدَافِع" transliteration="mudaAfiE" transname="مدافع"/>
+        </MEMBER>
+        <MEMBER name="نَافَحَ" transliteration="naAfaHa" transname="نافح">
+            <Root name="نفح" transliteration="nfH"/>
+            <Deverbal name="مُنَافَحَة" transliteration="munaAfaHap" transname="منافحة"/>
+            <Participle name="مُنَافِح" transliteration="munaAfiH" transname="منافح"/>
+        </MEMBER>
+        <MEMBER name="حَاصَّ" transliteration="HaAS~a" transname="حاص">
+            <Root name="حيص" transliteration="HyS"/>
+            <Deverbal name="حَيْص" transliteration="HayoS" transname="حيص"/>
+            <Deverbal name="حَيْصَة" transliteration="HayoSap" transname="حيصة"/>
+            <Deverbal name="حُيُوص" transliteration="HuyuwS" transname="حيوص"/>
+            <Deverbal name="مَحِيص" transliteration="maHiyS" transname="محيص"/>
+            <Deverbal name="مَحَاص" transliteration="maHaAS" transname="محاص"/>
+            <Deverbal name="حَيَصَان" transliteration="HayaSaAn" transname="حيصان"/>
+            <Participle name="حَائِص" transliteration="HaA}iS" transname="حائص"/>
+        </MEMBER>
+        <MEMBER name="ذَادَ" transliteration="*aAda" transname="ذاد">
+            <Root name="ذاد" transliteration="*Ad"/>
+            <Deverbal name="ذَوْد" transliteration="*awod" transname="ذود"/>
+            <Participle name="ذَائِد" transliteration="*aA}id" transname="ذائد"/>
+        </MEMBER>
+        <MEMBER name="ذَبَّ" transliteration="*ab~a" transname="ذب">
+            <Root name="ذبب" transliteration="*bb"/>
+            <Deverbal name="ذَبّ" transliteration="*ab~" transname="ذب"/>
+            <Participle name="ذَاب" transliteration="*aAb" transname="ذاب"/>
+        </MEMBER>
+        <MEMBER name="نَاضَلَ" transliteration="naADala" transname="ناضل">
+            <Root name="نضل" transliteration="nDl"/>
+            <Deverbal name="نِضَال" transliteration="niDaAl" transname="نضال"/>
+            <Participle name="مُنَاضِل" transliteration="munaADil" transname="مناضل"/>
+        </MEMBER>
+        <MEMBER name="جَاحَشَ" transliteration="jaAHa$a" transname="جاحش">
+            <Root name="جحش" transliteration="jH$"/>
+            <Deverbal name="مُجَاحَشَة" transliteration="mujaAHa$ap" transname="مجاحشة"/>
+            <Participle name="مُجَاحِش" transliteration="mujaAHi$" transname="مجاحش"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP" secondary="PPEano-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="دَافَعَ الجَيْشُ عَنْ حَوْزَة الوَطَن." transliteration="daAfaEa Aljayo$u Eano Hawozap AlwaTan."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="defend">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP PP.proposition" secondary="PP-PPDid~a-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="دَافَعَ الجَيْش عَنْ حَوْزَة الوَطَن ضِدَّ الأَعْدَاء." transliteration="daAfaEa Aljayo$ Eano Hawozap AlwaTan Did~a AlOaEodaA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="ضِدَّ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="defend">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

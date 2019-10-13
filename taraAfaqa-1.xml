@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taraAfaqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَصَاحَبَ" transliteration="taSaAHaba" transname="تصاحب">
+            <Root name="صحن" transliteration="SHn"/>
+            <Deverbal name="تَصَاحُب" transliteration="taSaAHub" transname="تصاحب"/>
+            <Participle name="مُتَصَاحِب" transliteration="mutaSaAHib" transname="متصاحب"/>
+        </MEMBER>
+        <MEMBER name="تَشَايَعَ" transliteration="ta$aAyaEa" transname="تشايع">
+            <Root name="شيع" transliteration="$yE"/>
+            <Deverbal name="تَشَايُع" transliteration="ta$aAyuE" transname="تشايع"/>
+            <Participle name="مُتَشَايِع" transliteration="muta$aAyiE" transname="متشايع"/>
+        </MEMBER>
+        <MEMBER name="تَقَاوَدَ" transliteration="taqaAwada" transname="تقاود">
+            <Root name="قود" transliteration="qwd"/>
+            <Deverbal name="تَقَاوُد" transliteration="taqaAwud" transname="تقاود"/>
+            <Participle name="مُتَقَاوِد" transliteration="mutaqaAwid" transname="متقاود"/>
+        </MEMBER>
+        <MEMBER name="تَوَاكَبَ" transliteration="tawaAkaba" transname="تواكب">
+            <Root name="وكب" transliteration="wkb"/>
+            <Deverbal name="تَوَاكُب" transliteration="tawaAkub" transname="تواكب"/>
+            <Participle name="مُتَوَاكِب" transliteration="mutawaAkib" transname="متواكب"/>
+        </MEMBER>
+        <MEMBER name="تَسَاوَق" transliteration="tasaAwaq" transname="تساوق">
+            <Root name="سوق" transliteration="swq"/>
+            <Deverbal name="تَسَاوُق" transliteration="tasaAwuq" transname="تساوق"/>
+            <Participle name="مُتَسَاوِق" transliteration="mutasaAwiq" transname="متساوق"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="Intransitive" secondary="Plural/Dual Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَاَفَقَ الرَّجُلَانِ." transliteration="taraAafaqa Alr~ajulaAni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP-PP" secondary="path-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَرَافَقَ عَلِي وَ عَمْرُ إِلَى المَخْزَنِ." transliteration="taraAfaqa Ealiy wa Eamoru IilaY Almaxozani."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="spatial"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="raAfaqa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

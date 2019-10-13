@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="HaAlafa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَالَفَ" transliteration="HaAlafa" transname="حالف">
+            <Root name="حلف" transliteration="Hlf"/>
+            <Deverbal name="مُحَالَفَة" transliteration="muHaAlafap" transname="محالفة"/>
+            <Participle name="مُحَالِف" transliteration="muHaAlif" transname="محالف"/>
+        </MEMBER>
+        <MEMBER name="عَاوَنَ" transliteration="EaAwana" transname="عاون">
+            <Root name="عون" transliteration="Ewn"/>
+            <Deverbal name="مُعَاوَنَة" transliteration="muEaAwanap" transname="معاونة"/>
+            <Participle name="مُعَاوِن" transliteration="muEaAwin" transname="معاون"/>
+        </MEMBER>
+        <MEMBER name="وَالَى" transliteration="waAlaY" transname="والى">
+            <Root name="ولي" transliteration="wly"/>
+            <Deverbal name="مُوَالَاة" transliteration="muwaAlaAp" transname="موالاة"/>
+            <Participle name="مُوَالِي" transliteration="muwaAliy" transname="موالي"/>
+        </MEMBER>
+        <MEMBER name="آَزَرَ" transliteration="|azara" transname="آزر">
+            <Root name="أزر" transliteration="Ozr"/>
+            <Deverbal name="مُآزَرَة" transliteration="mu|zarap" transname="مآزرة"/>
+            <Participle name="مُؤَازِر" transliteration="muWaAzir" transname="مؤازر"/>
+        </MEMBER>
+        <MEMBER name="عَاهَدَ" transliteration="EaAhada" transname="عاهد">
+            <Root name="عهد" transliteration="Ehd"/>
+            <Deverbal name="مُعَاهَدَة" transliteration="muEaAhadap" transname="معاهدة"/>
+            <Participle name="مُعَاهِد" transliteration="muEaAhid" transname="معاهد"/>
+        </MEMBER>
+        <MEMBER name="نَاصَرَ" transliteration="naASara" transname="ناصر">
+            <Root name="نصر" transliteration="nSr"/>
+            <Deverbal name="مُنَاصَرَة" transliteration="munaASarap" transname="مناصرة"/>
+            <Participle name="مُنَاصِر" transliteration="munaASir" transname="مناصر"/>
+        </MEMBER>
+        <MEMBER name="آمَرَ" transliteration="|mara" transname="آمر">
+            <Root name="أمر" transliteration="Omr"/>
+            <Deverbal name="مُوَامَرَة" transliteration="muwaAmarap" transname="موامرة"/>
+            <Participle name="مُؤَامِر" transliteration="muWaAmir" transname="مؤامر"/>
+        </MEMBER>
+        <MEMBER name="وَاطَأَ" transliteration="waATaOa" transname="واطأ">
+            <Root name="وطْ" transliteration="wTo"/>
+            <Deverbal name="مُوَاطَأَة" transliteration="muwaATaOap" transname="مواطأة"/>
+            <Participle name="مُوَاوَاطِئ" transliteration="muwaAwaATi}" transname="مواواطئ"/>
+        </MEMBER>
+        <MEMBER name="ظَاهَرَ" transliteration="ZaAhara" transname="ظاهر">
+            <Root name="ظهر" transliteration="Zhr"/>
+            <Deverbal name="مُظَاهَرَة" transliteration="muZaAharap" transname="مظاهرة"/>
+            <Participle name="مُظَاهِر" transliteration="muZaAhir" transname="مظاهر"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Actor1">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَالفَت سُوريَا إِيرَان." transliteration="HaAlfat suwryaA IiyraAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conspire">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme" secondary="NP PPDid~a-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَالَفَت سُوريَا إِيرَان ضِدَّ إِسْرَائِيل." transliteration="HaAlafat suwryaA IiyraAn Did~a IisoraA}iyl."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="ضِدَّ عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conspire">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taHaAlafa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

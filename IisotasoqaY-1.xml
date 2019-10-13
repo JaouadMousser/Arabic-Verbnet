@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IisotasoqaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="" transliteration=""/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="supplicate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="VerbSpecific" value="Role"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="IisotasoqaY-1.1">
+            <MEMBERS>
+                <MEMBER name="إِسْتَغَاثَ" transliteration="IisotagaAva" transname="إستغاث">
+                    <!--SPECIAL Iisotagofara Allah danobah-->
+                    <Root name="غاث" transliteration="gAv"/>
+                    <Deverbal name="إِسْتِغَاثَة" transliteration="IisotigaAvap" transname="إستغاثة"/>
+                    <Participle name="مُسْتَغِيث" transliteration="musotagiyv" transname="مستغيث"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَنْجَدَ" transliteration="Iisotanojada" transname="إستنجد">
+                    <!--SPECIAL Iisotagofara Allah danobah-->
+                    <Root name="نجد" transliteration="njd"/>
+                    <Deverbal name="إِسْتِنْجَاد" transliteration="IisotinojaAd" transname="إستنجاد"/>
+                    <Participle name="مُسْتَنْجِد" transliteration="musotanojid" transname="مستنجد"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَجَارَ" transliteration="IisotajaAra" transname="إستجار">
+                    <Root name="جور" transliteration="jwr"/>
+                    <Deverbal name="إِسْتِجَارَة" transliteration="IisotijaArap" transname="إستجارة"/>
+                    <Participle name="مُسْتَجِير" transliteration="musotajiyr" transname="مستجير"/>
+                    <!--special-->
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.recipient" secondary="PPbi-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="" transliteration=""/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="supplicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="VerbSpecific" value="Role"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="IisotasoqaY-1.2">
+            <MEMBERS>
+                <MEMBER name="إِسْتَعْطَفَ" transliteration="IisotaEoTafa" transname="إستعطف">
+                    <Root name="عتف" transliteration="Etf"/>
+                    <Deverbal name="إِسْتِعْتَاف" transliteration="IisotiEotaAf" transname="إستعتاف"/>
+                    <Participle name="مُسْتَعْتِف" transliteration="musotaEotif" transname="مستعتف"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَقَى" transliteration="IisotaqaY" transname="إستقى">
+                    <Root name="سقي" transliteration="sqy"/>
+                    <Deverbal name="إِسْتِقَاء" transliteration="IisotiqaA'" transname="إستقاء"/>
+                    <Participle name="مُسْتَقِي" transliteration="musotaqiy" transname="مستقي"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَشَارَ" transliteration="Iisota$aAra" transname="إستشار">
+                    <Root name="شور" transliteration="$wr"/>
+                    <Deverbal name="إِسْتِشَارَة" transliteration="Iisoti$aArap" transname="إستشارة"/>
+                    <Participle name="مُسْتَشِير" transliteration="musota$iyr" transname="مستشير"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَنْصَحَ" transliteration="IisotanoSaHa" transname="إستنصح">
+                    <Root name="نصح" transliteration="nSH"/>
+                    <Deverbal name="إِسْتِنْصَاح" transliteration="IisotinoSaAH" transname="إستنصاح"/>
+                    <Participle name="مُسْتَنْصِح" transliteration="musotanoSiH" transname="مستنصح"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَرْحَمَ" transliteration="IisotaroHama" transname="إسترحم">
+                    <Root name="رحم" transliteration="rHm"/>
+                    <Deverbal name="إِسْتِرْحَام" transliteration="IisotiroHaAm" transname="إسترحام"/>
+                    <Participle name="مُسْتَعْحِم" transliteration="musotaEoHim" transname="مستعحم"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَسْقَى" transliteration="IisotasoqaY" transname="إستسقى">
+                    <Root name="سقي" transliteration="sqy"/>
+                    <Deverbal name="إِسْتِسْقَاء" transliteration="IisotisoqaA'" transname="إستسقاء"/>
+                    <Participle name="مُسْتَسْقِي" transliteration="musotasoqiy" transname="مستسقي"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَمْطَرَ" transliteration="IisotamoTara" transname="إستمطر">
+                    <Root name="مطر" transliteration="mTr"/>
+                    <Deverbal name="إِسْتِمْطَار" transliteration="IisotimoTaAr" transname="إستمطار"/>
+                    <Participle name="مُسْتَمْطِر" transliteration="musotamoTir" transname="مستمطر"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَرْضَى" transliteration="IisotaroDaY" transname="إسترضى">
+                    <Root name="رضى" transliteration="rDY"/>
+                    <Deverbal name="إِسْتِرْضَاء" transliteration="IisotiroDaA'" transname="إسترضاء"/>
+                    <Participle name="مُسْتَرْضِي" transliteration="musotaroDiy" transname="مسترضي"/>
+                </MEMBER>
+                <MEMBER name="تَرَضَّى" transliteration="taraD~aY" transname="ترضى">
+                    <Root name="رضى" transliteration="rDY"/>
+                    <Deverbal name="تَرَضِّي" transliteration="taraD~iy" transname="ترضي"/>
+                    <Participle name="مُتَرَضِّي" transliteration="mutaraD~iy" transname="مترضي"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَغْفَرَ" transliteration="Iisotagofara" transname="إستغفر">
+                    <!--SPECIAL Iisotagofara Allah danobah-->
+                    <Root name="غفر" transliteration="gfr"/>
+                    <Deverbal name="إِسْتِغْفَار" transliteration="IisotigofaAr" transname="إستغفار"/>
+                    <Participle name="مُسْتَغْفِر" transliteration="musotagofir" transname="مستغفر"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَعْطَفَ" transliteration="IisotaEoTafa" transname="إستعطف">
+                    <Root name="عطف" transliteration="ETf"/>
+                    <Deverbal name="إِسْتِعْطَاف" transliteration="IisotiEoTaAf" transname="إستعطاف"/>
+                    <Participle name="مُسْتَعْطِف" transliteration="musotaEoTif" transname="مستعطف"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَسْمَحَ" transliteration="IisotasomaHa" transname="إستسمح">
+                    <Root name="سمح" transliteration="smH"/>
+                    <Deverbal name="إِسْتِسْمَاح" transliteration="IisotisomaAH" transname="إستسماح"/>
+                    <Participle name="مُسْتَسْمِح" transliteration="musotasomiH" transname="مستسمح"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَعْطَى" transliteration="IisotaEoTaY" transname="إستعطى">
+                    <Root name="عطا" transliteration="ETA"/>
+                    <Deverbal name="إِسْتِعْطَاء" transliteration="IisotiEoTaA'" transname="إستعطاء"/>
+                    <Participle name="مُسْتَعْطِي" transliteration="musotaEoTiy" transname="مستعطي"/>
+                </MEMBER>
+                <MEMBER name="تَعَطَّى" transliteration="taEaT~aY" transname="تعطى">
+                    <Root name="عطا" transliteration="ETA"/>
+                    <Deverbal name="تَعَتِّي" transliteration="taEat~iy" transname="تعتي"/>
+                    <Participle name="مُتَعَطِّي" transliteration="mutaEaT~iy" transname="متعطي"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَطْعَمَ" transliteration="IisotaToEama" transname="إستطعم">
+                    <!--smthing-->
+                    <Root name="طعم" transliteration="TEm"/>
+                    <Deverbal name="إِسْتِطْعَام" transliteration="IisotiToEaAm" transname="إستطعام"/>
+                    <Participle name="مُسْتَطْعِم" transliteration="musotaToEim" transname="مستطعم"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَقْرَضَ" transliteration="IisotaqoraDa" transname="إستقرض">
+                    <!--smthing-->
+                    <Root name="قرض" transliteration="qrD"/>
+                    <Deverbal name="إِسْتِقْرَاض" transliteration="IisotiqoraAD" transname="إستقراض"/>
+                    <Participle name="مُسْتَقْرِض" transliteration="musotaqoriD" transname="مستقرض"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَخَارَ" transliteration="IisotaxaAra" transname="إستخار">
+                    <Root name="خير" transliteration="xyr"/>
+                    <Deverbal name="إِسْتِخَارَة" transliteration="IisotixaArap" transname="إستخارة"/>
+                    <Participle name="مُسْتَخِر" transliteration="musotaxir" transname="مستخر"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَثَابَ" transliteration="IisotavaAba" transname="إستثاب">
+                    <Root name="ثوب" transliteration="vwb"/>
+                    <Deverbal name="إِسْتِثَابَة" transliteration="IisotivaAbap" transname="إستثابة"/>
+                    <Participle name="مُسْتَتِيب" transliteration="musotatiyb" transname="مستتيب"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَعْلَمَ" transliteration="IisotaEolama" transname="إستعلم">
+                    <Root name="علم" transliteration="Elm"/>
+                    <Deverbal name="إِسْتِعْلَام" transliteration="IisotiEolaAm" transname="إستعلام"/>
+                    <Participle name="مُسْتَعلِم" transliteration="musotaElim" transname="مستعلم"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَحَقَّ" transliteration="IisotaHaq~a" transname="إستحق">
+                    <Root name="حقق" transliteration="Hqq"/>
+                    <Deverbal name="إِسْتِحْقَاق" transliteration="IisotiHoqaAq" transname="إستحقاق"/>
+                    <Participle name="مُسْتَحِق" transliteration="musotaHiq" transname="مستحق"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَطْرَبَ" transliteration="IisotaToraba" transname="إستطرب">
+                    <Root name="طرب" transliteration="Trb"/>
+                    <Deverbal name="إِسْتِطْرَاب" transliteration="IisotiToraAb" transname="إستطراب"/>
+                    <Participle name="مُسْتَطْرِب" transliteration="musotaTorib" transname="مستطرب"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَرْزَقَ" transliteration="Iisotarozaqa" transname="إسترزق">
+                    <Root name="رزق" transliteration="rzq"/>
+                    <Deverbal name="إِسْتِرْزَاق" transliteration="IisotirozaAq" transname="إسترزاق"/>
+                    <Participle name="مُسْتَرْزِق" transliteration="musotaroziq" transname="مسترزق"/>
+                </MEMBER>
+                <MEMBER name="تَرَزَّقَ" transliteration="taraz~aqa" transname="ترزق">
+                    <Root name="رزق" transliteration="rzq"/>
+                    <Deverbal name="تَرَزُّق" transliteration="taraz~uq" transname="ترزق"/>
+                    <Participle name="مُتَرَزِّق" transliteration="mutaraz~iq" transname="مترزق"/>
+                </MEMBER>
+                <MEMBER name="إِستَرْفَدَ" transliteration="Iistarofada" transname="إسترفد">
+                    <Root name="رفد" transliteration="rfd"/>
+                    <Deverbal name="إِسْتِرْفَاد" transliteration="IisotirofaAd" transname="إسترفاد"/>
+                    <Participle name="مُسْتَرْفِد" transliteration="musotarofid" transname="مسترفد"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَمْنَحَ" transliteration="IisotamonaHa" transname="إستمنح">
+                    <Root name="منح" transliteration="mnH"/>
+                    <Deverbal name="إِسْتِمْنَاح" transliteration="IisotimonaAH" transname="إستمناح"/>
+                    <Participle name="مُسْتَمْنِح" transliteration="musotamoniH" transname="مستمنح"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِسْتَسْقَى النَّاسُ اللَّهَ." transliteration="IisotasoqaY Aln~aAsu All~aha."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="supplicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="VerbSpecific" value="Role"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

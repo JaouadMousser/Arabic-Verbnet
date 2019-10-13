@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="ta$aAbaha-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَشَابَهَ" transliteration="ta$aAbaha" transname="تشابه">
+            <Root name="شبه" transliteration="$bh"/>
+            <Deverbal name="تَشَابُه" transliteration="ta$aAbuh" transname="تشابه"/>
+            <Participle name="مُتَشَابِه" transliteration="muta$aAbih" transname="متشابه"/>
+        </MEMBER>
+        <MEMBER name="تَمَاثَلَ" transliteration="tamaAvala" transname="تماثل">
+            <Root name="مثل" transliteration="mvl"/>
+            <Deverbal name="تَمَاثُل" transliteration="tamaAvul" transname="تماثل"/>
+            <Participle name="مُتَمَاثِل" transliteration="mutamaAvil" transname="متماثل"/>
+        </MEMBER>
+        <MEMBER name="تَشَاكَلَ" transliteration="ta$aAkala" transname="تشاكل">
+            <Root name="شكل" transliteration="$kl"/>
+            <Deverbal name="تَشَاكُل" transliteration="ta$aAkul" transname="تشاكل"/>
+            <Participle name="مُتَشَاكِل" transliteration="muta$aAkil" transname="متشاكل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Attribute">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَشَابَهَ الرَّجُلُ وَ أَبَاهُ." transliteration="ta$aAbaha Alr~ajulu wa OabaAhu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="resemble">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                        <ARG type="ThemRole" value="?Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP.theme PP.attribute" secondary="PPPossessor Subject, Attribute-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَشَابَهَ الرَّجُلُ وَ أَبَاهُ فِي الصِّفَاتِ." transliteration="ta$aAbaha Alr~ajulu wa OabaAhu fiy AlS~ifaAti."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="resemble">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP.attribute NP" secondary="IntransitiveAttribute Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَشَبَهَت صِفَاة الرّجُلَانِ." transliteration="ta$abahat SifaAp Alr~julaAni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Attribute">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="genitive"/>
+                    </SYNRESTRS>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="resemle">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                        <ARG type="ThemRole" value="Attribute"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="$abaha-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

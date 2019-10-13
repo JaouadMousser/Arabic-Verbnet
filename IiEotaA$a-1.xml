@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IiEotaA$a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِعْتَاشَ" transliteration="IiEotaA$a" transname="إعتاش">
+            <Root name="عيش" transliteration="Ey$"/>
+            <Deverbal name="إِعْتَاشَ" transliteration="IiEotaA$a" transname="إعتاش"/>
+            <Participle name="إِعْتِياش" transliteration="IiEotiyA$" transname="إعتياش"/>
+        </MEMBER>
+        <MEMBER name="عَاشَ" transliteration="EaA$a" transname="عاش">
+            <Root name="عيش" transliteration="Ey$"/>
+            <Deverbal name="عَيْش" transliteration="Eayo$" transname="عيش"/>
+            <Participle name="عَائِش" transliteration="EaA}i$" transname="عائش"/>
+        </MEMBER>
+        <MEMBER name="تَعَيّشَ" transliteration="taEay~$a" transname="تعيش">
+            <Root name="عيش" transliteration="Ey$"/>
+            <Deverbal name="تَعَيُّش" transliteration="taEay~u$" transname="تعيش"/>
+            <Participle name="مُتَعَيِش" transliteration="mutaEayi$" transname="متعيش"/>
+        </MEMBER>
+        <MEMBER name="إِقْتَات" transliteration="IiqotaAt" transname="إقتات">
+            <Root name="قوت" transliteration="qwt"/>
+            <Deverbal name="إِقْتِيَات" transliteration="IiqotiyaAt" transname="إقتيات"/>
+            <Participle name="مُقْتَات" transliteration="muqotaAt" transname="مقتات"/>
+        </MEMBER>
+        <MEMBER name="تَغَدَّى" transliteration="tagad~aY" transname="تغدى">
+            <Root name="غدى" transliteration="gdY"/>
+            <Deverbal name="تَغَدِّي" transliteration="tagad~iy" transname="تغدي"/>
+            <Participle name="مُتَغَدِّي" transliteration="mutagad~iy" transname="متغدي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="comestible"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.patient" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="عَاشَ المنكُوبُون عَلَى جُدُور النَّبَاتَات." transliteration="EaA$a Almnkuwbuwn EalaY juduwr Aln~abaAtaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِن عَلَى بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="take_in">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

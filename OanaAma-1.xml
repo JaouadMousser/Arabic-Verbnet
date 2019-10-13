@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="OanaAma-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَنَامَ" transliteration="OanaAma" transname="أنام">
+            <Root name="نوم" transliteration="nwm"/>
+            <Deverbal name="إِنَامَة" transliteration="IinaAmap" transname="إنامة"/>
+            <Participle name="مُنِيم" transliteration="muniym" transname="منيم"/>
+        </MEMBER>
+        <MEMBER name="نَوَّمَ" transliteration="naw~ama" transname="نوم">
+            <Root name="نوم" transliteration="nwm"/>
+            <Deverbal name="تَنْوِيم" transliteration="tanowiym" transname="تنويم"/>
+            <Participle name="مُنَوِّم" transliteration="munaw~im" transname="منوم"/>
+        </MEMBER>
+        <MEMBER name="أَنْعَسَ" transliteration="OanoEasa" transname="أنعس">
+            <Root name="نعس" transliteration="nEs"/>
+            <Deverbal name="إِنْعَاس" transliteration="IinoEaAs" transname="إنعاس"/>
+            <Participle name="مُنْعِس" transliteration="munoEis" transname="منعس"/>
+        </MEMBER>
+        <MEMBER name="نَعَّسَ" transliteration="naE~asa" transname="نعس">
+            <Root name="نعس" transliteration="nEs"/>
+            <Deverbal name="تَنْعِيس" transliteration="tanoEiys" transname="تنعيس"/>
+            <Participle name="مُنْعِّس" transliteration="munoE~is" transname="منعس"/>
+        </MEMBER>
+        <MEMBER name="أَغْفَا" transliteration="OagofaA" transname="أغفا">
+            <Root name="غفو" transliteration="gfw"/>
+            <Deverbal name="إِغْفَاء" transliteration="IigofaA'" transname="إغفاء"/>
+            <Participle name="مُغْفِي" transliteration="mugofiy" transname="مغفي"/>
+        </MEMBER>
+        <MEMBER name="أَغْفَقَ" transliteration="Oagofaqa" transname="أغفق">
+            <Root name="غفق" transliteration="gfq"/>
+            <Deverbal name="إِغْفَاق" transliteration="IigofaAq" transname="إغفاق"/>
+            <Participle name="مُغْفِق" transliteration="mugofiq" transname="مغفق"/>
+        </MEMBER>
+        <MEMBER name="هَمَّدَ" transliteration="ham~ada" transname="همد">
+            <Root name="همد" transliteration="hmd"/>
+            <Deverbal name="إِهْمَاد" transliteration="IihomaAd" transname="إهماد"/>
+            <Participle name="مُهْمِد" transliteration="muhomid" transname="مهمد"/>
+        </MEMBER>
+        <MEMBER name="أَهْمَدَ" transliteration="Oahomada" transname="أهمد">
+            <Root name="همد" transliteration="hmd"/>
+            <Deverbal name="إِهْمَاد" transliteration="IihomaAd" transname="إهماد"/>
+            <Participle name="مُهْمِد" transliteration="muhomid" transname="مهمد"/>
+        </MEMBER>
+        <MEMBER name="هَوَّمَ" transliteration="haw~ama" transname="هوم">
+            <Root name="هوم" transliteration="hwm"/>
+            <Deverbal name="تَهْوِيم" transliteration="tahowiym" transname="تهويم"/>
+            <Participle name="مُهَوِّم" transliteration="muhaw~im" transname="مهوم"/>
+        </MEMBER>
+        <MEMBER name="هَجَّدَ" transliteration="haj~ada" transname="هجد">
+            <Root name="هجد" transliteration="hjd"/>
+            <Deverbal name="تَهْجِيد" transliteration="tahojiyd" transname="تهجيد"/>
+            <Participle name="مُهَجِّد" transliteration="muhaj~id" transname="مهجد"/>
+        </MEMBER>
+        <MEMBER name="أَسْبَتَ" transliteration="Oasobata" transname="أسبت">
+            <Root name="سبت" transliteration="sbt"/>
+            <Deverbal name="إِسْبَات" transliteration="IisobaAt" transname="إسبات"/>
+            <Participle name="مُسْبِت" transliteration="musobit" transname="مسبت"/>
+        </MEMBER>
+        <MEMBER name="أَرْقَدَ" transliteration="Oaroqada" transname="أرقد">
+            <Root name="رقد" transliteration="rqd"/>
+            <Deverbal name="إِرْقَاد" transliteration="IiroqaAd" transname="إرقاد"/>
+            <Participle name="مُرْقِد" transliteration="muroqid" transname="مرقد"/>
+        </MEMBER>
+        <MEMBER name="رَقَّدَ" transliteration="raq~ada" transname="رقد">
+            <Root name="رقد" transliteration="rqd"/>
+            <Deverbal name="تَرْقِيد" transliteration="taroqiyd" transname="ترقيد"/>
+            <Participle name="مُرَقِّد" transliteration="muraq~id" transname="مرقد"/>
+        </MEMBER>
+        <MEMBER name="أَوْسَنَ" transliteration="Oawosana" transname="أوسن">
+            <Root name="وسن" transliteration="wsn"/>
+            <Deverbal name="إِيسَان" transliteration="IiysaAn" transname="إيسان"/>
+            <Participle name="مُوسِن" transliteration="muwsin" transname="موسن"/>
+        </MEMBER>
+        <MEMBER name="وَسَّنَ" transliteration="was~ana" transname="وسن">
+            <Root name="وسن" transliteration="wsn"/>
+            <Deverbal name="تَوْسِين" transliteration="tawosiyn" transname="توسين"/>
+            <Participle name="مُوَسِّن" transliteration="muwas~in" transname="موسن"/>
+        </MEMBER>
+        <MEMBER name="أَكْرَى" transliteration="OakoraY" transname="أكرى">
+            <Root name="كري" transliteration="kry"/>
+            <Deverbal name="إِكْرَاء" transliteration="IikoraA'" transname="إكراء"/>
+            <Participle name="مُكْرِي" transliteration="mukoriy" transname="مكري"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنَامَ الطَبِيبُ المَرِيضَ." transliteration="OanaAma AlTabiybu AlmariyDa."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="sleep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP NP" secondary="Cognate Object"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنَامَ الطَبِيبُ المَرِيضَ نَوْماً عَمِيقاً." transliteration="OanaAma AlTabiybu AlmariyDa nawomAF EamiyqAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="sleep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP-PP" secondary="Instrument-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنَامَ الطَبِيبُ المَرِيضَ بِدَوَاء مُنَوِّم." transliteration="OanaAma AlTabiybu AlmariyDa bidawaA' munaw~im."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِِِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="sleep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="Instrument Subject Alternation" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنَامَتِ المُوسِيقَى المَرِيضَ." transliteration="OanaAmati AlmuwsiyqaY AlmariyDa."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="sleep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="naAma-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

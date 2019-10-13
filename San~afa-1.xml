@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="San~afa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="جَمَعَ" transliteration="jamaEa" transname="جمع">
+            <Root name="جمع" transliteration="jmE"/>
+            <Deverbal name="جَمْع" transliteration="jamoE" transname="جمع"/>
+            <Participle name="جَامِع" transliteration="jaAmiE" transname="جامع"/>
+        </MEMBER>
+        <MEMBER name="نَضَدَ" transliteration="naDada" transname="نضد">
+            <Root name="نضد" transliteration="nDd"/>
+            <Deverbal name="نَضَد" transliteration="naDad" transname="نضد"/>
+            <Participle name="نَاضِد" transliteration="naADid" transname="ناضد"/>
+        </MEMBER>
+        <MEMBER name="نَضَّدَ" transliteration="naD~ada" transname="نضد">
+            <Root name="نضد" transliteration="nDd"/>
+            <Deverbal name="تَنْضِيد" transliteration="tanoDiyd" transname="تنضيد"/>
+            <Participle name="مُنَضِّد" transliteration="munaD~id" transname="منضد"/>
+        </MEMBER>
+        <MEMBER name="بَوَّبَ" transliteration="baw~aba" transname="بوب">
+            <Root name="باب" transliteration="bAb"/>
+            <Deverbal name="تَبْوِيب" transliteration="tabowiyb" transname="تبويب"/>
+            <Participle name="مُبَوِّب" transliteration="mubaw~ib" transname="مبوب"/>
+        </MEMBER>
+        <MEMBER name="تَثَدَ" transliteration="tavada" transname="تثد">
+            <Root name="رثد" transliteration="rvd"/>
+            <Deverbal name="تَثْد" transliteration="tavod" transname="تثد"/>
+            <Participle name="رَاثِد" transliteration="raAvid" transname="راثد"/>
+        </MEMBER>
+        <MEMBER name="رَقَّمَ" transliteration="raq~ama" transname="رقم">
+            <Root name="رقم" transliteration="rqm"/>
+            <Deverbal name="تَرقِيم" transliteration="tarqiym" transname="ترقيم"/>
+            <Participle name="مُرَقِّم" transliteration="muraq~im" transname="مرقم"/>
+        </MEMBER>
+        <MEMBER name="فَهْرَسَ" transliteration="fahorasa" transname="فهرس">
+            <Root name="فهرس" transliteration="fhrs"/>
+            <Deverbal name="فَهْرَسَة" transliteration="fahorasap" transname="فهرسة"/>
+            <Participle name="مُفَهْرِس" transliteration="mufahoris" transname="مفهرس"/>
+        </MEMBER>
+        <MEMBER name="جَدْوَلَ" transliteration="jadowala" transname="جدول">
+            <Root name="جدول" transliteration="jdwl"/>
+            <Deverbal name="جَدْوَلَة" transliteration="jadowalap" transname="جدولة"/>
+            <Participle name="مُجَدْوِل" transliteration="mujadowil" transname="مجدول"/>
+        </MEMBER>
+        <MEMBER name="أَرْشَفَ" transliteration="Oaro$afa" transname="أرشف">
+            <Root name="أرشف" transliteration="Or$f"/>
+            <Deverbal name="أْرْشَفَة" transliteration="Ooro$afap" transname="أرشفة"/>
+            <Participle name="مُأَرْشِف" transliteration="muOaro$if" transname="مأرشف"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="S NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="صَنَّفَ الكُتُبِي المَجَلَّات." transliteration="San~afa Alkutubiy Almajal~aAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="group">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.location" secondary="NP-PPHasaba-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="صَنَّفَ الكُتُبِي المَجَلَّات حَسَبَ النَّوْع." transliteration="San~afa Alkutubiy Almajal~aAt Hasaba Aln~awoE."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="حَسَبَ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="group">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="San~afa-1.1">
+            <MEMBERS>
+                <MEMBER name="صَنَّفَ" transliteration="San~afa" transname="صنف">
+                    <Root name="صنف" transliteration="Snf"/>
+                    <Deverbal name="تَصْنِيف" transliteration="taSoniyf" transname="تصنيف"/>
+                    <Participle name="مُصَنِّف" transliteration="muSan~if" transname="مصنف"/>
+                </MEMBER>
+                <MEMBER name="رَتَّبَ" transliteration="rat~aba" transname="رتب">
+                    <Root name="رتب" transliteration="rtb"/>
+                    <Deverbal name="تَرْتِيب" transliteration="tarotiyb" transname="ترتيب"/>
+                    <Participle name="مُرَتِّب" transliteration="murat~ib" transname="مرتب"/>
+                </MEMBER>
+                <MEMBER name="فَرَزَ" transliteration="faraza" transname="فرز">
+                    <Root name="فرز" transliteration="frz"/>
+                    <Deverbal name="فَرْز" transliteration="faroz" transname="فرز"/>
+                    <Participle name="فَارِز" transliteration="faAriz" transname="فارز"/>
+                </MEMBER>
+                <MEMBER name="قَسَّمَ" transliteration="qas~ama" transname="قسم">
+                    <Root name="قسم" transliteration="qsm"/>
+                    <Deverbal name="تَقْسِيم" transliteration="taqosiym" transname="تقسيم"/>
+                    <Participle name="مُقَسِّم" transliteration="muqas~im" transname="مقسم"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMEROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.location" secondary="NP-PPIilaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="صَنَّفَ الكُتُبِي المَجَلَّات إِلَى أَنْوَاع." transliteration="San~afa Alkutubiy Almajal~aAt IilaY OanowaAE."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="group">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+</AVNCLASS>

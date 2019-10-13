@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="xaAla-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَسِبَ" transliteration="Hasiba" transname="حسب">
+            <Root name="حسب" transliteration="Hsb"/>
+            <Deverbal name="حِسَاب" transliteration="HisaAb" transname="حساب"/>
+            <Participle name="حَاسِب" transliteration="HaAsib" transname="حاسب"/>
+        </MEMBER>
+        <MEMBER name="عَدَّ" transliteration="Ead~a" transname="عد">
+            <Root name="عدد" transliteration="Edd"/>
+            <Deverbal name="عَدّ" transliteration="Ead~" transname="عد"/>
+            <Participle name="عَاد" transliteration="EaAd" transname="عاد"/>
+        </MEMBER>
+        <MEMBER name="ظَنَّ" transliteration="Zan~a" transname="ظن">
+            <Root name="ظنن" transliteration="Znn"/>
+            <Deverbal name="ظَنّ" transliteration="Zan~" transname="ظن"/>
+            <Participle name="ظَان" transliteration="ZaAn" transname="ظان"/>
+        </MEMBER>
+        <MEMBER name="خَالَ" transliteration="xaAla" transname="خال">
+            <Root name="خيل" transliteration="xyl"/>
+            <Deverbal name="خَيْل" transliteration="xayol" transname="خيل"/>
+            <Participle name="خَائِل" transliteration="xaA}il" transname="خائل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP NP" secondary="NP-NP-PRED"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ظَنَّت سَلمَى الرَّاقِصَ مَايكِل جَاكسُون." transliteration="Zan~at salmaY Alr~aAqiSa maAykil jaAksuwn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="characterize">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP ADJ" secondary="NP NP ADJ"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ظَنَّت سَلمَى الرَّاقِصَ مَجْنُوناً." transliteration="Zan~at salmaY Alr~aAqiSa majonuwnAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <ADJ/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="characterize">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP S" secondary="NP S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ظَنَّتُهُ لَا يَهْتَمُّ بِلمُوسِيقَى." transliteration="Zan~atuhu laA yahotam~u bilmuwsiyqaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="characterize">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

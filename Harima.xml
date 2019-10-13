@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Harima-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="كَرِهَ" transliteration="kariha" transname="كره">
+            <Root name="كره" transliteration="krh"/>
+            <Deverbal name="كُره" transliteration="kurh" transname="كره"/>
+            <Participle name="مَكرُوه" transliteration="makruwh" transname="مكروه"/>
+        </MEMBER>
+        <MEMBER name="تَكَرَّهَ" transliteration="takar~aha" transname="تكره">
+            <Root name="كره" transliteration="krh"/>
+            <Deverbal name="تَكَرُّه" transliteration="takar~uh" transname="تكره"/>
+            <Participle name="مَتَكَرِّه" transliteration="matakar~ih" transname="متكره"/>
+        </MEMBER>
+        <MEMBER name="حَرِمَ" transliteration="Harima" transname="حرم">
+            <Root name="حرم" transliteration="Hrm"/>
+            <Deverbal name="حَرَام" transliteration="HaraAm" transname="حرام"/>
+            <Participle name="مُحَرَّم" transliteration="muHar~am" transname="محرم"/>
+        </MEMBER>
+        <MEMBER name="تَحَرَّمَ" transliteration="taHar~ama" transname="تحرم">
+            <Root name="حرم" transliteration="Hrm"/>
+            <Deverbal name="تَحَرُّم" transliteration="taHar~um" transname="تحرم"/>
+            <Participle name="مُتَحَرِّم" transliteration="mutaHar~im" transname="متحرم"/>
+        </MEMBER>
+        <MEMBER name="حَرِجَ" transliteration="Harija" transname="حرج">
+            <Root name="حرج" transliteration="Hrj"/>
+            <Deverbal name="حَرَج" transliteration="Haraj" transname="حرج"/>
+            <Participle name="حَرِج" transliteration="Harij" transname="حرج"/>
+        </MEMBER>
+        <MEMBER name="تَحَرَّجَ" transliteration="taHar~aja" transname="تحرج">
+            <Root name="حرج" transliteration="Hrj"/>
+            <Deverbal name="تَحَرُّج" transliteration="taHar~uj" transname="تحرج"/>
+            <Participle name="مُتَحَرِج" transliteration="mutaHarij" transname="متحرج"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Goal">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="Intransitive" secondary="Inchoative"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرِمَتِ الخَمْرُ." transliteration="Harimati Alxamoru."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V S_Deverbal" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرِمَ شُربَ الخَمْرِ." transliteration="Harima $urba Alxamori."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SELRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرِمَ أَنْ تْشْرَبَ الخَمْرُ." transliteration="Harima Oano to$oraba Alxamoru."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="NP-PPEalaY-NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرِمَتْ عَليْنَا السَجَائِر." transliteration="Harimato EalyonaA AlsajaA}ir."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Goal">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="concern">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Goal"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP S_Deverbal" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَرَّمَ تَدْخِين السَجَائِر." transliteration="Har~ama tadoxiyn AlsajaA}ir."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Goal">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SELRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="juridical_state">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="VerbSpecific" value="Forbidden"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="concern">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Goal"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Har~ama-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="qaAsama-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="شَارَكَ" transliteration="$aAraka" transname="شارك">
+            <Root name="شرك" transliteration="$rk"/>
+            <Deverbal name="مُشَارَكَة" transliteration="mu$aArakap" transname="مشاركة"/>
+            <Participle name="مُشَارِك" transliteration="mu$aArik" transname="مشارك"/>
+        </MEMBER>
+        <MEMBER name="قَاسَمَ" transliteration="qaAsama" transname="قاسم">
+            <Root name="قسم" transliteration="qsm"/>
+            <Deverbal name="مُقَاسَمَة" transliteration="muqaAsamap" transname="مقاسمة"/>
+            <Participle name="مُقَاسِم" transliteration="muqaAsim" transname="مقاسم"/>
+        </MEMBER>
+        <MEMBER name="شَاطَرَ" transliteration="$aATara" transname="شاطر">
+            <Root name="شطر" transliteration="$Tr"/>
+            <Deverbal name="مُشَاطَرَة" transliteration="mu$aATarap" transname="مشاطرة"/>
+            <Participle name="مُشَاطِر" transliteration="mu$aATir" transname="مشاطر"/>
+        </MEMBER>
+        <MEMBER name="بَادَلَ" transliteration="baAdala" transname="بادل">
+            <Root name="بدل" transliteration="bdl"/>
+            <Deverbal name="مُبَادَلَة" transliteration="mubaAdalap" transname="مبادلة"/>
+            <Participle name="مُبَادِل" transliteration="mubaAdil" transname="مبادل"/>
+        </MEMBER>
+        <MEMBER name="نَاصَفَ" transliteration="naASafa" transname="ناصف">
+            <Root name="نصف" transliteration="nSf"/>
+            <Deverbal name="مُنَاصَفَة" transliteration="munaASafap" transname="مناصفة"/>
+            <Participle name="مُنَاصِف" transliteration="munaASif" transname="مناصف"/>
+        </MEMBER>
+    </MEMBERS>
+    <!--I decided to use Actor1 and actor2 instead of Agent and recipient because both of them can be a recipient. However, it may be problematic since it would entail that both participants take part in the event in an equal manner, which is not true. -->
+    <THEMROLES>
+        <THEMROLE type="Actor1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.actor2 NP.theme" secondary="NP-NPtheme-NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَكَ المُعَزُّونَ العَائِلَةَ اَحْزَانَهَا." transliteration="$aAraka AlmuEaz~uwna AlEaA}ilapa AaHozaAnahaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="partake">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.actor2" secondary="NPactor2"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَكَ المُقَاوِلُ غَرِيمَهُ." transliteration="$aAraka AlmuqaAwilu gariymahu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="partake">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="?theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP.actor2 PP.theme" secondary="NP-PPtheme-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَكَ المُعَزُّونَ العَائِلَةَ فِي اَحْزَانِهَا." transliteration="$aAraka AlmuEaz~uwna AlEaA}ilapa fiy AaHozaAnihaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Actor2">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="partake">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor1"/>
+                        <ARG type="ThemRole" value="Actor2"/>
+                        <ARG type="ThemRole" value="theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taqaAsama-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

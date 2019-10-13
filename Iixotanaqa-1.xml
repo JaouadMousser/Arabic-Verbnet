@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS id="Iixotanaqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْخَنَقَ" transliteration="Iinoxanaqa" transname="إنخنق">
+            <Root name="خنق" transliteration="xnq"/>
+            <Deverbal name="إِنْخِنَاق" transliteration="IinoxinaAq" transname="إنخناق"/>
+            <Participle name="مُنْخَنِق" transliteration="munoxaniq" transname="منخنق"/>
+        </MEMBER>
+        <MEMBER name="إِخْتَنَقَ" transliteration="Iixotanaqa" transname="إختنق">
+            <Root name="خنق" transliteration="xnq"/>
+            <Deverbal name="إِخْتِنَاق" transliteration="IixotinaAq" transname="إختناق"/>
+            <Participle name="مُنْخَنِق" transliteration="munoxaniq" transname="منخنق"/>
+        </MEMBER>
+        <MEMBER name="تَخَنَّقَ" transliteration="taxan~aqa" transname="تخنق">
+            <Root name="خنق" transliteration="xnq"/>
+            <Deverbal name="تَخَنُّق" transliteration="taxan~uq" transname="تخنق"/>
+            <Participle name="مُتَخَنِّق" transliteration="mutaxan~iq" transname="متخنق"/>
+        </MEMBER>
+        <MEMBER name="إِنْدَعَتَ" transliteration="IinodaEata" transname="إندعت">
+            <Root name="دعت" transliteration="dEt"/>
+            <Deverbal name="إِنْدِعَات" transliteration="IinodiEaAt" transname="إندعات"/>
+            <Participle name="مُنْدَعِت" transliteration="munodaEit" transname="مندعت"/>
+        </MEMBER>
+        <MEMBER name="إِنْدَأَتَ" transliteration="IinodaOata" transname="إندأت">
+            <Root name="دأت" transliteration="dOt"/>
+            <Deverbal name="إِنْدِآت" transliteration="Iinodi|t" transname="إندآت"/>
+            <Participle name="مُنْدَائِت" transliteration="munodaA}it" transname="مندائت"/>
+        </MEMBER>
+        <MEMBER name="إِنْدَأَطَ" transliteration="IinodaOaTa" transname="إندأط">
+            <Root name="دأط" transliteration="dOT"/>
+            <Deverbal name="إِنْدِآط" transliteration="Iinodi|T" transname="إندآط"/>
+            <Participle name="مُنْدَائِط" transliteration="munodaA}iT" transname="مندائط"/>
+        </MEMBER>
+        <MEMBER name="إِنْسَأَتَ" transliteration="IinosaOata" transname="إنسأت">
+            <Root name="سأت" transliteration="sOt"/>
+            <Deverbal name="إِنْسِآت" transliteration="Iinosi|t" transname="إنسآت"/>
+            <Participle name="مُنْسَئِت" transliteration="munosa}it" transname="منسئت"/>
+        </MEMBER>
+        <MEMBER name="إِنْذَأَطَ" transliteration="Iino*aOaTa" transname="إنذأط">
+            <Root name="ذأط" transliteration="*OT"/>
+            <Deverbal name="إِنْذِآط" transliteration="Iino*i|T" transname="إنذآط"/>
+            <Participle name="مُنْذَئِط" transliteration="muno*a}iT" transname="منذئط"/>
+        </MEMBER>
+        <MEMBER name="إِنْسَأَبَ" transliteration="IinosaOaba" transname="إنسأب">
+            <Root name="سأب" transliteration="sOb"/>
+            <Deverbal name="إِنْسِآب" transliteration="Iinosi|b" transname="إنسآب"/>
+            <Participle name="مُنْسَئِب" transliteration="munosa}ib" transname="منسئب"/>
+        </MEMBER>
+        <MEMBER name="غَرَقَ" transliteration="garaqa" transname="غرق">
+            <Root name="غرق" transliteration="grq"/>
+            <Deverbal name="غَرَق" transliteration="garaq" transname="غرق"/>
+            <Participle name="غَارِق" transliteration="gaAriq" transname="غارق"/>
+        </MEMBER>
+        <MEMBER name="غَرِقَ" transliteration="gariqa" transname="غرق">
+            <Root name="غرق" transliteration="grq"/>
+            <Deverbal name="غَرَق" transliteration="garaq" transname="غرق"/>
+            <Participle name="غَارِق" transliteration="gaAriq" transname="غارق"/>
+        </MEMBER>
+        <MEMBER name="تَغَرَّقَ" transliteration="tagar~aqa" transname="تغرق">
+            <Root name="غرق" transliteration="grq"/>
+            <Deverbal name="تَغَرُّق" transliteration="tagar~uq" transname="تغرق"/>
+            <Participle name="مُتَغَرِّق" transliteration="mutagar~iq" transname="متغرق"/>
+        </MEMBER>
+        <MEMBER name="إِنْشَنَقَ" transliteration="Iino$anaqa" transname="إنشنق">
+            <Root name="شنق" transliteration="$nq"/>
+            <Deverbal name="إِنْشِنَاق" transliteration="Iino$inaAq" transname="إنشناق"/>
+            <Participle name="مُنْشَنِق" transliteration="muno$aniq" transname="منشنق"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="NP NP.theme" secondary="IntransitiveInchoative"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِخْتَنَقَ اللِّصُّ." transliteration="Iixotanaqa All~iS~u."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="suffocate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP-PP" secondary="Result-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِخْتَنَقَ اللِّصُّ حَتَّى المَوْت." transliteration="Iixotanaqa All~iS~u Hat~aY Almawot."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="حَتَّى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Oblique">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="state"/>
+                    </SELRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="suffocate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Pred">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="xanaqa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="jadaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="int_control"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="jadaEa-1.1">
+            <THEMROLES>
+                <THEMROLE type="Patient">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="body_part"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <MEMBERS>
+                <MEMBER name="فَقَأَ" transliteration="faqaOa" transname="فقأ">
+                    <Root name="فقأ" transliteration="fqO"/>
+                    <Deverbal name="فَقْأ" transliteration="faqoO" transname="فقأ"/>
+                    <Participle name="فَاقِئ" transliteration="faAqi}" transname="فاقئ"/>
+                </MEMBER>
+                <MEMBER name="بَقَرَ" transliteration="baqara" transname="بقر">
+                    <Root name="بقر" transliteration="bqr"/>
+                    <Deverbal name="بَقْر" transliteration="baqor" transname="بقر"/>
+                    <Participle name="بَاقِر" transliteration="baAqir" transname="باقر"/>
+                </MEMBER>
+                <MEMBER name="بَخَقَ" transliteration="baxaqa" transname="بخق">
+                    <Root name="بخق" transliteration="bxq"/>
+                    <Deverbal name="بَخْق" transliteration="baxoq" transname="بخق"/>
+                    <Participle name="بَاخِق" transliteration="baAxiq" transname="باخق"/>
+                </MEMBER>
+                <MEMBER name="بَعَجَ" transliteration="baEaja" transname="بعج">
+                    <Root name="بعج" transliteration="bEj"/>
+                    <Deverbal name="بَعْج" transliteration="baEoj" transname="بعج"/>
+                    <Participle name="بَاعِج" transliteration="baAEij" transname="باعج"/>
+                </MEMBER>
+                <MEMBER name="سَلَتَ" transliteration="salata" transname="سلت">
+                    <Root name="سلت" transliteration="slt"/>
+                    <Deverbal name="سَلْت" transliteration="salot" transname="سلت"/>
+                    <Participle name="سَالِت" transliteration="saAlit" transname="سالت"/>
+                </MEMBER>
+                <MEMBER name="سَمَلَ" transliteration="samala" transname="سمل">
+                    <Root name="سمل" transliteration="sml"/>
+                    <Deverbal name="سَمْل" transliteration="samol" transname="سمل"/>
+                    <Participle name="سَامِل" transliteration="saAmil" transname="سامل"/>
+                </MEMBER>
+                <MEMBER name="فَصَدَ" transliteration="faSada" transname="فصد">
+                    <Root name="فصد" transliteration="fSd"/>
+                    <Deverbal name="فَصْد" transliteration="faSod" transname="فصد"/>
+                    <Participle name="فَاصِد" transliteration="faASid" transname="فاصد"/>
+                </MEMBER>
+            </MEMBERS>
+            <MEMBER name="جَدَعَ" transliteration="jadaEa" transname="جدع">
+                <Root name="جدع" transliteration="jdE"/>
+                <Deverbal name="جَدْع" transliteration="jadoE" transname="جدع"/>
+                <Participle name="جَادِع" transliteration="jaAdiE" transname="جادع"/>
+            </MEMBER>
+            <MEMBER name="صَلَمَ" transliteration="Salama" transname="صلم">
+                <Root name="صلم" transliteration="Slm"/>
+                <Deverbal name="صَلْم" transliteration="Salom" transname="صلم"/>
+                <Participle name="صَالِم" transliteration="SaAlim" transname="صالم"/>
+            </MEMBER>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="جَدَعَ الصُّعْلُوكُ الأَنْفَ المُسافِرِ." transliteration="jadaEa AlS~uEoluwku AlOanofa AlmusAfiri."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="VerbSpecific" value="Motion"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="?Instrument"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.instrument" secondary="NP-PPInstrument-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="جَدَعَ الصُّعْلُوكُ أَنْفَ المُسَافِرِ بِالخِنْجَرِ." transliteration="jadaEa AlS~uEoluwku Oanofa AlmusaAfiri biAlxinojari."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ بِوَاسِطَة">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Instrument">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="manner">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="VerbSpecific" value="Motion"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="use">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP.instrument NP" secondary="Instrument Subject Alternation"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="جَدَعَ السَّيْفُ أَنْفَ المُسَافِرِ." transliteration="jadaEa Als~ayofu Oanofa AlmusaAfiri."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Instrument">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="IinojadaEa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

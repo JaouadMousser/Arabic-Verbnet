@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IinobaEava-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْفَرَزَ" transliteration="Iinofaraza" transname="إنفرز">
+            <Root name="فرز" transliteration="frz"/>
+            <Deverbal name="إِنْفِرَاز" transliteration="IinofiraAz" transname="إنفراز"/>
+            <Participle name="مُنْفَرِز" transliteration="munofariz" transname="منفرز"/>
+        </MEMBER>
+        <MEMBER name="إِنْبَعَثَ" transliteration="IinobaEava" transname="إنبعث">
+            <Root name="بعث" transliteration="bEv"/>
+            <Deverbal name="إِنْبِعَاث" transliteration="IinobiEaAv" transname="إنبعاث"/>
+            <Participle name="مُنْبَعِث" transliteration="munobaEiv" transname="منبعث"/>
+        </MEMBER>
+        <MEMBER name="خَرَجَ" transliteration="xaraja" transname="خرج">
+            <Root name="خرج" transliteration="xrj"/>
+            <Deverbal name="خُرُوج" transliteration="xuruwj" transname="خروج"/>
+            <Participle name="خَارِج" transliteration="xaArij" transname="خارج"/>
+        </MEMBER>
+        <MEMBER name="إِنْسَجَمَ" transliteration="Iinosajama" transname="إنسجم">
+            <Root name="سجم" transliteration="sjm"/>
+            <Deverbal name="إِنْسِجَام" transliteration="IinosijaAm" transname="إنسجام"/>
+            <Participle name="مُنْسَجِم" transliteration="munosajim" transname="منسجم"/>
+        </MEMBER>
+        <MEMBER name="إِنْتَفَثَ" transliteration="Iinotafava" transname="إنتفث">
+            <Root name="بفث" transliteration="bfv"/>
+            <Deverbal name="إِنْتِفَاث" transliteration="IinotifaAv" transname="إنتفاث"/>
+            <Participle name="مُنْتَفِث" transliteration="munotafiv" transname="منتفث"/>
+        </MEMBER>
+        <MEMBER name="إِنْفَعَ" transliteration="IinofaEa" transname="إنفع">
+            <Root name="دفع" transliteration="dfE"/>
+            <Deverbal name="إِنْدِفَاع" transliteration="IinodifaAE" transname="إندفاع"/>
+            <Participle name="مُنْدَفِع" transliteration="munodafiE" transname="مندفع"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="-" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intranstive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْبَعَثَتِ الإِشْعَاعَات." transliteration="IinobaEavati AlIi$oEaAEaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP.theme PP.source" secondary="PPSubstance Subject, Source-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْفَرَزَت الهُرمُونَات مِن الغُدَدِ." transliteration="Iinofarazat AlhurmuwnaAt min Algudadi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Oaforaza-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

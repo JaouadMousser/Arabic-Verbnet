@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taHar~aY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَحَرَّى" transliteration="taHar~aY" transname="تحرى">
+            <Root name="حري" transliteration="Hry"/>
+            <Deverbal name="تَحَرِّي" transliteration="taHar~iy" transname="تحري"/>
+            <Participle name="مُتَحَرِّي" transliteration="mutaHar~iy" transname="متحري"/>
+        </MEMBER>
+        <MEMBER name="تَقَصَى" transliteration="taqaSaY" transname="تقصى">
+            <Root name="قصي" transliteration="qSy"/>
+            <Deverbal name="تَقَصِّي" transliteration="taqaS~iy" transname="تقصي"/>
+            <Participle name="مُتَقَصِّي" transliteration="mutaqaS~iy" transname="متقصي"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَقْصَى" transliteration="IisotaqoSaY" transname="إستقصى">
+            <Root name="قصي" transliteration="qSy"/>
+            <Deverbal name="إِسْتِقْصَاء" transliteration="IisotiqoSaA'" transname="إستقصاء"/>
+            <Participle name="مُسْتَقْصِي" transliteration="musotaqoSiy" transname="مستقصي"/>
+        </MEMBER>
+        <MEMBER name="تَلَمَّسَ" transliteration="talam~asa" transname="تلمس">
+            <Root name="لمس" transliteration="lms"/>
+            <Deverbal name="تَلَمُّس" transliteration="talam~us" transname="تلمس"/>
+            <Participle name="مُتَلَمِّس" transliteration="mutalam~is" transname="متلمس"/>
+        </MEMBER>
+        <MEMBER name="تَحَسَّسَ" transliteration="taHas~asa" transname="تحسس">
+            <Root name="حسس" transliteration="Hss"/>
+            <Deverbal name="تَحَسُّس" transliteration="taHas~us" transname="تحسس"/>
+            <Participle name="مُتَحَسِّس" transliteration="mutaHas~is" transname="متحسس"/>
+        </MEMBER>
+        <MEMBER name="تَشَمَّمَ" transliteration="ta$am~ama" transname="تشمم">
+            <Root name="شمم" transliteration="$mm"/>
+            <Deverbal name="تَشَمُّم" transliteration="ta$am~um" transname="تشمم"/>
+            <Participle name="مُتَشَمِّم" transliteration="muta$am~im" transname="متشمم"/>
+        </MEMBER>
+        <MEMBER name="تَطَلَّبَ" transliteration="taTal~aba" transname="تطلب">
+            <Root name="طلب" transliteration="Tlb"/>
+            <Deverbal name="تَطَلُّب" transliteration="taTal~ub" transname="تطلب"/>
+            <Participle name="مُتَطَلِّب" transliteration="mutaTal~ib" transname="متطلب"/>
+        </MEMBER>
+        <MEMBER name="طَلَبَ" transliteration="Talaba" transname="طلب">
+            <Root name="طلب" transliteration="Tlb"/>
+            <Deverbal name="طَلَب" transliteration="Talab" transname="طلب"/>
+            <Participle name="طَالِب" transliteration="TaAlib" transname="طالب"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.location" secondary="PPLocation-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَحَرَّى البَاحِثُ الصِّدْقَ فِي مُحَاوِرِيه." transliteration="taHar~aY AlbaAHivu AlS~idoqa fiy muHaAwiriyh."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَحَرَّى البَاحِثُ الصِّدق." transliteration="taHar~aY AlbaAHivu AlS~idq."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Location"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَحَرَّى الضَاَبِط." transliteration="taHar~aY AlDaAabiT."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="search">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Location"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</AVNCLASS>

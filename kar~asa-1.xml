@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="kar~asa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="كَرَّسَ" transliteration="kar~asa" transname="كرس">
+            <Root name="كرس" transliteration="krs"/>
+            <Deverbal name="تَكْرِيس" transliteration="takoriys" transname="تكريس"/>
+            <Participle name="مُكَرِّس" transliteration="mukar~is" transname="مكرس"/>
+        </MEMBER>
+        <MEMBER name="خَصَّصَ" transliteration="xaS~aSa" transname="خصص">
+            <Root name="خصص" transliteration="xSS"/>
+            <Deverbal name="تَخْصِيص" transliteration="taxoSiyS" transname="تخصيص"/>
+            <Participle name="مُخَصِّص" transliteration="muxaS~iS" transname="مخصص"/>
+        </MEMBER>
+        <MEMBER name="أَفْرَدَ" transliteration="Oaforada" transname="أفرد">
+            <Root name="فرد" transliteration="frd"/>
+            <Deverbal name="إِفْرَاد" transliteration="IiforaAd" transname="إفراد"/>
+            <Participle name="مُفْرِد" transliteration="muforid" transname="مفرد"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP DEVERBAL" secondary="NP-P-DEVERBAL-SCli-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="كَرَّسَ الطَالِبُ جُهْدَهُ لِتَحْصِيل العِلْم." transliteration="kar~asa AlTaAlibu juhodahu litaHoSiyl AlEilom."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="dedicate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.proposition" secondary="NP-PPli-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="كرَّسَ المُحْسِنُ مَالَهُ لِلمُعْوِزِينَ." transliteration="kr~asa AlmuHosinu maAlahu lilmuEowiziyna."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="dedicate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="kar~asa-1.1">
+            <MEMBERS>
+                <MEMBER name="وَقَفَ" transliteration="waqafa" transname="وقف">
+                    <Root name="وقف" transliteration="wqf"/>
+                    <Deverbal name="وَقْف" transliteration="waqof" transname="وقف"/>
+                    <Participle name="وَاقِف" transliteration="waAqif" transname="واقف"/>
+                </MEMBER>
+                <MEMBER name="حَبَسَ" transliteration="Habasa" transname="حبس">
+                    <Root name="حبس" transliteration="Hbs"/>
+                    <Deverbal name="حَبْس" transliteration="Habos" transname="حبس"/>
+                    <Participle name="حَابِس" transliteration="HaAbis" transname="حابس"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.proposition" secondary="NP-PPEalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="وَقَفَ رَجُلُ الأَعْمَالِ أَموَالَهُ عَلَى الجَمْعِيَة الخَيْرِيَة." transliteration="waqafa rajulu AlOaEomaAli OamwaAlahu EalaY AljamoEiyap Alxayoriyap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Proposition">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="dedicate">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IisotaEojala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَعَجَّلَ" transliteration="taEaj~ala" transname="تعجل">
+            <Root name="عجل" transliteration="Ejl"/>
+            <Deverbal name="تَعَجُّل" transliteration="taEaj~ul" transname="تعجل"/>
+            <Participle name="مُتَعَجِّل" transliteration="mutaEaj~il" transname="متعجل"/>
+        </MEMBER>
+        <MEMBER name="عَجِلَ" transliteration="Eajila" transname="عجل">
+            <Root name="عجل" transliteration="Ejl"/>
+            <Deverbal name="عَجَل" transliteration="Eajal" transname="عجل"/>
+            <Participle name="عَاجِل" transliteration="EaAjil" transname="عاجل"/>
+        </MEMBER>
+        <MEMBER name="جَدَّ" transliteration="jad~a" transname="جد">
+            <Root name="جدد" transliteration="jdd"/>
+            <Deverbal name="جَدّ" transliteration="jad~" transname="جد"/>
+            <Participle name="جَاد" transliteration="jaAd" transname="جاد"/>
+        </MEMBER>
+        <MEMBER name="أَكْرَبَ" transliteration="Oakoraba" transname="أكرب">
+            <Root name="كرب" transliteration="krb"/>
+            <Deverbal name="إِكْرَاب" transliteration="IikoraAb" transname="إكراب"/>
+            <Participle name="مُكْرِب" transliteration="mukorib" transname="مكرب"/>
+        </MEMBER>
+        <MEMBER name="هَزَعَ" transliteration="hazaEa" transname="هزع">
+            <Root name="هزع" transliteration="hzE"/>
+            <Deverbal name="هَزَع" transliteration="hazaE" transname="هزع"/>
+            <Participle name="هَازِع" transliteration="haAziE" transname="هازع"/>
+        </MEMBER>
+        <MEMBER name="إِهْتَزَعَ" transliteration="IihotazaEa" transname="إهتزع">
+            <Root name="هتع" transliteration="htE"/>
+            <Deverbal name="إِهْتِزَاع" transliteration="IihotizaAE" transname="إهتزاع"/>
+            <Participle name="مُهْتَزِع" transliteration="muhotaziE" transname="مهتزع"/>
+        </MEMBER>
+        <MEMBER name="تَهَزَّعَ" transliteration="tahaz~aEa" transname="تهزع">
+            <Root name="هزع" transliteration="hzE"/>
+            <Deverbal name="تَهَزُّع" transliteration="tahaz~uE" transname="تهزع"/>
+            <Participle name="مُتَهَِّع" transliteration="mutaha~iE" transname="متهع"/>
+        </MEMBER>
+        <MEMBER name="تَخَفَّفَ" transliteration="taxaf~afa" transname="تخفف">
+            <Root name="خفف" transliteration="xff"/>
+            <Deverbal name="تَخَفُّف" transliteration="taxaf~uf" transname="تخفف"/>
+            <Participle name="مُتَخَفِّف" transliteration="mutaxaf~if" transname="متخفف"/>
+        </MEMBER>
+        <MEMBER name="دَفَّفَ" transliteration="daf~afa" transname="دفف">
+            <Root name="دفف" transliteration="dff"/>
+            <Deverbal name="تَدْفِيف" transliteration="tadofiyf" transname="تدفيف"/>
+            <Participle name="مُدَفِّف" transliteration="mudaf~if" transname="مدفف"/>
+        </MEMBER>
+        <MEMBER name="زَفَّ" transliteration="zaf~a" transname="زف">
+            <Root name="زفف" transliteration="zff"/>
+            <Deverbal name="زَفّ" transliteration="zaf~" transname="زف"/>
+            <Participle name="زَاف" transliteration="zaAf" transname="زاف"/>
+        </MEMBER>
+        <MEMBER name="تَخَفَّفَ" transliteration="taxaf~afa" transname="تخفف">
+            <Root name="خفف" transliteration="xff"/>
+            <Deverbal name="تَخَفُّف" transliteration="taxaf~uf" transname="تخفف"/>
+            <Participle name="مُتَخَفِّف" transliteration="mutaxaf~if" transname="متخفف"/>
+        </MEMBER>
+        <MEMBER name="هَفَا" transliteration="hafaA" transname="هفا">
+            <Root name="هفا" transliteration="hfA"/>
+            <Deverbal name="هَفْو" transliteration="hafow" transname="هفو"/>
+            <Participle name="هَافِي" transliteration="haAfiy" transname="هافي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP fiy DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَسْرَعَ الطَّلَبَة فِي الكِتَابَة." transliteration="OasoraEa AlT~alabap fiy AlkitaAbap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="rush">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="end">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَسْرَعَ الطَّلَبَة." transliteration="OasoraEa AlT~alabap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="تهرُْغه">
+                    <SELRESTRS/>
+                </PREP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="rush">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="IisotaEojala-1.1">
+            <MEMBERS>
+                <MEMBER name="أَسْرَعَ" transliteration="OasoraEa" transname="أسرع">
+                    <Root name="سرع" transliteration="srE"/>
+                    <Deverbal name="إِسْرَاع" transliteration="IisoraAE" transname="إسراع"/>
+                    <Participle name="مُسْرِع" transliteration="musoriE" transname="مسرع"/>
+                </MEMBER>
+                <MEMBER name="أْكْرَبَ" transliteration="Ookoraba" transname="أكرب">
+                    <Root name="كرب" transliteration="krb"/>
+                    <Deverbal name="إِكْرَاب" transliteration="IikoraAb" transname="إكراب"/>
+                    <Participle name="مُكْرِب" transliteration="mukorib" transname="مكرب"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَعْجَلَ" transliteration="IisotaEojala" transname="إستعجل">
+                    <Root name="عجل" transliteration="Ejl"/>
+                    <Deverbal name="إِسْتِعْجَال" transliteration="IisotiEojaAl" transname="إستعجال"/>
+                    <Participle name="مُسْتَعْجِل" transliteration="musotaEojil" transname="مستعجل"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP.theme" secondary="NPCausative variant"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِستَعْجَلَ الضَيْفُ صَاحِبَ البَيْت." transliteration="IistaEojala AlDayofu SaAHiba Albayot."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="rush">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Eaj~ala-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

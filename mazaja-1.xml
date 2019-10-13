@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="mazaja-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="int_control"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient1">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient2">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="mazaja-1.1">
+            <MEMBERS>
+                <MEMBER name="خَلَطَ" transliteration="xalaTa" transname="خلط">
+                    <Root name="خلط" transliteration="xlT"/>
+                    <Deverbal name="خَلْط" transliteration="xaloT" transname="خلط"/>
+                    <Participle name="خَالِط" transliteration="xaAliT" transname="خالط"/>
+                </MEMBER>
+                <MEMBER name="مَزَجَ" transliteration="mazaja" transname="مزج">
+                    <Root name="مزج" transliteration="mzj"/>
+                    <Deverbal name="مَزْج" transliteration="mazoj" transname="مزج"/>
+                    <Participle name="مَازِج" transliteration="maAzij" transname="مازج"/>
+                </MEMBER>
+                <MEMBER name="بَكَلَ" transliteration="bakala" transname="بكل">
+                    <Root name="بكل" transliteration="bkl"/>
+                    <Deverbal name="بَكْل" transliteration="bakol" transname="بكل"/>
+                    <Participle name="بَاكِل" transliteration="baAkil" transname="باكل"/>
+                </MEMBER>
+                <MEMBER name="بَكَّلَ" transliteration="bak~ala" transname="بكل">
+                    <Root name="بكل" transliteration="bkl"/>
+                    <Deverbal name="تَبْكِيل" transliteration="tabokiyl" transname="تبكيل"/>
+                    <Participle name="مُبَكِل" transliteration="mubakil" transname="مبكل"/>
+                </MEMBER>
+                <MEMBER name="مَازَجَ" transliteration="maAzaja" transname="مازج">
+                    <Root name="مزج" transliteration="mzj"/>
+                    <Deverbal name="مُمَازَجَة" transliteration="mumaAzajap" transname="ممازجة"/>
+                    <Participle name="مُمَازِة" transliteration="mumaAzip" transname="ممازة"/>
+                </MEMBER>
+                <MEMBER name="خَالَطَ" transliteration="xaAlaTa" transname="خالط">
+                    <Root name="خلط" transliteration="xlT"/>
+                    <Deverbal name="مُخَالَطَ" transliteration="muxaAlaTa" transname="مخالط"/>
+                    <Participle name="مُخَالَطَة" transliteration="muxaAlaTap" transname="مخالطة"/>
+                </MEMBER>
+                <MEMBER name="خَلَّطَ" transliteration="xal~aTa" transname="خلط">
+                    <Root name="خلط" transliteration="xlT"/>
+                    <Deverbal name="تَخْلِيط" transliteration="taxoliyT" transname="تخليط"/>
+                    <Participle name="مُخَلِّط" transliteration="muxal~iT" transname="مخلط"/>
+                </MEMBER>
+                <MEMBER name="أَلَّفَ" transliteration="Oal~afa" transname="ألف">
+                    <Root name="ألف" transliteration="Olf"/>
+                    <Deverbal name="تَأْلِيف" transliteration="taOoliyf" transname="تأليف"/>
+                    <Participle name="مُؤَلِّف" transliteration="muWal~if" transname="مؤلف"/>
+                </MEMBER>
+                <MEMBER name="آلَفَ" transliteration="|lafa" transname="آلف">
+                    <Root name="ألف" transliteration="Olf"/>
+                    <Deverbal name="مُؤَالَفَة" transliteration="muWaAlafap" transname="مؤالفة"/>
+                    <Participle name="مُؤَلِف" transliteration="muWalif" transname="مؤلف"/>
+                </MEMBER>
+                <MEMBER name="وَلَّفَ" transliteration="wal~afa" transname="ولف">
+                    <Root name="ولف" transliteration="wlf"/>
+                    <Deverbal name="تَوْلِيف" transliteration="tawoliyf" transname="توليف"/>
+                    <Participle name="مُوَلِّف" transliteration="muwal~if" transname="مولف"/>
+                </MEMBER>
+                <MEMBER name="وَالَفَ" transliteration="waAlafa" transname="والف">
+                    <Root name="ولف" transliteration="wlf"/>
+                    <Deverbal name="مُوَالَفَة" transliteration="muwaAlafap" transname="موالفة"/>
+                    <Participle name="مُوَالِف" transliteration="muwaAlif" transname="موالف"/>
+                </MEMBER>
+                <MEMBER name="مَاهَى" transliteration="maAhaY" transname="ماهى">
+                    <Root name="مهي" transliteration="mhy"/>
+                    <Deverbal name="مُمَاهَاة" transliteration="mumaAhaAp" transname="مماهاة"/>
+                    <Participle name="مُمَاهِي" transliteration="mumaAhiy" transname="مماهي"/>
+                </MEMBER>
+                <MEMBER name="وَحَّدَ" transliteration="waH~ada" transname="وحد">
+                    <Root name="أحد" transliteration="OHd"/>
+                    <Deverbal name="تَوْحِيد" transliteration="tawoHiyd" transname="توحيد"/>
+                    <Participle name="مُوَحِّد" transliteration="muwaH~id" transname="موحد"/>
+                </MEMBER>
+                <MEMBER name="جَمَعَ" transliteration="jamaEa" transname="جمع">
+                    <Root name="جمع" transliteration="jmE"/>
+                    <Deverbal name="جَمْع" transliteration="jamoE" transname="جمع"/>
+                    <Participle name="جَامِع" transliteration="jaAmiE" transname="جامع"/>
+                </MEMBER>
+                <MEMBER name="عَكَلَ" transliteration="Eakala" transname="عكل">
+                    <Root name="عكل" transliteration="Ekl"/>
+                    <Deverbal name="عَكْل" transliteration="Eakol" transname="عكل"/>
+                    <Participle name="عَاكِل" transliteration="EaAkil" transname="عاكل"/>
+                </MEMBER>
+                <MEMBER name="لَبَكَ" transliteration="labaka" transname="لبك">
+                    <Root name="لبك" transliteration="lbk"/>
+                    <Deverbal name="لَبْك" transliteration="labok" transname="لبك"/>
+                    <Participle name="لَابِك" transliteration="laAbik" transname="لابك"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.patient2" secondary="NP-PPbi/maEa-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="مَزَجَ الطَّبَّاخُ الزَيْتَ بِالدَّقِيقِ." transliteration="mazaja AlT~ab~aAxu Alzayota biAld~aqiyqi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="مَعَ بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Patient2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="mingled">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patient2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Simple Reciprocal Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="مَزَجَ الطَّبَّاخُ البَيْضَ وَالحَلِيب." transliteration="mazaja AlT~ab~aAxu AlbayoDa waAlHaliyb."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS logic="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="mingled">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP" secondary="Prep-baEoD-POS Reciprocal alternation"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="مَزَجَ الطَّبَّاخُ البَيْضَ وَالحَلِيبَ بِبَعضِهِمَا." transliteration="mazaja AlT~ab~aAxu AlbayoDa waAlHaliyba bibaEDihimaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS logic="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="مَعَ بِ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="baEoD">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="mingled">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP" secondary="PPbyana-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="مَزَجَ الرَّسَّامُ بَيْنَ الأَلْوَانِ." transliteration="mazaja Alr~as~aAmu bayona AlOalowaAni."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بيَنَ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Patient">
+                            <SYNRESTRS logic="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="mingled">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patient2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="mazaja-1.2">
+            <MEMBERS>
+                <MEMBER name="أَشَبَ" transliteration="Oa$aba" transname="أشب">
+                    <Root name="أشب" transliteration="O$b"/>
+                    <Deverbal name="أَشأب" transliteration="Oa$Ob" transname="أشأب"/>
+                    <Participle name="آشِب" transliteration="|$ib" transname="آشب"/>
+                </MEMBER>
+                <MEMBER name="دَافَ" transliteration="daAfa" transname="داف">
+                    <Root name="ديف" transliteration="dyf"/>
+                    <Deverbal name="دَيَاف" transliteration="dayaAf" transname="دياف"/>
+                    <Participle name="دَائِف" transliteration="daA}if" transname="دائف"/>
+                </MEMBER>
+                <MEMBER name="مَاثَ" transliteration="maAva" transname="ماث">
+                    <Root name="موث" transliteration="mwv"/>
+                    <Deverbal name="مَوْث" transliteration="mawov" transname="موث"/>
+                    <Participle name="مَائِث" transliteration="maA}iv" transname="مائث"/>
+                </MEMBER>
+                <MEMBER name="دَمَجَ" transliteration="damaja" transname="دمج">
+                    <Root name="دمج" transliteration="dmj"/>
+                    <Deverbal name="دَمْج" transliteration="damoj" transname="دمج"/>
+                    <Participle name="دَامِج" transliteration="daAmij" transname="دامج"/>
+                </MEMBER>
+                <MEMBER name="أَدمَجَ" transliteration="Oadmaja" transname="أدمج">
+                    <Root name="دمج" transliteration="dmj"/>
+                    <Deverbal name="إِدْمَاج" transliteration="IidomaAj" transname="إدماج"/>
+                    <Participle name="مُدْمِج" transliteration="mudomij" transname="مدمج"/>
+                </MEMBER>
+                <MEMBER name="أَذَابَ" transliteration="Oa*aAba" transname="أذاب">
+                    <Root name="ذوب" transliteration="*wb"/>
+                    <Deverbal name="إِذَابَة" transliteration="Ii*aAbap" transname="إذابة"/>
+                    <Participle name="مُذِيب" transliteration="mu*iyb" transname="مذيب"/>
+                </MEMBER>
+                <MEMBER name="ذَوَّبَ" transliteration="*aw~aba" transname="ذوب">
+                    <Root name="ذوب" transliteration="*wb"/>
+                    <Deverbal name="تَذْوِيب" transliteration="ta*owiyb" transname="تذويب"/>
+                    <Participle name="مُذَوِّب" transliteration="mu*aw~ib" transname="مذوب"/>
+                </MEMBER>
+                <MEMBER name="صَهَرَ" transliteration="Sahara" transname="صهر">
+                    <Root name="صهر" transliteration="Shr"/>
+                    <Deverbal name="صَهْر" transliteration="Sahor" transname="صهر"/>
+                    <Participle name="صَاحِر" transliteration="SaAHir" transname="صاحر"/>
+                </MEMBER>
+                <MEMBER name="أَدْغَمَ" transliteration="Oadogama" transname="أدغم">
+                    <Root name="دغم" transliteration="dgm"/>
+                    <Deverbal name="إِدْغَام" transliteration="IidogaAm" transname="إدغام"/>
+                    <Participle name="مُدْغِم" transliteration="mudogim" transname="مدغم"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.patient2" secondary="NP-PPfiy-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَذَابَ الطّبَّاخُ الزُّبدَةَ فِي المَرَقِ." transliteration="Oa*aAba AlT~b~aAxu Alz~ubdapa fiy Almaraqi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Patient2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="degradation_material_integrity">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Patient2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="mingled">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patient2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="mazaja-1.3">
+            <MEMBERS>
+                <MEMBER name="أَضَافَ" transliteration="OaDaAfa" transname="أضاف">
+                    <Root name="ضاف" transliteration="DAf"/>
+                    <Deverbal name="إِضَافَة" transliteration="IiDaAfap" transname="إضافة"/>
+                    <Participle name="مُضِيف" transliteration="muDiyf" transname="مضيف"/>
+                </MEMBER>
+                <MEMBER name="زَادَ" transliteration="zaAda" transname="زاد">
+                    <Root name="زاد" transliteration="zAd"/>
+                    <Deverbal name="زِيَادَة" transliteration="ziyaAdap" transname="زيادة"/>
+                    <Participle name="زَائِد" transliteration="zaA}id" transname="زائد"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.patient2" secondary="NP-PPIilaA-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَضَافَ الطّبَّاخُ بَيْضَةً إِلَى الخَلِيطِ." transliteration="OaDaAfa AlT~b~aAxu bayoDapF IilaY AlxaliyTi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى لِ عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Patient2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="together">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patient2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="mazaja-1.4">
+            <MEMBERS>
+                <MEMBER name="زَاوَجَ" transliteration="zaAwaja" transname="زاوج">
+                    <Root name="زوج" transliteration="zwj"/>
+                    <Deverbal name="مُزَاوَجَة" transliteration="muzaAwajap" transname="مزاوجة"/>
+                    <Participle name="مُزَاوِج" transliteration="muzaAwij" transname="مزاوج"/>
+                </MEMBER>
+                <MEMBER name="قَرَنَ" transliteration="qarana" transname="قرن">
+                    <Root name="قرن" transliteration="qrn"/>
+                    <Deverbal name="قَرْن" transliteration="qaron" transname="قرن"/>
+                    <Participle name="قَارِن" transliteration="qaArin" transname="قارن"/>
+                </MEMBER>
+                <MEMBER name="لَحَمَ" transliteration="laHama" transname="لحم">
+                    <Root name="لحم" transliteration="lHm"/>
+                    <Deverbal name="لَحْم" transliteration="laHom" transname="لحم"/>
+                    <Participle name="لَاحِم" transliteration="laAHim" transname="لاحم"/>
+                </MEMBER>
+                <MEMBER name="لَاحَمَ" transliteration="laAHama" transname="لاحم">
+                    <Root name="لحم" transliteration="lHm"/>
+                    <Deverbal name="مُلَاحَمَة" transliteration="mulaAHamap" transname="ملاحمة"/>
+                    <Participle name="مُلَاحِم" transliteration="mulaAHim" transname="ملاحم"/>
+                </MEMBER>
+                <MEMBER name="رَبَطَ" transliteration="rabaTa" transname="ربط">
+                    <Root name="ربط" transliteration="rbT"/>
+                    <Deverbal name="رَبْط" transliteration="raboT" transname="ربط"/>
+                    <Participle name="رَابِط" transliteration="raAbiT" transname="رابط"/>
+                </MEMBER>
+                <MEMBER name="وَصَلَ" transliteration="waSala" transname="وصل">
+                    <Root name="وصل" transliteration="wSl"/>
+                    <Deverbal name="وَصْل" transliteration="waSol" transname="وصل"/>
+                    <Participle name="وَاصِل" transliteration="waASil" transname="واصل"/>
+                </MEMBER>
+                <MEMBER name="شَابَكَ" transliteration="$aAbaka" transname="شابك">
+                    <Root name="شبك" transliteration="$bk"/>
+                    <Deverbal name="مُشَابَكَة" transliteration="mu$aAbakap" transname="مشابكة"/>
+                    <Participle name="مُشَابِك" transliteration="mu$aAbik" transname="مشابك"/>
+                </MEMBER>
+                <MEMBER name="شَبَكَ" transliteration="$abaka" transname="شبك">
+                    <Root name="شبك" transliteration="$bk"/>
+                    <Deverbal name="شَبْك" transliteration="$abok" transname="شبك"/>
+                    <Participle name="شَابِك" transliteration="$aAbik" transname="شابك"/>
+                </MEMBER>
+                <MEMBER name="وَصَّلَ" transliteration="waS~ala" transname="وصل">
+                    <Root name="وصل" transliteration="wSl"/>
+                    <Deverbal name="تَوْصِيل" transliteration="tawoSiyl" transname="توصيل"/>
+                    <Participle name="مُوَصِّل" transliteration="muwaS~il" transname="موصل"/>
+                </MEMBER>
+                <MEMBER name="أَقْرَنَ" transliteration="Oaqorana" transname="أقرن">
+                    <Root name="قرن" transliteration="qrn"/>
+                    <Deverbal name="إِقْرَان" transliteration="IiqoraAn" transname="إقران"/>
+                    <Participle name="مُقْرِن" transliteration="muqorin" transname="مقرن"/>
+                </MEMBER>
+                <MEMBER name="وَشَّجَ" transliteration="wa$~aja" transname="وشج">
+                    <Root name="وشج" transliteration="w$j"/>
+                    <Deverbal name="تَوْشِيج" transliteration="tawo$iyj" transname="توشيج"/>
+                    <Participle name="مُوَشِّج" transliteration="muwa$~ij" transname="موشج"/>
+                </MEMBER>
+                <MEMBER name="وَشَجَ" transliteration="wa$aja" transname="وشج">
+                    <Root name="وشج" transliteration="w$j"/>
+                    <Deverbal name="وَشْج" transliteration="wa$oj" transname="وشج"/>
+                    <Participle name="وَاشِج" transliteration="waA$ij" transname="واشج"/>
+                </MEMBER>
+                <MEMBER name="شَابَ" transliteration="$aAba" transname="شاب">
+                    <Root name="شاب" transliteration="$Ab"/>
+                    <Deverbal name="شَوْب" transliteration="$awob" transname="شوب"/>
+                    <Participle name="شَائِب" transliteration="$aA}ib" transname="شائب"/>
+                </MEMBER>
+                <MEMBER name="عَلَّقَ" transliteration="Eal~aqa" transname="علق">
+                    <Root name="علق" transliteration="Elq"/>
+                    <Deverbal name="تَعْلِيق" transliteration="taEoliyq" transname="تعليق"/>
+                    <Participle name="مُعَلِّق" transliteration="muEal~iq" transname="معلق"/>
+                </MEMBER>
+                <MEMBER name="زَوَّجَ" transliteration="zaw~aja" transname="زوج">
+                    <Root name="زوج" transliteration="zwj"/>
+                    <Deverbal name="تَزْوِيج" transliteration="tazowiyj" transname="تزويج"/>
+                    <Participle name="مُزَوِّج" transliteration="muzaw~ij" transname="مزوج"/>
+                </MEMBER>
+                <MEMBER name="لَأَمَ" transliteration="laOama" transname="لأم">
+                    <Root name="لأم" transliteration="lOm"/>
+                    <Deverbal name="لَأم" transliteration="laOm" transname="لأم"/>
+                    <Participle name="لَائِم" transliteration="laA}im" transname="لائم"/>
+                </MEMBER>
+                <MEMBER name="ضَمَّ" transliteration="Dam~a" transname="ضم">
+                    <Root name="ضمم" transliteration="Dmm"/>
+                    <Deverbal name="ضَمّ" transliteration="Dam~" transname="ضم"/>
+                    <Participle name="ضَام" transliteration="DaAm" transname="ضام"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Simple Reciprocal Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَرَنَ التِّقَنِيُ الحَوَاسِيب." transliteration="qarana Alt~iqaniyu AlHawaAsiyb."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS logic="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="together">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP.patient2" secondary="NP-PPbi-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَرَنَ التِّقَنِيُ الحَاسُوبَ الأَوَّلَ بِالحَاسُوبِ الثَّانِي." transliteration="qarana Alt~iqaniyu AlHaAsuwba AlOaw~ala biAlHaAsuwbi Alv~aAniy."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ مَعَ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Patient2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="together">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient1"/>
+                                <ARG type="ThemRole" value="Patien2"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP PP" secondary="Prep-baEoD-POS Reciprocal alternation"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَرَنَ التّقَنِيُّ الحَوَاسِيبَ بِبَعْضِهَا." transliteration="qarana Alt~qaniy~u AlHawaAsiyba bibaEoDihaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS logic="or">
+                                <SYNRESTR Value="+" type="plural"/>
+                                <SYNRESTR Value="+" type="dual"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="بِ مَعَ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="baEoD">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="together">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="Constant" value="physical"/>
+                                <ARG type="ThemRole" value="Patient_i"/>
+                                <ARG type="ThemRole" value="Patient_j"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Iimotazaja-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

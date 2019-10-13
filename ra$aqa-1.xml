@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="ra$aqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="جَنَّقَ" transliteration="jan~aqa" transname="جنق">
+            <Root name="جنق" transliteration="jnq"/>
+            <Deverbal name="تَجْنِيق" transliteration="tajoniyq" transname="تجنيق"/>
+            <Participle name="مُجَنِّق" transliteration="mujan~iq" transname="مجنق"/>
+        </MEMBER>
+        <MEMBER name="رَشَقَ" transliteration="ra$aqa" transname="رشق">
+            <Root name="رشق" transliteration="r$q"/>
+            <Deverbal name="رَشْق" transliteration="ra$oq" transname="رشق"/>
+            <Participle name="رَاشِق" transliteration="raA$iq" transname="راشق"/>
+        </MEMBER>
+        <MEMBER name="لَقَعَ" transliteration="laqaEa" transname="لقع">
+            <Root name="لقع" transliteration="lqE"/>
+            <Deverbal name="لَقْع" transliteration="laqoE" transname="لقع"/>
+            <Participle name="لَاقِع" transliteration="laAqiE" transname="لاقع"/>
+        </MEMBER>
+        <MEMBER name="مَقَعَ" transliteration="maqaEa" transname="مقع">
+            <Root name="مقع" transliteration="mqE"/>
+            <Deverbal name="مَقْع" transliteration="maqoE" transname="مقع"/>
+            <Participle name="مَاقِع" transliteration="maAqiE" transname="ماقع"/>
+        </MEMBER>
+        <MEMBER name="رَجَمَ" transliteration="rajama" transname="رجم">
+            <Root name="رجم" transliteration="rjm"/>
+            <Deverbal name="رَجْم" transliteration="rajom" transname="رجم"/>
+            <Participle name="رَاجِم" transliteration="raAjim" transname="راجم"/>
+        </MEMBER>
+        <MEMBER name="قَصَفَ" transliteration="qaSafa" transname="قصف">
+            <Root name="قصف" transliteration="qSf"/>
+            <Deverbal name="قَصْف" transliteration="qaSof" transname="قصف"/>
+            <Participle name="قَاصِب" transliteration="qaASib" transname="قاصب"/>
+        </MEMBER>
+        <MEMBER name="قَنْبَلَ" transliteration="qanobala" transname="قنبل">
+            <Root name="قنبل" transliteration="qnbl"/>
+            <Deverbal name="قَنْبَلَة" transliteration="qanobalap" transname="قنبلة"/>
+            <Participle name="مُقَنْبِل" transliteration="muqanobil" transname="مقنبل"/>
+        </MEMBER>
+        <MEMBER name="أَمْطَرَ" transliteration="OamoTara" transname="أمطر">
+            <Root name="مطر" transliteration="mTr"/>
+            <Deverbal name="إِمْطَار" transliteration="IimoTaAr" transname="إمطار"/>
+            <Participle name="مُمْطِر" transliteration="mumoTir" transname="ممطر"/>
+        </MEMBER>
+        <MEMBER name="رَمَى" transliteration="ramaY" transname="رمى">
+            <Root name="رمي" transliteration="rmy"/>
+            <Deverbal name="رَمْي" transliteration="ramoy" transname="رمي"/>
+            <Participle name="رَامِي" transliteration="raAmiy" transname="رامي"/>
+        </MEMBER>
+        <MEMBER name="قَذَفَ" transliteration="qa*afa" transname="قذف">
+            <Root name="قذف" transliteration="q*f"/>
+            <Deverbal name="قَذْف" transliteration="qa*of" transname="قذف"/>
+            <Participle name="قَاذِف" transliteration="qaA*if" transname="قاذف"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="int_control"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme" secondary="NP-PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَشَقَ السُكَانُ المَارَة بِالطَمَاطِم." transliteration="ra$aqa AlsukaAnu AlmaArap biAlTamaATim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Transitivedropped Theme"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَشَقَتِ القِرَدَةُ المَارَة." transliteration="ra$aqati Alqiradapu AlmaArap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taraA$aqa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

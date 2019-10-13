@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="tasam~aY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Inchoative NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَسَمَّى اللَّاعِبُ الأَسَدَ." transliteration="tasam~aY All~aAEibu AlOasada."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="designated">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="tasam~aY-1.1">
+            <MEMBERS>
+                <MEMBER name="تَعَنْوَنَ" transliteration="taEanowana" transname="تعنون">
+                    <Root name="عنون" transliteration="Enwn"/>
+                    <Deverbal name="تَعَنْوُن" transliteration="taEanowun" transname="تعنون"/>
+                    <Participle name="مُتَعَنْوِن" transliteration="mutaEanowin" transname="متعنون"/>
+                </MEMBER>
+                <MEMBER name="تَلَقَّبَ" transliteration="talaq~aba" transname="تلقب">
+                    <Root name="لقب" transliteration="lqb"/>
+                    <Deverbal name="تَلَقُّب" transliteration="talaq~ub" transname="تلقب"/>
+                    <Participle name="مُتَلَقِّب" transliteration="mutalaq~ib" transname="متلقب"/>
+                </MEMBER>
+                <MEMBER name="إِنْتَبَزَ" transliteration="Iinotabaza" transname="إنتبز">
+                    <Root name="نبز" transliteration="nbz"/>
+                    <Deverbal name="إِنْتِبَاز" transliteration="IinotibaAz" transname="إنتباز"/>
+                    <Participle name="مُنْتَبِز" transliteration="munotabiz" transname="منتبز"/>
+                </MEMBER>
+                <MEMBER name="إِنْدَعَى" transliteration="IinodaEaY" transname="إندعى">
+                    <Root name="دعا" transliteration="dEA"/>
+                    <Deverbal name="إِنْدِعَاء" transliteration="IinodiEaA'" transname="إندعاء"/>
+                    <Participle name="مُنْدَعِي" transliteration="munodaEiy" transname="مندعي"/>
+                </MEMBER>
+                <MEMBER name="تَنَادَى" transliteration="tanaAdaY" transname="تنادى">
+                    <Root name="ندا" transliteration="ndA"/>
+                    <Deverbal name="تَنَادِي" transliteration="tanaAdiy" transname="تنادي"/>
+                    <Participle name="مُتَنَادِي" transliteration="mutanaAdiy" transname="متنادي"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.predicate" secondary="NP-PPbi-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَلَقَّبَ اللَّاعِبَ بِالأَسَدِ." transliteration="talaq~aba All~aAEiba biAlOasadi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Predicate">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="designated">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <AVNSUBCLASS ID="tasam~aY-1.1.1">
+                    <MEMBERS>
+                        <MEMBER name="تَسَمَّى" transliteration="tasam~aY" transname="تسمى">
+                            <Root name="سما" transliteration="smA"/>
+                            <Deverbal name="تَسَمِّي" transliteration="tasam~iy" transname="تسمي"/>
+                            <Participle name="مُتَسَمِّي" transliteration="mutasam~iy" transname="متسمي"/>
+                        </MEMBER>
+                        <MEMBER name="تَكَنَّى" transliteration="takan~aY" transname="تكنى">
+                            <Root name="كني" transliteration="kny"/>
+                            <Deverbal name="تَكَنِّي" transliteration="takan~iy" transname="تكني"/>
+                            <Participle name="مُتَكَنِّي" transliteration="mutakan~iy" transname="متكني"/>
+                        </MEMBER>
+                        <MEMBER name="إِنْكَنَى" transliteration="IinokanaY" transname="إنكنى">
+                            <Root name="كنى" transliteration="knY"/>
+                            <Deverbal name="إِنْكِنَاء" transliteration="IinokinaA'" transname="إنكناء"/>
+                            <Participle name="مُنْكَنِي" transliteration="munokaniy" transname="منكني"/>
+                        </MEMBER>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP" secondary="Basic Intransitive Inchoative"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَسَمََّى القَارِبُ." transliteration="tasama~aY AlqaAribu."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="designated">
+                                    <ARGS>
+                                        <ARG type="Event" value="result(E)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="?Predicate"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION primary="V  NP PP.predicate" secondary="PPEalaY-PP"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَسَمَّى المَولُودُ عَلَى جَدِّهِ." transliteration="tasam~aY Almawluwdu EalaY jad~ihi."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="عَلَى">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Predicate">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="designated">
+                                    <ARGS>
+                                        <ARG type="Event" value="result(E)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Predicate"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </AVNSUBCLASS>
+            </SUBCLASSES>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="sam~aY-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

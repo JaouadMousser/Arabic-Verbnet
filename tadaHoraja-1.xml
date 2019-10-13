@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="tadaHoraja-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَدَحْرَجَ" transliteration="tadaHoraja" transname="تدحرج">
+            <Root name="دحرج" transliteration="dHrj"/>
+            <Deverbal name="تَدَحْرُج" transliteration="tadaHoruj" transname="تدحرج"/>
+            <Participle name="مُتَدَحْرِج" transliteration="mutadaHorij" transname="متدحرج"/>
+        </MEMBER>
+        <MEMBER name="إِنْجَرَفَ" transliteration="Iinojarafa" transname="إنجرف">
+            <Root name="جرف" transliteration="jrf"/>
+            <Deverbal name="إِنْجِرَاف" transliteration="IinojiraAf" transname="إنجراف"/>
+            <Participle name="مُنْجَرِف" transliteration="munojarif" transname="منجرف"/>
+        </MEMBER>
+        <MEMBER name="تَحَرَّكَ" transliteration="taHar~aka" transname="تحرك">
+            <Root name="حرك" transliteration="Hrk"/>
+            <Deverbal name="تَحَرُّك" transliteration="taHar~uk" transname="تحرك"/>
+            <Participle name="مُتَحَرِّك" transliteration="mutaHar~ik" transname="متحرك"/>
+        </MEMBER>
+        <MEMBER name="زَلَّقَ" transliteration="zal~aqa" transname="زلق">
+            <Root name="زلق" transliteration="zlq"/>
+            <Deverbal name="تَزْلِيق" transliteration="tazoliyq" transname="تزليق"/>
+            <Participle name="مُزَلِّق" transliteration="muzal~iq" transname="مزلق"/>
+        </MEMBER>
+        <MEMBER name="إِنْزَلَقَ" transliteration="Iinozalaqa" transname="إنزلق">
+            <Root name="زحلق" transliteration="zHlq"/>
+            <Deverbal name="إِنْزِلَاق" transliteration="IinozilaAq" transname="إنزلاق"/>
+            <Participle name="مُنْزَلِق" transliteration="munozaliq" transname="منزلق"/>
+        </MEMBER>
+        <MEMBER name="إِنْدَفَعَ" transliteration="IinodafaEa" transname="إندفع">
+            <Root name="دفع" transliteration="dfE"/>
+            <Deverbal name="إِنْدِفَاع" transliteration="IinodifaAE" transname="إندفاع"/>
+            <Participle name="مُنْدَفِع" transliteration="munodafiE" transname="مندفع"/>
+        </MEMBER>
+        <MEMBER name="دَارَ" transliteration="daAra" transname="دار">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="دَوَرَا" transliteration="dawaraA" transname="دورا"/>
+            <Participle name="دَائِر" transliteration="daA}ir" transname="دائر"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP.theme" secondary="Intransitive Inchoative"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَدَحْرَجَ الكُرَةُ." transliteration="tadaHoraja Alkurapu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.location" secondary="PPpath-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ِتَدَحْرَجَت الكُرَةُ تُجَاهَ المَرْمَى." transliteration="itadaHorajat Alkurapu tujaAha AlmaromaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="daHoraja-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

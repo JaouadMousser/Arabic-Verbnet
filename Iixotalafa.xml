@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Iixotalafa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَمَايَزَ" transliteration="tamaAyaza" transname="تمايز">
+            <Root name="ميز" transliteration="myz"/>
+            <Deverbal name="تَمَايُز" transliteration="tamaAyuz" transname="تمايز"/>
+            <Participle name="مُتَمَايِز" transliteration="mutamaAyiz" transname="متمايز"/>
+        </MEMBER>
+        <MEMBER name="تَفَاوَتَ" transliteration="tafaAwata" transname="تفاوت">
+            <Root name="فوت" transliteration="fwt"/>
+            <Deverbal name="تَفَاوُت" transliteration="tafaAwut" transname="تفاوت"/>
+            <Participle name="مُتَفَاوِت" transliteration="mutafaAwit" transname="متفاوت"/>
+        </MEMBER>
+        <MEMBER name="تَبَايَنَ" transliteration="tabaAyana" transname="تباين">
+            <Root name="بين" transliteration="byn"/>
+            <Deverbal name="تَبَايُن" transliteration="tabaAyun" transname="تباين"/>
+            <Participle name="مُتَبَايِن" transliteration="mutabaAyin" transname="متباين"/>
+        </MEMBER>
+        <MEMBER name="إِفْتَرَقَ" transliteration="Iifotaraqa" transname="إفترق">
+            <Root name="فرق" transliteration="frq"/>
+            <Deverbal name="إِفْتِرَاق" transliteration="IifotiraAq" transname="إفتراق"/>
+            <Participle name="مُفْتَرِق" transliteration="mufotariq" transname="مفترق"/>
+        </MEMBER>
+        <MEMBER name="تَغَايَرَ" transliteration="tagaAyara" transname="تغاير">
+            <Root name="غير" transliteration="gyr"/>
+            <Deverbal name="تَغَايُر" transliteration="tagaAyur" transname="تغاير"/>
+            <Participle name="مُتَغَايِر" transliteration="mutagaAyir" transname="متغاير"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Simple Reciprocal Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِخْتَلَفَت سَيَارَات السِتِّينِيَات وَ سَيَّارَات التِسْعِينِيَات." transliteration="Iixotalafat sayaAraAt Alsit~iyniyaAt wa say~aAraAt AltisoEiyniyaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="different">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.predicate" secondary="PPfiy-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِخْتَلَفَت السَيَارَاتَان فِي التَّصْمِيمِ." transliteration="Iixotalafat AlsayaAraAtaAn fiy Alt~aSomiymi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="فِي">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Predicate">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="different">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="Iixotalafa-1.1">
+            <MEMBERS>
+                <MEMBER name="إِخْتَلَفَ" transliteration="Iixotalafa" transname="إختلف">
+                    <Root name="خلف" transliteration="xlf"/>
+                    <Deverbal name="إِخْتِلَاف" transliteration="IixotilaAf" transname="إختلاف"/>
+                    <Participle name="مُخْتَلِف" transliteration="muxotalif" transname="مختلف"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2" secondary="PPEano-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَخْتَلِفُ حُرُوبُ اليَومِ عَنْ حُرُوبِ الأَمْسِ." transliteration="taxotalifu Huruwbu Alyawmi Eano Huruwbi AlOamosi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="different">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                                <ARG type="ThemRole" value="?Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2 PP.predicate" secondary="PPEano-PP, PPPredicate-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَخْتَلِفُ حُرُوبُ اليَومِ عَنْ حُرُوبِ الأَمْسِ فِي التِّقْنِيَة." transliteration="taxotalifu Huruwbu Alyawmi Eano Huruwbi AlOamosi fiy Alt~iqoniyap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَنْ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي بِ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Predicate">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="different">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                                <ARG type="ThemRole" value="Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <AVNSUBCLASS ID="Iixotalafa-1.1.1">
+                    <MEMBERS>
+                        <MEMBER name="تَمَيَّزَ" transliteration="tamay~aza" transname="تميز">
+                            <Root name="ميز" transliteration="myz"/>
+                            <Deverbal name="تَمَيُّز" transliteration="tamay~uz" transname="تميز"/>
+                            <Participle name="مُتَمَيِّز" transliteration="mutamay~iz" transname="متميز"/>
+                        </MEMBER>
+                        <MEMBER name="إِمْتَازَ" transliteration="IimotaAza" transname="إمتاز">
+                            <Root name="ميز" transliteration="myz"/>
+                            <Deverbal name="إِمْتِيَاز" transliteration="IimotiyaAz" transname="إمتياز"/>
+                            <Participle name="مُمْتَاز" transliteration="mumotaAz" transname="ممتاز"/>
+                        </MEMBER>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP PP.predicate" secondary="PPPredicate-PP"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَتَميَّزُ حُرُوبُ اليَومِ بِالتِّقْنِيَة." transliteration="tatamy~azu Huruwbu Alyawmi biAlt~iqoniyap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Theme1">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SYNRESTRS/>
+                                </PREP>
+                                <NP value="Predicate">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="different">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Theme1"/>
+                                        <ARG type="ThemRole" value="?Theme2"/>
+                                        <ARG type="ThemRole" value="Predicate"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="تَميَّزَ المُوسِيقِيُ." transliteration="tamy~aza Almuwsiyqiyu."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Theme1">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="different">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Theme1"/>
+                                        <ARG type="ThemRole" value="?Theme2"/>
+                                        <ARG type="ThemRole" value="?Predicate"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </AVNSUBCLASS>
+            </SUBCLASSES>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

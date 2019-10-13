@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="raAfaqa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِسْتَصْحَبَ" transliteration="IisotaSoHaba" transname="إستصحب">
+            <Root name="صحب" transliteration="SHb"/>
+            <Deverbal name="إِسْتِصْحَاب" transliteration="IisotiSoHaAb" transname="إستصحاب"/>
+            <Participle name="مُسْتَصْحِب" transliteration="musotaSoHib" transname="مستصحب"/>
+        </MEMBER>
+        <MEMBER name="رَافَقَ" transliteration="raAfaqa" transname="رافق">
+            <Root name="رفق" transliteration="rfq"/>
+            <Deverbal name="مُرَافَقَة" transliteration="muraAfaqap" transname="مرافقة"/>
+            <Participle name="مُرَافِق" transliteration="muraAfiq" transname="مرافق"/>
+        </MEMBER>
+        <MEMBER name="مَاشَى" transliteration="maA$aY" transname="ماشى">
+            <Root name="مشا" transliteration="m$A"/>
+            <Deverbal name="مُمَاشَات" transliteration="mumaA$aAt" transname="مماشات"/>
+            <Participle name="مُمَاشِي" transliteration="mumaA$iy" transname="مماشي"/>
+        </MEMBER>
+        <MEMBER name="إِصْطَحَبَ" transliteration="IiSoTaHaba" transname="إصطحب">
+            <Root name="صحن" transliteration="SHn"/>
+            <Deverbal name="إِصْطِحَاب" transliteration="IiSoTiHaAb" transname="إصطحاب"/>
+            <Participle name="مُسْطَحِب" transliteration="musoTaHib" transname="مسطحب"/>
+        </MEMBER>
+        <MEMBER name="شَيَّعَ" transliteration="$ay~aEa" transname="شيع">
+            <Root name="شيع" transliteration="$yE"/>
+            <Deverbal name="تَشْيِيع" transliteration="ta$oyiyE" transname="تشييع"/>
+            <Participle name="مُشَيِّع" transliteration="mu$ay~iE" transname="مشيع"/>
+        </MEMBER>
+        <MEMBER name="صَحِبَ" transliteration="SaHiba" transname="صحب">
+            <Root name="صحب" transliteration="SHb"/>
+            <Deverbal name="صُحْنَة" transliteration="SuHonap" transname="صحنة"/>
+            <Participle name="صَاحِب" transliteration="SaAHib" transname="صاحب"/>
+        </MEMBER>
+        <MEMBER name="وَصَّلَ" transliteration="waS~ala" transname="وصل">
+            <Root name="وصل" transliteration="wSl"/>
+            <Deverbal name="تَوْصِيِل" transliteration="tawoSiyil" transname="توصيل"/>
+            <Participle name="مُوَصِّل" transliteration="muwaS~il" transname="موصل"/>
+        </MEMBER>
+        <MEMBER name="صَاحَبَ" transliteration="SaAHaba" transname="صاحب">
+            <Root name="صحب" transliteration="SHb"/>
+            <Deverbal name="مُصَاحَبَة" transliteration="muSaAHabap" transname="مصاحبة"/>
+            <Participle name="مُصَاحِب" transliteration="muSaAHib" transname="مصاحب"/>
+        </MEMBER>
+        <MEMBER name="جَارَى" transliteration="jaAraY" transname="جارى">
+            <Root name="جرا" transliteration="jrA"/>
+            <Deverbal name="مُجَارَاة" transliteration="mujaAraAp" transname="مجاراة"/>
+            <Participle name="مُجَارِي" transliteration="mujaAriy" transname="مجاري"/>
+        </MEMBER>
+        <MEMBER name="سَايَرَ" transliteration="saAyara" transname="ساير">
+            <Root name="سير" transliteration="syr"/>
+            <Deverbal name="مُسَايَرَة" transliteration="musaAyarap" transname="مسايرة"/>
+            <Participle name="مُسَايِرس" transliteration="musaAyirs" transname="مسايرس"/>
+        </MEMBER>
+        <MEMBER name="قَادَ" transliteration="qaAda" transname="قاد">
+            <Root name="قود" transliteration="qwd"/>
+            <Deverbal name="قِيَادَة" transliteration="qiyaAdap" transname="قيادة"/>
+            <Participle name="قَائِد" transliteration="qaA}id" transname="قائد"/>
+        </MEMBER>
+        <MEMBER name="إِقْتَادَ" transliteration="IiqotaAda" transname="إقتاد">
+            <Root name="قود" transliteration="qwd"/>
+            <Deverbal name="إِقْتِيَاد" transliteration="IiqotiyaAd" transname="إقتياد"/>
+            <Participle name="مُقْتَاد" transliteration="muqotaAd" transname="مقتاد"/>
+        </MEMBER>
+        <MEMBER name="وَاكَبَ" transliteration="waAkaba" transname="واكب">
+            <Root name="وكب" transliteration="wkb"/>
+            <Deverbal name="مُوَاكَبَة" transliteration="muwaAkabap" transname="مواكبة"/>
+            <Participle name="مُوَاكِب" transliteration="muwaAkib" transname="مواكب"/>
+        </MEMBER>
+        <MEMBER name="سَاوَقَ" transliteration="saAwaqa" transname="ساوق">
+            <Root name="سيق" transliteration="syq"/>
+            <Deverbal name="مُسَاوَقَة" transliteration="musaAwaqap" transname="مساوقة"/>
+            <Participle name="مُسَاوِق" transliteration="musaAwiq" transname="مساوق"/>
+        </MEMBER>
+        <MEMBER name="سَاقَ" transliteration="saAqa" transname="ساق">
+            <Root name="سوق" transliteration="swq"/>
+            <Deverbal name="سِيَاقَة" transliteration="siyaAqap" transname="سياقة"/>
+            <Participle name="سَائِق" transliteration="saA}iq" transname="سائق"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="Basic Transitive" secondary=""/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَافَقَ زَيْد عَمرُو." transliteration="raAfaqa zayod Eamruw."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP-PP" secondary="path-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَافَقَ زَيْد عَمْر إِلَى المَيْزَنِ." transliteration="raAfaqa zayod Eamor IilaY Almayozani."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="spatial"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taraAfaqa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

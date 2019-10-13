@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="HaAwala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَاوَلَ" transliteration="HaAwala" transname="حاول">
+            <Root name="حول" transliteration="Hwl"/>
+            <Deverbal name="مُحَاوَلَة" transliteration="muHaAwalap" transname="محاولة"/>
+            <Participle name="مُحَاوِل" transliteration="muHaAwil" transname="محاول"/>
+        </MEMBER>
+        <MEMBER name="جَرَّبَ" transliteration="jar~aba" transname="جرب">
+            <Root name="جرب" transliteration="jrb"/>
+            <Deverbal name="تَجْرِيب" transliteration="tajoriyb" transname="تجريب"/>
+            <Participle name="بمُجَرِّ" transliteration="bmujar~i" transname="بمجر"/>
+        </MEMBER>
+        <MEMBER name="نَوَى" transliteration="nawaY" transname="نوى">
+            <Root name="نوي" transliteration="nwy"/>
+            <Deverbal name="نِيَّة" transliteration="niy~ap" transname="نية"/>
+            <Participle name="نَاوِي" transliteration="naAwiy" transname="ناوي"/>
+        </MEMBER>
+        <MEMBER name="إِنْتَوَى" transliteration="IinotawaY" transname="إنتوى">
+            <Root name="نوي" transliteration="nwy"/>
+            <Deverbal name="إِنْتِوَاء" transliteration="IinotiwaA'" transname="إنتواء"/>
+            <Participle name="مُنْتَوِي" transliteration="munotawiy" transname="منتوي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="جَرَّبَ الثَّعْلَبُ حِيلَة جَدِيدَة." transliteration="jar~aba Alv~aEolabu Hiylap jadiydap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="attempt">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP S_DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَاوَلَ المُغَامِرُ تَسَلُّقَ الجَبَلِ." transliteration="HaAwala AlmugaAmiru tasal~uqa Aljabali."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="attempt">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَاوَلَ المُغَامِرُ أَنْ يَتَسَلَّقَ الجَبَلَ." transliteration="HaAwala AlmugaAmiru Oano yatasal~aqa Aljabala."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Predicate">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="attempt">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

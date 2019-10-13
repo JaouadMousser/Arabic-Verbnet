@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Iisotanotaja-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِسْتَقَى" transliteration="IisotaqaY" transname="إستقى">
+            <Root name="سقى" transliteration="sqY"/>
+            <Deverbal name="إِسْتِيقَاء" transliteration="IisotiyqaA'" transname="إستيقاء"/>
+            <Participle name="مُسْتَقِي" transliteration="musotaqiy" transname="مستقي"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَنْبَطَ" transliteration="IisotanobaTa" transname="إستنبط">
+            <Root name="نبط" transliteration="nbT"/>
+            <Deverbal name="إِسْتِنْبَاط" transliteration="IisotinobaAT" transname="إستنباط"/>
+            <Participle name="مُسْتَنْبِط" transliteration="musotanobiT" transname="مستنبط"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَنْتَجَ" transliteration="Iisotanotaja" transname="إستنتج">
+            <Root name="نتج" transliteration="ntj"/>
+            <Deverbal name="إِسْتِنْتَاج" transliteration="IisotinotaAj" transname="إستنتاج"/>
+            <Participle name="مُسْتَنْتِج" transliteration="musotanotij" transname="مستنتج"/>
+        </MEMBER>
+        <MEMBER name="إِشْتَقَّ" transliteration="Ii$otaq~a" transname="إشتق">
+            <Root name="شقق" transliteration="$qq"/>
+            <Deverbal name="إِشْتِقَاق" transliteration="Ii$otiqaAq" transname="إشتقاق"/>
+            <Participle name="مُشْتَق" transliteration="mu$otaq" transname="مشتق"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَجْلَى" transliteration="IisotajolaY" transname="إستجلى">
+            <Root name="جلى" transliteration="jlY"/>
+            <Deverbal name="إِسْتِجْلَاء" transliteration="IisotijolaA'" transname="إستجلاء"/>
+            <Participle name="مُسْتَجْلِي" transliteration="musotajoliy" transname="مستجلي"/>
+        </MEMBER>
+        <MEMBER name="إِجْتَلَى" transliteration="IijotalaY" transname="إجتلى">
+            <Root name="جلى" transliteration="jlY"/>
+            <Deverbal name="إِجْتِلَاء" transliteration="IijotilaA'" transname="إجتلاء"/>
+            <Participle name="مُجْتَلِي" transliteration="mujotaliy" transname="مجتلي"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَشَّفَ" transliteration="Iisota$~afa" transname="إستشف">
+            <Root name="شفف" transliteration="$ff"/>
+            <Deverbal name="إِسْتِشْفَاف" transliteration="Iisoti$ofaAf" transname="إستشفاف"/>
+            <Participle name="مُسْتَشِف" transliteration="musota$if" transname="مستشف"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَفَادَ" transliteration="IisotafaAda" transname="إستفاد">
+            <Root name="فاد" transliteration="fAd"/>
+            <Deverbal name="إِسْتِفَادَة" transliteration="IisotifaAdap" transname="إستفادة"/>
+            <Participle name="مُسْتَفِيد" transliteration="musotafiyd" transname="مستفيد"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَخْلَصَ" transliteration="IisotaxolaSa" transname="إستخلص">
+            <Root name="خلص" transliteration="xlS"/>
+            <Deverbal name="إِسْتِخْلَاص" transliteration="IisotixolaAS" transname="إستخلاص"/>
+            <Participle name="مُسْتَخْلِص" transliteration="musotaxoliS" transname="مستخلص"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Product">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Material">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَنْتَجَ القَاضِي الحَقِيقَة." transliteration="Iisotanotaja AlqaADiy AlHaqiyqap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conclude">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.material" secondary="NP-PPmino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَنْتَجَ القَاضِي الحَقِيقَة مِن مَجْمُوع الوَقَائِع." transliteration="Iisotanotaja AlqaADiy AlHaqiyqap min majomuwE AlwaqaA}iE."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conclude">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oan~a S PP.product" secondary="PP-Oano-Smino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَنْتَجْتُ أَنَّهُ يَتَعَاطى المُخَدِّرَات مِنْ لَوْن شَفَتَاه." transliteration="Iisotanotajotu Oan~ahu yataEaATY Almuxad~iraAt mino lawon $afataAh."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oan~a_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conclude">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oan~a S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إإسَتَنْتَجَ أَنَّ المُفَاوَضَات كَانَت لَهَا نَتِيجَة إِيجَابِيَة عَلَى العَلَاقَات بَيْن الدُّوْلَتَيْن." transliteration="IIsatanotaja Oan~a AlmufaAwaDaAt kaAnat lahaA natiyjap IiyjaAbiyap EalaY AlEalaAqaAt bayon Ald~uwolatayon."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oan~a_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conclude">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP DEVERBAL PP.product" secondary="PP-DEVERBAL-mino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسْتَنْتَجْتُ تَعَاطِيهِ المُخَدِّرَات مِنْ لَوْنِ شَفَتَيْه." transliteration="Iisotanotajotu taEaATiyhi Almuxad~iraAt mino lawoni $afatayoh."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conclude">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِسَتَنْتَجَ القَاضِي تَعَاطِيهِ المُخَدِّرَات." transliteration="Iisatanotaja AlqaADiy taEaATiyhi Almuxad~iraAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="conclude">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="?Material"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

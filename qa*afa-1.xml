@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="qa*afa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="نَقَفَ" transliteration="naqafa" transname="نقف">
+            <Root name="نقف" transliteration="nqf"/>
+            <Deverbal name="نَقْف" transliteration="naqof" transname="نقف"/>
+            <Participle name="نَاقِفس" transliteration="naAqifs" transname="ناقفس"/>
+        </MEMBER>
+        <MEMBER name="أَطْلَقَ" transliteration="OaTolaqa" transname="أطلق">
+            <Root name="طلق" transliteration="Tlq"/>
+            <Deverbal name="إِطْلَاق" transliteration="IiTolaAq" transname="إطلاق"/>
+            <Participle name="مُطْلِق" transliteration="muToliq" transname="مطلق"/>
+        </MEMBER>
+        <MEMBER name="نَقَرَ" transliteration="naqara" transname="نقر">
+            <Root name="نقر" transliteration="nqr"/>
+            <Deverbal name="نَقْر" transliteration="naqor" transname="نقر"/>
+            <Participle name="نَاقِد" transliteration="naAqid" transname="ناقد"/>
+        </MEMBER>
+        <MEMBER name="سَدَّدَ" transliteration="sad~ada" transname="سدد">
+            <Root name="سدد" transliteration="sdd"/>
+            <Deverbal name="تَسْدِيد" transliteration="tasodiyd" transname="تسديد"/>
+            <Participle name="مُسَدِّد" transliteration="musad~id" transname="مسدد"/>
+        </MEMBER>
+        <MEMBER name="رَكَلَ" transliteration="rakala" transname="ركل">
+            <Root name="ركل" transliteration="rkl"/>
+            <Deverbal name="رَكَل" transliteration="rakal" transname="ركل"/>
+            <Participle name="رَاكِل" transliteration="raAkil" transname="راكل"/>
+        </MEMBER>
+        <MEMBER name="ضَرَبَ" transliteration="Daraba" transname="ضرب">
+            <Root name="ضرب" transliteration="Drb"/>
+            <Deverbal name="ضَرْب" transliteration="Darob" transname="ضرب"/>
+            <Participle name="ضَارِب" transliteration="DaArib" transname="ضارب"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="int_control"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTRS>
+                    <SELRESTR Value="+" type="location"/>
+                    <SELRESTR Value="-" type="region"/>
+                </SELRESTRS>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَذَفَ اللَاعِبُ الكُرَة." transliteration="qa*afa AllaAEibu Alkurap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="meets">
+                    <ARGS>
+                        <ARG type="Event" value="E0"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.destination" secondary="NP-PPGoal-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَذَفَ اللَّاعِب الكُرَةَ فِي إِتّجَاه المرْمَى." transliteration="qa*afa All~aAEib Alkurapa fiy Iit~jaAh AlmromaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS logic="or">
+                        <SELRESTR Value="+" type="dest"/>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="meets">
+                    <ARGS>
+                        <ARG type="Event" value="E0"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.source" secondary="NP-PPSource-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَذَفَ اللَّاعِبُ الكُرَةَ مِنَ الزَّاوِيَة." transliteration="qa*afa All~aAEibu Alkurapa mina Alz~aAwiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="meets">
+                    <ARGS>
+                        <ARG type="Event" value="E0"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.source PP.destination" secondary="NP-PP-PPSource-PP Goal-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَذَفَ اللَّاعِبُ الكُرَةَ مِنَ الزَّاوِيَةِ إِلَى المَرْمَى." transliteration="qa*afa All~aAEibu Alkurapa mina Alz~aAwiyapi IilaY AlmaromaY."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="dest_dir"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="meets">
+                    <ARGS>
+                        <ARG type="Event" value="E0"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP ADVP" secondary="NP-ADVP-PREDjaAnibAaF/baEiydaAF"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="قَذَفَ اللَّاعِبُ الكُرَةَ بَعِيدَاً." transliteration="qa*afa All~aAEibu Alkurapa baEiydaAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Destination">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="adv_loc"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exert_force">
+                    <ARGS>
+                        <ARG type="Event" value="during(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E0)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="meets">
+                    <ARGS>
+                        <ARG type="Event" value="E0"/>
+                        <ARG type="Event" value="E1"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="qa*afa-1.1">
+            <MEMBERS>
+                <MEMBER name="مَرَّرَ" transliteration="mar~ara" transname="مرر">
+                    <Root name="مرر" transliteration="mrr"/>
+                    <Deverbal name="تَمْريِر" transliteration="tamoryir" transname="تمرير"/>
+                    <Participle name="مُمَرِّر" transliteration="mumar~ir" transname="ممرر"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Destination">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="animate"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.destination NP" secondary="PPli-PP NP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَذَفَ اللَّاعِبُ الكُرَة لِزَمِيلِهِ." transliteration="qa*afa All~aAEibu Alkurap lizamiylihi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="لِ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Destination">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="exert_force">
+                            <ARGS>
+                                <ARG type="Event" value="during(E0)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="end(E0)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="during(E1)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="contact">
+                            <ARGS>
+                                <ARG type="Event" value="during(E1)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="location">
+                            <ARGS>
+                                <ARG type="Event" value="start(E1)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="location">
+                            <ARGS>
+                                <ARG type="Event" value="end(E1)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="Destination"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E1"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="meets">
+                            <ARGS>
+                                <ARG type="Event" value="E0"/>
+                                <ARG type="Event" value="E1"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <AVNSUBCLASS ID="qa*afa-1.1.1">
+                    <MEMBERS>
+                        <MEMBER name="نَبَذَ" transliteration="naba*a" transname="نبذ">
+                            <Root name="نبذ" transliteration="nb*"/>
+                            <Deverbal name="نَبْذ" transliteration="nabo*" transname="نبذ"/>
+                            <Participle name="نَابِذ" transliteration="naAbi*" transname="نابذ"/>
+                        </MEMBER>
+                        <MEMBER name="أَنْفَصَ" transliteration="OanofaSa" transname="أنفص">
+                            <Root name="نفص" transliteration="nfS"/>
+                            <Deverbal name="إِنْفَاص" transliteration="IinofaAS" transname="إنفاص"/>
+                            <Participle name="مُنْفِص" transliteration="munofiS" transname="منفص"/>
+                        </MEMBER>
+                        <MEMBER name="خَذَفَ" transliteration="xa*afa" transname="خذف">
+                            <Root name="خذف" transliteration="x*f"/>
+                            <Deverbal name="خَذْف" transliteration="xa*of" transname="خذف"/>
+                            <Participle name="خَاذِف" transliteration="xaA*if" transname="خاذف"/>
+                        </MEMBER>
+                        <MEMBER name="زَدَا" transliteration="zadaA" transname="زدا">
+                            <Root name="زدو" transliteration="zdw"/>
+                            <Deverbal name="زَدْو" transliteration="zadow" transname="زدو"/>
+                            <Participle name="زَادِي" transliteration="zaAdiy" transname="زادي"/>
+                        </MEMBER>
+                        <MEMBER name="سَدَا" transliteration="sadaA" transname="سدا">
+                            <Root name="سدو" transliteration="sdw"/>
+                            <Deverbal name="سَدْو" transliteration="sadow" transname="سدو"/>
+                            <Participle name="سَادِي" transliteration="saAdiy" transname="سادي"/>
+                        </MEMBER>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP PP.theme" secondary="PPbi-PP"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="قَذَفَ اللَاعِبُ بِالكُرَة." transliteration="qa*afa AllaAEibu biAlkurap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SYNRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="exert_force">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="meets">
+                                    <ARGS>
+                                        <ARG type="Event" value="E0"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP PP.theme PP.destination" secondary="PPbi-PP PPGoal-PP"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="قَذَفَ اللَّاعِب بِالكُرَةِ فِي إِتّجَاه المرْمَى." transliteration="qa*afa All~aAEib biAlkurapi fiy Iit~jaAh AlmromaY."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SYNRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP>
+                                    <SELRESTRS logic="or">
+                                        <SELRESTR Value="+" type="dest"/>
+                                        <SELRESTR Value="+" type="loc"/>
+                                    </SELRESTRS>
+                                </PREP>
+                                <NP value="Destination">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="exert_force">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="location">
+                                    <ARGS>
+                                        <ARG type="Event" value="start(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Destination"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="location">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Destination"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="meets">
+                                    <ARGS>
+                                        <ARG type="Event" value="E0"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP PP.theme PP.source" secondary="PPbi-PP PPSource-PP"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="قَذَفَ اللَّاعِبُ بِالكُرَةِ مِنَ الزَّاوِيَة." transliteration="qa*afa All~aAEibu biAlkurapi mina Alz~aAwiyap."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SYNRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP>
+                                    <SELRESTRS>
+                                        <SELRESTR Value="+" type="src"/>
+                                    </SELRESTRS>
+                                </PREP>
+                                <NP value="Source">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="exert_force">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="location">
+                                    <ARGS>
+                                        <ARG type="Event" value="start(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Source"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="meets">
+                                    <ARGS>
+                                        <ARG type="Event" value="E0"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP PP.theme PP.source PP.destination" secondary="PPbi-PP PPSource-PP Goal-PP"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="قَذَفَ اللَّاعِبُ بِالكُرَةِ مِنَ الزَّاوِيَةِ إِلَى المَرْمَى." transliteration="qa*afa All~aAEibu biAlkurapi mina Alz~aAwiyapi IilaY AlmaromaY."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SYNRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP>
+                                    <SELRESTRS>
+                                        <SELRESTR Value="+" type="src"/>
+                                    </SELRESTRS>
+                                </PREP>
+                                <NP value="Source">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP>
+                                    <SELRESTRS>
+                                        <SELRESTR Value="+" type="dest_dir"/>
+                                    </SELRESTRS>
+                                </PREP>
+                                <NP value="Destination">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="exert_force">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="location">
+                                    <ARGS>
+                                        <ARG type="Event" value="start(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Source"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="location">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Destination"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="meets">
+                                    <ARGS>
+                                        <ARG type="Event" value="E0"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP PP.theme ADVP" secondary="PPbi-PP ADVP-PREDjaAnibAaF/baEiydaAF"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="قَذَفَ اللَّاعِبُ بِالكُرَةِ بَعِيدَاً." transliteration="qa*afa All~aAEibu biAlkurapi baEiydaAF."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <VERB/>
+                                <NP value="Agent">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <PREP value="بِ">
+                                    <SYNRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <NP value="Destination">
+                                    <SYNRESTRS>
+                                        <SYNRESTR Value="+" type="adv_loc"/>
+                                    </SYNRESTRS>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="motion">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="exert_force">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="end(E0)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED bool="!" value="contact">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E1)"/>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="cause">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="Agent"/>
+                                        <ARG type="Event" value="E"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="meets">
+                                    <ARGS>
+                                        <ARG type="Event" value="E0"/>
+                                        <ARG type="Event" value="E1"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES>
+                        <AVNSUBCLASS ID="qa*afa-1.1.1.1">
+                            <MEMBERS>
+                                <MEMBER name="قَذَفَ" transliteration="qa*afa" transname="قذف">
+                                    <Root name="قذف" transliteration="q*f"/>
+                                    <Deverbal name="قَذْف" transliteration="qa*of" transname="قذف"/>
+                                    <Participle name="قَاذِف" transliteration="qaA*if" transname="قاذف"/>
+                                </MEMBER>
+                                <MEMBER name="رَمَى" transliteration="ramaY" transname="رمى">
+                                    <Root name="رمي" transliteration="rmy"/>
+                                    <Deverbal name="رَمْي" transliteration="ramoy" transname="رمي"/>
+                                    <Participle name="رَامِي" transliteration="raAmiy" transname="رامي"/>
+                                </MEMBER>
+                                <MEMBER name="دَفَعَ" transliteration="dafaEa" transname="دفع">
+                                    <Root name="دفع" transliteration="dfE"/>
+                                    <Deverbal name="دَفْع" transliteration="dafoE" transname="دفع"/>
+                                    <Participle name="دَافِع" transliteration="daAfiE" transname="دافع"/>
+                                </MEMBER>
+                                <MEMBER name="زَجَّ" transliteration="zaj~a" transname="زج">
+                                    <Root name="زجج" transliteration="zjj"/>
+                                    <Deverbal name="زَجّ" transliteration="zaj~" transname="زج"/>
+                                    <Participle name="زَاج" transliteration="zaAj" transname="زاج"/>
+                                </MEMBER>
+                                <MEMBER name="أَلْقَى" transliteration="OaloqaY" transname="ألقى">
+                                    <Root name="لقي" transliteration="lqy"/>
+                                    <Deverbal name="إِلْقَاء" transliteration="IiloqaA'" transname="إلقاء"/>
+                                    <Participle name="مُلْقِي" transliteration="muloqiy" transname="ملقي"/>
+                                </MEMBER>
+                                <MEMBER name="رَمَى" transliteration="ramaY" transname="رمى">
+                                    <Root name="رمي" transliteration="rmy"/>
+                                    <Deverbal name="رَمْي" transliteration="ramoy" transname="رمي"/>
+                                    <Participle name="رَامِي" transliteration="raAmiy" transname="رامي"/>
+                                </MEMBER>
+                                <MEMBER name="طَوَّحَ" transliteration="Taw~aHa" transname="طوح">
+                                    <Root name="طوح" transliteration="TwH"/>
+                                    <Deverbal name="تَطْوِيح" transliteration="taTowiyH" transname="تطويح"/>
+                                    <Participle name="مُطَوِّح" transliteration="muTaw~iH" transname="مطوح"/>
+                                </MEMBER>
+                            </MEMBERS>
+                            <THEMROLES>
+                                <THEMROLE type="Cause">
+                                    <SELRESTRS/>
+                                </THEMROLE>
+                            </THEMROLES>
+                            <FRAMES>
+                                <FRAME>
+                                    <DESCRIPTION primary="V NP NP PP.oblique" secondary="NP-PPResult-PP"/>
+                                    <EXAMPLES>
+                                        <EXAMPLE sentence="قَدَفَت بِنَا إِقْتِرَاحَات البَنْكِ الدَوْلِي فِي مُعْضِلَات كَثِيرَة." transliteration="qadafat binaA IiqotiraAHaAt Albanoki Aldawoliy fiy muEoDilaAt kaviyrap."/>
+                                    </EXAMPLES>
+                                    <SYNTAX>
+                                        <NP value="Cause">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <NP value="Theme">
+                                            <SYNRESTRS/>
+                                        </NP>
+                                        <PREP value="فِي إِلَى">
+                                            <SELRESTRS/>
+                                        </PREP>
+                                        <NP value="Oblique">
+                                            <SELRESTRS/>
+                                        </NP>
+                                    </SYNTAX>
+                                    <SEMANTICS>
+                                        <PRED value="exert_force">
+                                            <ARGS>
+                                                <ARG type="Event" value="during(E)"/>
+                                                <ARG type="ThemRole" value="Cause"/>
+                                                <ARG type="ThemRole" value="Theme"/>
+                                            </ARGS>
+                                        </PRED>
+                                    </SEMANTICS>
+                                </FRAME>
+                            </FRAMES>
+                            <SUBCLASSES/>
+                        </AVNSUBCLASS>
+                    </SUBCLASSES>
+                </AVNSUBCLASS>
+            </SUBCLASSES>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

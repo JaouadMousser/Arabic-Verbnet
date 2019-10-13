@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="OanoSata-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Stimulus">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَنْصَتَ الثِّلمِيد." transliteration="OanoSata Alv~ilmiyd."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="perceive">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="?Stimulus"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="?Stimulus"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="OanoSata-1.1">
+            <MEMBERS>
+                <MEMBER name="أَصْغَى" transliteration="OaSogaY" transname="أصغى">
+                    <Root name="صغا" transliteration="SgA"/>
+                    <Deverbal name="إِصْغَاء" transliteration="IiSogaA'" transname="إصغاء"/>
+                    <Participle name="مُصْغِي" transliteration="muSogiy" transname="مصغي"/>
+                </MEMBER>
+                <MEMBER name="إِسْتَمَعَ" transliteration="IisotamaEa" transname="إستمع">
+                    <Root name="سمع" transliteration="smE"/>
+                    <Deverbal name="إِسْتِمَاع" transliteration="IisotimaAE" transname="إستماع"/>
+                    <Participle name="مُسْتَمِع" transliteration="musotamiE" transname="مستمع"/>
+                </MEMBER>
+                <MEMBER name="أَنْصَتَ" transliteration="OanoSata" transname="أنصت">
+                    <Root name="نصت" transliteration="nSt"/>
+                    <Deverbal name="إِنْصَات" transliteration="IinoSaAt" transname="إنصات"/>
+                    <Participle name="مُنْصِت" transliteration="munoSit" transname="منصت"/>
+                </MEMBER>
+                <MEMBER name="أَسْخَى" transliteration="OasoxaY" transname="أسخى">
+                    <Root name="سخا" transliteration="sxA"/>
+                    <Deverbal name="إِسْخَاء" transliteration="IisoxaA'" transname="إسخاء"/>
+                    <Participle name="مُسْخِي" transliteration="musoxiy" transname="مسخي"/>
+                </MEMBER>
+                <MEMBER name="أَصْغَى" transliteration="OaSogaY" transname="أصغى">
+                    <Root name="صغا" transliteration="SgA"/>
+                    <Deverbal name="إِصْغَاء" transliteration="IiSogaA'" transname="إصغاء"/>
+                    <Participle name="مُصْغِي" transliteration="muSogiy" transname="مصغي"/>
+                </MEMBER>
+                <MEMBER name="إِنْتَبَهَ" transliteration="Iinotabaha" transname="إنتبه">
+                    <Root name="نبه" transliteration="nbh"/>
+                    <Deverbal name="إِنْتِبَاه" transliteration="IinotibaAh" transname="إنتباه"/>
+                    <Participle name="مُنْتَبِه" transliteration="munotabih" transname="منتبه"/>
+                </MEMBER>
+                <MEMBER name="تَسَمَّعَ" transliteration="tasam~aEa" transname="تسمع">
+                    <Root name="سمع" transliteration="smE"/>
+                    <Deverbal name="تَسَمُّع" transliteration="tasam~uE" transname="تسمع"/>
+                    <Participle name="مُتَسَمِّع" transliteration="mutasam~iE" transname="متسمع"/>
+                </MEMBER>
+                <MEMBER name="تَنَصَّتَ" transliteration="tanaS~ata" transname="تنصت">
+                    <Root name="نصت" transliteration="nSt"/>
+                    <Deverbal name="تَنَصُّت" transliteration="tanaS~ut" transname="تنصت"/>
+                    <Participle name="مُتَنَصِّت" transliteration="mutanaS~it" transname="متنصت"/>
+                </MEMBER>
+                <MEMBER name="تَطَلَّعَ" transliteration="taTal~aEa" transname="تطلع">
+                    <Root name="طلع" transliteration="TlE"/>
+                    <Deverbal name="تَطَلُّع" transliteration="taTal~uE" transname="تطلع"/>
+                    <Participle name="مُتَلِّع" transliteration="mutal~iE" transname="متلع"/>
+                </MEMBER>
+                <MEMBER name="نَظَرَ" transliteration="naZara" transname="نظر">
+                    <Root name="نظر" transliteration="nZr"/>
+                    <Deverbal name="نَظَر" transliteration="naZar" transname="نظر"/>
+                    <Participle name="نَاظِر" transliteration="naAZir" transname="ناظر"/>
+                </MEMBER>
+                <MEMBER name="حَجَمَ" transliteration="Hajama" transname="حجم">
+                    <Root name="حجم" transliteration="Hjm"/>
+                    <Deverbal name="حَجْم" transliteration="Hajom" transname="حجم"/>
+                    <Participle name="حَاجِم" transliteration="HaAjim" transname="حاجم"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="PPStimulus" secondary="PPli"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَنْصَتَ المُتَفَرِّجُ لِلمُوسِيقَى." transliteration="OanoSata Almutafar~iju lilmuwsiyqaY."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="لِ إِلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Stimulus">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="perceive">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="OanoSata-1.2">
+            <MEMBERS>
+                <MEMBER name="تَمَعَّنَ" transliteration="tamaE~ana" transname="تمعن">
+                    <Root name="معن" transliteration="mEn"/>
+                    <Deverbal name="تَمَعُّن" transliteration="tamaE~un" transname="تمعن"/>
+                    <Participle name="مُتَمَعِّن" transliteration="mutamaE~in" transname="متمعن"/>
+                </MEMBER>
+                <MEMBER name="بَحْلَقَ" transliteration="baHolaqa" transname="بحلق">
+                    <Root name="بحلق" transliteration="bHlq"/>
+                    <Deverbal name="بَحْلَقَة" transliteration="baHolaqap" transname="بحلقة"/>
+                    <Participle name="مُبَحْلِق" transliteration="mubaHoliq" transname="مبحلق"/>
+                </MEMBER>
+                <MEMBER name="حَمْلَقَ" transliteration="Hamolaqa" transname="حملق">
+                    <Root name="حملق" transliteration="Hmlq"/>
+                    <Deverbal name="حَمْلَقَة" transliteration="Hamolaqap" transname="حملقة"/>
+                    <Participle name="مُحَمْلِق" transliteration="muHamoliq" transname="محملق"/>
+                </MEMBER>
+                <MEMBER name="تَأَمَّلَ" transliteration="taOam~ala" transname="تأمل">
+                    <Root name="أمل" transliteration="Oml"/>
+                    <Deverbal name="تَأَمُّل" transliteration="taOam~ul" transname="تأمل"/>
+                    <Participle name="مُتَأَمِّل" transliteration="mutaOam~il" transname="متأمل"/>
+                </MEMBER>
+                <MEMBER name="تَوَسَّمَ" transliteration="tawas~ama" transname="توسم">
+                    <Root name="وسم" transliteration="wsm"/>
+                    <Deverbal name="تَوَسُّم" transliteration="tawas~um" transname="توسم"/>
+                    <Participle name="مُتَوَسِّم" transliteration="mutawas~im" transname="متوسم"/>
+                </MEMBER>
+                <MEMBER name="حَدَّقَ" transliteration="Had~aqa" transname="حدق">
+                    <Root name="حدق" transliteration="Hdq"/>
+                    <Deverbal name="تَحْدِيق" transliteration="taHodiyq" transname="تحديق"/>
+                    <Participle name="مُحَدِّق" transliteration="muHad~iq" transname="محدق"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="PPStimulus" secondary="PPfiy"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="حَمْلَقَ الصَبِيُ فِي أُمِّهِ." transliteration="Hamolaqa AlSabiyu fiy Oum~ihi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Stimulus">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="perceive">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="OanoSata-1.3">
+            <MEMBERS>
+                <MEMBER name="تَفَرَّجَ" transliteration="tafar~aja" transname="تفرج">
+                    <Root name="فرج" transliteration="frj"/>
+                    <Deverbal name="تَفَرُّج" transliteration="tafar~uj" transname="تفرج"/>
+                    <Participle name="مُتَفَرِّج" transliteration="mutafar~ij" transname="متفرج"/>
+                </MEMBER>
+                <MEMBER name="تَلصَّصَ" transliteration="talS~aSa" transname="تلصص">
+                    <Root name="لصص" transliteration="lSS"/>
+                    <Deverbal name="تَلَصُّص" transliteration="talaS~uS" transname="تلصص"/>
+                    <Participle name="مُتَلَصِّص" transliteration="mutalaS~iS" transname="متلصص"/>
+                </MEMBER>
+                <MEMBER name="تَجَسَّسَ" transliteration="tajas~asa" transname="تجسس">
+                    <Root name="جسس" transliteration="jss"/>
+                    <Deverbal name="تَجَسُّس" transliteration="tajas~us" transname="تجسس"/>
+                    <Participle name="مُتَجَسِّس" transliteration="mutajas~is" transname="متجسس"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="PPStimulus" secondary="PPfiy"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَفَرَّجَ الصَبِيُ عَلَى اللَّعِبِ." transliteration="tafar~aja AlSabiyu EalaY All~aEibi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Stimulus">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="perceive">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="in_reaction_to">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Stimulus"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+</AVNCLASS>

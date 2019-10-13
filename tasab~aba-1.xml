@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="tasab~aba-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="abstract"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="abstract"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="tasab~aba-1.1">
+            <MEMBERS>
+                <MEMBER name="بَعَثَ" transliteration="baEava" transname="بعث">
+                    <Root name="بعث" transliteration="bEv"/>
+                    <Deverbal name="بَعْث" transliteration="baEov" transname="بعث"/>
+                    <Participle name="بَاعِث" transliteration="baAEiv" transname="باعث"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2" secondary="PPEalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="هَذَا أَمْر يَبْعَثُ عَلَى الإِسْتِيَاء." transliteration="ha*aA Oamor yaboEavu EalaY AlIisotiyaA'."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED bool="!" value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="nonagentive_cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="tasab~aba-1.2">
+            <MEMBERS>
+                <MEMBER name="تَسَبَّبَ" transliteration="tasab~aba" transname="تسبب">
+                    <Root name="سبب" transliteration="sbb"/>
+                    <Deverbal name="تَسَبُّب" transliteration="tasab~ub" transname="تسبب"/>
+                    <Participle name="مُتَسَبِّب" transliteration="mutasab~ib" transname="متسبب"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2" secondary="PPfiy-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَسَبَّبَ النِّزَاع الحُدُودِي فِي الحَرب." transliteration="tasab~aba Aln~izaAE AlHuduwdiy fiy AlHarb."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED bool="!" value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="nonagentive_cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2" secondary="fiy Deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَسَبَّبَ الإِنذَارُ الخَاطِئ فِي خُرُوجِ السَّفِينَة فِي غيرِ مِيعَادِهَا." transliteration="tasab~aba AlIin*aAru AlxaATi} fiy xuruwji Als~afiynap fiy gyri miyEaAdihaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED bool="!" value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="nonagentive_cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="tasab~aba-1.3">
+            <MEMBERS>
+                <MEMBER name="دَعَا" transliteration="daEaA" transname="دعا">
+                    <Root name="دعا" transliteration="dEA"/>
+                    <Deverbal name="دَعْوَة" transliteration="daEowap" transname="دعوة"/>
+                    <Participle name="دَاعِي" transliteration="daAEiy" transname="داعي"/>
+                </MEMBER>
+                <MEMBER name="أَدَّى" transliteration="Oad~aY" transname="أدى">
+                    <Root name="أدى" transliteration="OdY"/>
+                    <Deverbal name="تَأَدِيَة" transliteration="taOadiyap" transname="تأدية"/>
+                    <Participle name="مُؤَدِّي" transliteration="muWad~iy" transname="مؤدي"/>
+                </MEMBER>
+                <MEMBER name="أَفَضَى" transliteration="OafaDaY" transname="أفضى">
+                    <Root name="فضي" transliteration="fDy"/>
+                    <Deverbal name="إِفْضَاء" transliteration="IifoDaA'" transname="إفضاء"/>
+                    <Participle name="مُفْضِي" transliteration="mufoDiy" transname="مفضي"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2" secondary="PPIilaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَدَّتِ المُضَارَبَات إِلَى إِرْتِفَاع الأَسْعَار." transliteration="Oad~ati AlmuDaArabaAt IilaY IirotifaAE AlOasoEaAr."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED bool="!" value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="nonagentive_cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme2" secondary="IilaY Deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَدَّى الإِنذَارُ الخَاطِئ إِلَى خُرُوجِ السَّفِينَة فِي غيرِ مِيعَادِهَا." transliteration="Oad~aY AlIin*aAru AlxaATi} IilaY xuruwji Als~afiynap fiy gyri miyEaAdihaA."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme1">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="إِلَى">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme2">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED bool="!" value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="exist">
+                            <ARGS>
+                                <ARG type="Event" value="result(E)"/>
+                                <ARG type="ThemRole" value="Theme2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="nonagentive_cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Theme1"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+</AVNCLASS>

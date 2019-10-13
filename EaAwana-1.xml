@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="EaAwana-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="دَعَمَ" transliteration="daEama" transname="دعم">
+            <Root name="دعم" transliteration="dEm"/>
+            <Deverbal name="دَعْمَ" transliteration="daEoma" transname="دعم"/>
+            <Participle name="دَاعِم" transliteration="daAEim" transname="داعم"/>
+        </MEMBER>
+        <MEMBER name="دَعَّمَ" transliteration="daE~ama" transname="دعم">
+            <Root name="دعم" transliteration="dEm"/>
+            <Deverbal name="تَدْعِم" transliteration="tadoEim" transname="تدعم"/>
+            <Participle name="مُدَعِّم" transliteration="mudaE~im" transname="مدعم"/>
+        </MEMBER>
+        <MEMBER name="آزَرَ" transliteration="|zara" transname="آزر">
+            <Root name="أزر" transliteration="Ozr"/>
+            <Deverbal name="مُؤَازَرَة" transliteration="muWaAzarap" transname="مؤازرة"/>
+            <Participle name="مُؤَازِر" transliteration="muWaAzir" transname="مؤازر"/>
+        </MEMBER>
+        <MEMBER name="أَيَّدَ" transliteration="Oay~ada" transname="أيد">
+            <Root name="أيد" transliteration="Oyd"/>
+            <Deverbal name="تَأْيِيس" transliteration="taOoyiys" transname="تأييس"/>
+            <Participle name="مُؤَيِّد" transliteration="muWay~id" transname="مؤيد"/>
+        </MEMBER>
+        <MEMBER name="سَانَدَ" transliteration="saAnada" transname="ساند">
+            <Root name="سند" transliteration="snd"/>
+            <Deverbal name="مُسَانَدَ" transliteration="musaAnada" transname="مساند"/>
+            <Participle name="مُسَانِد" transliteration="musaAnid" transname="مساند"/>
+        </MEMBER>
+        <MEMBER name="سَنَدَ" transliteration="sanada" transname="سند">
+            <Root name="سند" transliteration="snd"/>
+            <Deverbal name="سَنْد" transliteration="sanod" transname="سند"/>
+            <Participle name="دَاعِم" transliteration="daAEim" transname="داعم"/>
+        </MEMBER>
+        <MEMBER name="عَضَدَ" transliteration="EaDada" transname="عضد">
+            <Root name="عضد" transliteration="EDd"/>
+            <Deverbal name="عَضْد" transliteration="EaDod" transname="عضد"/>
+            <Participle name="عَاضِد" transliteration="EaADid" transname="عاضد"/>
+        </MEMBER>
+        <MEMBER name="عَاضَدَ" transliteration="EaADada" transname="عاضد">
+            <Root name="عضد" transliteration="EDd"/>
+            <Deverbal name="مُعَاضَدَة" transliteration="muEaADadap" transname="معاضدة"/>
+            <Participle name="مُعَاضِد" transliteration="muEaADid" transname="معاضد"/>
+        </MEMBER>
+        <MEMBER name="ظَاهَرَ" transliteration="ZaAhara" transname="ظاهر">
+            <Root name="ظهر" transliteration="Zhr"/>
+            <Deverbal name="مُظَاهَرَة" transliteration="muZaAharap" transname="مظاهرة"/>
+            <Participle name="مُتَظَاهِر" transliteration="mutaZaAhir" transname="متظاهر"/>
+        </MEMBER>
+        <MEMBER name="كَانَفَ" transliteration="kaAnafa" transname="كانف">
+            <Root name="كنف" transliteration="knf"/>
+            <Deverbal name="مُكَانَفَة" transliteration="mukaAnafap" transname="مكانفة"/>
+            <Participle name="مُكَانِف" transliteration="mukaAnif" transname="مكانف"/>
+        </MEMBER>
+        <MEMBER name="رَفَدَ" transliteration="rafada" transname="رفد">
+            <Root name="رفد" transliteration="rfd"/>
+            <Deverbal name="رَفْد" transliteration="rafod" transname="رفد"/>
+            <Participle name="رَافِد" transliteration="raAfid" transname="رافد"/>
+        </MEMBER>
+        <MEMBER name="أَرْفَدَ" transliteration="Oarofada" transname="أرفد">
+            <Root name="رفد" transliteration="rfd"/>
+            <Deverbal name="إِرْفَاد" transliteration="IirofaAd" transname="إرفاد"/>
+            <Participle name="مُرْفِد" transliteration="murofid" transname="مرفد"/>
+        </MEMBER>
+        <MEMBER name="أْكْنَفَ" transliteration="Ookonafa" transname="أكنف">
+            <Root name="كنف" transliteration="knf"/>
+            <Deverbal name="إِكْنَاف" transliteration="IikonaAf" transname="إكناف"/>
+            <Participle name="مُكْنِف" transliteration="mukonif" transname="مكنف"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Beneficiary">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.instrument" secondary="NP-PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ بِأَغْطِيَة وَ أَدْوِيَة." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna biOagoTiyap wa Oadowiyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP S_deverbal" secondary="NP-P-deverbal-OCfiy-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَانَدَت المُنَظَّمَة اللَّاجِئِينَ فِي إِيجَادِ ذَوِيهِم." transliteration="saAnadat AlmunaZ~amap All~aAji}iyna fiy IiyjaAdi *awiyhim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP S_deverbal bi deverbal" secondary="NP-P-deverbal-OCfiy-PP bi deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَنَدَتِ المُنَظَّمَةُ اللَّاجِئِينَ فِي إِيجَادِ ذَوِيهِم بِإِرْشَادِهِم إِلَى مَصَالِحَ خَاصَة." transliteration="sanadati AlmunaZ~amapu All~aAji}iyna fiy IiyjaAdi *awiyhim biIiro$aAdihim IilaY maSaAliHa xaASap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP bi DEVERBAL" secondary="bi Deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ بِتَوزِيعِ الأَغْدِيَةِ عَلَيهِم." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna bitawziyEi AlOagodiyapi Ealayhim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme" secondary="NP-PPfiy-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ فِي مِحْنَتِهِم." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna fiy miHonatihim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme PP.instrument" secondary="NP-PPfiy-PP PPbi-P"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ فِي مِحْنَتِهِم بِأَغْطِيَة وَ دَوَاء." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna fiy miHonatihim biOagoTiyap wa dawaA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.theme bi DEVERBAL" secondary="NP-PPfiy-PP PPbi-deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ فِي مِحْنَتِهِم بِتَوْزِيعِ المُسَاعَدَات عَلَيْهِم." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna fiy miHonatihim bitawoziyEi AlmusaAEadaAt Ealayohim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="help">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="EaAwana-1.1">
+            <MEMBERS>
+                <MEMBER name="أَعَانَ" transliteration="OaEaAna" transname="أعان">
+                    <Root name="عون" transliteration="Ewn"/>
+                    <Deverbal name="إِعَانَة" transliteration="IiEaAnap" transname="إعانة"/>
+                    <Participle name="مُعِين" transliteration="muEiyn" transname="معين"/>
+                </MEMBER>
+                <MEMBER name="سَاعَدَ" transliteration="saAEada" transname="ساعد">
+                    <Root name="سعد" transliteration="sEd"/>
+                    <Deverbal name="مُسَاعَدَة" transliteration="musaAEadap" transname="مساعدة"/>
+                    <Participle name="مُسَاعِد" transliteration="musaAEid" transname="مساعد"/>
+                </MEMBER>
+                <MEMBER name="عَاوَنَ" transliteration="EaAwana" transname="عاون">
+                    <Root name="عون" transliteration="Ewn"/>
+                    <Deverbal name="مُعَاوَنَة" transliteration="muEaAwanap" transname="معاونة"/>
+                    <Participle name="مُعَاوِن" transliteration="muEaAwin" transname="معاون"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme" secondary="PPfiy-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت سَلمَى فِي أَعْمَالِ البَيْت." transliteration="saAEadat salmaY fiy OaEomaAli Albayot."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme bi deverbal" secondary="PPfiy-PP bi deverbl"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت سَلمَى فِي حَلِّ المُشْكِلَة بِإِقْتِرَاح حُلُول ذَكِيَة." transliteration="saAEadat salmaY fiy Hal~i Almu$okilap biIiqotiraAH Huluwl *akiyap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverabl"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Intrument">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="use">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP P deverbal" secondary="fiy deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت سَلمَى فِي حَلِّ مَشَاكِل البَيْت." transliteration="saAEadat salmaY fiy Hal~i ma$aAkil Albayot."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.theme PP.instrument" secondary="PPfiy-PP PPbi-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت سَلمَى فِي حَلّ المُشْكِلَة بِإِقْتِرَاحَات ذَكِيَة." transliteration="saAEadat salmaY fiy Hal~ Almu$okilap biIiqotiraAHaAt *akiyap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Intrument">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="use">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP S_deverbal" secondary="NP-P-deverbal-OCEalaY/fiy-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ عَلَى إِيجَادِ ذَوِيهِم." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna EalaY IiyjaAdi *awiyhim."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Beneficiary">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP S_deverbal bi deverbal" secondary="NP-P-deverbal-OCEalaY/fiy-PP bi deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ اللَّاجِئِينَ عَلَى إِيجَادِ ذَوِيهِم بِإِرْشَادِهِم إِلَى مَصَالِحَ خَاصَة." transliteration="saAEadat AlmunaZ~amapu All~aAji}iyna EalaY IiyjaAdi *awiyhim biIiro$aAdihim IilaY maSaAliHa xaASap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Beneficiary">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Instrument">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="use">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP S_DEVERAL" secondary="P-DEVERBAL-ACEalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ عَلَى تَجَاوُزِ مَشَاكِلِ اللَّاجِئِينَ." transliteration="saAEadat AlmunaZ~amapu EalaY tajaAwuzi ma$aAkili All~aAji}iyna."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP S_DEVERAL bi deverbal" secondary="P-DEVERBAL-ACEalaY-PP bi deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="سَاعَدَت المُنَظَّمَةُ عَلَى تَجَاوُزِ مَشَاكِلِ اللَّاجِئِينَ." transliteration="saAEadat AlmunaZ~amapu EalaY tajaAwuzi ma$aAkili All~aAji}iyna."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى فِي">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                        <PREP value="بِ">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Instrument">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="help">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Beneficiary"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="use">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Instrument"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="taEaAwana-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

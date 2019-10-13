@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="gaAdara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="هَجَرَ" transliteration="hajara" transname="هجر">
+            <Root name="هجر" transliteration="hjr"/>
+            <Deverbal name="هَجْر" transliteration="hajor" transname="هجر"/>
+            <Participle name="هَاجِر" transliteration="haAjir" transname="هاجر"/>
+        </MEMBER>
+        <MEMBER name="فَارَقَ" transliteration="faAraqa" transname="فارق">
+            <Root name="فرق" transliteration="frq"/>
+            <Deverbal name="مُفَارَقَة" transliteration="mufaAraqap" transname="مفارقة"/>
+            <Participle name="مُفَارِق" transliteration="mufaAriq" transname="مفارق"/>
+        </MEMBER>
+        <MEMBER name="فَاصَلَ" transliteration="faASala" transname="فاصل">
+            <Root name="فصل" transliteration="fSl"/>
+            <Deverbal name="مُفَاصَلَة" transliteration="mufaASalap" transname="مفاصلة"/>
+            <Participle name="مُفَاصِل" transliteration="mufaASil" transname="مفاصل"/>
+        </MEMBER>
+        <MEMBER name="بَارَحَ" transliteration="baAraHa" transname="بارح">
+            <Root name="برح" transliteration="brH"/>
+            <Deverbal name="مُبَارَحَة" transliteration="mubaAraHap" transname="مبارحة"/>
+            <Participle name="مُبَارِح" transliteration="mubaAriH" transname="مبارح"/>
+        </MEMBER>
+        <MEMBER name="بَرَحَ" transliteration="baraHa" transname="برح">
+            <Root name="برح" transliteration="brH"/>
+            <Deverbal name="" transliteration="" transname=""/>
+            <Participle name="بَارِح" transliteration="baAriH" transname="بارح"/>
+        </MEMBER>
+        <MEMBER name="تَرَكَ" transliteration="taraka" transname="ترك">
+            <Root name="ترك" transliteration="trk"/>
+            <Deverbal name="تَرْك" transliteration="tarok" transname="ترك"/>
+            <Participle name="تَارِك" transliteration="taArik" transname="تارك"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="Transitive" secondary="basically, locative preposition drop of &quot;from&quot;"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="غَادَرَ المُفَتِّشُونَ المَكَانَ." transliteration="gaAdara Almufat~i$uwna AlmakaAna."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="direction">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Constant" value="from"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="gaAdara-1.1">
+            <MEMBERS>
+                <MEMBER name="أَغْدَرَ" transliteration="Oagodara" transname="أغدر">
+                    <Root name="غدر" transliteration="gdr"/>
+                    <Deverbal name="إِغْدَار" transliteration="IigodaAr" transname="إغدار"/>
+                    <Participle name="مُغْدِر" transliteration="mugodir" transname="مغدر"/>
+                </MEMBER>
+                <MEMBER name="غَادَرَ" transliteration="gaAdara" transname="غادر">
+                    <Root name="غدر" transliteration="gdr"/>
+                    <Deverbal name="مُغَادَرَة" transliteration="mugaAdarap" transname="مغادرة"/>
+                    <Participle name="مُغَادِر" transliteration="mugaAdir" transname="مغادر"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="Basic Intransitive" secondary=""/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="غَادَرَ المُفَتِّشُونَ." transliteration="gaAdara Almufat~i$uwna."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="location">
+                            <ARGS>
+                                <ARG type="Event" value="start(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="location">
+                            <ARGS>
+                                <ARG type="Event" value="end(E)"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="direction">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="Constant" value="from"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Source"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

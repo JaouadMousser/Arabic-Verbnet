@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IijotamaEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَكَوَّمَ" transliteration="takaw~ama" transname="تكوم">
+            <Root name="كوم" transliteration="kwm"/>
+            <Deverbal name="تَكَوُّم" transliteration="takaw~um" transname="تكوم"/>
+            <Participle name="مُتَكَوِّم" transliteration="mutakaw~im" transname="متكوم"/>
+        </MEMBER>
+        <MEMBER name="تَرَاكَمَ" transliteration="taraAkama" transname="تراكم">
+            <Root name="ركم" transliteration="rkm"/>
+            <Deverbal name="تَرَاكُم" transliteration="taraAkum" transname="تراكم"/>
+            <Participle name="مُتَرَاكِم" transliteration="mutaraAkim" transname="متراكم"/>
+        </MEMBER>
+        <MEMBER name="تَحَوَّشَ" transliteration="taHaw~a$a" transname="تحوش">
+            <Root name="حوش" transliteration="Hw$"/>
+            <Deverbal name="تَحَوُّش" transliteration="taHaw~u$" transname="تحوش"/>
+            <Participle name="مُتَحَوِّش" transliteration="mutaHaw~i$" transname="متحوش"/>
+        </MEMBER>
+        <MEMBER name="إِجْتَمَعَ" transliteration="IijotamaEa" transname="إجتمع">
+            <Root name="جمع" transliteration="jmE"/>
+            <Deverbal name="إِجْتِمَاع" transliteration="IijotimaAE" transname="إجتماع"/>
+            <Participle name="مُجْتَمِع" transliteration="mujotamiE" transname="مجتمع"/>
+        </MEMBER>
+        <MEMBER name="تَجَمَّعَ" transliteration="tajam~aEa" transname="تجمع">
+            <Root name="جمع" transliteration="jmE"/>
+            <Deverbal name="تَجَمُّع" transliteration="tajam~uE" transname="تجمع"/>
+            <Participle name="مُتَجَمِّع" transliteration="mutajam~iE" transname="متجمع"/>
+        </MEMBER>
+        <MEMBER name="تَجَمْهَرَ" transliteration="tajamohara" transname="تجمهر">
+            <Root name="جمهر" transliteration="jmhr"/>
+            <Deverbal name="تَجَمْهر" transliteration="tajamohr" transname="تجمهر"/>
+            <Participle name="مُتَجَمْهِر" transliteration="mutajamohir" transname="متجمهر"/>
+        </MEMBER>
+        <MEMBER name="وَسَقَ" transliteration="wasaqa" transname="وسق">
+            <Root name="وسق" transliteration="wsq"/>
+            <Deverbal name="وَسْق" transliteration="wasoq" transname="وسق"/>
+            <Participle name="وَاسِق" transliteration="waAsiq" transname="واسق"/>
+        </MEMBER>
+        <MEMBER name="إِحْتَشَدَ" transliteration="IiHota$ada" transname="إحتشد">
+            <Root name="حشد" transliteration="H$d"/>
+            <Deverbal name="إِحْتِشَاد" transliteration="IiHoti$aAd" transname="إحتشاد"/>
+            <Participle name="مُحْتِشِد" transliteration="muHoti$id" transname="محتشد"/>
+        </MEMBER>
+        <MEMBER name="إِرْتَكَمَ" transliteration="Iirotakama" transname="إرتكم">
+            <Root name="ركم" transliteration="rkm"/>
+            <Deverbal name="إِرْتِكَام" transliteration="IirotikaAm" transname="إرتكام"/>
+            <Participle name="مُرْتِكَام" transliteration="murotikaAm" transname="مرتكام"/>
+        </MEMBER>
+        <MEMBER name="تَحَاشَدَ" transliteration="taHaA$ada" transname="تحاشد">
+            <Root name="حشد" transliteration="H$d"/>
+            <Deverbal name="تَحَاشُد" transliteration="taHaA$ud" transname="تحاشد"/>
+            <Participle name="مُتَحَاشِد" transliteration="mutaHaA$id" transname="متحاشد"/>
+        </MEMBER>
+        <MEMBER name="إِئْتَلَبَ" transliteration="Ii}otalaba" transname="إئتلب">
+            <Root name="ألب" transliteration="Olb"/>
+            <Deverbal name="إِئْتِلَاب" transliteration="Ii}otilaAb" transname="إئتلاب"/>
+            <Participle name="مُؤْتَلِب" transliteration="muWotalib" transname="مؤتلب"/>
+        </MEMBER>
+        <MEMBER name="تَكَتَّلَ" transliteration="takat~ala" transname="تكتل">
+            <Root name="كتل" transliteration="ktl"/>
+            <Deverbal name="تَكَتُّل" transliteration="takat~ul" transname="تكتل"/>
+            <Participle name="مُتَكَتِّل" transliteration="mutakat~il" transname="متكتل"/>
+        </MEMBER>
+        <MEMBER name="إِلْتَمَّ" transliteration="Iilotam~a" transname="إلتم">
+            <Root name="لمم" transliteration="lmm"/>
+            <Deverbal name="إِلْتِئَام" transliteration="Iiloti}aAm" transname="إلتئام"/>
+            <Participle name="مُلْتَئِم" transliteration="mulota}im" transname="ملتئم"/>
+        </MEMBER>
+        <MEMBER name="تَلَمْلَمَ" transliteration="talamolama" transname="تلملم">
+            <Root name="لمم" transliteration="lmm"/>
+            <Deverbal name="تَلَمْلُم" transliteration="talamolum" transname="تلملم"/>
+            <Participle name="مُتَلَمْلِم" transliteration="mutalamolim" transname="متلملم"/>
+        </MEMBER>
+        <MEMBER name="أَلَّفَ" transliteration="Oal~afa" transname="ألف">
+            <Root name="ألف" transliteration="Olf"/>
+            <Deverbal name="تَأَلُّف" transliteration="taOal~uf" transname="تألف"/>
+            <Participle name="مُتَأَلِّف" transliteration="mutaOal~if" transname="متألف"/>
+        </MEMBER>
+        <MEMBER name="تَحَزَّبَ" transliteration="taHaz~aba" transname="تحزب">
+            <Root name="حزب" transliteration="Hzb"/>
+            <Deverbal name="تَحَزُّب" transliteration="taHaz~ub" transname="تحزب"/>
+            <Participle name="مُتَحَزِّب" transliteration="mutaHaz~ib" transname="متحزب"/>
+        </MEMBER>
+        <MEMBER name="تَعَنْقَدَ" transliteration="taEanoqada" transname="تعنقد">
+            <Root name="عنقد" transliteration="Enqd"/>
+            <Deverbal name="تَعَنْقُد" transliteration="taEanoqud" transname="تعنقد"/>
+            <Participle name="مُتَعَنْقِد" transliteration="mutaEanoqid" transname="متعنقد"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+                <SELRESTR Value="+" type="plural"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَجَمَّعَ التَّلَامِيذ." transliteration="tajam~aEa Alt~alaAmiy*."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="together">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="Constant" value="physical"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="together">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Constant" value="physical"/>
+                        <ARG type="ThemRole" value="Theme_i"/>
+                        <ARG type="ThemRole" value="Theme_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLINGCLASS ID="jamaEa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

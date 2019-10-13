@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Oawoqafa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَسْنَدَ" transliteration="Oasonada" transname="أسند">
+            <Root name="سند" transliteration="snd"/>
+            <Deverbal name="إِسْنَاد" transliteration="IisonaAd" transname="إسناد"/>
+            <Participle name="مُسْنِد" transliteration="musonid" transname="مسند"/>
+        </MEMBER>
+        <MEMBER name="أَقَامَ" transliteration="OaqaAma" transname="أقام">
+            <Root name="قوم" transliteration="qwm"/>
+            <Deverbal name="إِقَامَة" transliteration="IiqaAmap" transname="إقامة"/>
+            <Participle name="مُقِيم" transliteration="muqiym" transname="مقيم"/>
+        </MEMBER>
+        <MEMBER name="قَوَّمَ" transliteration="qaw~ama" transname="قوم">
+            <Root name="قوم" transliteration="qwm"/>
+            <Deverbal name="تَقْوِيم" transliteration="taqowiym" transname="تقويم"/>
+            <Participle name="مُقِيم" transliteration="muqiym" transname="مقيم"/>
+        </MEMBER>
+        <MEMBER name="أْرْدَبَ" transliteration="Oorodaba" transname="أردب">
+            <Root name="رضب" transliteration="rDb"/>
+            <Deverbal name="إِرْضَاب" transliteration="IiroDaAb" transname="إرضاب"/>
+            <Participle name="مُرْضِب" transliteration="muroDib" transname="مرضب"/>
+        </MEMBER>
+        <MEMBER name="أْبْرَكَ" transliteration="Ooboraka" transname="أبرك">
+            <Root name="برك" transliteration="brk"/>
+            <Deverbal name="إِبْرَاك" transliteration="IiboraAk" transname="إبراك"/>
+            <Participle name="مُبْرِك" transliteration="muborik" transname="مبرك"/>
+        </MEMBER>
+        <MEMBER name="رَكَّعَ" transliteration="rak~aEa" transname="ركع">
+            <Root name="ركع" transliteration="rkE"/>
+            <Deverbal name="إِرْكَاع" transliteration="IirokaAE" transname="إركاع"/>
+            <Participle name="مُرْكِع" transliteration="murokiE" transname="مركع"/>
+        </MEMBER>
+        <MEMBER name="أْجْثَى" transliteration="OojovaY" transname="أجثى">
+            <Root name="جثا" transliteration="jvA"/>
+            <Deverbal name="إِجْثَاء" transliteration="IijovaA'" transname="إجثاء"/>
+            <Participle name="مُجْثِي" transliteration="mujoviy" transname="مجثي"/>
+        </MEMBER>
+        <MEMBER name="أْدْجَعَ" transliteration="OodojaEa" transname="أدجع">
+            <Root name="ضجع" transliteration="DjE"/>
+            <Deverbal name="إِضْجَاع" transliteration="IiDojaAE" transname="إضجاع"/>
+            <Participle name="مُضْجِع" transliteration="muDojiE" transname="مضجع"/>
+        </MEMBER>
+        <MEMBER name="قَعَى" transliteration="qaEaY" transname="قعى">
+            <Root name="قعي" transliteration="qEy"/>
+            <Deverbal name="إِقْعَاء" transliteration="IiqoEaA'" transname="إقعاء"/>
+            <Participle name="مُقْعِي" transliteration="muqoEiy" transname="مقعي"/>
+        </MEMBER>
+        <MEMBER name="أَرْبَضَ" transliteration="OarobaDa" transname="أربض">
+            <Root name="ربض" transliteration="rbD"/>
+            <Deverbal name="إِرْبَاض" transliteration="IirobaAD" transname="إرباض"/>
+            <Participle name="مُرْبِض" transliteration="murobiD" transname="مربض"/>
+        </MEMBER>
+        <MEMBER name="أَبْرَكَ" transliteration="Oaboraka" transname="أبرك">
+            <Root name="برك" transliteration="brk"/>
+            <Deverbal name="إِبْرَاك" transliteration="IiboraAk" transname="إبراك"/>
+            <Participle name="مُبْرِك" transliteration="muborik" transname="مبرك"/>
+        </MEMBER>
+        <MEMBER name="أَجْثَمَ" transliteration="Oajovama" transname="أجثم">
+            <Root name="جثم" transliteration="jvm"/>
+            <Deverbal name="إِجْثَام" transliteration="IijovaAm" transname="إجثام"/>
+            <Participle name="مُجْثِم" transliteration="mujovim" transname="مجثم"/>
+        </MEMBER>
+        <MEMBER name="أَحْنَى" transliteration="OaHonaY" transname="أحنى">
+            <Root name="حنى" transliteration="HnY"/>
+            <Deverbal name="إِحْنَاء" transliteration="IiHonaA'" transname="إحناء"/>
+            <Participle name="مُحْنِي" transliteration="muHoniy" transname="محني"/>
+        </MEMBER>
+        <MEMBER name="أَقْعَى" transliteration="OaqoEaY" transname="أقعى">
+            <Root name="قعا" transliteration="qEA"/>
+            <Deverbal name="إِقْعَاء" transliteration="IiqoEaA'" transname="إقعاء"/>
+            <Participle name="مُقْعِي" transliteration="muqoEiy" transname="مقعي"/>
+        </MEMBER>
+        <MEMBER name="نَوَّخَ" transliteration="naw~axa" transname="نوخ">
+            <Root name="ناخ" transliteration="nAx"/>
+            <Deverbal name="إِنَاخَة" transliteration="IinaAxap" transname="إناخة"/>
+            <Participle name="مُنِيخ" transliteration="muniyx" transname="منيخ"/>
+        </MEMBER>
+        <MEMBER name="أَتْكَأَ" transliteration="OatokaOa" transname="أتكأ">
+            <Root name="وكأ" transliteration="wkO"/>
+            <Deverbal name="إِتْكَاء" transliteration="IitokaA'" transname="إتكاء"/>
+            <Participle name="مُتْكِئ" transliteration="mutoki}" transname="متكئ"/>
+        </MEMBER>
+        <MEMBER name="أَضْجَعَ" transliteration="OaDojaEa" transname="أضجع">
+            <Root name="ضجع" transliteration="DjE"/>
+            <Deverbal name="إِضْجَاع" transliteration="IiDojaAE" transname="إضجاع"/>
+            <Participle name="مُضْجِع" transliteration="muDojiE" transname="مضجع"/>
+        </MEMBER>
+        <MEMBER name="مَدَّدَ" transliteration="mad~ada" transname="مدد">
+            <Root name="مدد" transliteration="mdd"/>
+            <Deverbal name="تَمْدِيد" transliteration="tamodiyd" transname="تمديد"/>
+            <Participle name="مُمَدِّد" transliteration="mumad~id" transname="ممدد"/>
+        </MEMBER>
+        <MEMBER name="تَمَدَّدَ" transliteration="tamad~ada" transname="تمدد">
+            <Root name="مدد" transliteration="mdd"/>
+            <Deverbal name="تَمَدُّد" transliteration="tamad~ud" transname="تمدد"/>
+            <Participle name="مُتَمَدِّد" transliteration="mutamad~id" transname="متمدد"/>
+        </MEMBER>
+        <MEMBER name="أَبْطَحَ" transliteration="OaboTaHa" transname="أبطح">
+            <Root name="بطح" transliteration="bTH"/>
+            <Deverbal name="إِبْطَاح" transliteration="IiboTaAH" transname="إبطاح"/>
+            <Participle name="مُبْطِح" transliteration="muboTiH" transname="مبطح"/>
+        </MEMBER>
+        <MEMBER name="أَرْقَدَ" transliteration="Oaroqada" transname="أرقد">
+            <Root name="رقد" transliteration="rqd"/>
+            <Deverbal name="إِرْقَاد" transliteration="IiroqaAd" transname="إرقاد"/>
+            <Participle name="مُرْقِد" transliteration="muroqid" transname="مرقد"/>
+        </MEMBER>
+        <MEMBER name="قَعَّى" transliteration="qaE~aY" transname="قعى">
+            <Root name="قعى" transliteration="qEY"/>
+            <Deverbal name="إِقْعَاء" transliteration="IiqoEaA'" transname="إقعاء"/>
+            <Participle name="مُقْعِي" transliteration="muqoEiy" transname="مقعي"/>
+        </MEMBER>
+        <MEMBER name="أَجْلَسَ" transliteration="Oajolasa" transname="أجلس">
+            <Root name="جلس" transliteration="jls"/>
+            <Deverbal name="إِجْلَاس" transliteration="IijolaAs" transname="إجلاس"/>
+            <Participle name="مُجْلِس" transliteration="mujolis" transname="مجلس"/>
+        </MEMBER>
+        <MEMBER name="جَلَّسَ" transliteration="jal~asa" transname="جلس">
+            <Root name="جلس" transliteration="jls"/>
+            <Deverbal name="تَجْلِيس" transliteration="tajoliys" transname="تجليس"/>
+            <Participle name="مُجْلِس" transliteration="mujolis" transname="مجلس"/>
+        </MEMBER>
+        <MEMBER name="أَوْقَفَ" transliteration="Oawoqafa" transname="أوقف">
+            <Root name="وقف" transliteration="wqf"/>
+            <Deverbal name="إِيقَاف" transliteration="IiyqaAf" transname="إيقاف"/>
+            <Participle name="مُوقِف" transliteration="muwqif" transname="موقف"/>
+        </MEMBER>
+        <MEMBER name="أْوْقَفَ" transliteration="Oowoqafa" transname="أوقف">
+            <Root name="وقف" transliteration="wqf"/>
+            <Deverbal name="إِيقَاف" transliteration="IiyqaAf" transname="إيقاف"/>
+            <Participle name="مُوقِف" transliteration="muwqif" transname="موقف"/>
+        </MEMBER>
+        <MEMBER name="أَقْعَدَ" transliteration="OaqoEada" transname="أقعد">
+            <Root name="قعد" transliteration="qEd"/>
+            <Deverbal name="إِقْعَاد" transliteration="IiqoEaAd" transname="إقعاد"/>
+            <Participle name="مُقْعِد" transliteration="muqoEid" transname="مقعد"/>
+        </MEMBER>
+        <MEMBER name="قَعَّدَ" transliteration="qaE~ada" transname="قعد">
+            <Root name="قعد" transliteration="qEd"/>
+            <Deverbal name="تَقْعِيد" transliteration="taqoEiyd" transname="تقعيد"/>
+            <Participle name="مُقْعِد" transliteration="muqoEid" transname="مقعد"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Cause">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="NP V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجْلَسَ المُدِيرُ العَامِلَ." transliteration="Oajolasa Almudiyru AlEaAmila."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="position">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="Pos"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="position">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="Pos"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.location" secondary="PPlocative-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَجْلَسَ المُدِيرُ العَامِلَ بِجَانِبِهِ." transliteration="Oajolasa Almudiyru AlEaAmila bijaAnibihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="position">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="Pos"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="position">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="VerbSpecific" value="Pos"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="waqafa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taman~aY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَوَخَّى" transliteration="tawax~aY" transname="توخى">
+            <Root name="وخي" transliteration="wxy"/>
+            <Deverbal name="تَوَخِّي" transliteration="tawax~iy" transname="توخي"/>
+            <Participle name="مُتَوَخِّي" transliteration="mutawax~iy" transname="متوخي"/>
+        </MEMBER>
+        <MEMBER name="قَصَدَ" transliteration="qaSada" transname="قصد">
+            <Root name="قصد" transliteration="qSd"/>
+            <Deverbal name="قَصْد" transliteration="qaSod" transname="قصد"/>
+            <Participle name="قَاصِض" transliteration="qaASiD" transname="قاصض"/>
+        </MEMBER>
+        <MEMBER name="نَوَى" transliteration="nawaY" transname="نوى">
+            <Root name="نوي" transliteration="nwy"/>
+            <Deverbal name="نِيَّة" transliteration="niy~ap" transname="نية"/>
+            <Participle name="نَاوِي" transliteration="naAwiy" transname="ناوي"/>
+        </MEMBER>
+        <MEMBER name="إِنْتَوَى" transliteration="IinotawaY" transname="إنتوى">
+            <Root name="نوي" transliteration="nwy"/>
+            <Deverbal name="إِنْتِوَاء" transliteration="IinotiwaA'" transname="إنتواء"/>
+            <Participle name="مُنْتَوِي" transliteration="munotawiy" transname="منتوي"/>
+        </MEMBER>
+        <MEMBER name="عَنَى" transliteration="EanaY" transname="عنى">
+            <Root name="عنا" transliteration="EnA"/>
+            <Deverbal name="عَنَاء" transliteration="EanaA'" transname="عناء"/>
+            <Participle name="عَانِي" transliteration="EaAniy" transname="عاني"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَوَقَّعَ المُوَظَّفُونَ مُدِيراً أَقَلَّ صَرَامَةً." transliteration="tawaq~aEa AlmuwaZ~afuwna mudiyrAF Oaqal~a SaraAmapF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP deverbal S" secondary="deverbal S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَوَقَّعَ المُرَاقِبُون إِرْتِفَاعَ أَسْعَارِ النِّفْط." transliteration="tawaq~aEa AlmuraAqibuwn IirotifaAEa OasoEaAri Aln~ifoT."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP ADJ" secondary="NP-VEN-NP-OMIT"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَوَقَّعْنَ المُدِيَرَ أَكْثَتَ صَرَامَةً." transliteration="tawaq~aEona Almudiyara Oakovata SaraAmapF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="np_ppart"/>
+                    </SYNRESTRS>
+                </NP>
+                <ADJ/>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَوَقَّعَ المُعَاقِبُونَ أَنْ تَنْخَفِضَ أَسْعَارُ النِّفط." transliteration="tawaq~aEa AlmuEaAqibuwna Oano tanoxafiDa OasoEaAru Aln~ifT."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="desire">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="taman~aY-1">
+            <MEMBERS>
+                <MEMBER name="إِنْتَظَرَ" transliteration="IinotaZara" transname="إنتظر">
+                    <Root name="نظر" transliteration="nZr"/>
+                    <Deverbal name="إنْتِظَار" transliteration="InotiZaAr" transname="إنتظار"/>
+                    <Participle name="مُنْتَظِر" transliteration="munotaZir" transname="منتظر"/>
+                </MEMBER>
+                <MEMBER name="تَوَّقَعَ" transliteration="taw~aqaEa" transname="توقع">
+                    <Root name="وقع" transliteration="wqE"/>
+                    <Deverbal name="تَوَقَّعَ" transliteration="tawaq~aEa" transname="توقع"/>
+                    <Participle name="تَوَقُّع" transliteration="tawaq~uE" transname="توقع"/>
+                </MEMBER>
+                <MEMBER name="تَرَقَّبَ" transliteration="taraq~aba" transname="ترقب">
+                    <Root name="رقب" transliteration="rqb"/>
+                    <Deverbal name="تَرَقُّب" transliteration="taraq~ub" transname="ترقب"/>
+                    <Participle name="مُتَرَقِّب" transliteration="mutaraq~ib" transname="مترقب"/>
+                </MEMBER>
+                <MEMBER name="تَمَنَّى" transliteration="taman~aY" transname="تمنى">
+                    <Root name="مني" transliteration="mny"/>
+                    <Deverbal name="تَمَنِّي" transliteration="taman~iy" transname="تمني"/>
+                    <Participle name="مُتَمَنِّي" transliteration="mutaman~iy" transname="متمني"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="NP V li NP S_DEVERBAL" secondary="li-DEVERBAL"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَمَنَّيْنَا لَهُ التَّوْفِيقَ فِي عَمَلِه." transliteration="taman~ayonaA lahu Alt~awofiyqa fiy Eamalih."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="li_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="desire">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP li NP Oano S" secondary="li-S"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَمَنَّيْنَا لُهْ أَنْ يُوَفَّقَ فِي مَهَامِهِ." transliteration="taman~ayonaA luho Oano yuwaf~aqa fiy mahaAmihi."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Experiencer">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="li_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="desire">
+                            <ARGS>
+                                <ARG type="Event" value="E"/>
+                                <ARG type="ThemRole" value="Experiencer"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

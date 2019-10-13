@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taqa$~ara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَقَشَّرَ" transliteration="taqa$~ara" transname="تقشر">
+            <Root name="قشر" transliteration="q$r"/>
+            <Deverbal name="تَقَشُّر" transliteration="taqa$~ur" transname="تقشر"/>
+            <Participle name="مُتَقَشِّر" transliteration="mutaqa$~ir" transname="متقشر"/>
+        </MEMBER>
+        <MEMBER name="إِنْتَخَلَ" transliteration="Iinotaxala" transname="إنتخل">
+            <Root name="نخل" transliteration="nxl"/>
+            <Deverbal name="إِنْتِخَال" transliteration="IinotixaAl" transname="إنتخال"/>
+            <Participle name="مُنْتَخِل" transliteration="munotaxil" transname="منتخل"/>
+        </MEMBER>
+        <MEMBER name="إِلْتَحَى" transliteration="IilotaHaY" transname="إلتحى">
+            <Root name="لحي" transliteration="lHy"/>
+            <Deverbal name="إِلْتِحَاء" transliteration="IilotiHaA'" transname="إلتحاء"/>
+            <Participle name="مُلْتَحِي" transliteration="mulotaHiy" transname="ملتحي"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَرَفَ" transliteration="Iinoqarafa" transname="إنقرف">
+            <Root name="قرف" transliteration="qrf"/>
+            <Deverbal name="إِنْقْرَاف" transliteration="IinoqoraAf" transname="إنقراف"/>
+            <Participle name="مُنْقَرِف" transliteration="munoqarif" transname="منقرف"/>
+        </MEMBER>
+        <MEMBER name="تَقَرَّفَ" transliteration="taqar~afa" transname="تقرف">
+            <Root name="قرف" transliteration="qrf"/>
+            <Deverbal name="تَقَرُّف" transliteration="taqar~uf" transname="تقرف"/>
+            <Participle name="مُتَقَرِّف" transliteration="mutaqar~if" transname="متقرف"/>
+        </MEMBER>
+        <MEMBER name="إِنْحَلَبَ" transliteration="IinoHalaba" transname="إنحلب">
+            <Root name="حلب" transliteration="Hlb"/>
+            <Deverbal name="إِنْحِلَاب" transliteration="IinoHilaAb" transname="إنحلاب"/>
+            <Participle name="مُنْحَلِب" transliteration="munoHalib" transname="منحلب"/>
+        </MEMBER>
+        <MEMBER name="إِنْحَقَفَ" transliteration="IinoHaqafa" transname="إنحقف">
+            <Root name="حقف" transliteration="Hqf"/>
+            <Deverbal name="إِنْحِقَاف" transliteration="IinoHiqaAf" transname="إنحقاف"/>
+            <Participle name="مُنْحَقِف" transliteration="munoHaqif" transname="منحقف"/>
+        </MEMBER>
+        <MEMBER name="إِنْبَشَرَ" transliteration="Iinoba$ara" transname="إنبشر">
+            <Root name="بشر" transliteration="b$r"/>
+            <Deverbal name="إِنْبِشَار" transliteration="Iinobi$aAr" transname="إنبشار"/>
+            <Participle name="مُنْبَشِر" transliteration="munoba$ir" transname="منبشر"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَحَفَ" transliteration="IinoqaHafa" transname="إنقحف">
+            <Root name="قحف" transliteration="qHf"/>
+            <Deverbal name="إِنْقِحَاف" transliteration="IinoqiHaAf" transname="إنقحاف"/>
+            <Participle name="مُنْقَحِف" transliteration="munoqaHif" transname="منقحف"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَلَفَ" transliteration="Iinoqalafa" transname="إنقلف">
+            <Root name="قلف" transliteration="qlf"/>
+            <Deverbal name="إِنْقِلَاف" transliteration="IinoqilaAf" transname="إنقلاف"/>
+            <Participle name="مُنْقَلِف" transliteration="munoqalif" transname="منقلف"/>
+        </MEMBER>
+        <MEMBER name="تَرَيَّشَ" transliteration="taray~a$a" transname="تريش">
+            <Root name="ريش" transliteration="ry$"/>
+            <Deverbal name="تَرَيُّش" transliteration="taray~u$" transname="تريش"/>
+            <Participle name="مُتَرَيِّش" transliteration="mutaray~i$" transname="متريش"/>
+        </MEMBER>
+        <MEMBER name="تَلَحَّى" transliteration="talaH~aY" transname="تلحى">
+            <Root name="لحي" transliteration="lHy"/>
+            <Deverbal name="تَلَحِّي" transliteration="talaH~iy" transname="تلحي"/>
+            <Participle name="مُتَلَحِّي" transliteration="mutalaH~iy" transname="متلحي"/>
+        </MEMBER>
+        <MEMBER name="إِنْجَلَفَ" transliteration="Iinojalafa" transname="إنجلف">
+            <Root name="جلف" transliteration="jlf"/>
+            <Deverbal name="إِنْجِلَاف" transliteration="IinojilaAf" transname="إنجلاف"/>
+            <Participle name="مُنْجَلِف" transliteration="munojalif" transname="منجلف"/>
+        </MEMBER>
+        <MEMBER name="إِنْفَرَثَ" transliteration="Iinofarava" transname="إنفرث">
+            <Root name="فرث" transliteration="frv"/>
+            <Deverbal name="إِنْفْرَاث" transliteration="IinoforaAv" transname="إنفراث"/>
+            <Participle name="مُنْفَرِث" transliteration="munofariv" transname="منفرث"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَقَشَّرَ الجِلد." transliteration="taqa$~ara Aljild."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="location">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="location">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLINGCLASS ID="qa$~ara-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="tamaATala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَلَدَّنَ" transliteration="talad~ana" transname="تلدن">
+            <Root name="لدن" transliteration="ldn"/>
+            <Deverbal name="تَلَدُّن" transliteration="talad~un" transname="تلدن"/>
+            <Participle name="مُتَلدِّن" transliteration="mutald~in" transname="متلدن"/>
+        </MEMBER>
+        <MEMBER name="تَمَكَّثَ" transliteration="tamak~ava" transname="تمكث">
+            <Root name="مكث" transliteration="mkv"/>
+            <Deverbal name="تَمَكُّث" transliteration="tamak~uv" transname="تمكث"/>
+            <Participle name="مُتَمَكِّث" transliteration="mutamak~iv" transname="متمكث"/>
+        </MEMBER>
+        <MEMBER name="تَلَبَّثَ" transliteration="talab~ava" transname="تلبث">
+            <Root name="لبث" transliteration="lbv"/>
+            <Deverbal name="تَلَبُّث" transliteration="talab~uv" transname="تلبث"/>
+            <Participle name="مُتَلَبِّث" transliteration="mutalab~iv" transname="متلبث"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَغْرَقَ" transliteration="Iisotagoraqa" transname="إستغرق">
+            <Root name="غرق" transliteration="grq"/>
+            <Deverbal name="إِسْتِغْرَاق" transliteration="IisotigoraAq" transname="إستغراق"/>
+            <Participle name="مُسْتَغْرِق" transliteration="musotagoriq" transname="مستغرق"/>
+        </MEMBER>
+        <MEMBER name="تَلَكَّأَ" transliteration="talak~aOa" transname="تلكأ">
+            <Root name="لكأ" transliteration="lkO"/>
+            <Deverbal name="تَلَكُّؤ" transliteration="talak~uW" transname="تلكؤ"/>
+            <Participle name="مُتَلَكِّئ" transliteration="mutalak~i}" transname="متلكئ"/>
+        </MEMBER>
+        <MEMBER name="أَبْطَأَ" transliteration="OaboTaOa" transname="أبطأ">
+            <Root name="بطأ" transliteration="bTO"/>
+            <Deverbal name="إِبْطَاء" transliteration="IiboTaA'" transname="إبطاء"/>
+            <Participle name="مُبْطِئ" transliteration="muboTi}" transname="مبطئ"/>
+        </MEMBER>
+        <MEMBER name="تَوَانَى" transliteration="tawaAnaY" transname="توانى">
+            <Root name="وني" transliteration="wny"/>
+            <Deverbal name="تَوَانِي" transliteration="tawaAniy" transname="تواني"/>
+            <Participle name="مُتَوَانِي" transliteration="mutawaAniy" transname="متواني"/>
+        </MEMBER>
+        <MEMBER name="تَرَدَّدَ" transliteration="tarad~ada" transname="تردد">
+            <Root name="ردد" transliteration="rdd"/>
+            <Deverbal name="تَرَدُّد" transliteration="tarad~ud" transname="تردد"/>
+            <Participle name="مُرَدِّد" transliteration="murad~id" transname="مردد"/>
+        </MEMBER>
+        <MEMBER name="تَريَّثَ" transliteration="tary~ava" transname="تريث">
+            <Root name="راث" transliteration="rAv"/>
+            <Deverbal name="تَرَيُّث" transliteration="taray~uv" transname="تريث"/>
+            <Participle name="مُتَرَيِّث" transliteration="mutaray~iv" transname="متريث"/>
+        </MEMBER>
+        <MEMBER name="تَبَاطَأَ" transliteration="tabaATaOa" transname="تباطأ">
+            <Root name="بطأ" transliteration="bTO"/>
+            <Deverbal name="تَبَاطُؤ" transliteration="tabaATuW" transname="تباطؤ"/>
+            <Participle name="مُتَبَاطِئ" transliteration="mutabaATi}" transname="متباطئ"/>
+        </MEMBER>
+        <MEMBER name="تَمَاطَلَ" transliteration="tamaATala" transname="تماطل">
+            <Root name="مطل" transliteration="mTl"/>
+            <Deverbal name="تَمَاطُل" transliteration="tamaATul" transname="تماطل"/>
+            <Participle name="مُتَمَاطِل" transliteration="mutamaATil" transname="متماطل"/>
+        </MEMBER>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَمَاطَلَ الزَّبُونُ." transliteration="tamaATala Alz~abuwnu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="linger">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme" secondary="PPover-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَمَاطَلَ الزَّبُونُ فِي أَدَاءِ الدَّينِ." transliteration="tamaATala Alz~abuwnu fiy OadaA'i Ald~ayni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="فِي">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SELRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="linger">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

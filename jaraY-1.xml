@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="jaraA-1.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="ثَعَبَ" transliteration="vaEaba" transname="ثعب">
+            <Root name="ثعب" transliteration="vEb"/>
+            <Deverbal name="ثَعَب" transliteration="vaEab" transname="ثعب"/>
+            <Participle name="ثَاعِب" transliteration="vaAEib" transname="ثاعب"/>
+        </MEMBER>
+        <MEMBER name="إِنْثَعَبَ" transliteration="IinovaEaba" transname="إنثعب">
+            <Root name="ثعب" transliteration="vEb"/>
+            <Deverbal name="إِنْثِعَاب" transliteration="IinoviEaAb" transname="إنثعاب"/>
+            <Participle name="مُنْثَعِب" transliteration="munovaEib" transname="منثعب"/>
+        </MEMBER>
+        <!--لسان العرب: ثعب الماء.??-->
+        <MEMBER name="إِنْعَرَج" transliteration="IinoEaraj" transname="إنعرج">
+            <Root name="عرج" transliteration="Erj"/>
+            <Deverbal name="إنْعِرَاج" transliteration="InoEiraAj" transname="إنعراج"/>
+            <Participle name="مُنْعَرِج" transliteration="munoEarij" transname="منعرج"/>
+        </MEMBER>
+        <MEMBER name="زَحَفَ" transliteration="zaHafa" transname="زحف">
+            <Root name="زحف" transliteration="zHf"/>
+            <Deverbal name="زَحْف" transliteration="zaHof" transname="زحف"/>
+            <Participle name="زَاحِف" transliteration="zaAHif" transname="زاحف"/>
+        </MEMBER>
+        <MEMBER name="جَرَى" transliteration="jaraY" transname="جرى">
+            <Root name="جرى" transliteration="jrY"/>
+            <Deverbal name="جَرَيَان" transliteration="jarayaAn" transname="جريان"/>
+            <Participle name="جَارِي" transliteration="jaAriy" transname="جاري"/>
+        </MEMBER>
+        <MEMBER name="تَلَوَّى" transliteration="talaw~aY" transname="تلوى">
+            <Root name="لوى" transliteration="lwY"/>
+            <Deverbal name="تَلَوِّي" transliteration="talaw~iy" transname="تلوي"/>
+            <Participle name="مُتَلَوِّي" transliteration="mutalaw~iy" transname="متلوي"/>
+        </MEMBER>
+        <MEMBER name="مَرَّ" transliteration="mar~a" transname="مر">
+            <Root name="مرر" transliteration="mrr"/>
+            <Deverbal name="مُرُور" transliteration="muruwr" transname="مرور"/>
+            <Participle name="مَار" transliteration="maAr" transname="مار"/>
+        </MEMBER>
+        <MEMBER name="إِنْدَفَعَ" transliteration="IinodafaEa" transname="إندفع">
+            <Root name="دفع" transliteration="dfE"/>
+            <Deverbal name="إِنْدِفَاع" transliteration="IinodifaAE" transname="إندفاع"/>
+            <Participle name="دَافِع" transliteration="daAfiE" transname="دافع"/>
+        </MEMBER>
+        <MEMBER name="تَعَرّجَ" transliteration="taEar~ja" transname="تعرج">
+            <Root name="عرج" transliteration="Erj"/>
+            <Deverbal name="تَعَرُّج" transliteration="taEar~uj" transname="تعرج"/>
+            <Participle name="مُتَعَرِّج" transliteration="mutaEar~ij" transname="متعرج"/>
+        </MEMBER>
+        <MEMBER name="تَمَعَّجَ" transliteration="tamaE~aja" transname="تمعج">
+            <Root name="معج" transliteration="mEj"/>
+            <Deverbal name="تَمَعُّج" transliteration="tamaE~uj" transname="تمعج"/>
+            <Participle name="مُتَمَعِّج" transliteration="mutamaE~ij" transname="متمعج"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="elongated"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.location" secondary="PPpath-PP"/>
+            <EXAMPLES>
+                <!--جنات عدن تجري من تحتها الأنهار-->
+                <EXAMPLE sentence="تَجْرِي الأَنْهَارُ تَحْتَ الجَنَّاتِ." transliteration="tajoriy AlOanohaAru taHota Aljan~aAti."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

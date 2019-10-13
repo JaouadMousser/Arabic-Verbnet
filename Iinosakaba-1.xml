@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Iinosakaba-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="سَالَ" transliteration="saAla" transname="سال">
+            <Root name="سال" transliteration="sAl"/>
+            <Deverbal name="سَيَلَان" transliteration="sayalaAn" transname="سيلان"/>
+            <Participle name="سَائِل" transliteration="saA}il" transname="سائل"/>
+        </MEMBER>
+        <MEMBER name="تَقَطَّرَ" transliteration="taqaT~ara" transname="تقطر">
+            <Root name="قطر" transliteration="qTr"/>
+            <Deverbal name="تَقَطُّر" transliteration="taqaT~ur" transname="تقطر"/>
+            <Participle name="مُتَقَطِّر" transliteration="mutaqaT~ir" transname="متقطر"/>
+        </MEMBER>
+        <MEMBER name="قَطَرَ" transliteration="qaTara" transname="قطر">
+            <Root name="قطر" transliteration="qTr"/>
+            <Deverbal name="قَطَر" transliteration="qaTar" transname="قطر"/>
+            <Deverbal name="قُطُور" transliteration="quTuwr" transname="قطور"/>
+            <Participle name="قَاطِر" transliteration="qaATir" transname="قاطر"/>
+        </MEMBER>
+        <MEMBER name="إِنْسَكَبَ" transliteration="Iinosakaba" transname="إنسكب">
+            <Root name="سكب" transliteration="skb"/>
+            <Deverbal name="إِنْسِكَاب" transliteration="IinosikaAb" transname="إنسكاب"/>
+            <Participle name="مُنْسَكِب" transliteration="munosakib" transname="منسكب"/>
+        </MEMBER>
+        <MEMBER name="إِنْصَبّ" transliteration="IinoSab~" transname="إنصب">
+            <Root name="صبب" transliteration="Sbb"/>
+            <Deverbal name="إِنْصِبَاب" transliteration="IinoSibaAb" transname="إنصباب"/>
+            <Participle name="مُنْصَب" transliteration="munoSab" transname="منصب"/>
+        </MEMBER>
+        <!--MEMBER name="أفرغ" wn=""/-->
+        <MEMBER name="دَلَقَ" transliteration="dalaqa" transname="دلق">
+            <Root name="دلق" transliteration="dlq"/>
+            <Deverbal name="دُلُوق" transliteration="duluwq" transname="دلوق"/>
+            <Participle name="دَالِق" transliteration="daAliq" transname="دالق"/>
+        </MEMBER>
+        <!--لسان العرب-->
+        <MEMBER name="إِنْدَلَقَ" transliteration="Iinodalaqa" transname="إندلق">
+            <Root name="دلق" transliteration="dlq"/>
+            <Deverbal name="إِنْدِلَاق" transliteration="IinodilaAq" transname="إندلاق"/>
+            <Participle name="مُنْدَلِق" transliteration="munodaliq" transname="مندلق"/>
+        </MEMBER>
+        <!--لسان العرب-->
+        <MEMBER name="تَدَفَّقَ" transliteration="tadaf~aqa" transname="تدفق">
+            <Root name="دفق" transliteration="dfq"/>
+            <Deverbal name="تَدَفُّق" transliteration="tadaf~uq" transname="تدفق"/>
+            <Participle name="مُتَدَفِّق" transliteration="mutadaf~iq" transname="متدفق"/>
+        </MEMBER>
+        <MEMBER name="دَفَقَ" transliteration="dafaqa" transname="دفق">
+            <Root name="دفق" transliteration="dfq"/>
+            <Deverbal name="دَفَق" transliteration="dafaq" transname="دفق"/>
+            <Participle name="دَافِق" transliteration="daAfiq" transname="دافق"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="substance"/>
+                <SELRESTRS>
+                    <SELRESTR Value="+" type="concrete"/>
+                    <SELRESTR Value="+" type="plural"/>
+                </SELRESTRS>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.source PP.location" secondary="PP-PPSource-PP path-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِنْسَكَبَ الَمَاءُ فِي القَارُورَة." transliteration="Iinosakaba AlamaA'u fiy AlqaAruwrap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="dest_conf"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.source" secondary="NP-PP-PPSource-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="سَالَ المَاءُ مِنَ القِنِّينَة." transliteration="saAla AlmaA'u mina Alqin~iynap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="src"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="sakaba-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taTal~aba-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَطَلَّبَ" transliteration="taTal~aba" transname="تطلب">
+            <Root name="طلب" transliteration="Tlb"/>
+            <Deverbal name="تَطَلُّب" transliteration="taTal~ub" transname="تطلب"/>
+            <Participle name="مُتَطَلِّب" transliteration="mutaTal~ib" transname="متطلب"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَلْزَمَ" transliteration="Iisotalozama" transname="إستلزم">
+            <Root name="لزم" transliteration="lzm"/>
+            <Deverbal name="إِسْتِلْزَام" transliteration="IisotilozaAm" transname="إستلزام"/>
+            <Participle name="مُسْتَلْزِم" transliteration="musotalozim" transname="مستلزم"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَدْعَى" transliteration="IisotadoEaY" transname="إستدعى">
+            <Root name="دعى" transliteration="dEY"/>
+            <Deverbal name="إِسْتِدَعَاء" transliteration="IisotidaEaA'" transname="إستدعاء"/>
+            <Participle name="مُسْتَدْعِي" transliteration="musotadoEiy" transname="مستدعي"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَوْجَبَ" transliteration="Iisotawojaba" transname="إستوجب">
+            <Root name="وجب" transliteration="wjb"/>
+            <Deverbal name="إِسْتِوْجَاب" transliteration="IisotiwojaAb" transname="إستوجاب"/>
+            <Participle name="مُسْتَوْجِب" transliteration="musotawojib" transname="مستوجب"/>
+        </MEMBER>
+        <MEMBER name="إِحْتَاجَ" transliteration="IiHotaAja" transname="إحتاج">
+            <Root name="حوج" transliteration="Hwj"/>
+            <Deverbal name="إِحْتِيَاج" transliteration="IiHotiyaAj" transname="إحتياج"/>
+            <Participle name="مُحْتَاج" transliteration="muHotaAj" transname="محتاج"/>
+        </MEMBER>
+        <MEMBER name="إِقْتَضَى" transliteration="IiqotaDaY" transname="إقتضى">
+            <Root name="قضا" transliteration="qDA"/>
+            <Deverbal name="إِقْتِضَاء" transliteration="IiqotiDaA'" transname="إقتضاء"/>
+            <Participle name="مُقْتَضِي" transliteration="muqotaDiy" transname="مقتضي"/>
+        </MEMBER>
+        <MEMBER name="لَزِمَ" transliteration="lazima" transname="لزم">
+            <Root name="لزم" transliteration="lzm"/>
+            <Deverbal name="لُزُوم" transliteration="luzuwm" transname="لزوم"/>
+            <Participle name="لَازِم" transliteration="laAzim" transname="لازم"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme1">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme2">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَتَطَلَّبُ النَّجَاحُ عَمَلاً ذَؤُوباً." transliteration="yataTal~abu Aln~ajaAHu EamalAF *aWuwbAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="necessitate">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.source" secondary="NP-PPmino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَطَلَبَ البَرنَامَجُ جُهْدَاً مُضَاعَفاً مِنْ المُهَندِسِين." transliteration="taTalaba AlbarnaAmaju juhodaAF muDaAEafAF mino Almuhandisiyn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="necessitate">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَطَلّبَ المَشْرُوعُ حَفْرَ نَفَقَينِ بِطُولِ مِيلَيْنِ." transliteration="taTal~ba Alma$oruwEu Hafora nafaqayni biTuwli miylayoni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="ac_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="necessitate">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.Source DEVERBAL" secondary="PPmino-PP DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَطَلّبَ المَشْرُوعُ مِنْ المُهَنْدِسِينَ حَفْرَ نَفَقَينِ بِطُولِ مِيلَيْنِ." transliteration="taTal~ba Alma$oruwEu mino Almuhanodisiyna Hafora nafaqayni biTuwli miylayoni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="ac_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="necessitate">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.Source Oano S" secondary="PPmino-PP S_AC"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَطَلبَ المَشْرُوعُ مِنَ العُمَّالِ أَنْ يَعْمَلُوا لِمُدَّةِ سَنَتَيْنِ." transliteration="taTalba Alma$oruwEu mina AlEum~aAli Oano yaEomaluwA limud~api sanatayoni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="ac_Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="necessitate">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oano S" secondary="S-SUBJUNCT"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَطَلبَ المَشْرُوعُ أَنْ يَعْمَلَ أَلفَا عَامِل لِمُدَّةِ سَنَتَيْنِ." transliteration="taTalba Alma$oruwEu Oano yaEomala OalfaA EaAmil limud~api sanatayoni."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme1">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme2">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="necessitate">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme1"/>
+                        <ARG type="ThemRole" value="Theme2"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="namaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="نَشَأَ" transliteration="na$aOa" transname="نشأ">
+            <Root name="نشأ" transliteration="n$O"/>
+            <Deverbal name="نَشْأَة" transliteration="na$oOap" transname="نشأة"/>
+            <Participle name="نَاشِئ" transliteration="naA$i}" transname="ناشئ"/>
+        </MEMBER>
+        <MEMBER name="تَرَعْرَعَ" transliteration="taraEoraEa" transname="ترعرع">
+            <Root name="رعع" transliteration="rEE"/>
+            <Deverbal name="تَرَعْرُع" transliteration="taraEoruE" transname="ترعرع"/>
+            <Participle name="مُتَرَعْرِع" transliteration="mutaraEoriE" transname="مترعرع"/>
+        </MEMBER>
+        <MEMBER name="نَبَتَ" transliteration="nabata" transname="نبت">
+            <Root name="نبت" transliteration="nbt"/>
+            <Deverbal name="نُبُوت" transliteration="nubuwt" transname="نبوت"/>
+            <Deverbal name="نُبَات" transliteration="nubaAt" transname="نبات"/>
+            <Deverbal name="نُبْت" transliteration="nubot" transname="نبت"/>
+            <Participle name="نَابِت" transliteration="naAbit" transname="نابت"/>
+        </MEMBER>
+        <MEMBER name="إِنْوَلَدَ" transliteration="Iinowalada" transname="إنولد">
+            <Root name="ولد" transliteration="wld"/>
+            <Deverbal name="إِنْوِلَاد" transliteration="IinowilaAd" transname="إنولاد"/>
+            <Participle name="مُنْوَلِد" transliteration="munowalid" transname="منولد"/>
+        </MEMBER>
+        <MEMBER name="تَرَبَّى" transliteration="tarab~aY" transname="تربى">
+            <Root name="ربي" transliteration="rby"/>
+            <Deverbal name="تَرَبِّي" transliteration="tarab~iy" transname="تربي"/>
+            <Participle name="مُرَرَبِّي" transliteration="murarab~iy" transname="مرربي"/>
+        </MEMBER>
+        <MEMBER name="زَهَرَ" transliteration="zahara" transname="زهر">
+            <Root name="زهر" transliteration="zhr"/>
+            <Deverbal name="زَهْر" transliteration="zahor" transname="زهر"/>
+            <Participle name="زَاهِر" transliteration="zaAhir" transname="زاهر"/>
+        </MEMBER>
+        <MEMBER name="نَمَى" transliteration="namaY" transname="نمى">
+            <Root name="نمو" transliteration="nmw"/>
+            <Deverbal name="نُمُو" transliteration="numuw" transname="نمو"/>
+            <Participle name="نَامِي" transliteration="naAmiy" transname="نامي"/>
+        </MEMBER>
+        <MEMBER name="رَبَا" transliteration="rabaA" transname="ربا">
+            <Root name="ربو" transliteration="rbw"/>
+            <Deverbal name="رُبُو" transliteration="rubuw" transname="ربو"/>
+            <Participle name="رَابِي" transliteration="raAbiy" transname="رابي"/>
+        </MEMBER>
+        <MEMBER name="شَبَّ" transliteration="$ab~a" transname="شب">
+            <Root name="شبب" transliteration="$bb"/>
+            <Deverbal name="شَبَاب" transliteration="$abaAb" transname="شباب"/>
+            <Participle name="شَاب" transliteration="$aAb" transname="شاب"/>
+        </MEMBER>
+        <MEMBER name="ضَفََ" transliteration="Dafaa" transname="ضف">
+            <Root name="ضفو" transliteration="Dfw"/>
+            <Deverbal name="ضَفْو" transliteration="Dafow" transname="ضفو"/>
+            <Participle name="ضَافِي" transliteration="DaAfiy" transname="ضافي"/>
+        </MEMBER>
+        <MEMBER name="تَنَامَى" transliteration="tanaAmaY" transname="تنامى">
+            <Root name="نمو" transliteration="nmw"/>
+            <Deverbal name="تَنَامِي" transliteration="tanaAmiy" transname="تنامي"/>
+            <Participle name="مُتَنَامِي" transliteration="mutanaAmiy" transname="متنامي"/>
+        </MEMBER>
+        <MEMBER name="إِزْدَادَ" transliteration="IizodaAda" transname="إزداد">
+            <Root name="زاد" transliteration="zAd"/>
+            <Deverbal name="إِزْدِيَاد" transliteration="IizodiyaAd" transname="إزدياد"/>
+            <Participle name="مُزْدَاد" transliteration="muzodaAd" transname="مزداد"/>
+        </MEMBER>
+        <MEMBER name="نَضَجَ" transliteration="naDaja" transname="نضج">
+            <Root name="نضج" transliteration="nDj"/>
+            <Deverbal name="نُضْج" transliteration="nuDoj" transname="نضج"/>
+            <Participle name="نَاضِج" transliteration="naADij" transname="ناضج"/>
+        </MEMBER>
+        <MEMBER name="خَرَجَ" transliteration="xaraja" transname="خرج">
+            <Root name="خرج" transliteration="xrj"/>
+            <Deverbal name="خُرُوج" transliteration="xuruwj" transname="خروج"/>
+            <Participle name="خَارِج" transliteration="xaArij" transname="خارج"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Material">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Product">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="concrete"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP.product PP.material" secondary="Material/Product Alternation IntransitiveProduct Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَمَت نَخْلَة مِنْ نَوَاةِ التَّمر." transliteration="namat naxolap mino nawaApi Alt~amr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Material">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="made_of">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                        <ARG type="ThemRole" value="Material"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="NP V" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَمَتِ النَّخْلَةُ." transliteration="namati Aln~axolapu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Product">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED bool="!" value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="exist">
+                    <ARGS>
+                        <ARG type="Event" value="result(E)"/>
+                        <ARG type="ThemRole" value="Product"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="OanomaY-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

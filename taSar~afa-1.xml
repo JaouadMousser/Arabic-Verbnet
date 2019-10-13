@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taSar~afa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="عَمِلَ" transliteration="Eamila" transname="عمل">
+            <Root name="عمل" transliteration="Eml"/>
+            <Deverbal name="عَمَل" transliteration="Eamal" transname="عمل"/>
+            <Participle name="عَامِل" transliteration="EaAmil" transname="عامل"/>
+        </MEMBER>
+        <MEMBER name="إِشْتَغَلَ" transliteration="Ii$otagala" transname="إشتغل">
+            <Root name="شغل" transliteration="$gl"/>
+            <Deverbal name="إِشْتِغَال" transliteration="Ii$otigaAl" transname="إشتغال"/>
+            <Participle name="مُشْتَغِل" transliteration="mu$otagil" transname="مشتغل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.predicate" secondary="PPka-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَصَرَّفَ المُحْتَالُ كَقُبْطَان حَقِيقِي." transliteration="taSar~afa AlmuHotaAlu kaquboTaAn Haqiyqiy."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <LEX value="كَ"/>
+                <NP value="Predicate">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="masquerade">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="taSar~afa-1.1">
+            <MEMBERS>
+                <MEMBER name="تَصَرَّفَ" transliteration="taSar~afa" transname="تصرف">
+                    <Root name="صرف" transliteration="Srf"/>
+                    <Deverbal name="تَصَرُّف" transliteration="taSar~uf" transname="تصرف"/>
+                    <Participle name="مُتَصَرِّف" transliteration="mutaSar~if" transname="متصرف"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP ka-Oan~a S" secondary="ka-S"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَصَرَّفَ المُحْتَالُ كَأَنَّهُ قُبْطَان." transliteration="taSar~afa AlmuHotaAlu kaOan~ahu quboTaAn."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <LEX value="كَ"/>
+                        <NP value="Predicate">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="Oan~a_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="masquerade">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP EalaY Oan~a S" secondary="EalaY S"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="تَصَرَّفَ المُحْتَالُ عَلَى أَنَّهُ قُبْطَان." transliteration="taSar~afa AlmuHotaAlu EalaY Oan~ahu quboTaAn."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Predicate">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="Oan~a_comp"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="masquerade">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Predicate"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Damina-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="ضَمِنَ" transliteration="Damina" transname="ضمن">
+            <Root name="ضمن" transliteration="Dmn"/>
+            <Deverbal name="ضَمَان" transliteration="DamaAn" transname="ضمان"/>
+            <Participle name="ضَامِن" transliteration="DaAmin" transname="ضامن"/>
+        </MEMBER>
+        <MEMBER name="أَمَّنَ" transliteration="Oam~ana" transname="أمن">
+            <Root name="أمن" transliteration="Omn"/>
+            <Deverbal name="تَأْمِين" transliteration="taOomiyn" transname="تأمين"/>
+            <Participle name="مُؤَمِّن" transliteration="muWam~in" transname="مؤمن"/>
+        </MEMBER>
+        <MEMBER name="وَفَّرَ" transliteration="waf~ara" transname="وفر">
+            <Root name="وفر" transliteration="wfr"/>
+            <Deverbal name="تَوْفِير" transliteration="tawofiyr" transname="توفير"/>
+            <Participle name="مُوَفِّر" transliteration="muwaf~ir" transname="موفر"/>
+        </MEMBER>
+        <MEMBER name="كَفَلَ" transliteration="kafala" transname="كفل">
+            <Root name="كفل" transliteration="kfl"/>
+            <Deverbal name="كَفَالَة" transliteration="kafaAlap" transname="كفالة"/>
+            <Participle name="كَافِل" transliteration="kaAfil" transname="كافل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Cause">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Beneficiary">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ضَمِنَ إِخْتِرَاعُهُ مَدُخُولاً مُحْتَرَماً." transliteration="Damina IixotiraAEuhu maduxuwlAF muHotaramAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="ensure">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP NP" secondary="PPli-PP NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ضَمِنَ إِخْتِرَاعُهُ لِعَائِلَتِهِ مَدْخُولاً جَيِّداً." transliteration="Damina IixotiraAEuhu liEaA}ilatihi madoxuwlAF jay~idAF."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="ensure">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oano S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَضْمَنُ شَرِكَة التَأْمِينَاة أَنْ يَمُرَّ الحَفْلُ فِي سَلَام." transliteration="taDomanu $arikap AltaOomiynaAp Oano yamur~a AlHafolu fiy salaAm."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="ensure">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP deverbal S" secondary="deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ضَمِنَت الحُكُومَةُ تَمْوِيلَ كُلَّ المسْتَثْمِرِينَ الصِّغَار." transliteration="Daminat AlHukuwmapu tamowiyla kul~a Almsotavomiriyna AlS~igaAr."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="ensure">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.beneficiary deverbal S" secondary="PPli-PP deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="ضَمِنَت الحُكُومَةُ لِلرّهَائِن خُرُوجاً آمِناً مِنَ المَتجَر." transliteration="Daminat AlHukuwmapu lilr~haA}in xuruwjAF |minAF mina Almatjar."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Beneficiary">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Cause"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="ensure">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Beneficiary"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="natina-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="عَطِنَ" transliteration="EaTina" transname="عطن">
+            <Root name="عطن" transliteration="ETn"/>
+            <Deverbal name="عَطَانَة" transliteration="EaTaAnap" transname="عطانة"/>
+            <Participle name="عَاطِن" transliteration="EaATin" transname="عاطن"/>
+        </MEMBER>
+        <MEMBER name="أَدْفَرَ" transliteration="Oadofara" transname="أدفر">
+            <Root name="دفر" transliteration="dfr"/>
+            <Deverbal name="إِدْفَار" transliteration="IidofaAr" transname="إدفار"/>
+            <Participle name="مُدْفِر" transliteration="mudofir" transname="مدفر"/>
+        </MEMBER>
+        <MEMBER name="نَتَنَ" transliteration="natana" transname="نتن">
+            <Root name="نتن" transliteration="ntn"/>
+            <Deverbal name="نَتَن" transliteration="natan" transname="نتن"/>
+            <Participle name="نَاتِن" transliteration="naAtin" transname="ناتن"/>
+        </MEMBER>
+        <MEMBER name="أَنْتَنَ" transliteration="Oanotana" transname="أنتن">
+            <Root name="نتن" transliteration="ntn"/>
+            <Deverbal name="أِنتَان" transliteration="OintaAn" transname="أنتان"/>
+            <Participle name="مُنْتِن" transliteration="munotin" transname="منتن"/>
+        </MEMBER>
+        <MEMBER name="زَخَمَ" transliteration="zaxama" transname="زخم">
+            <Root name="زخم" transliteration="zxm"/>
+            <Deverbal name="زَخَم" transliteration="zaxam" transname="زخم"/>
+            <Participle name="زَاخِم" transliteration="zaAxim" transname="زاخم"/>
+        </MEMBER>
+        <MEMBER name="خَنَزَ" transliteration="xanaza" transname="خنز">
+            <Root name="خنز" transliteration="xnz"/>
+            <Deverbal name="خُنُوز" transliteration="xunuwz" transname="خنوز"/>
+            <Participle name="خَانِز" transliteration="xaAniz" transname="خانز"/>
+        </MEMBER>
+        <MEMBER name="زَهِمَ" transliteration="zahima" transname="زهم">
+            <Root name="زهم" transliteration="zhm"/>
+            <Deverbal name="زُهُوم" transliteration="zuhuwm" transname="زهوم"/>
+            <Participle name="زَاهِم" transliteration="zaAhim" transname="زاهم"/>
+            <Participle name="زَهِيم" transliteration="zahiym" transname="زهيم"/>
+        </MEMBER>
+        <MEMBER name="زَمهَقَ" transliteration="zamhaqa" transname="زمهق">
+            <Root name="زمهق" transliteration="zmhq"/>
+            <Deverbal name="زَمْهَقَة" transliteration="zamohaqap" transname="زمهقة"/>
+            <Participle name="مُزَمْهِق" transliteration="muzamohiq" transname="مزمهق"/>
+        </MEMBER>
+        <MEMBER name="خَمِجَ" transliteration="xamija" transname="خمج">
+            <Root name="خمج" transliteration="xmj"/>
+            <Deverbal name="خَمَج" transliteration="xamaj" transname="خمج"/>
+            <Participle name="خَامِج" transliteration="xaAmij" transname="خامج"/>
+        </MEMBER>
+        <MEMBER name="جَافَ" transliteration="jaAfa" transname="جاف">
+            <Root name="جاف" transliteration="jAf"/>
+            <Deverbal name="جُيَاف" transliteration="juyaAf" transname="جياف"/>
+            <Participle name="جِيفَة" transliteration="jiyfap" transname="جيفة"/>
+        </MEMBER>
+        <MEMBER name="إِجْتَافَ" transliteration="IijotaAfa" transname="إجتاف">
+            <Root name="جاف" transliteration="jAf"/>
+            <Deverbal name="إِجْتِيَاف" transliteration="IijotiyaAf" transname="إجتياف"/>
+            <Participle name="مُجْتَاف" transliteration="mujotaAf" transname="مجتاف"/>
+        </MEMBER>
+        <MEMBER name="إِنْجَافَ" transliteration="IinojaAfa" transname="إنجاف">
+            <Root name="جاف" transliteration="jAf"/>
+            <Deverbal name="إِنْجِيَاف" transliteration="IinojiyaAf" transname="إنجياف"/>
+            <Participle name="مُنْجَاف" transliteration="munojaAf" transname="منجاف"/>
+        </MEMBER>
+        <MEMBER name="ثَعَطَ" transliteration="vaEaTa" transname="ثعط">
+            <Root name="ثعط" transliteration="vET"/>
+            <Deverbal name="ثَعَط" transliteration="vaEaT" transname="ثعط"/>
+            <Participle name="ثَاعِط" transliteration="vaAEiT" transname="ثاعط"/>
+        </MEMBER>
+        <MEMBER name="نَمَّسَ" transliteration="nam~asa" transname="نمس">
+            <Root name="نمس" transliteration="nms"/>
+            <Deverbal name="تَنْمِيس" transliteration="tanomiys" transname="تنميس"/>
+            <Participle name="مُنَمِّس" transliteration="munam~is" transname="منمس"/>
+        </MEMBER>
+        <MEMBER name="نَمَسَ" transliteration="namasa" transname="نمس">
+            <Root name="نمس" transliteration="nms"/>
+            <Deverbal name="نَمَس" transliteration="namas" transname="نمس"/>
+            <Participle name="نَاس" transliteration="naAs" transname="ناس"/>
+        </MEMBER>
+        <MEMBER name="نَسِمَ" transliteration="nasima" transname="نسم">
+            <Root name="نسم" transliteration="nsm"/>
+            <Deverbal name="نِسمَة" transliteration="nismap" transname="نسمة"/>
+            <Participle name="نَاسِم" transliteration="naAsim" transname="ناسم"/>
+        </MEMBER>
+        <MEMBER name="بَخِرَ" transliteration="baxira" transname="بخر">
+            <Root name="بخر" transliteration="bxr"/>
+            <Deverbal name="بَخْر" transliteration="baxor" transname="بخر"/>
+            <Participle name="بَاخِر" transliteration="baAxir" transname="باخر"/>
+        </MEMBER>
+        <MEMBER name="نَشَّمَ" transliteration="na$~ama" transname="نشم">
+            <Root name="نشم" transliteration="n$m"/>
+            <Deverbal name="تَنْشِيم" transliteration="tano$iym" transname="تنشيم"/>
+            <Participle name="مُنَشِّم" transliteration="muna$~im" transname="منشم"/>
+        </MEMBER>
+        <MEMBER name="عَثَنَ" transliteration="Eavana" transname="عثن">
+            <Root name="عثن" transliteration="Evn"/>
+            <Deverbal name="عَثَن" transliteration="Eavan" transname="عثن"/>
+            <Participle name="عَاثِن" transliteration="EaAvin" transname="عاثن"/>
+        </MEMBER>
+        <MEMBER name="عَشِمَ" transliteration="Ea$ima" transname="عشم">
+            <Root name="عشم" transliteration="E$m"/>
+            <Deverbal name="عَشَم" transliteration="Ea$am" transname="عشم"/>
+            <Participle name="عَاشِم" transliteration="EaA$im" transname="عاشم"/>
+        </MEMBER>
+        <MEMBER name="دَفِرَ" transliteration="dafira" transname="دفر">
+            <Root name="دفر" transliteration="dfr"/>
+            <Deverbal name="دَفَر" transliteration="dafar" transname="دفر"/>
+            <Participle name="دَافِر" transliteration="daAfir" transname="دافر"/>
+        </MEMBER>
+        <MEMBER name="خَمَّ" transliteration="xam~a" transname="خم">
+            <Root name="خمم" transliteration="xmm"/>
+            <Deverbal name="خَمّ" transliteration="xam~" transname="خم"/>
+            <Participle name="خَام" transliteration="xaAm" transname="خام"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَتِنَ اللَّحْمُ." transliteration="natina All~aHomu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <SEMANTICS>
+                    <PRED value="state">
+                        <ARGS>
+                            <ARG type="Event" value="result(E)"/>
+                            <ARG type="VerbSpecific" value="Odor"/>
+                            <ARG type="ThemRole" value="Patient"/>
+                        </ARGS>
+                    </PRED>
+                </SEMANTICS>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Oanotana-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

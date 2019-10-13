@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="$aArafa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَشْرَفَ" transliteration="Oa$orafa" transname="أشرف">
+            <Root name="شرف" transliteration="$rf"/>
+            <Deverbal name="إِشْرَاف" transliteration="Ii$oraAf" transname="إشراف"/>
+            <Participle name="مُشْرِف" transliteration="mu$orif" transname="مشرف"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP" secondary="PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَفَ الرَّجُلُ عَلَى الأَرْبَعِين." transliteration="$aArafa Alr~ajulu EalaY AlOarobaEiyn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="near">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP EalaY DEVERBAL" secondary="EalaY deverbal"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="شَارَفَتِ المَؤُونَةُ عَلَى الإِنْقِضَاء." transliteration="$aArafati AlmaWuwnapu EalaY AlIinoqiDaA'."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="near">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="$aArafa-1.1">
+            <MEMBERS>
+                <MEMBER name="شَارَفَ" transliteration="$aArafa" transname="شارف">
+                    <Root name="شرف" transliteration="$rf"/>
+                    <Deverbal name="مُشَارَفَة" transliteration="mu$aArafap" transname="مشارفة"/>
+                    <Participle name="مُشَارِف" transliteration="mu$aArif" transname="مشارف"/>
+                </MEMBER>
+                <MEMBER name="قَارَبَ" transliteration="qaAraba" transname="قارب">
+                    <Root name="قرب" transliteration="qrb"/>
+                    <Deverbal name="مُقَارَبَة" transliteration="muqaArabap" transname="مقاربة"/>
+                    <Participle name="مُقَارِب" transliteration="muqaArib" transname="مقارب"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="شَارَفَ الرَّجُلُ الأَرْبَعِينَ." transliteration="$aArafa Alr~ajulu AlOarobaEiyna."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="near">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP DEVERBAL" secondary="deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="شَارَفَتِ المَؤُونَةُ الإِنْقِضَاءَ." transliteration="$aArafati AlmaWuwnapu AlIinoqiDaA'a."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="near">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

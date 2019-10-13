@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="nazafa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="نَبَعَ" transliteration="nabaEa" transname="نبع">
+            <Root name="نبع" transliteration="nbE"/>
+            <Deverbal name="نَبْع" transliteration="naboE" transname="نبع"/>
+            <Participle name="نَابِع" transliteration="naAbiE" transname="نابع"/>
+        </MEMBER>
+        <MEMBER name="تَدَفَّقَ" transliteration="tadaf~aqa" transname="تدفق">
+            <Root name="دفق" transliteration="dfq"/>
+            <Deverbal name="تَدَفُّق" transliteration="tadaf~uq" transname="تدفق"/>
+            <Participle name="مُتَدَفِّق" transliteration="mutadaf~iq" transname="متدفق"/>
+        </MEMBER>
+        <MEMBER name="إِنْهَمَرَ" transliteration="Iinohamara" transname="إنهمر">
+            <Root name="همر" transliteration="hmr"/>
+            <Deverbal name="إِنْهِمَار" transliteration="IinohimaAr" transname="إنهمار"/>
+            <Participle name="مُنْهَمِر" transliteration="munohamir" transname="منهمر"/>
+        </MEMBER>
+        <MEMBER name="سَرَبَ" transliteration="saraba" transname="سرب">
+            <Root name="سرب" transliteration="srb"/>
+            <Deverbal name="سُرُوب" transliteration="suruwb" transname="سروب"/>
+            <Participle name="سَارِب" transliteration="saArib" transname="سارب"/>
+        </MEMBER>
+        <MEMBER name="إِنْبَثَقَ" transliteration="Iinobavaqa" transname="إنبثق">
+            <Root name="بثق" transliteration="bvq"/>
+            <Deverbal name="إِنْبِثَاق" transliteration="IinobivaAq" transname="إنبثاق"/>
+            <Participle name="مُنْبَثِق" transliteration="munobaviq" transname="منبثق"/>
+        </MEMBER>
+        <MEMBER name="إِنْبَجَسَ" transliteration="Iinobajasa" transname="إنبجس">
+            <Root name="بجس" transliteration="bjs"/>
+            <Deverbal name="إِنْبِجَاس" transliteration="IinobijaAs" transname="إنبجاس"/>
+            <Participle name="مُنْبَجِس" transliteration="munobajis" transname="منبجس"/>
+        </MEMBER>
+        <MEMBER name="تَفَجَّرَ" transliteration="tafaj~ara" transname="تفجر">
+            <Root name="فجر" transliteration="fjr"/>
+            <Deverbal name="تَفَجُّر" transliteration="tafaj~ur" transname="تفجر"/>
+            <Participle name="مُتَفَجِّر" transliteration="mutafaj~ir" transname="متفجر"/>
+        </MEMBER>
+        <MEMBER name="إِنْسَابَ" transliteration="IinosaAba" transname="إنساب">
+            <Root name="سيب" transliteration="syb"/>
+            <Deverbal name="إِنْسِيَاب" transliteration="IinosiyaAb" transname="إنسياب"/>
+            <Participle name="" transliteration="" transname=""/>
+        </MEMBER>
+        <MEMBER name="هَطَلَ" transliteration="haTala" transname="هطل">
+            <Root name="هطل" transliteration="hTl"/>
+            <Deverbal name="هُطُول" transliteration="huTuwl" transname="هطول"/>
+            <Participle name="هَاطِل" transliteration="haATil" transname="هاطل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS>
+                <SELRESTR Value="-" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP.theme PP.source" secondary="PPSubstance Subject, Source-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَزَفَ الدَّمُ مِنَ الجُرْحِ." transliteration="nazafa Ald~amu mina AljuroHi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP.theme" secondary="Substance Subject"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="نَزَفَ الدَّمُ." transliteration="nazafa Ald~amu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.location" secondary="NP-PPLocation-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَنْزِفُ الدَّمُ عَلَى جَبِينِهِ." transliteration="yanozifu Ald~amu EalaY jabiynihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="path"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="nazafa-1.1">
+            <MEMBERS>
+                <MEMBER name="وَكَفَ" transliteration="wakafa" transname="وكف">
+                    <Root name="وكف" transliteration="wkf"/>
+                    <Deverbal name="وَكْف" transliteration="wakof" transname="وكف"/>
+                    <Deverbal name="وَكِيف" transliteration="wakiyf" transname="وكيف"/>
+                    <Participle name="وَاكِف" transliteration="waAkif" transname="واكف"/>
+                </MEMBER>
+                <MEMBER name="سَالَ" transliteration="saAla" transname="سال">
+                    <Root name="سيل" transliteration="syl"/>
+                    <Deverbal name="سَيَلَان" transliteration="sayalaAn" transname="سيلان"/>
+                    <Participle name="سَائِل" transliteration="saA}il" transname="سائل"/>
+                </MEMBER>
+                <MEMBER name="نَتَعَ" transliteration="nataEa" transname="نتع">
+                    <Root name="نتع" transliteration="ntE"/>
+                    <Deverbal name="نَتْع" transliteration="natoE" transname="نتع"/>
+                    <Participle name="نَاتِع" transliteration="naAtiE" transname="ناتع"/>
+                </MEMBER>
+                <!--nataEa Ald~amu-->
+                <MEMBER name="أَنْتَعَ" transliteration="OanotaEa" transname="أنتع">
+                    <Root name="نتع" transliteration="ntE"/>
+                    <Deverbal name="إِنْتَاع" transliteration="IinotaAE" transname="إنتاع"/>
+                    <Participle name="مُنْتِع" transliteration="munotiE" transname="منتع"/>
+                </MEMBER>
+                <!--OanotaEa= Earaqa+ OanotaEa Ald~amu 0 xrj-->
+                <MEMBER name="تَحَلَّبَ" transliteration="taHal~aba" transname="تحلب">
+                    <Root name="حلب" transliteration="Hlb"/>
+                    <Deverbal name="تَحَلُّب" transliteration="taHal~ub" transname="تحلب"/>
+                    <Participle name="مُتَحَلِّب" transliteration="mutaHal~ib" transname="متحلب"/>
+                </MEMBER>
+                <MEMBER name="نَزَّ" transliteration="naz~a" transname="نز">
+                    <Root name="نزز" transliteration="nzz"/>
+                    <Deverbal name="نَزّ" transliteration="naz~" transname="نز"/>
+                    <Participle name="نَاز" transliteration="naAz" transname="ناز"/>
+                </MEMBER>
+                <MEMBER name="إِثْعَنْجَرَ" transliteration="IivoEanojara" transname="إثعنجر">
+                    <Root name="ثعجر" transliteration="vEjr"/>
+                    <Deverbal name="إِثْعِنْجَار" transliteration="IivoEinojaAr" transname="إثعنجار"/>
+                    <Participle name="مُثْعَنْجِر" transliteration="muvoEanojir" transname="مثعنجر"/>
+                </MEMBER>
+                <MEMBER name="فَارَ" transliteration="faAra" transname="فار">
+                    <Root name="فور" transliteration="fwr"/>
+                    <Deverbal name="فَوَرَان" transliteration="fawaraAn" transname="فوران"/>
+                    <Participle name="فَائِر" transliteration="faA}ir" transname="فائر"/>
+                </MEMBER>
+                <MEMBER name="نَبَطَ" transliteration="nabaTa" transname="نبط">
+                    <Root name="نبط" transliteration="nbT"/>
+                    <Deverbal name="نَبَط" transliteration="nabaT" transname="نبط"/>
+                    <Participle name="نَابِط" transliteration="naAbiT" transname="نابط"/>
+                </MEMBER>
+                <!--nabaTa AlmaA' mino qaEor albi}ir-->
+                <MEMBER name="نَتَحَ" transliteration="nataHa" transname="نتح">
+                    <Root name="نتح" transliteration="ntH"/>
+                    <Deverbal name="نَتْح" transliteration="natoH" transname="نتح"/>
+                    <Participle name="نَاتِح" transliteration="naAtiH" transname="ناتح"/>
+                </MEMBER>
+                <MEMBER name="بَضَّ" transliteration="baD~a" transname="بض">
+                    <Root name="بضض" transliteration="bDD"/>
+                    <Deverbal name="بَضِيض" transliteration="baDiyD" transname="بضيض"/>
+                    <Participle name="بَاض" transliteration="baAD" transname="باض"/>
+                </MEMBER>
+                <!--baD~a AlmaA'u, baD~a AlHajaru-->
+                <MEMBER name="نَشَغَ" transliteration="na$aga" transname="نشغ">
+                    <Root name="نشغ" transliteration="n$g"/>
+                    <Deverbal name="نَشْغ" transliteration="na$og" transname="نشغ"/>
+                    <Participle name="نَاشِغ" transliteration="naA$ig" transname="ناشغ"/>
+                </MEMBER>
+                <MEMBER name="بَصَعَ" transliteration="baSaEa" transname="بصع">
+                    <Root name="بصع" transliteration="bSE"/>
+                    <Deverbal name="بَصْع" transliteration="baSoE" transname="بصع"/>
+                    <Participle name="بَاصِع" transliteration="baASiE" transname="باصع"/>
+                </MEMBER>
+                <!--baSaEa AlEaraqu-->
+                <MEMBER name="دَرَّ" transliteration="dar~a" transname="در">
+                    <Root name="درر" transliteration="drr"/>
+                    <Deverbal name="دَرّ" transliteration="dar~" transname="در"/>
+                    <Participle name="دَار" transliteration="daAr" transname="دار"/>
+                </MEMBER>
+                <!--dar~a Allabanu darrat AlnaAqap labanaA-->
+                <MEMBER name="أَزَبَ" transliteration="Oazaba" transname="أزب">
+                    <Root name="أزب" transliteration="Ozb"/>
+                    <Deverbal name="أَزَب" transliteration="Oazab" transname="أزب"/>
+                    <Participle name="آزِب" transliteration="|zib" transname="آزب"/>
+                </MEMBER>
+                <MEMBER name="هَمَعَ" transliteration="hamaEa" transname="همع">
+                    <Root name="همع" transliteration="hmE"/>
+                    <Deverbal name="هَمْع" transliteration="hamoE" transname="همع"/>
+                    <Participle name="هَامِع" transliteration="haAmiE" transname="هامع"/>
+                </MEMBER>
+                <MEMBER name="أَهْمَعَ" transliteration="OahomaEa" transname="أهمع">
+                    <Root name="همع" transliteration="hmE"/>
+                    <Deverbal name="إِهْمَاع" transliteration="IihomaAE" transname="إهماع"/>
+                    <Participle name="مُهْمِع" transliteration="muhomiE" transname="مهمع"/>
+                </MEMBER>
+                <MEMBER name="تَهَمَّعَ" transliteration="taham~aEa" transname="تهمع">
+                    <Root name="همع" transliteration="hmE"/>
+                    <Deverbal name="تَهَمُّع" transliteration="taham~uE" transname="تهمع"/>
+                    <Participle name="مُتَهَمِّع" transliteration="mutaham~iE" transname="متهمع"/>
+                </MEMBER>
+                <MEMBER name="تَصَبَّبَ" transliteration="taSab~aba" transname="تصبب">
+                    <Root name="صبب" transliteration="Sbb"/>
+                    <Deverbal name="تَصَبُّب" transliteration="taSab~ub" transname="تصبب"/>
+                    <Participle name="مُتَصَبِّب" transliteration="mutaSab~ib" transname="متصبب"/>
+                </MEMBER>
+                <MEMBER name="وَزَبَ" transliteration="wazaba" transname="وزب">
+                    <Root name="وزب" transliteration="wzb"/>
+                    <Deverbal name="وُزُوب" transliteration="wuzuwb" transname="وزوب"/>
+                    <Participle name="وَازِب" transliteration="waAzib" transname="وازب"/>
+                </MEMBER>
+                <!--wazaba AlmaA'-->
+                <MEMBER name="طَلَثَ" transliteration="Talava" transname="طلث">
+                    <Root name="طلث" transliteration="Tlv"/>
+                    <Deverbal name="طُلُوث" transliteration="Tuluwv" transname="طلوث"/>
+                    <Participle name="طَالِث" transliteration="TaAliv" transname="طالث"/>
+                </MEMBER>
+                <MEMBER name="قَطَرَ" transliteration="qaTara" transname="قطر">
+                    <Root name="قطر" transliteration="qTr"/>
+                    <Deverbal name="قَطْر" transliteration="qaTor" transname="قطر"/>
+                    <Participle name="قَاطِر" transliteration="qaATir" transname="قاطر"/>
+                </MEMBER>
+                <MEMBER name="فَرَزَ" transliteration="faraza" transname="فرز">
+                    <Root name="فرز" transliteration="frz"/>
+                    <Deverbal name="فَرْز" transliteration="faroz" transname="فرز"/>
+                    <Participle name="فَارِز" transliteration="faAriz" transname="فارز"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="نَزَفَ الجُرْحُ." transliteration="nazafa AljuroHu."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="?Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP" secondary="Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="نَزَفَ الجُرْحُ دَماً." transliteration="nazafa AljuroHu damAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Source">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="tanowiyn_AF"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="emit">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Source"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES>
+                <AVNSUBCLASS ID="nazafa-1.1.1">
+                    <MEMBERS>
+                        <MEMBER name="فَاضَ" transliteration="faADa" transname="فاض">
+                            <Root name="فيض" transliteration="fyD"/>
+                            <Deverbal name="فَيْض" transliteration="fayoD" transname="فيض"/>
+                            <Participle name="فَائِض" transliteration="faA}iD" transname="فائض"/>
+                        </MEMBER>
+                        <MEMBER name="نَزَفَ" transliteration="nazafa" transname="نزف">
+                            <Root name="نزف" transliteration="nzf"/>
+                            <Deverbal name="نَزِيف" transliteration="naziyf" transname="نزيف"/>
+                            <Participle name="نَازِف" transliteration="naAzif" transname="نازف"/>
+                        </MEMBER>
+                        <MEMBER name="نَضَحَ" transliteration="naDaHa" transname="نضح">
+                            <Root name="نضح" transliteration="nDH"/>
+                            <Deverbal name="نَضْح" transliteration="naDoH" transname="نضح"/>
+                            <Participle name="نَاضِح" transliteration="naADiH" transname="ناضح"/>
+                        </MEMBER>
+                        <MEMBER name="رَشَحَ" transliteration="ra$aHa" transname="رشح">
+                            <Root name="رشح" transliteration="r$H"/>
+                            <Deverbal name="رَشْح" transliteration="ra$oH" transname="رشح"/>
+                            <Participle name="رَاشِح" transliteration="raA$iH" transname="راشح"/>
+                        </MEMBER>
+                        <MEMBER name="" transliteration="" transname="">
+                            <Root name="" transliteration=""/>
+                            <Deverbal name="" transliteration="" transname=""/>
+                            <Participle name="" transliteration="" transname=""/>
+                        </MEMBER>
+                        <MEMBER name="جَرَى" transliteration="jaraY" transname="جرى">
+                            <Root name="جري" transliteration="jry"/>
+                            <Deverbal name="جَرَيَان" transliteration="jarayaAn" transname="جريان"/>
+                            <Participle name="جَارِي" transliteration="jaAriy" transname="جاري"/>
+                        </MEMBER>
+                    </MEMBERS>
+                    <THEMROLES/>
+                    <FRAMES>
+                        <FRAME>
+                            <DESCRIPTION primary="V NP.location PP.theme" secondary="PPLocation Subject, bi-PP"/>
+                            <EXAMPLES>
+                                <EXAMPLE sentence="يَنْزِفُ الجُرْحُ بِالدَّمِ." transliteration="yanozifu AljuroHu biAld~ami."/>
+                            </EXAMPLES>
+                            <SYNTAX>
+                                <NP value="Location">
+                                    <SYNRESTRS/>
+                                </NP>
+                                <VERB/>
+                                <PREP value="بِ">
+                                    <SELRESTRS/>
+                                </PREP>
+                                <NP value="Theme">
+                                    <SYNRESTRS/>
+                                </NP>
+                            </SYNTAX>
+                            <SEMANTICS>
+                                <PRED value="emit">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="?Source"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="location">
+                                    <ARGS>
+                                        <ARG type="Event" value="during(E)"/>
+                                        <ARG type="ThemRole" value="Theme"/>
+                                        <ARG type="ThemRole" value="Location"/>
+                                    </ARGS>
+                                </PRED>
+                            </SEMANTICS>
+                        </FRAME>
+                    </FRAMES>
+                    <SUBCLASSES/>
+                </AVNSUBCLASS>
+            </SUBCLASSES>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

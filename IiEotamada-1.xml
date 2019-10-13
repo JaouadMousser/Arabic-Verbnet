@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IiEotamada-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِعْتَمَدَ" transliteration="IiEotamada" transname="إعتمد">
+            <Root name="عمد" transliteration="Emd"/>
+            <Deverbal name="إِعْتِمَاد" transliteration="IiEotimaAd" transname="إعتماد"/>
+            <Participle name="مُعْتَمِد" transliteration="muEotamid" transname="معتمد"/>
+        </MEMBER>
+        <MEMBER name="عَوَّلَ" transliteration="Eaw~ala" transname="عول">
+            <Root name="عول" transliteration="Ewl"/>
+            <Deverbal name="تَعْوِيل" transliteration="taEowiyl" transname="تعويل"/>
+            <Participle name="مُعَوِّل" transliteration="muEaw~il" transname="معول"/>
+        </MEMBER>
+        <MEMBER name="تَوَكَّلَ" transliteration="tawak~ala" transname="توكل">
+            <Root name="وكل" transliteration="wkl"/>
+            <Deverbal name="تَوَكُّل" transliteration="tawak~ul" transname="توكل"/>
+            <Participle name="مُتَوَكِّل" transliteration="mutawak~il" transname="متوكل"/>
+        </MEMBER>
+        <MEMBER name="إِتَّكَلَ" transliteration="Iit~akala" transname="إتكل">
+            <Root name="وكل" transliteration="wkl"/>
+            <Deverbal name="إِتِّكَال" transliteration="Iit~ikaAl" transname="إتكال"/>
+            <Participle name="مُتَّكِل" transliteration="mut~akil" transname="متكل"/>
+        </MEMBER>
+        <MEMBER name="رَاهَنَ" transliteration="raAhana" transname="راهن">
+            <Root name="رهن" transliteration="rhn"/>
+            <Deverbal name="مُرَاهَنَة" transliteration="muraAhanap" transname="مراهنة"/>
+            <Participle name="مُرَاهَنَة" transliteration="muraAhanap" transname="مراهنة"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme DEVERBAL" secondary="P-DEVERBAL-SCEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَاهَنَ الحُلَفَاء عَلَى الهُجُومِ المبَاغِث عَلَى العَدُو." transliteration="raAhana AlHulafaA' EalaY Alhujuwmi AlmbaAgiv EalaY AlEaduw."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sc_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="depend">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme S_DEVERBAL" secondary="P-POSS DEVERBAL EalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَاهَنَ القَاضِي عَلَى خِبْرَتِهِم." transliteration="raAhana AlqaADiy EalaY xiboratihim."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="poss_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="depend">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme" secondary="PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="رَاهَنَ العُلَمَاءُ عَلَى أَموَالِ الجَامِعَة." transliteration="raAhana AlEulamaA'u EalaY OamwaAli AljaAmiEap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="depend">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

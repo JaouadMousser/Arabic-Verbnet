@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taqab~ala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="رَفَضَ" transliteration="rafaDa" transname="رفض">
+            <Root name="رفض" transliteration="rfD"/>
+            <Deverbal name="رَفْض" transliteration="rafoD" transname="رفض"/>
+            <Participle name="رَافِض" transliteration="raAfiD" transname="رافض"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَسَاغَ" transliteration="IisotasaAga" transname="إستساغ">
+            <Root name="سوغ" transliteration="swg"/>
+            <Deverbal name="إِسْتِسَاغَة" transliteration="IisotisaAgap" transname="إستساغة"/>
+            <Participle name="مُسْتَسِيغ" transliteration="musotasiyg" transname="مستسيغ"/>
+        </MEMBER>
+        <MEMBER name="تَقَبَّلَ" transliteration="taqab~ala" transname="تقبل">
+            <Root name="قبل" transliteration="qbl"/>
+            <Deverbal name="تَقَبُّل" transliteration="taqab~ul" transname="تقبل"/>
+            <Participle name="مُتَقَبِّل" transliteration="mutaqab~il" transname="متقبل"/>
+        </MEMBER>
+        <MEMBER name="تَفَهَّمَ" transliteration="tafah~ama" transname="تفهم">
+            <Root name="فهم" transliteration="fhm"/>
+            <Deverbal name="تَفَهُّم" transliteration="tafah~um" transname="تفهم"/>
+            <Participle name="مُتَفَهِّم" transliteration="mutafah~im" transname="متفهم"/>
+        </MEMBER>
+        <MEMBER name="فَهِمَ" transliteration="fahima" transname="فهم">
+            <Root name="فهم" transliteration="fhm"/>
+            <Deverbal name="فَهم" transliteration="fahm" transname="فهم"/>
+            <Participle name="فَاهِم" transliteration="faAhim" transname="فاهم"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP kayfa S" secondary="kayfa-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَتَقَبَّلُ الجُمْهُور كَيْفَ تَكتُبُ المَقَالَات" transliteration="yataqab~alu Aljumohuwr kayofa taktubu AlmaqaAlaAt"/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="kayfa_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="approve">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="يَتَقَبَّلُ الجُمْهُورُ مَقَالَاتِك." transliteration="yataqab~alu Aljumohuwru maqaAlaAtik."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="approve">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP S_DEVERBAL" secondary="DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَقَبَّلَ الجُمْهُورُ كِتَابَتَكَ لِلمَقَال." transliteration="taqab~ala Aljumohuwru kitaAbataka lilmaqaAl."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="approve">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oan~a S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَقَبَّلَ الجُمْهُورُ أَنّهُ كَتَبَ المَقَالَة." transliteration="taqab~ala Aljumohuwru Oan~hu kataba AlmaqaAlap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oan~a_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="approve">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP maA S" secondary="maA-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَقَبَّلَ الجُمْهُور مَا تَصْنَع." transliteration="taqab~ala Aljumohuwr maA taSonaE."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="maA_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="approve">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="taqab~ala-1">
+            <MEMBERS>
+                <MEMBER name="قَبِلَ" transliteration="qabila" transname="قبل">
+                    <Root name="قبل" transliteration="qbl"/>
+                    <Deverbal name="قَبُول" transliteration="qabuwl" transname="قبول"/>
+                    <Participle name="قَابِل" transliteration="qaAbil" transname="قابل"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.proposition" secondary="NPbi-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="قَبِلَ الرَّئِسُ بِنَتَائِجِ المُفَاوَضَاة." transliteration="qabila Alr~a}isu binataA}iji AlmufaAwaDaAp."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="بِ">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Proposition">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="-" type="sentential"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="approve">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <FRAME>
+                <DESCRIPTION primary="V NP bi deverbal" secondary="NPbi-PP"/>
+                <EXAMPLES>
+                    <EXAMPLE sentence="قَبِلَ الرَّئِسُ بِتَبَنِّي المَشْرُوع." transliteration="qabila Alr~a}isu bitaban~iy Alma$oruwE."/>
+                </EXAMPLES>
+                <SYNTAX>
+                    <VERB/>
+                    <NP value="Agent">
+                        <SYNRESTRS/>
+                    </NP>
+                    <PREP value="بِ">
+                        <SYNRESTRS/>
+                    </PREP>
+                    <NP value="Proposition">
+                        <SYNRESTRS>
+                            <SYNRESTR Value="+" type="deverbal"/>
+                        </SYNRESTRS>
+                    </NP>
+                </SYNTAX>
+                <SEMANTICS>
+                    <PRED value="approve">
+                        <ARGS>
+                            <ARG type="Event" value="during(E)"/>
+                            <ARG type="ThemRole" value="Agent"/>
+                            <ARG type="ThemRole" value="Proposition"/>
+                        </ARGS>
+                    </PRED>
+                </SEMANTICS>
+            </FRAME>
+            <FRAME>
+                <DESCRIPTION primary="V NP bi maA S" secondary="bi maA S"/>
+                <EXAMPLES>
+                    <EXAMPLE sentence="قَبِلَ الرَّئِسُ بِمَا أَسْفَرَت عَنْهُ المُفَاوَضَات." transliteration="qabila Alr~a}isu bimaA Oasofarat Eanohu AlmufaAwaDaAt."/>
+                </EXAMPLES>
+                <SYNTAX>
+                    <VERB/>
+                    <NP value="Agent">
+                        <SYNRESTRS/>
+                    </NP>
+                    <PREP value="بِ">
+                        <SYNRESTRS/>
+                    </PREP>
+                    <NP value="Proposition">
+                        <SYNRESTRS>
+                            <SYNRESTR Value="+" type="maA_extract"/>
+                        </SYNRESTRS>
+                    </NP>
+                </SYNTAX>
+                <SEMANTICS>
+                    <PRED value="approve">
+                        <ARGS>
+                            <ARG type="Event" value="during(E)"/>
+                            <ARG type="ThemRole" value="Agent"/>
+                            <ARG type="ThemRole" value="Proposition"/>
+                        </ARGS>
+                    </PRED>
+                </SEMANTICS>
+            </FRAME>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

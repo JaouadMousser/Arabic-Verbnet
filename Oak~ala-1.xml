@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Oak~ala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS/>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES/>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="Oak~ala-1.1">
+            <MEMBERS>
+                <MEMBER name="أَكَّلَ" transliteration="Oak~ala" transname="أكل">
+                    <Root name="أكل" transliteration="Okl"/>
+                    <Deverbal name="تَأْكِيل" transliteration="taOokiyl" transname="تأكيل"/>
+                    <Participle name="مُؤَكِّل" transliteration="muWak~il" transname="مؤكل"/>
+                </MEMBER>
+                <MEMBER name="أَطْعَمَ" transliteration="OaToEama" transname="أطعم">
+                    <Root name="طعم" transliteration="TEm"/>
+                    <Deverbal name="إِطْعَام" transliteration="IiToEaAm" transname="إطعام"/>
+                    <Participle name="مُطْعِم" transliteration="muToEim" transname="مطعم"/>
+                </MEMBER>
+                <MEMBER name="أَلْقَمَ" transliteration="Oaloqama" transname="ألقم">
+                    <Root name="لقم" transliteration="lqm"/>
+                    <Deverbal name="إِلْقَام" transliteration="IiloqaAm" transname="إلقام"/>
+                    <Participle name="مُلْقِم" transliteration="muloqim" transname="ملقم"/>
+                </MEMBER>
+                <MEMBER name="لَقَّمَ" transliteration="laq~ama" transname="لقم">
+                    <Root name="لقم" transliteration="lqm"/>
+                    <Deverbal name="تَلْقِيم" transliteration="taloqiym" transname="تلقيم"/>
+                    <Participle name="مُلَقِّم" transliteration="mulaq~im" transname="ملقم"/>
+                </MEMBER>
+                <MEMBER name="قَاتَ" transliteration="qaAta" transname="قات">
+                    <Root name="قوت" transliteration="qwt"/>
+                    <Deverbal name="إِقَاتَة" transliteration="IiqaAtap" transname="إقاتة"/>
+                    <Participle name="مُقِيت" transliteration="muqiyt" transname="مقيت"/>
+                </MEMBER>
+                <MEMBER name="أَقَاتَ" transliteration="OaqaAta" transname="أقات">
+                    <Root name="قوت" transliteration="qwt"/>
+                    <Deverbal name="إِقَاتَة" transliteration="IiqaAtap" transname="إقاتة"/>
+                    <Participle name="مُقِيت" transliteration="muqiyt" transname="مقيت"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Patient">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="comestible"/>
+                        <SELRESTR Value="+" type="solid"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَطْعَمَتِ الأُمُّ الطِّفل." transliteration="OaToEamati AlOum~u AlT~ifl."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="?Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP-Dative NP" secondary="Dative"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَطْعَمَتِ الأُمُ إِبْنَهَا كَعْكَاً." transliteration="OaToEamati AlOumu IibonahaA kaEokaAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="Oak~ala-1-2">
+            <MEMBERS>
+                <MEMBER name="أَرْضَعَ" transliteration="OaroDaEa" transname="أرضع">
+                    <Root name="رضع" transliteration="rDE"/>
+                    <Deverbal name="إِرْضَاع" transliteration="IiroDaAE" transname="إرضاع"/>
+                    <Participle name="مُرْضِع" transliteration="muroDiE" transname="مرضع"/>
+                </MEMBER>
+                <MEMBER name="رَضَّعَ" transliteration="raD~aEa" transname="رضع">
+                    <Root name="رضع" transliteration="rDE"/>
+                    <Deverbal name="تَرْضِيع" transliteration="taroDiyE" transname="ترضيع"/>
+                    <Participle name="مُرَضِّع" transliteration="muraD~iE" transname="مرضع"/>
+                </MEMBER>
+                <MEMBER name="أَشْرَبَ" transliteration="Oa$oraba" transname="أشرب">
+                    <Root name="شرب" transliteration="$rb"/>
+                    <Deverbal name="إِشْرَاب" transliteration="Ii$oraAb" transname="إشراب"/>
+                    <Participle name="مُشْرِب" transliteration="mu$orib" transname="مشرب"/>
+                </MEMBER>
+                <MEMBER name="شَرَّبَ" transliteration="$ar~aba" transname="شرب">
+                    <Root name="شرب" transliteration="$rb"/>
+                    <Deverbal name="تَشْرِيب" transliteration="ta$oriyb" transname="تشريب"/>
+                    <Participle name="مُشَرِّب" transliteration="mu$ar~ib" transname="مشرب"/>
+                </MEMBER>
+                <MEMBER name="سَقَى" transliteration="saqaY" transname="سقى">
+                    <Root name="سقي" transliteration="sqy"/>
+                    <Deverbal name="سِقَايَة" transliteration="siqaAyap" transname="سقاية"/>
+                    <Participle name="سَاقِي" transliteration="saAqiy" transname="ساقي"/>
+                </MEMBER>
+                <MEMBER name="رَوَى" transliteration="rawaY" transname="روى">
+                    <Root name="روي" transliteration="rwy"/>
+                    <Deverbal name="رَي" transliteration="ray" transname="ري"/>
+                    <Participle name="رَاوِي" transliteration="raAwiy" transname="راوي"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Patient">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="comestible"/>
+                        <SELRESTR Value="-" type="solid"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَرضَعَتِ الأُمُّ الطِّفل." transliteration="OarDaEati AlOum~u AlT~ifl."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="?Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP-Dative NP" secondary="Dative"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَرْضَعَتِ الأُمُ إِبْنَهَا حَلِيبَاً." transliteration="OaroDaEati AlOumu IibonahaA HaliybaAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="Oak~ala-1.3">
+            <MEMBERS>
+                <MEMBER name="عَلَّفَ" transliteration="Eal~afa" transname="علف">
+                    <Root name="علف" transliteration="Elf"/>
+                    <Deverbal name="تَعْلِيف" transliteration="taEoliyf" transname="تعليف"/>
+                    <Participle name="مُعَلِّف" transliteration="muEal~if" transname="معلف"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Agent">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="animate"/>
+                        <SELRESTR Value="-" type="human"/>
+                    </SELRESTRS>
+                </THEMROLE>
+                <THEMROLE type="Patient">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="comestible"/>
+                        <SELRESTR Value="+" type="solid"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="عَلَّفَ الفَلَّاحُ الأَبْقَارَ." transliteration="Eal~afa Alfal~aAHu AlOaboqaAra."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="?Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP-Dative NP" secondary="Dative"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="عَلَّفَ الفَلَّاحُ الأَبْقَارَ عُشْبَاً طَازِجَاً." transliteration="Eal~afa Alfal~aAHu AlOaboqaAra Eu$obaAF TaAzijaAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+        <AVNSUBCLASS ID="Oak~ala-1.4">
+            <MEMBERS>
+                <MEMBER name="وَرَّدَ" transliteration="war~ada" transname="ورد">
+                    <Root name="ورد" transliteration="wrd"/>
+                    <Deverbal name="تَوْرِيد" transliteration="taworiyd" transname="توريد"/>
+                    <Participle name="مُوَرِّد" transliteration="muwar~id" transname="مورد"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES>
+                <THEMROLE type="Agent">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="animate"/>
+                        <SELRESTR Value="-" type="human"/>
+                    </SELRESTRS>
+                </THEMROLE>
+                <THEMROLE type="Patient">
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="comestible"/>
+                        <SELRESTR Value="-" type="solid"/>
+                    </SELRESTRS>
+                </THEMROLE>
+            </THEMROLES>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="وَرَّدَ البَدَوِيُ الإِبِلَ." transliteration="war~ada Albadawiyu AlIibila."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="?Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION primary="V NP NP-Dative NP" secondary="Dative"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="وَرَّدَ البَدَوِي الإِبِلَ مَاءَاً." transliteration="war~ada Albadawiy AlIibila maA'aAF."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Recipient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="take_in">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Recipient"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="Event" value="E"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="Oakala-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

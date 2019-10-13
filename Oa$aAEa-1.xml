@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Oa$aAEa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أَذَاعَ" transliteration="Oa*aAEa" transname="أذاع">
+            <Root name="ذيع" transliteration="*yE"/>
+            <Deverbal name="إِذَاعَة" transliteration="Ii*aAEap" transname="إذاعة"/>
+            <Participle name="مُِيع" transliteration="muiyE" transname="ميع"/>
+        </MEMBER>
+        <MEMBER name="أَشَاعَ" transliteration="Oa$aAEa" transname="أشاع">
+            <Root name="شيع" transliteration="$yE"/>
+            <Deverbal name="إِشَاعَة" transliteration="Ii$aAEap" transname="إشاعة"/>
+            <Deverbal name="مُشِيع" transliteration="mu$iyE" transname="مشيع"/>
+        </MEMBER>
+        <MEMBER name="عَمَّمَ" transliteration="Eam~ama" transname="عمم">
+            <Root name="عمم" transliteration="Emm"/>
+            <Deverbal name="تَعْمِيم" transliteration="taEomiym" transname="تعميم"/>
+            <Participle name="مُعَمِّم" transliteration="muEam~im" transname="معمم"/>
+        </MEMBER>
+        <MEMBER name="بَثَّ" transliteration="bav~a" transname="بث">
+            <Root name="بثث" transliteration="bvv"/>
+            <Deverbal name="بَثّ" transliteration="bav~" transname="بث"/>
+            <Participle name="بَاث" transliteration="baAv" transname="باث"/>
+        </MEMBER>
+        <MEMBER name="نَشَرَ" transliteration="na$ara" transname="نشر">
+            <Root name="نشر" transliteration="n$r"/>
+            <Deverbal name="نَشْر" transliteration="na$or" transname="نشر"/>
+            <Participle name="نَاشِر" transliteration="naA$ir" transname="ناشر"/>
+        </MEMBER>
+        <MEMBER name="أَفْشَا" transliteration="Oafo$aA" transname="أفشا">
+            <Root name="فشو" transliteration="f$w"/>
+            <Deverbal name="إِفْشَاء" transliteration="Iifo$aA'" transname="إفشاء"/>
+            <Participle name="مُفْشِي" transliteration="mufo$iy" transname="مفشي"/>
+        </MEMBER>
+        <MEMBER name="فَشَّى" transliteration="fa$~aY" transname="فشى">
+            <Root name="فشو" transliteration="f$w"/>
+            <Deverbal name="مُفَشِّي" transliteration="mufa$~iy" transname="مفشي"/>
+            <Participle name="تَفْشِيَة" transliteration="tafo$iyap" transname="تفشية"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+                <SELRESTR Value="-" type="region"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="Basic Transitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَشَاعَ وَسَائِلُ الإِعْلَامِ الخَبَرَ." transliteration="Oa$aAEa wasaA}ilu AlIiEolaAmi Alxabara."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="propagate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.location" secondary="NP PPlocative-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَشَاعَ وَسَائِلُ الإِعْلَامِ الخَبَرَ فِي المَدِيَنَةِ." transliteration="Oa$aAEa wasaA}ilu AlIiEolaAmi Alxabara fiy Almadiyanapi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="propagate">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="$aAEa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

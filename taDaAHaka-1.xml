@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="taDaAHaka-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَمَارَضَ" transliteration="tamaAraDa" transname="تمارض">
+            <Root name="مرض" transliteration="mrD"/>
+            <Deverbal name="تَمَارَضَ" transliteration="tamaAraDa" transname="تمارض"/>
+            <Participle name="مُتَمَارِض" transliteration="mutamaAriD" transname="متمارض"/>
+        </MEMBER>
+        <MEMBER name="تَغَابَى" transliteration="tagaAbaY" transname="تغابى">
+            <Root name="غبي" transliteration="gby"/>
+            <Deverbal name="تَغَابِي" transliteration="tagaAbiy" transname="تغابي"/>
+            <Participle name="مُتَغَابِي" transliteration="mutagaAbiy" transname="متغابي"/>
+        </MEMBER>
+        <MEMBER name="تَضَاْحَك" transliteration="taDaAoHak" transname="تضاحك">
+            <Root name="ضهك" transliteration="Dhk"/>
+            <Deverbal name="تَضَاحُك" transliteration="taDaAHuk" transname="تضاحك"/>
+            <Participle name="مُتَضَاهِك" transliteration="mutaDaAhik" transname="متضاهك"/>
+        </MEMBER>
+        <MEMBER name="تَصَابَى" transliteration="taSaAbaY" transname="تصابى">
+            <Root name="صبي" transliteration="Sby"/>
+            <Deverbal name="تَصَابِي" transliteration="taSaAbiy" transname="تصابي"/>
+            <Participle name="مُتَصَابِي" transliteration="mutaSaAbiy" transname="متصابي"/>
+        </MEMBER>
+        <MEMBER name="تَصَاغَرَ" transliteration="taSaAgara" transname="تصاغر">
+            <Root name="صغر" transliteration="Sgr"/>
+            <Deverbal name="تَصَاغُر" transliteration="taSaAgur" transname="تصاغر"/>
+            <Participle name="مُتَصَاغِر" transliteration="mutaSaAgir" transname="متصاغر"/>
+        </MEMBER>
+        <MEMBER name="تَمَاوَتَ" transliteration="tamaAwata" transname="تماوت">
+            <Root name="مات" transliteration="mAt"/>
+            <Deverbal name="تَمَاوُت" transliteration="tamaAwut" transname="تماوت"/>
+            <Participle name="مُتَمَاوِت" transliteration="mutamaAwit" transname="متماوت"/>
+        </MEMBER>
+        <MEMBER name="تَخَابَثَ" transliteration="taxaAbava" transname="تخابث">
+            <Root name="خبث" transliteration="xbv"/>
+            <Deverbal name="تَخَابُث" transliteration="taxaAbuv" transname="تخابث"/>
+            <Participle name="مُتَخَابِث" transliteration="mutaxaAbiv" transname="متخابث"/>
+        </MEMBER>
+        <MEMBER name="تَبَاكَى" transliteration="tabaAkaY" transname="تباكى">
+            <Root name="بكى" transliteration="bkY"/>
+            <Deverbal name="تَبَاكِي" transliteration="tabaAkiy" transname="تباكي"/>
+            <Participle name="مُتَبَاكِي" transliteration="mutabaAkiy" transname="متباكي"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Recipient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَمَارَضَ الصَبِي." transliteration="tamaAraDa AlSabiy."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="masquerade">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Recipient"/>
+                        <ARG type="VerbSpecific" value="Role"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.recipient" secondary="PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَمَارَضَ الصَبِي عَلَى أُمِّهِ." transliteration="tamaAraDa AlSabiy EalaY Oum~ihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Recipient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="masquerade">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="VerbSpecific" value="Role"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="talaAmasa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="تَلَامسَ" transliteration="talaAmsa" transname="تلامس">
+            <Root name="لمس" transliteration="lms"/>
+            <Deverbal name="تَلَامُس" transliteration="talaAmus" transname="تلامس"/>
+            <Participle name="مُتَلَامِس" transliteration="mutalaAmis" transname="متلامس"/>
+        </MEMBER>
+        <MEMBER name="تَحَاكَّ" transliteration="taHaAk~a" transname="تحاك">
+            <Root name="حكك" transliteration="Hkk"/>
+            <Deverbal name="تَحَاك" transliteration="taHaAk" transname="تحاك"/>
+            <Participle name="مُتَحَاك" transliteration="mutaHaAk" transname="متحاك"/>
+        </MEMBER>
+        <MEMBER name="تَبَاوَسَ" transliteration="tabaAwasa" transname="تباوس">
+            <Root name="بوس" transliteration="bws"/>
+            <Deverbal name="تَبَاوُس" transliteration="tabaAwus" transname="تباوس"/>
+            <Participle name="مُتَبَاوِس" transliteration="mutabaAwis" transname="متباوس"/>
+        </MEMBER>
+        <MEMBER name="تَلَاثَمَ" transliteration="talaAvama" transname="تلاثم">
+            <Root name="لثم" transliteration="lvm"/>
+            <Deverbal name="تَلَاثُم" transliteration="talaAvum" transname="تلاثم"/>
+            <Participle name="مُتَلَاثِم" transliteration="mutalaAvim" transname="متلاثم"/>
+        </MEMBER>
+        <MEMBER name="تَدَاعَكَ" transliteration="tadaAEaka" transname="تداعك">
+            <Root name="دعك" transliteration="dEk"/>
+            <Deverbal name="تَدَاعُك" transliteration="tadaAEuk" transname="تداعك"/>
+            <Participle name="مُتَدَاعِك" transliteration="mutadaAEik" transname="متداعك"/>
+        </MEMBER>
+        <MEMBER name="تَلَاحَسَ" transliteration="talaAHasa" transname="تلاحس">
+            <Root name="لحس" transliteration="lHs"/>
+            <Deverbal name="تَلَاحُس" transliteration="talaAHus" transname="تلاحس"/>
+            <Participle name="مُتَلَاحِس" transliteration="mutalaAHis" transname="متلاحس"/>
+        </MEMBER>
+        <MEMBER name="تَلَاهَسَ" transliteration="talaAhasa" transname="تلاهس">
+            <Root name="لهس" transliteration="lhs"/>
+            <Deverbal name="تَلَاهُس" transliteration="talaAhus" transname="تلاهس"/>
+            <Participle name="مُتَلَاهِس" transliteration="mutalaAhis" transname="متلاهس"/>
+        </MEMBER>
+        <MEMBER name="تَقَارَصَ" transliteration="taqaAraSa" transname="تقارص">
+            <Root name="قرص" transliteration="qrS"/>
+            <Deverbal name="تَقَارُص" transliteration="taqaAruS" transname="تقارص"/>
+            <Participle name="مُتَقَارِص" transliteration="mutaqaAriS" transname="متقارص"/>
+        </MEMBER>
+        <MEMBER name="تَمَاسَدَ" transliteration="tamaAsada" transname="تماسد">
+            <Root name="مسد" transliteration="msd"/>
+            <Deverbal name="تَمَاسُد" transliteration="tamaAsud" transname="تماسد"/>
+            <Participle name="مُتَمَاسِد" transliteration="mutamaAsid" transname="متماسد"/>
+        </MEMBER>
+        <MEMBER name="تَمَاسَّ" transliteration="tamaAs~a" transname="تماس">
+            <Root name="مسس" transliteration="mss"/>
+            <Deverbal name="تَمَاسّ" transliteration="tamaAs~" transname="تماس"/>
+            <Participle name="مُتَمَاسّ" transliteration="mutamaAs~" transname="متماس"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Actor">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor1">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Actor2">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Instrument">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" seconday="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَلَامَسَ الحَبِيبَان." transliteration="talaAmasa AlHabiybaAn."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.instrument" secondary="PPInstrument-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَلَامَس الحَبِيبَانِ بِأَيْدِيَهُمَا." transliteration="talaAmas AlHabiybaAni biOayodiyahumaA."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Actor">
+                    <SYNRESTRS logic="or">
+                        <SYNRESTR Value="+" type="plural"/>
+                        <SYNRESTR Value="+" type="dual"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="بِِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Instrument">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Actor"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="contact">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="use">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Actor_i"/>
+                        <ARG type="ThemRole" value="Actor_j"/>
+                        <ARG type="ThemRole" value="Instrument"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="lamasa-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

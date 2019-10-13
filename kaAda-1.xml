@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="kaAda-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="كَادَ" transliteration="kaAda" transname="كاد">
+            <Root name="كيد" transliteration="kyd"/>
+            <Deverbal name="كَيْد" transliteration="kayod" transname="كيد"/>
+            <Participle name="كَائِد" transliteration="kaA}id" transname="كائد"/>
+        </MEMBER>
+        <MEMBER name="كَرُبَ" transliteration="karuba" transname="كرب">
+            <Root name="كرب" transliteration="krb"/>
+            <Deverbal name="كُرُوب" transliteration="kuruwb" transname="كروب"/>
+            <Participle name="كَارِب" transliteration="kaArib" transname="كارب"/>
+        </MEMBER>
+        <MEMBER name="كَرِبَ" transliteration="kariba" transname="كرب">
+            <Root name="كرب" transliteration="krb"/>
+            <Deverbal name="كُرُوب" transliteration="kuruwb" transname="كروب"/>
+            <Participle name="كَارِب" transliteration="kaArib" transname="كارب"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP S" secondary="NullComp S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="كَادَتِ الشَّمْسُ تَغْرُبُ." transliteration="kaAdati Al$~amosu tagorubu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="near">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP S" secondary="Oano S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="كَادَتِ الشَّمْسُ أَنْ تَغْرُبَ." transliteration="kaAdati Al$~amosu Oano tagoruba."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="near">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="kaAda-1.1">
+            <MEMBERS>
+                <MEMBER name="أَوْشَكَ" transliteration="Oawo$aka" transname="أوشك">
+                    <Root name="وشك" transliteration="w$k"/>
+                    <Deverbal name="وُشُوك" transliteration="wu$uwk" transname="وشوك"/>
+                    <Participle name="وَاشِك" transliteration="waA$ik" transname="واشك"/>
+                </MEMBER>
+                <MEMBER name="وَشَكَ" transliteration="wa$aka" transname="وشك">
+                    <Root name="وشك" transliteration="w$k"/>
+                    <Deverbal name="وُشُوك" transliteration="wu$uwk" transname="وشوك"/>
+                    <Participle name="وَاشِك" transliteration="waA$ik" transname="واشك"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP EalaY DEVERBAL" secondary="EalaY deverbal"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="أَوْشَكَتِ المَؤُونَةُ عَلَى الإِنْقِضَاء." transliteration="Oawo$akati AlmaWuwnapu EalaY AlIinoqiDaA'."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="عَلَى">
+                            <SYNRESTRS/>
+                        </PREP>
+                        <NP value="Theme">
+                            <SYNRESTRS>
+                                <SYNRESTR Value="+" type="deverbal"/>
+                            </SYNRESTRS>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="near">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

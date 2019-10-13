@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="far~axa-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="فَرَّخَ" transliteration="far~axa" transname="فرخ">
+            <Root name="فرخ" transliteration="frx"/>
+            <Deverbal name="تَفْرِيخ" transliteration="taforiyx" transname="تفريخ"/>
+            <Participle name="مُفَرِّخ" transliteration="mufar~ix" transname="مفرخ"/>
+        </MEMBER>
+        <MEMBER name="أَفْرَخَ" transliteration="Oaforaxa" transname="أفرخ">
+            <Root name="فرخ" transliteration="frx"/>
+            <Deverbal name="إِفْرَاخ" transliteration="IiforaAx" transname="إفراخ"/>
+            <Participle name="مُفْرِخ" transliteration="muforix" transname="مفرخ"/>
+        </MEMBER>
+        <MEMBER name="بَيَّضَ" transliteration="bay~aDa" transname="بيض">
+            <Root name="بيض" transliteration="byD"/>
+            <Deverbal name="تَبيِيض" transliteration="tabyiyD" transname="تبييض"/>
+            <Participle name="مُبَيِّض" transliteration="mubay~iD" transname="مبيض"/>
+        </MEMBER>
+        <MEMBER name="بَاضَ" transliteration="baADa" transname="باض">
+            <Root name="بيض" transliteration="byD"/>
+            <Deverbal name="إِبَاضَة" transliteration="IibaADap" transname="إباضة"/>
+            <Participle name="مُبِيض" transliteration="mubiyD" transname="مبيض"/>
+        </MEMBER>
+        <MEMBER name="تَأَمَ" transliteration="taOama" transname="تأم">
+            <Root name="تأم" transliteration="tOm"/>
+            <Deverbal name="تَأم" transliteration="taOm" transname="تأم"/>
+            <Participle name="تَائِم" transliteration="taA}im" transname="تائم"/>
+        </MEMBER>
+        <MEMBER name="أَتْأَمَ" transliteration="OatoOama" transname="أتأم">
+            <Root name="تأم" transliteration="tOm"/>
+            <Deverbal name="إِتْأَام" transliteration="IitoOaAm" transname="إتأام"/>
+            <Participle name="مُتْئِم" transliteration="muto}im" transname="متئم"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فَرَّخَت الدَّجَاجَةُ." transliteration="far~axat Ald~ajaAjapu."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="give_birth">
+                    <ARGS>
+                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="E"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

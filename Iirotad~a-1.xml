@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Iirotad~a-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِرْتَدَّ" transliteration="Iirotad~a" transname="إرتد">
+            <Root name="ردد" transliteration="rdd"/>
+            <Deverbal name="إِرْتِدَاد" transliteration="IirotidaAd" transname="إرتداد"/>
+            <Participle name="مُرْتَد" transliteration="murotad" transname="مرتد"/>
+        </MEMBER>
+        <MEMBER name="تَحَوَّلَ" transliteration="taHaw~ala" transname="تحول">
+            <Root name="حول" transliteration="Hwl"/>
+            <Deverbal name="تَحَوُّل" transliteration="taHaw~ul" transname="تحول"/>
+            <Participle name="مُتَحَوِّل" transliteration="mutaHaw~il" transname="متحول"/>
+        </MEMBER>
+        <MEMBER name="إِنْقَلبََ" transliteration="Iinoqalbaa" transname="إنقلب">
+            <Root name="قلب" transliteration="qlb"/>
+            <Deverbal name="إِنْقِلَاب" transliteration="IinoqilaAb" transname="إنقلاب"/>
+            <Participle name="" transliteration="" transname=""/>
+        </MEMBER>
+        <MEMBER name="رَجَعَ" transliteration="rajaEa" transname="رجع">
+            <Root name="رجع" transliteration="rjE"/>
+            <Deverbal name="رُجُوع" transliteration="rujuwE" transname="رجوع"/>
+            <Participle name="رَاجِع" transliteration="raAjiE" transname="راجع"/>
+        </MEMBER>
+        <MEMBER name="آبَ" transliteration="|ba" transname="آب">
+            <Root name="ايب" transliteration="Ayb"/>
+            <Deverbal name="إِيَاب" transliteration="IiyaAb" transname="إياب"/>
+            <Participle name="آيِب" transliteration="|yib" transname="آيب"/>
+        </MEMBER>
+        <MEMBER name="إِنْتَقَلَ" transliteration="Iinotaqala" transname="إنتقل">
+            <Root name="نقل" transliteration="nql"/>
+            <Deverbal name="إِنْتِقَال" transliteration="IinotiqaAl" transname="إنتقال"/>
+            <Participle name="مُنْتَقِل" transliteration="munotaqil" transname="منتقل"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Source">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Destination">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="NP V S_DEVERBAL" secondary="P-DEVERBAL-IilaY/li-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَحَوَّلَ الشَاب إِلَى الإِيمَان بِاللَه ." transliteration="taHaw~ala Al$aAb IilaY AlIiymaAn biAllah ."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="convert">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.destination" secondary="PPIilaY/li-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِرْتَدَّ المُسْتَشْرِقُ إِلَى الإِسْلَام." transliteration="Iirotad~a Almusota$oriqu IilaY AlIisolaAm."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="convert">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.source" secondary="PPEano/mino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِرْتَدَّ المُسْتَشْرِقُ عَنْ الإِسْلَام." transliteration="Iirotad~a Almusota$oriqu Eano AlIisolaAm."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="عَنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="convert">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Source"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="" secondary="PP-PPEano/mino-PP IilaY/li-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِرْتَدَّ مِنْ البُودِيَة إِلَى الإِسْلَام." transliteration="Iirotad~a mino Albuwdiyap IilaY AlIisolaAm."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <PREP value="عَنْ مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Source">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="إِلَى لِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Destination">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="convert">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

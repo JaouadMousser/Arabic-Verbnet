@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="HaSala-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="حَدَثَ" transliteration="Hadava" transname="حدث">
+            <Root name="حدث" transliteration="Hdv"/>
+            <Deverbal name="حَدَثَ" transliteration="Hadava" transname="حدث"/>
+            <Participle name="حَادِث" transliteration="HaAdiv" transname="حادث"/>
+        </MEMBER>
+        <MEMBER name="وَقَعَ" transliteration="waqaEa" transname="وقع">
+            <Root name="وقع" transliteration="wqE"/>
+            <Deverbal name="وُقُوع" transliteration="wuquwE" transname="وقوع"/>
+            <Participle name="وَاقِع" transliteration="waAqiE" transname="واقع"/>
+        </MEMBER>
+        <MEMBER name="صَارَ" transliteration="SaAra" transname="صار">
+            <Root name="صار" transliteration="SAr"/>
+            <Deverbal name="صَيْرُورَة" transliteration="Sayoruwrap" transname="صيرورة"/>
+            <Participle name="صَائِر" transliteration="SaA}ir" transname="صائر"/>
+        </MEMBER>
+        <!--One of the meanings of this verbs-->
+        <MEMBER name="جَدَّ" transliteration="jad~a" transname="جد">
+            <Root name="جدد" transliteration="jdd"/>
+            <Deverbal name="جُدُود" transliteration="juduwd" transname="جدود"/>
+            <Participle name="جَاد" transliteration="jaAd" transname="جاد"/>
+        </MEMBER>
+        <!--Like in: هل جدَّ جديد-->
+        <MEMBER name="صَادَفَ" transliteration="SaAdafa" transname="صادف">
+            <Root name="صدف" transliteration="Sdf"/>
+            <Deverbal name="صدف" transliteration="Sdf" transname="صدف"/>
+            <Participle name="مُصَادِف" transliteration="muSaAdif" transname="مصادف"/>
+        </MEMBER>
+        <MEMBER name="جَرَى" transliteration="jaraY" transname="جرى">
+            <Root name="جرى" transliteration="jrY"/>
+            <Deverbal name="جَرْي" transliteration="jaroy" transname="جري"/>
+            <Participle name="جَارِي" transliteration="jaAriy" transname="جاري"/>
+        </MEMBER>
+        <MEMBER name="تَكَرَّرَ" transliteration="takar~ara" transname="تكرر">
+            <Root name="كرر" transliteration="krr"/>
+            <Deverbal name="تَكَرُّر" transliteration="takar~ur" transname="تكرر"/>
+            <Participle name="مُتَكَرِّر" transliteration="mutakar~ir" transname="متكرر"/>
+        </MEMBER>
+        <MEMBER name="نَتَجَ" transliteration="nataja" transname="نتج">
+            <Root name="نتج" transliteration="ntj"/>
+            <Deverbal name="نَتَاج" transliteration="nataAj" transname="نتاج"/>
+            <Participle name="نَاتِج" transliteration="naAtij" transname="ناتج"/>
+        </MEMBER>
+        <MEMBER name="حَصَلَ" transliteration="HaSala" transname="حصل">
+            <Root name="حصل" transliteration="HSl"/>
+            <Deverbal name="حُصُول" transliteration="HuSuwl" transname="حصول"/>
+            <Participle name="حَاصِل" transliteration="HaASil" transname="حاصل"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَحْصَلَ" transliteration="IisotaHoSala" transname="إستحصل">
+            <Root name="حصل" transliteration="HSl"/>
+            <Deverbal name="إِسْتِحْصَال" transliteration="IisotiHoSaAl" transname="إستحصال"/>
+            <Participle name="مُسْتَحْصِل" transliteration="musotaHoSil" transname="مستحصل"/>
+        </MEMBER>
+        <MEMBER name="تَحَصَّلَ" transliteration="taHaS~ala" transname="تحصل">
+            <Root name="حسل" transliteration="Hsl"/>
+            <Deverbal name="تَحَصُّل" transliteration="taHaS~ul" transname="تحصل"/>
+            <Participle name="مُتَحَصِّل" transliteration="mutaHaS~il" transname="متحصل"/>
+        </MEMBER>
+        <MEMBER name="حَلَّ" transliteration="Hal~a" transname="حل">
+            <Root name="حلل" transliteration="Hll"/>
+            <Deverbal name="حُلُول" transliteration="Huluwl" transname="حلول"/>
+            <Participle name="حَال" transliteration="HaAl" transname="حال"/>
+        </MEMBER>
+        <MEMBER name="دَارَ" transliteration="daAra" transname="دار">
+            <Root name="دور" transliteration="dwr"/>
+            <Deverbal name="دَوَرَان" transliteration="dawaraAn" transname="دوران"/>
+            <Participle name="دَائِر" transliteration="daA}ir" transname="دائر"/>
+        </MEMBER>
+        <MEMBER name="صَدَرَ" transliteration="Sadara" transname="صدر">
+            <Root name="صدر" transliteration="Sdr"/>
+            <Deverbal name="صُدُور" transliteration="Suduwr" transname="صدور"/>
+            <Participle name="صَادِر" transliteration="SaAdir" transname="صادر"/>
+        </MEMBER>
+        <MEMBER name="تَهَيَّأَ" transliteration="tahay~aOa" transname="تهيأ">
+            <Root name="هيأ" transliteration="hyO"/>
+            <Deverbal name="تَهَيُّؤ" transliteration="tahay~uW" transname="تهيؤ"/>
+            <Participle name="مُتَهَيِّئ" transliteration="mutahay~i}" transname="متهيئ"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَجَدََّ" transliteration="Iisotajada~a" transname="إستجد">
+            <Root name="جدد" transliteration="jdd"/>
+            <Deverbal name="إِسْتِجْدَاد" transliteration="IisotijodaAd" transname="إستجداد"/>
+            <Participle name="مُسْتَجَد" transliteration="musotajad" transname="مستجد"/>
+        </MEMBER>
+        <MEMBER name="كَانَ" transliteration="kaAna" transname="كان">
+            <Root name="كون" transliteration="kwn"/>
+            <Deverbal name="كَوْن" transliteration="kawon" transname="كون"/>
+            <Participle name="كاَئِن" transliteration="kAa}in" transname="كائن"/>
+        </MEMBER>
+        <!--As in يقول له كن فيكون-->
+        <MEMBER name="إِتّفَقَ" transliteration="Iit~faqa" transname="إتفق">
+            <Root name="وفق" transliteration="wfq"/>
+            <Deverbal name="إِتِّفَاق" transliteration="Iit~ifaAq" transname="إتفاق"/>
+            <Participle name="مُتَّفِق" transliteration="mut~afiq" transname="متفق"/>
+        </MEMBER>
+        <!--This verb and the verb صادف تصادف shares the property to select an S-complement as Theme as in توافق أن جاء الوفد.-->
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Theme">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Location">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Basic Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَدَثَت كَارِثَة." transliteration="Hadavat kaArivap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.location" secondary="PPLocation-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="حَدَثَت كَارِثَة فِي الهِنْد." transliteration="Hadavat kaArivap fiy Alhinod."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="PP.location V NP" secondary="Locative Inversion"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="فِي الهِنْد حَدَثَت كَارِثَة." transliteration="fiy Alhinod Hadavat kaArivap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <PREP>
+                    <SELRESTRS>
+                        <SELRESTR Value="+" type="loc"/>
+                    </SELRESTRS>
+                </PREP>
+                <NP value="Location">
+                    <SYNRESTRS/>
+                </NP>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="Prep">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V Oano S" secondary="SEEM-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِتَّفَقَ أَنْ إِجْتَمَعَ كُلُّ زُعَمَاء القَبَائِل." transliteration="Iit~afaqa Oano IijotamaEa kul~u zuEamaA' AlqabaA}il."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Theme">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oano_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="occur">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

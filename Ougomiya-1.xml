@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="Ougomiya-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="أُغْمِيَ" transliteration="Ougomiya" transname="أغمي">
+            <Root name="غمي" transliteration="gmy"/>
+            <Deverbal name="إِغْمَاء" transliteration="IigomaA'" transname="إغماء"/>
+            <Participle name="مُغْمَىـعَلَيْه" transliteration="mugomaY_Ealayoh" transname="مغمىـعليه"/>
+        </MEMBER>
+        <MEMBER name="غَمِيَ" transliteration="gamiya" transname="غمي">
+            <Root name="غمي" transliteration="gmy"/>
+            <Deverbal name="غَمْي" transliteration="gamoy" transname="غمي"/>
+            <Participle name="غَامِيـعَلَيْه" transliteration="gaAmiy_Ealayoh" transname="غاميـعليه"/>
+        </MEMBER>
+        <MEMBER name="غُشِيَ" transliteration="gu$iya" transname="غشي">
+            <Root name="غشي" transliteration="g$y"/>
+            <Deverbal name="غَشْي" transliteration="ga$oy" transname="غشي"/>
+            <Participle name="غُشِيَـعَلَيْه" transliteration="gu$iya_Ealayoh" transname="غشيـعليه"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="animate"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Cause">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V PP.Experiencer" secondary="PPEalaY-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أُغْمِيَ عَلَى السَائِقِ." transliteration="Ougomiya EalaY AlsaA}iqi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V PP.experiencer PP.cause" secondary="PPCause-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أُغْمِيَ عَلَى السَائِقِ مِنَ الإِرْهَاق." transliteration="Ougomiya EalaY AlsaA}iqi mina AlIirohaAq."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <PREP value="عَلَى">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Cause">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="body_reflex">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="involuntary">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="in_reaction_to">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Cause"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES/>
+</AVNCLASS>

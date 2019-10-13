@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IinoHaSara-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِنْحَدَّ" transliteration="IinoHad~a" transname="إنحد">
+            <Root name="حدد" transliteration="Hdd"/>
+            <Deverbal name="إِنْحِدَاد" transliteration="IinoHidaAd" transname="إنحداد"/>
+            <Participle name="مُنْحَد" transliteration="munoHad" transname="منحد"/>
+        </MEMBER>
+        <MEMBER name="تَقَلَّصَ" transliteration="taqal~aSa" transname="تقلص">
+            <Root name="قلص" transliteration="qlS"/>
+            <Deverbal name="تَقَلُّص" transliteration="taqal~uS" transname="تقلص"/>
+            <Participle name="مُتَقَلِّص" transliteration="mutaqal~iS" transname="متقلص"/>
+        </MEMBER>
+        <MEMBER name="قَلَّ" transliteration="qal~a" transname="قل">
+            <Root name="قلل" transliteration="qll"/>
+            <Deverbal name="قِلَة" transliteration="qilap" transname="قلة"/>
+            <Participle name="قَال" transliteration="qaAl" transname="قال"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Patient">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP" secondary="Inchoative Intransitive"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="تَقَلَّصَ المَدَّ الشِّيُوعِي." transliteration="taqal~aSa Almad~a Al$~iyuwEiy."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Patient">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="limit">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="?Cause"/>
+                        <ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES>
+        <AVNSUBCLASS ID="IinoHaSara-1.1">
+            <MEMBERS>
+                <MEMBER name="إِنْحَصَرَ" transliteration="IinoHaSara" transname="إنحصر">
+                    <Root name="حصر" transliteration="HSr"/>
+                    <Deverbal name="إِنْحِصَار" transliteration="IinoHiSaAr" transname="إنحصار"/>
+                    <Participle name="مُنْحَصِر" transliteration="munoHaSir" transname="منحصر"/>
+                </MEMBER>
+                <MEMBER name="إِقْتَصَرَ" transliteration="IiqotaSara" transname="إقتصر">
+                    <Root name="قصر" transliteration="qSr"/>
+                    <Deverbal name="إِقْتِصَار" transliteration="IiqotiSaAr" transname="إقتصار"/>
+                    <Participle name="مُقْتَصِر" transliteration="muqotaSir" transname="مقتصر"/>
+                </MEMBER>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION primary="V NP PP.proposition" secondary="PPfiy/EalaY-PP"/>
+                    <EXAMPLES>
+                        <EXAMPLE sentence="إِقْتَصَرَت المُسَاعَدَات عَلَى مُسَانِدِي الحُكُومَة." transliteration="IiqotaSarat AlmusaAEadaAt EalaY musaAnidiy AlHukuwmap."/>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <VERB/>
+                        <NP value="Patient">
+                            <SYNRESTRS/>
+                        </NP>
+                        <PREP value="فِي عَلَى">
+                            <SELRESTRS/>
+                        </PREP>
+                        <NP value="Proposition">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="limit">
+                            <ARGS>
+                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="ThemRole" value="?Cause"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Proposition"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </AVNSUBCLASS>
+    </SUBCLASSES>
+    <SIBLINGCLASSES>
+        <SIBLING ID="HaSara-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

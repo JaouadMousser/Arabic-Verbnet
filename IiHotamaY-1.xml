@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="IiHotamaY-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="إِحْتَمَى" transliteration="IiHotamaY" transname="إحتمى">
+            <Root name="حمي" transliteration="Hmy"/>
+            <Deverbal name="إِحْتِمَاء" transliteration="IiHotimaA'" transname="إحتماء"/>
+            <Participle name="مُحْتَمِي" transliteration="muHotamiy" transname="محتمي"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَجَارَ" transliteration="IisotajaAra" transname="إستجار">
+            <Root name="جور" transliteration="jwr"/>
+            <Deverbal name="إِسْتِجَارَة" transliteration="IisotijaArap" transname="إستجارة"/>
+            <Participle name="إِسْتِجَارَة" transliteration="IisotijaArap" transname="إستجارة"/>
+        </MEMBER>
+        <MEMBER name="إِعْتَصَمَ" transliteration="IiEotaSama" transname="إعتصم">
+            <Root name="عصم" transliteration="ESm"/>
+            <Deverbal name="إِعْتِصَام" transliteration="IiEotiSaAm" transname="إعتصام"/>
+            <Participle name="مُعْتَصِم" transliteration="muEotaSim" transname="معتصم"/>
+        </MEMBER>
+        <MEMBER name="تَوَقَّى" transliteration="tawaq~aY" transname="توقى">
+            <Root name="وقي" transliteration="wqy"/>
+            <Deverbal name="تَوَقِّي" transliteration="tawaq~iy" transname="توقي"/>
+            <Participle name="مُتَوَقِي" transliteration="mutawaqiy" transname="متوقي"/>
+        </MEMBER>
+        <MEMBER name="إِستَظَلَّ" transliteration="IistaZal~a" transname="إستظل">
+            <Root name="ظلل" transliteration="Zll"/>
+            <Deverbal name="إِسْتِظْلَال" transliteration="IisotiZolaAl" transname="إستظلال"/>
+            <Participle name="مُستَظِل" transliteration="mustaZil" transname="مستظل"/>
+        </MEMBER>
+        <MEMBER name="إِستَعَاذَ" transliteration="IistaEaA*a" transname="إستعاذ">
+            <Root name="روذ" transliteration="rw*"/>
+            <Deverbal name="إِسْتِعَاذَة" transliteration="IisotiEaA*ap" transname="إستعاذة"/>
+            <Participle name="مُستَعِيذ" transliteration="mustaEiy*" transname="مستعيذ"/>
+        </MEMBER>
+        <MEMBER name="عَاذَ" transliteration="EaA*a" transname="عاذ">
+            <Root name="عود" transliteration="Ewd"/>
+            <Deverbal name="عَوْذ" transliteration="Eawo*" transname="عوذ"/>
+            <Participle name="عَائِذ" transliteration="EaA}i*" transname="عائذ"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَغَاثَ" transliteration="IisotagaAva" transname="إستغاث">
+            <Root name="غوث" transliteration="gwv"/>
+            <Deverbal name="إِسْتِغَاثَة" transliteration="IisotigaAvap" transname="إستغاثة"/>
+            <Participle name="مُسْتَغِيث" transliteration="musotagiyv" transname="مستغيث"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Agent">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Theme">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme" secondary="PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِحْتَمَى المَدَنِيُون بِقُوَّات حِفْظِ السَّلَام." transliteration="IiHotamaY Almadaniyuwn biquw~aAt HifoZi Als~alaAm."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SYNRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="seek_protection">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.theme PP.proposition" secondary="PP-PPmino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِحْتَمَى المَدَنِيُون بِقُوَّات حِفْظْ السَّلَام مِنْ غَارَات العَدُو." transliteration="IiHotamaY Almadaniyuwn biquw~aAt HifoZo Als~alaAm mino gaAraAt AlEaduw."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="seek_protection">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.proposition PP.theme" secondary="PP-PPbi-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِحْتَمَى المَدَنِيُون مِنْ غَارَات العَدُو بِقُوَّات حِفْظْ السَّلَام." transliteration="IiHotamaY Almadaniyuwn mino gaAraAt AlEaduw biquw~aAt HifoZo Als~alaAm."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+                <PREP value="بِ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Theme">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="seek_protection">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP PP.proposition" secondary="PPmino-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="إِحْتَمَى المَدَنِيُون مِنْ غَارَات العَدُو." transliteration="IiHotamaY Almadaniyuwn mino gaAraAt AlEaduw."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Agent">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="مِنْ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="seek_protection">
+                    <ARGS>
+                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+    <SIBLINGCLASSES>
+        <SIBLING ID="HamaY-1"/>
+    </SIBLINGCLASSES>
+</AVNCLASS>

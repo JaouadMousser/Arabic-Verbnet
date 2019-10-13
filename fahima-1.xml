@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AVNCLASS SYSTEM "vn_class-3.dtd">
+<AVNCLASS ID="fahima-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+    <MEMBERS>
+        <MEMBER name="لَقِنَ" transliteration="laqina" transname="لقن">
+            <Root name="لقن" transliteration="lqn"/>
+            <Deverbal name="لَقْن" transliteration="laqon" transname="لقن"/>
+            <Participle name="لَاقِن" transliteration="laAqin" transname="لاقن"/>
+        </MEMBER>
+        <MEMBER name="فَطِنَ" transliteration="faTina" transname="فطن">
+            <Root name="لقن" transliteration="lqn"/>
+            <Deverbal name="فِطْنَة" transliteration="fiTonap" transname="فطنة"/>
+            <Participle name="فَاطِن" transliteration="faATin" transname="فاطن"/>
+        </MEMBER>
+        <MEMBER name="لَحَنَ" transliteration="laHana" transname="لحن">
+            <Root name="لحن" transliteration="lHn"/>
+            <Deverbal name="لَحَن" transliteration="laHan" transname="لحن"/>
+            <Participle name="لَاحِن" transliteration="laAHin" transname="لاحن"/>
+        </MEMBER>
+        <MEMBER name="فَقِهَ" transliteration="faqiha" transname="فقه">
+            <Root name="فقه" transliteration="fqh"/>
+            <Deverbal name="فِقْه" transliteration="fiqoh" transname="فقه"/>
+            <Participle name="فَاقِه" transliteration="faAqih" transname="فاقه"/>
+        </MEMBER>
+        <MEMBER name="أَدْرَكَ" transliteration="Oadoraka" transname="أدرك">
+            <Root name="درك" transliteration="drk"/>
+            <Deverbal name="إِدْرَاك" transliteration="IidoraAk" transname="إدراك"/>
+            <Participle name="مُدْرِك" transliteration="mudorik" transname="مدرك"/>
+        </MEMBER>
+        <MEMBER name="ثَقِفَ" transliteration="vaqifa" transname="ثقف">
+            <Root name="ثقف" transliteration="vqf"/>
+            <Deverbal name="ثَقْف" transliteration="vaqof" transname="ثقف"/>
+            <Participle name="ثَاقِف" transliteration="vaAqif" transname="ثاقف"/>
+        </MEMBER>
+        <MEMBER name="عَقِلَ" transliteration="Eaqila" transname="عقل">
+            <Root name="عقل" transliteration="Eql"/>
+            <Deverbal name="عَقْل" transliteration="Eaqol" transname="عقل"/>
+            <Participle name="عَاقِل" transliteration="EaAqil" transname="عاقل"/>
+        </MEMBER>
+        <MEMBER name="فَهِمَ" transliteration="fahima" transname="فهم">
+            <Root name="فهم" transliteration="fhm"/>
+            <Deverbal name="فَهْم" transliteration="fahom" transname="فهم"/>
+            <Participle name="فَاهِم" transliteration="faAhim" transname="فاهم"/>
+        </MEMBER>
+        <MEMBER name="تَفَهَّمَ" transliteration="tafah~ama" transname="تفهم">
+            <Root name="فهم" transliteration="fhm"/>
+            <Deverbal name="تَفَهُّم" transliteration="tafah~um" transname="تفهم"/>
+            <Participle name="مُتَفَهِّم" transliteration="mutafah~im" transname="متفهم"/>
+        </MEMBER>
+        <MEMBER name="وَعَى" transliteration="waEaY" transname="وعى">
+            <Root name="وعي" transliteration="wEy"/>
+            <Deverbal name="وَعْي" transliteration="waEoy" transname="وعي"/>
+            <Participle name="وَاعِي" transliteration="waAEiy" transname="واعي"/>
+        </MEMBER>
+        <MEMBER name="خَبِرَ" transliteration="xabira" transname="خبر">
+            <Root name="خبر" transliteration="xbr"/>
+            <Deverbal name="خَبَر" transliteration="xabar" transname="خبر"/>
+            <Participle name="خَابِر" transliteration="xaAbir" transname="خابر"/>
+        </MEMBER>
+        <MEMBER name="إِسْتَوْعَبَ" transliteration="IisotawoEaba" transname="إستوعب">
+            <Root name="وعب" transliteration="wEb"/>
+            <Deverbal name="إِسْتِيعَاب" transliteration="IisotiyEaAb" transname="إستيعاب"/>
+            <Participle name="مُسْتَوِعِب" transliteration="musotawiEib" transname="مستوعب"/>
+        </MEMBER>
+        <MEMBER name="تَبَطَّنَ" transliteration="tabaT~ana" transname="تبطن">
+            <Root name="بطن" transliteration="bTn"/>
+            <Deverbal name="تَبَطُّن" transliteration="tabaT~un" transname="تبطن"/>
+            <Participle name="مُتَبَطِّن" transliteration="mutabaT~in" transname="متبطن"/>
+        </MEMBER>
+    </MEMBERS>
+    <THEMROLES>
+        <THEMROLE type="Experiencer">
+            <SELRESTRS logic="or">
+                <SELRESTR Value="+" type="animate"/>
+                <SELRESTR Value="+" type="organization"/>
+            </SELRESTRS>
+        </THEMROLE>
+        <THEMROLE type="Predicate">
+            <SELRESTRS/>
+        </THEMROLE>
+        <THEMROLE type="Proposition">
+            <SELRESTRS/>
+        </THEMROLE>
+    </THEMROLES>
+    <FRAMES>
+        <FRAME>
+            <DESCRIPTION primary="V NP kayofa S" secondary="kayofa-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ الطَّالِبُ كَيْفَ تُشَغَّلُ المُحَرِّكَات." transliteration="Oadoraka AlT~aAlibu kayofa tu$ag~alu AlmuHar~ikaAt."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="kayofa_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP" secondary="NP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ القَاضِي المُشْكِلَة." transliteration="Oadoraka AlqaADiy Almu$okilap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP NP PP.predicate" secondary="NP-PPka-PP"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ القَاضِي المُشْكِلَة كَتَحَدِّي جَدِيد." transliteration="Oadoraka AlqaADiy Almu$okilap kataHad~iy jadiyd."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS/>
+                </NP>
+                <PREP value="كَ">
+                    <SELRESTRS/>
+                </PREP>
+                <NP value="Predicate">
+                    <SYNRESTRS/>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP S_DEVERBAL" secondary="POSS_DEVERBAL"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ القَاضِي تَوَرُّطَهُم فِي الجَرِيمَة." transliteration="Oadoraka AlqaADiy tawar~uTahum fiy Aljariymap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="poss_deverbal"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP lamaA/limaA*aA S" secondary="WH-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ القَاضِي لِمَا وَجَبَ عَلَيْهِ الحَدَر." transliteration="Oadoraka AlqaADiy limaA wajaba Ealayohi AlHadar."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="wh_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP maA/maA*aA S" secondary="maA/maA*aA-S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ القَاضِي مَا يَجِبُ عَلَيْهِ الحُكْمُ بِهِ." transliteration="Oadoraka AlqaADiy maA yajibu Ealayohi AlHukomu bihi."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="maA_extract"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="?Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP Oan~a S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ القَاضِي أَنَّ الأَمْرَ جِدِّي لِلغَايَة." transliteration="Oadoraka AlqaADiy Oan~a AlOamora jid~iy lilgaAyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="Oan~a_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+        <FRAME>
+            <DESCRIPTION primary="V NP bi_Oan~a S" secondary="S"/>
+            <EXAMPLES>
+                <EXAMPLE sentence="أَدْرَكَ القَاضِي بِأَنَّ الأَمْرَ جِدِّي لِلغَايَة." transliteration="Oadoraka AlqaADiy biOan~a AlOamora jid~iy lilgaAyap."/>
+            </EXAMPLES>
+            <SYNTAX>
+                <VERB/>
+                <NP value="Experiencer">
+                    <SYNRESTRS/>
+                </NP>
+                <NP value="Proposition">
+                    <SYNRESTRS>
+                        <SYNRESTR Value="+" type="bi_Oan~a_comp"/>
+                    </SYNRESTRS>
+                </NP>
+            </SYNTAX>
+            <SEMANTICS>
+                <PRED value="understand">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
+                        <ARG type="ThemRole" value="Proposition"/>
+                        <ARG type="ThemRole" value="Predicate"/>
+                    </ARGS>
+                </PRED>
+            </SEMANTICS>
+        </FRAME>
+    </FRAMES>
+    <SUBCLASSES/>
+</AVNCLASS>
